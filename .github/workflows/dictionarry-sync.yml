@@ -72,13 +72,19 @@ jobs:
               --base main \
               --head "$branch"
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Add label to PR
         run: |
           PR_NUMBER=$(gh pr view "$branch" --json number -q .number)
           gh pr edit "$PR_NUMBER" --add-label "sync"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Auto-merge PR if successful
         if: steps.merge.outputs.merge_success == 'true'
         run: |
           gh pr merge "$branch" --merge --auto
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
