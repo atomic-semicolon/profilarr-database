@@ -52,7 +52,6 @@ jobs:
           git rm --cached --ignore-unmatch .gitignore
           git rm --cached --ignore-unmatch CONTRIBUTING.md
           git rm --cached --ignore-unmatch README.md
-          git checkout 
           if ! git diff --cached --quiet; then
             git commit -m "Remove excluded files after sync"
           fi
@@ -64,6 +63,7 @@ jobs:
       - name: Create (or update) pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT }}
           title: Update to Dictionarry database
           commit-message: |
             Sync changes from Dictionarry
@@ -82,4 +82,4 @@ jobs:
         run: |
           gh pr merge --squash --auto "$branch"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT }}
