@@ -47,7 +47,16 @@ jobs:
 
       - name: Apply exclusions
         run: |
-          git add .github/workflows/dictionarry-sync.yml
+          for f in $(find .github -type f); do
+            case "$f" in
+              .github/workflows/dictionarry-sync.yml)
+                echo "Keeping $f"
+                ;;
+              *)
+                git rm --cached --ignore-unmatch "$f"
+                ;;
+            esac
+          done
           git rm -r --cached --ignore-unmatch .github/
           git rm --cached --ignore-unmatch .gitignore
           git rm --cached --ignore-unmatch CONTRIBUTING.md
