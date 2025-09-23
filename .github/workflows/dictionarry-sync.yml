@@ -10,20 +10,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
-      - name: Add Dictionarry connection
-        run: |
-          git remote add upstream https://github.com/Dictionarry-Hub/database.git
-          git fetch upstream
-      - name: Update repository
+
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          
+      - name: Add Dictionarry connection
+        run: |
+          git remote add upstream https://github.com/Dictionarry-Hub/database.git
+          git fetch upstream stable
+          
+      - name: Update repository
+        run: |
           git checkout main
           git checkout upstream/stable -- . ':(exclude).github/workflows/'
+      
       - name: Show changed files
         run: |
           if ! git diff --quiet; then
@@ -43,6 +49,7 @@ jobs:
           else
             echo "No changes detected"
           fi
+      
       - name: Commit changes to repository
         run: |
           if ! git diff --quiet; then
