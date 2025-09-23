@@ -35,6 +35,7 @@ jobs:
           git checkout -b "$BRANCH"
 
       - name: Attempt merge with upstream updates
+        id: merge
         run: |
           set +e
           if git merge --allow-unrelated-histories --no-commit --no-ff upstream/stable; then
@@ -46,10 +47,12 @@ jobs:
 
       - name: Apply exclusions
         run: |
+          git add .github/workflows/dictionarry-sync.yml
           git rm -r --cached --ignore-unmatch .github/
-          git rm -r --cached --ignore-unmatch .gitignore
-          git rm -r --cached --ignore-unmatch CONTRIBUTING.md
-          git rm -r --cached --ignore-unmatch README.md
+          git rm --cached --ignore-unmatch .gitignore
+          git rm --cached --ignore-unmatch CONTRIBUTING.md
+          git rm --cached --ignore-unmatch README.md
+          git checkout 
           if ! git diff --cached --quiet; then
             git commit -m "Remove excluded files after sync"
           fi
@@ -70,7 +73,9 @@ jobs:
             [1]: https://github.com/peter-evans/create-pull-request
           branch: sync-latest
           base: main
-          labels: sync
+          labels: |
+            sync
+            dictionarry
 
       - name: Auto-merge PR if successful
         if: steps.merge.outputs.merge_success == 'true'
