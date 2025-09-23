@@ -57,17 +57,12 @@ jobs:
                 ;;
             esac
           done
-          git rm -r --cached --ignore-unmatch .github/
           git rm --cached --ignore-unmatch .gitignore
           git rm --cached --ignore-unmatch CONTRIBUTING.md
           git rm --cached --ignore-unmatch README.md
           if ! git diff --cached --quiet; then
             git commit -m "Remove excluded files after sync"
           fi
-
-      - name: Push sync branch
-        run: |
-          git push origin "$branch" --force
 
       - name: Create (or update) pull request
         uses: peter-evans/create-pull-request@v7
@@ -89,6 +84,6 @@ jobs:
       - name: Auto-merge PR if successful
         if: steps.merge.outputs.merge_success == 'true'
         run: |
-          gh pr merge --squash --auto "$branch"
+          gh pr merge --squash --auto "origin/$branch"
         env:
           GH_TOKEN: ${{ secrets.PAT }}
