@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout target repository
         uses: actions/checkout@v5
         with:
           ref: main
@@ -20,42 +20,65 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           
-      - name: Add Dictionarry connection
+      - name: Add upstream Dictionarry connection
         run: |
           git remote add upstream https://github.com/Dictionarry-Hub/database.git
           git fetch upstream stable
           
-      - name: Update repository
+      - name: Create (or update) sync branch
         run: |
           git checkout main
-          git checkout upstream/stable -- . ':(exclude).github/workflows/'
-      
-      - name: Show changed files
+          BRANCH="sync-latest"
+          echo "branch=$BRANCH" >> $GITHUB_ENV
+          git branch -D "$BRANCH" 2>/dev/null || true
+          git checkout -b "$BRANCH"
+
+      - name: Attempt merge with upstream updates
         run: |
-          if ! git diff --quiet; then
-            echo "===== FILES CHANGED ====="
-            echo ""
-            echo "Added files:"
-            git diff --diff-filter=A --name-only || echo "None"
-            echo ""
-            echo "Modified files:"
-            git diff --diff-filter=M --name-only || echo "None"
-            echo ""
-            echo "Deleted files:"
-            git diff --diff-filter=D --name-only || echo "None"
-            echo ""
-            echo "===== DETAILED CHANGES ====="
-            git --no-pager diff
+          set +e
+          if git merge --no-commit --no-ff upstream/stable; then
+            echo "merge_success=true" >> $GITHUB_OUTPUT
           else
-            echo "No changes detected"
+            echo "merge_success=false" >> $GITHUB_OUTPUT
           fi
-      
-      - name: Commit changes to repository
+          set -e
+
+      - name: Apply exclusions
         run: |
-          if ! git diff --quiet; then
-            git add .
-            git commit -m "Sync Dictionarry-Hub/database (excluding workflows)"
-            git push origin main
-          else
-            echo "No changes to commit"
+          git rm -r --cached --ignore-unmatch .github/
+          git rm -r --cached --ignore-unmatch .gitignore
+          git rm -r --cached --ignore-unmatch CONTRIBUTING.md
+          git rm -r --cached --ignore-unmatch README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove excluded files after sync"
           fi
+
+      - name: Push sync branch
+        run: |
+          git push origin "$branch" --force
+
+      - name: Create (or update) pull request
+        run: |
+          if gh pr view "$branch" &>/dev/null; then
+            echo "Updating existing PR..."
+            gh pr edit "$branch" \
+              --title "Upstream Sync ($(date +%Y-%m-%d))" \
+              --body "Automated upstream sync branch updated."
+          else
+            echo "Creating new PR..."
+            gh pr create \
+              --title "Upstream Sync ($(date +%Y-%m-%d))" \
+              --body "Automated upstream sync branch created." \
+              --base main \
+              --head "$branch"
+          fi
+
+      - name: Add label to PR
+        run: |
+          PR_NUMBER=$(gh pr view "$branch" --json number -q .number)
+          gh pr edit "$PR_NUMBER" --add-label "sync"
+
+      - name: Auto-merge PR if successful
+        if: steps.merge.outputs.merge_success == 'true'
+        run: |
+          gh pr merge "$branch" --merge --auto
