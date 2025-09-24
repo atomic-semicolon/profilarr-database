@@ -38,7 +38,7 @@ jobs:
         id: merge
         run: |
           set +e
-          if git merge --allow-unrelated-histories --no-commit --no-ff upstream/stable; then
+          if git merge --allow-unrelated-histories --squash upstream/stable; then
             echo "merge_success=true" >> $GITHUB_OUTPUT
           else
             echo "merge_success=false" >> $GITHUB_OUTPUT
