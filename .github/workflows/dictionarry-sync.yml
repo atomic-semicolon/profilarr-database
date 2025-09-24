@@ -45,23 +45,8 @@ jobs:
           fi
           set -e
 
-      - name: Apply exclusions
-        run: |
-          for f in $(find .github -type f); do
-            case "$f" in
-              .github/workflows/dictionarry-sync.yml)
-                echo "Keeping $f"
-                ;;
-              *)
-                git rm --cached --ignore-unmatch "$f"
-                ;;
-            esac
-          done
-          git rm --cached --ignore-unmatch .gitignore
-          git rm --cached --ignore-unmatch CONTRIBUTING.md
-          git rm --cached --ignore-unmatch README.md
-
       - name: Create (or update) pull request
+        id: pr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT }}
@@ -74,6 +59,11 @@ jobs:
             [1]: https://github.com/peter-evans/create-pull-request
           branch: sync-latest
           base: main
+          add-paths: |
+            custom_formats/
+            media_management/
+            profiles/
+            regex_patterns/
           labels: |
             sync
             dictionarry
@@ -81,6 +71,6 @@ jobs:
       - name: Auto-merge PR if successful
         if: steps.merge.outputs.merge_success == 'true'
         run: |
-          gh pr merge --squash --auto "origin/$branch"
+          gh pr merge ${{ steps.pr.outputs.pull-request-number }} --squash --auto --delete-branch
         env:
           GH_TOKEN: ${{ secrets.PAT }}
