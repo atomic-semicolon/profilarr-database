@@ -60,9 +60,6 @@ jobs:
           git rm --cached --ignore-unmatch .gitignore
           git rm --cached --ignore-unmatch CONTRIBUTING.md
           git rm --cached --ignore-unmatch README.md
-          if ! git diff --cached --quiet; then
-            git commit -m "Remove excluded files after sync"
-          fi
 
       - name: Create (or update) pull request
         uses: peter-evans/create-pull-request@v7
