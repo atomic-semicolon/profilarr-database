@@ -35,15 +35,22 @@ jobs:
           git checkout -b "$BRANCH"
 
       - name: Attempt merge with upstream updates
-        id: merge
         run: |
           set +e
-          if git merge --allow-unrelated-histories --squash upstream/stable; then
+          if git merge --allow-unrelated-histories -no-commit --squash upstream/stable; then
             echo "merge_success=true" >> $GITHUB_OUTPUT
           else
             echo "merge_success=false" >> $GITHUB_OUTPUT
           fi
           set -e
+          git add .
+          git reset HEAD -- .github/*
+          git checkout HEAD -- .github/*
+          git reset HEAD -- .gitignore
+          git reset HEAD -- CONTRIBUTING.md
+          git reset HEAD -- README.md
+          git status
+          git commit -m "Merge upstream database changes"
 
       - name: Create (or update) pull request
         id: pr
@@ -68,9 +75,8 @@ jobs:
             sync
             dictionarry
 
-      - name: Auto-merge PR if successful
-        if: steps.merge.outputs.merge_success == 'true'
+      - name: Merge PR
         run: |
-          gh pr merge ${{ steps.pr.outputs.pull-request-number }} --squash --auto --delete-branch
+          gh pr merge ${{ steps.pr.outputs.pull-request-number }} --squash --delete-branch
         env:
           GH_TOKEN: ${{ secrets.PAT }}
