@@ -1,0 +1,7 @@
+name: Upscaled
+pattern: (Up[-\.\s]?scale|Re[-\.\s]?Grade|\bAIUS\b|AI[-\.\s]?enhanced)
+description: 'Matches upscales, regrades, AI Enhancements, etc. '
+tags:
+- Enhancement
+- Banned
+tests: []

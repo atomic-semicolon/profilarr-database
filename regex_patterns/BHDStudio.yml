@@ -1,0 +1,7 @@
+name: BHDStudio
+pattern: (?<=^|[\s.-])BHDStudio\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

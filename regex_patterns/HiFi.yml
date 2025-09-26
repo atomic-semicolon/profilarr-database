@@ -1,0 +1,7 @@
+name: HiFi
+pattern: (?<=^|[\s.-])HiFi\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

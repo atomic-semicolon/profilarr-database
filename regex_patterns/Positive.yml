@@ -1,0 +1,7 @@
+name: Positive
+pattern: (?<=^|[\s.-])Positive\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+name: decibeL
+pattern: (?<=^|[\s.-])decibeL\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

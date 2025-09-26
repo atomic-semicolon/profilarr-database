@@ -1,0 +1,7 @@
+name: beAst
+pattern: (?<=^|[\s.-])beAst\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

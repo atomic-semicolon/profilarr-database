@@ -1,0 +1,7 @@
+name: iFT
+pattern: (?<=^|[\s.-])iFT\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []
