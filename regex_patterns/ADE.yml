@@ -1,0 +1,7 @@
+name: ADE
+pattern: (?<=^|[\s.-])ADE\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

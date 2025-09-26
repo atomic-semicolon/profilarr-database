@@ -1,0 +1,7 @@
+name: WATCHABLE
+pattern: (?<=^|[\s.-])WATCHABLE\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

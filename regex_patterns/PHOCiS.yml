@@ -1,0 +1,7 @@
+name: PHOCiS
+pattern: (?<=^|[\s.-])PHOCiS\b
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

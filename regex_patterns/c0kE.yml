@@ -1,0 +1,7 @@
+name: c0kE
+pattern: (?<=^|[\s.-])c0kE\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

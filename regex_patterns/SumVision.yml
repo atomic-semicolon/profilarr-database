@@ -1,0 +1,7 @@
+name: SumVision
+pattern: (?<=^|[\s.-])SumVision\b
+description: ''
+tags:
+- Release Group
+- Remux
+tests: []
