@@ -37,7 +37,7 @@ jobs:
       - name: Attempt merge with upstream updates
         run: |
           set +e
-          if git merge --allow-unrelated-histories -no-commit --squash upstream/stable; then
+          if git merge --allow-unrelated-histories --no-commit --squash upstream/stable; then
             echo "merge_success=true" >> $GITHUB_OUTPUT
           else
             echo "merge_success=false" >> $GITHUB_OUTPUT
