@@ -48,7 +48,6 @@ jobs:
 
       - name: Merge Dictionarry changes
         run: |
-          set +e
           if git diff --exit-code -- ':!.github/*' ':!.gitignore' ':!CONTRIBUTING.md' ':!README.md' ':!scripts/*' ':!templates/*' origin/sync-latest dictionarry-upstream/stable; then
             echo "No Dictionarry changes found. Nothing will be merged from upstream."
           else
@@ -57,11 +56,9 @@ jobs:
             git restore .github/ .gitignore CONTRIBUTING.md README.md scripts/ templates/
             git commit -m "Merge upstream Dictionarry database changes"
           fi
-          set -e
           
       - name: Process TRaSH guides
         run: |
-          set +e
           python scripts/trashProfileParser.py trash-guides/docs/json/sonarr/quality-profiles/anime-remux-1080p.json
           if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
             echo "No changes found in TRaSH guides. Nothing will be merged."
@@ -69,7 +66,6 @@ jobs:
             git add custom_formats/ media_management/ profiles/ regex_patterns/
             git commit -m "Merge TRaSH anime guide changes"
           fi
-          set -e
 
       - name: Create (or update) pull request
         id: pr
