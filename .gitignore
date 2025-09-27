@@ -1,0 +1,9 @@
+# Rider / JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+*.bak
+*.swp
+*.swo
+*.DS_Store # macOS specific
