@@ -59,7 +59,7 @@ jobs:
           
       - name: Process TRaSH guides
         run: |
-          python scripts/trashProfileParser.py trash-guides/docs/json/sonarr/quality-profiles/anime-remux-1080p.json
+          python scripts/trash_profile_parser.py trash-guides/docs/json/sonarr/quality-profiles/anime-remux-1080p.json
           if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
             echo "No changes found in TRaSH guides. Nothing will be merged."
           else
