@@ -1,6 +1,0 @@
-name: Funimation
-pattern: \b(FUNi(mation)?)\b
-description: ''
-tags:
-- TRaSH
-tests: []

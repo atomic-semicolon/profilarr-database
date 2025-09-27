@@ -1,6 +1,0 @@
-name: karios
-pattern: \b(karios)\b
-description: ''
-tags:
-- TRaSH
-tests: []

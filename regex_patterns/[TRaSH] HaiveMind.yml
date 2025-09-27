@@ -1,6 +1,0 @@
-name: HaiveMind
-pattern: \b(HaiveMind)\b
-description: ''
-tags:
-- TRaSH
-tests: []

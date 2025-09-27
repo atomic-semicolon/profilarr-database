@@ -1,6 +1,0 @@
-name: M@nI
-pattern: \b(M@nI)\b
-description: ''
-tags:
-- TRaSH
-tests: []

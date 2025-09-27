@@ -1,6 +1,0 @@
-name: NTRM
-pattern: \b(NTRM)\b
-description: ''
-tags:
-- TRaSH
-tests: []

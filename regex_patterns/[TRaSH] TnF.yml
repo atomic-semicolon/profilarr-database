@@ -1,6 +1,0 @@
-name: TnF
-pattern: \b(TnF)\b
-description: ''
-tags:
-- TRaSH
-tests: []

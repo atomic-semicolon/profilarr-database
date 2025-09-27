@@ -1,6 +1,0 @@
-name: HorribleRips
-pattern: \b(HorribleRips)\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: YURI
-pattern: \[YURI\]|-YURI\b
-description: ''
-tags:
-- TRaSH
-tests: []

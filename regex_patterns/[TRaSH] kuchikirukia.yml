@@ -1,6 +1,0 @@
-name: kuchikirukia
-pattern: \b(kuchikirukia)\b
-description: ''
-tags:
-- TRaSH
-tests: []

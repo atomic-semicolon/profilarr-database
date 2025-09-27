@@ -1,6 +1,0 @@
-name: KiyoshiStar
-pattern: \b(KS|KiyoshiStar)\b
-description: ''
-tags:
-- TRaSH
-tests: []

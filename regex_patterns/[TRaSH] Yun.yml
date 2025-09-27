@@ -1,6 +1,0 @@
-name: Yun
-pattern: \[Yun\]|-Yun\b
-description: ''
-tags:
-- TRaSH
-tests: []

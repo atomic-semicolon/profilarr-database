@@ -1,6 +1,0 @@
-name: RTFM
-pattern: ^(RTFM)$
-description: ''
-tags:
-- TRaSH
-tests: []

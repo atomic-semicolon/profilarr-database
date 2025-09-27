@@ -1,6 +1,0 @@
-name: DHD
-pattern: \b(DHD)\b
-description: ''
-tags:
-- TRaSH
-tests: []

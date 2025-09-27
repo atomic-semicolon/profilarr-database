@@ -1,6 +1,0 @@
-name: CiT
-pattern: ^(CiT)$
-description: ''
-tags:
-- TRaSH
-tests: []

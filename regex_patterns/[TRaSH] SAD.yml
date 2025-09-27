@@ -1,6 +1,0 @@
-name: SAD
-pattern: \[SAD\]|-SAD\b
-description: ''
-tags:
-- TRaSH
-tests: []

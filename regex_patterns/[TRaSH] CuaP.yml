@@ -1,6 +1,0 @@
-name: CuaP
-pattern: \b(CuaP)\b
-description: ''
-tags:
-- TRaSH
-tests: []

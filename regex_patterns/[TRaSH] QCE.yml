@@ -1,6 +1,0 @@
-name: QCE
-pattern: \b(QCE)\b
-description: ''
-tags:
-- TRaSH
-tests: []

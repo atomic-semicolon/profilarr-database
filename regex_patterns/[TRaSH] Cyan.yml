@@ -1,6 +1,0 @@
-name: Cyan
-pattern: \[Cyan\]|-Cyan\b
-description: ''
-tags:
-- TRaSH
-tests: []

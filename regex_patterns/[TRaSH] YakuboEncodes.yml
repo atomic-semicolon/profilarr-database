@@ -1,6 +1,0 @@
-name: YakuboEncodes
-pattern: \b(YakuboEncodes)\b
-description: ''
-tags:
-- TRaSH
-tests: []

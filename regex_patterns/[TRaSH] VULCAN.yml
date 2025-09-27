@@ -1,6 +1,0 @@
-name: VULCAN
-pattern: \b(VULCAN)\b
-description: ''
-tags:
-- TRaSH
-tests: []

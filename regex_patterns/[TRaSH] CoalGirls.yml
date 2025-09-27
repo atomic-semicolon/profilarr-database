@@ -1,6 +1,0 @@
-name: CoalGirls
-pattern: \b(CoalGirls)\b
-description: ''
-tags:
-- TRaSH
-tests: []

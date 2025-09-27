@@ -1,6 +1,0 @@
-name: BlueLobster
-pattern: \b(BlueLobster)\b
-description: ''
-tags:
-- TRaSH
-tests: []

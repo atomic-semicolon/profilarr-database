@@ -1,6 +1,0 @@
-name: RedBlade
-pattern: \b(RedBlade)\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: WBDP
-pattern: \b(WBDP)\b
-description: ''
-tags:
-- TRaSH
-tests: []

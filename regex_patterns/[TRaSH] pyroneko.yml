@@ -1,6 +1,0 @@
-name: pyroneko
-pattern: \b(pyroneko)\b
-description: ''
-tags:
-- TRaSH
-tests: []

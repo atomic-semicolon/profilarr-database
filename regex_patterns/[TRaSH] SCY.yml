@@ -1,6 +1,0 @@
-name: SCY
-pattern: \b(SCY)\b
-description: ''
-tags:
-- TRaSH
-tests: []

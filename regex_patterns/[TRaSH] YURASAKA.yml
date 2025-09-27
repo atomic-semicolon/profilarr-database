@@ -1,6 +1,0 @@
-name: YURASAKA
-pattern: \[YURASUKA\]|-YURASUKA\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: AC
-pattern: \[AC\]|-AC$
-description: ''
-tags:
-- TRaSH
-tests: []
