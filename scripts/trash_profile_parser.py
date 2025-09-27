@@ -13,6 +13,14 @@ def load_template(template_path):
         print(f"Error: Template file not found: {template_path}")
         sys.exit(1)
 
+def sanitise_filename(name):
+    replacements = str.maketrans({
+        '/': '&',
+        '[': '(',
+        ']': ')'
+    })
+    return str(name).translate(replacements)
+
 def main():
     parser = argparse.ArgumentParser(description='Create Dictionarry database entries for TRaSH guides')
     parser.add_argument('json_file', help='Input JSON file containing profile information')
@@ -43,7 +51,7 @@ def main():
         
     # Load template
     profile_template = load_template(template_dir / "profile.yml")
-    profile_template['name'] = f"[TRaSH Guides] {data['name']}"
+    profile_template['name'] = f"(TRaSH) {data['name']}"
     profile_template['description'] = f"{str(data['trash_description']).replace('<br>', '\n')}"
     profile_template['tags'] = ["TRaSH"]
     profile_template['upgradesAllowed'] = data['upgradeAllowed']
@@ -52,7 +60,6 @@ def main():
     profile_template['minScoreIncrement'] = data['minUpgradeFormatScore']
     profile_template['language'] = "original"
     
-    profile_path = profile_dir / f"{profile_template['name']}.yml"
     print(f"Creating {profile_template['name']} profile...")
     
     # Setup qualities
@@ -87,6 +94,7 @@ def main():
             profile_template['qualities'].append(quality_entry)
             
     # Set up regex patterns and custom formats
+    # Make sure to run trash_custom_format_id_mapper before this
     with open(f"{script_dir}/trash-cf-mapping.json", 'r') as cf_mapping_file:
         cf_mapping = json.load(cf_mapping_file)
     
@@ -171,7 +179,7 @@ def main():
                     regex_template['tags'] = [ 'TRaSH' ]
                     regex_template['tests'] = []
         
-                    with open(f"{regex_dir}/[TRaSH] {str(condition['name']).replace('/', '&')}.yml", 'w') as regex_pattern_file:
+                    with open(regex_dir / f"(TRaSH) {sanitise_filename(condition['name'])}.yml", 'w') as regex_pattern_file:
                         yaml.dump(regex_template,
                                   regex_pattern_file,
                                   sort_keys=False,
@@ -182,7 +190,7 @@ def main():
             
         custom_format_template['conditions'] = custom_format_conditions
 
-        with open(f"{format_dir}/[TRaSH] {str(custom_format['name']).replace('/', '&')}.yml", 'w') as custom_format_file:
+        with open(format_dir / f"(TRaSH) {sanitise_filename(custom_format['name'])}.yml", 'w') as custom_format_file:
             yaml.dump(custom_format_template, 
                       custom_format_file,
                       sort_keys=False,
@@ -191,7 +199,7 @@ def main():
         
         profile_template['custom_formats'].append(format_entry)
     
-    with open(profile_path, 'w') as profile_file:
+    with open(profile_dir / f"(TRaSH) {sanitise_filename(data['name'])}.yml", 'w') as profile_file:
         yaml.dump(profile_template,
                   profile_file,
                   sort_keys=False,
