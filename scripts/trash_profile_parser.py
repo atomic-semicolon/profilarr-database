@@ -3,9 +3,6 @@ import json
 import sys
 from pathlib import Path
 import yaml
-from glob import glob
-import ijson
-import os
 
 def load_template(template_path):
     """Load a YAML template file."""
@@ -15,16 +12,6 @@ def load_template(template_path):
     except FileNotFoundError:
         print(f"Error: Template file not found: {template_path}")
         sys.exit(1)
-        
-def create_cf_mapping(script_path, cf_path):
-    with open(f"{script_path}/trash-cf-mapping.json", 'w') as cf_mapping_file:
-        mapping = {}
-        for file_path in glob(f"{cf_path}/*.json"):
-            with open(file_path, 'r') as cf_file:
-                for trash_id in ijson.items(cf_file, 'trash_id'):
-                    mapping[trash_id] = os.path.basename(file_path)
-                    break
-        json.dump(mapping, cf_mapping_file, indent=4)
 
 def main():
     parser = argparse.ArgumentParser(description='Create Dictionarry database entries for TRaSH guides')
@@ -53,10 +40,6 @@ def main():
     except json.JSONDecodeError:
         print(f"Error: Invalid JSON file: {args.json_file}")
         sys.exit(1)
-        
-    # Prep work
-    # TODO: Separate CF mapping script, once per workflow run
-    create_cf_mapping(script_dir, custom_formats_dir)
         
     # Load template
     profile_template = load_template(template_dir / "profile.yml")
