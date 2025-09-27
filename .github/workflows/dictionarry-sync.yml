@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Checkout target repository
         uses: actions/checkout@v5
+        
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
 
       - name: Configure Git
         run: |
@@ -39,7 +44,6 @@ jobs:
           
       - name: Create (or update) sync branch
         run: |
-          git checkout main
           git branch -D sync-latest 2>/dev/null || true
 
       - name: Merge Dictionarry changes
@@ -58,7 +62,7 @@ jobs:
         run: |
           set +e
           python scripts/trashProfileParser.py trash-guides/docs/json/sonarr/quality-profiles/anime-remux-1080p.json
-          if git diff --exit-code origin/sync-latest origin/main then
+          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }} then
             echo "No changes found in TRaSH guides. Nothing will be merged."
           else
             git add custom_formats/ media_management/ profiles/ regex_patterns/
@@ -78,7 +82,7 @@ jobs:
 
             [1]: https://github.com/peter-evans/create-pull-request
           branch: sync-latest
-          base: main
+          base: ${{ steps.extract_branch.outputs.branch }}
           add-paths: |
             custom_formats/
             media_management/
