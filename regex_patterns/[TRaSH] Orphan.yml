@@ -1,0 +1,6 @@
+name: Orphan
+pattern: \[Orphan\]|-Orphan\b
+description: ''
+tags:
+- TRaSH
+tests: []

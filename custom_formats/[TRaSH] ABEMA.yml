@@ -1,0 +1,26 @@
+name: ABEMA
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: ABEMA
+  type: release_title
+  required: true
+  negate: false
+  pattern: ABEMA
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+tests: []

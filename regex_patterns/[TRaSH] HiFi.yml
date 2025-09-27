@@ -1,0 +1,6 @@
+name: HiFi
+pattern: ^(HiFi)$
+description: ''
+tags:
+- TRaSH
+tests: []

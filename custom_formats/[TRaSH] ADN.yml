@@ -1,0 +1,26 @@
+name: ADN
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: ADN
+  type: release_title
+  required: true
+  negate: false
+  pattern: ADN
+tests: []

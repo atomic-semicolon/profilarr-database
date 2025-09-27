@@ -1,0 +1,6 @@
+name: SMURF
+pattern: ^(SMURF)$
+description: ''
+tags:
+- TRaSH
+tests: []

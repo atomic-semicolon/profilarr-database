@@ -1,0 +1,6 @@
+name: DameDesuYo
+pattern: \b(DameDesuYo)\b
+description: ''
+tags:
+- TRaSH
+tests: []

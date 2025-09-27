@@ -1,0 +1,6 @@
+name: BYNDR
+pattern: ^(BYNDR)$
+description: ''
+tags:
+- TRaSH
+tests: []

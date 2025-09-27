@@ -1,0 +1,21 @@
+name: DSNP
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: Disney+
+  type: release_title
+  required: true
+  negate: false
+  pattern: Disney+
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

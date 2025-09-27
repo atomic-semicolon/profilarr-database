@@ -1,0 +1,6 @@
+name: Headpatter
+pattern: \[Headpatter\]|-Headpatter\b
+description: ''
+tags:
+- TRaSH
+tests: []

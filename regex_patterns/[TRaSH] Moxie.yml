@@ -1,0 +1,6 @@
+name: Moxie
+pattern: \[Moxie\]|-Moxie\b
+description: ''
+tags:
+- TRaSH
+tests: []
