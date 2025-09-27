@@ -12,40 +12,60 @@ jobs:
     steps:
       - name: Checkout target repository
         uses: actions/checkout@v5
-        with:
-          ref: main
-          fetch-depth: 0
+        
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
 
       - name: Configure Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13.7'
+          
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+          
       - name: Add upstream Dictionarry connection
         run: |
-          git remote add upstream https://github.com/Dictionarry-Hub/database.git
-          git fetch upstream stable
+          git remote add dictionarry-upstream https://github.com/Dictionarry-Hub/database.git
+          git fetch dictionarry-upstream stable
+          
+      - name: Checkout TRaSH guides repository
+        uses: actions/checkout@v5
+        with:
+          repository: TRaSH-Guides/Guides
+          path: trash-guides
           
       - name: Create (or update) sync branch
         run: |
-          git checkout main
-          BRANCH="sync-latest"
-          echo "branch=$BRANCH" >> $GITHUB_ENV
-          git branch -D "$BRANCH" 2>/dev/null || true
-          git checkout -b "$BRANCH"
+          git branch -D sync-latest 2>/dev/null || true
 
-      - name: Attempt merge with upstream updates
+      - name: Merge Dictionarry changes
         run: |
-          set +e
-          git merge --allow-unrelated-histories --no-commit --squash upstream/stable
-          set -e
-          git add .
-          git reset HEAD -- .github/*
-          git reset HEAD -- .gitignore
-          git reset HEAD -- CONTRIBUTING.md
-          git reset HEAD -- README.md
-          git status
-          git commit -m "Merge upstream database changes"
+          if git diff --exit-code -- ':!.github/*' ':!.gitignore' ':!CONTRIBUTING.md' ':!README.md' ':!scripts/*' ':!templates/*' origin/sync-latest dictionarry-upstream/stable; then
+            echo "No Dictionarry changes found. Nothing will be merged from upstream."
+          else
+            git merge --allow-unrelated-histories --no-commit --squash dictionarry-upstream/stable
+            git add .
+            git restore .github/ .gitignore CONTRIBUTING.md README.md scripts/ templates/
+            git commit -m "Merge upstream Dictionarry database changes"
+          fi
+          
+      - name: Process TRaSH guides
+        run: |
+          python scripts/trashProfileParser.py trash-guides/docs/json/sonarr/quality-profiles/anime-remux-1080p.json
+          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
+            echo "No changes found in TRaSH guides. Nothing will be merged."
+          else
+            git add custom_formats/ media_management/ profiles/ regex_patterns/
+            git commit -m "Merge TRaSH anime guide changes"
+          fi
 
       - name: Create (or update) pull request
         id: pr
@@ -60,7 +80,7 @@ jobs:
 
             [1]: https://github.com/peter-evans/create-pull-request
           branch: sync-latest
-          base: main
+          base: ${{ steps.extract_branch.outputs.branch }}
           add-paths: |
             custom_formats/
             media_management/
@@ -68,10 +88,10 @@ jobs:
             regex_patterns/
           labels: |
             sync
-            dictionarry
 
       - name: Merge PR
+        if: github.ref == 'refs/heads/main'
         run: |
-          gh pr merge ${{ steps.pr.outputs.pull-request-number }} --squash --delete-branch
+          gh pr merge ${{ steps.pr.outputs.pull-request-number }} --auto --squash --delete-branch
         env:
           GH_TOKEN: ${{ secrets.PAT }}
