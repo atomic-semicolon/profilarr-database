@@ -1,0 +1,51 @@
+name: Remux Tier 02
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: Remux
+  type: source
+  required: true
+  negate: false
+  source: raw
+- name: decibeL
+  type: release_group
+  required: false
+  negate: false
+  pattern: decibeL
+- name: EPSiLON
+  type: release_group
+  required: false
+  negate: false
+  pattern: EPSiLON
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
+- name: KRaLiMaRKo
+  type: release_group
+  required: false
+  negate: false
+  pattern: KRaLiMaRKo
+- name: playBD
+  type: release_group
+  required: false
+  negate: false
+  pattern: playBD
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
+- name: SiCFoI
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiCFoI
+- name: TRiToN
+  type: release_group
+  required: false
+  negate: false
+  pattern: TRiToN
+tests: []

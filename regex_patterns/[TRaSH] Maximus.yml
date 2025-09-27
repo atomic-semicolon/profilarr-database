@@ -1,0 +1,6 @@
+name: Maximus
+pattern: \[Maximus\]|-Maximus\b
+description: ''
+tags:
+- TRaSH
+tests: []

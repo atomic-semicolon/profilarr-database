@@ -1,0 +1,21 @@
+name: NF
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: Netflix
+  type: release_title
+  required: true
+  negate: false
+  pattern: Netflix
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

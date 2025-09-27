@@ -1,0 +1,36 @@
+name: Anime Web Tier 03 (Official Subs)
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: SubsPlease
+  type: release_title
+  required: false
+  negate: false
+  pattern: SubsPlease
+- name: SubsPlus+
+  type: release_title
+  required: false
+  negate: false
+  pattern: SubsPlus+
+- name: ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: ZR
+tests: []

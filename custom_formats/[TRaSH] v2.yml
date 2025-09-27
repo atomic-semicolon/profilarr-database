@@ -1,0 +1,11 @@
+name: v2
+description: ''
+tags:
+- TRaSH
+conditions:
+- name: v2
+  type: release_title
+  required: true
+  negate: false
+  pattern: v2
+tests: []

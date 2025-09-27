@@ -1,0 +1,6 @@
+name: Chihiro
+pattern: \[Chihiro\]|-Chihiro\b
+description: ''
+tags:
+- TRaSH
+tests: []

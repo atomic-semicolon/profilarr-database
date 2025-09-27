@@ -1,0 +1,6 @@
+name: NTG
+pattern: ^(NTG)$
+description: ''
+tags:
+- TRaSH
+tests: []
