@@ -1,0 +1,11 @@
+name: <name>
+description: <description>
+tags: <tags>
+upgradesAllowed: <upgradesAllowed>
+minCustomFormatScore: <minScore>
+upgradeUntilScore: <upgradeUntil>
+minScoreIncrement: <minScoreIncrement>
+custom_formats:
+qualities:
+upgrade_until:
+language: <language>
