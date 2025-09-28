@@ -1,4 +1,4 @@
-name: v1
+name: (TRaSH) v1
 pattern: (\b|\d)(v1)\b
 description: ''
 tags:

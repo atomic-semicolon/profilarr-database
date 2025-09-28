@@ -1,4 +1,4 @@
-name: HR
+name: (TRaSH) HR
 pattern: \[HR\]|-HR\b
 description: ''
 tags:

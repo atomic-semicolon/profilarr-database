@@ -1,4 +1,4 @@
-name: VRV
+name: (TRaSH) VRV
 pattern: \b(VRV)\b
 description: ''
 tags:

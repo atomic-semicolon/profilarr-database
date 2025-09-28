@@ -1,4 +1,4 @@
-name: Netflix
+name: (TRaSH) Netflix
 pattern: \b(nf|netflix(u?hd)?)\b
 description: ''
 tags:

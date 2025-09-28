@@ -1,4 +1,4 @@
-name: CTR
+name: (TRaSH) CTR
 pattern: \b(CTR)\b
 description: ''
 tags:

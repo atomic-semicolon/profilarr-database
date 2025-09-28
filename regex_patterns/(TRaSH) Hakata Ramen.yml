@@ -1,4 +1,4 @@
-name: Hakata Ramen
+name: (TRaSH) Hakata Ramen
 pattern: \b(Hakata[ .-]?Ramen)\b
 description: ''
 tags:

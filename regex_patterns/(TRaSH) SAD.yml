@@ -1,4 +1,4 @@
-name: SAD
+name: (TRaSH) SAD
 pattern: \[SAD\]|-SAD\b
 description: ''
 tags:

@@ -1,4 +1,4 @@
-name: Aergia
+name: (TRaSH) Aergia
 pattern: \[Aergia\]|-Aergia(?!-raws)\b
 description: ''
 tags:

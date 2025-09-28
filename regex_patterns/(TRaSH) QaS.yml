@@ -1,4 +1,4 @@
-name: QaS
+name: (TRaSH) QaS
 pattern: \b(QAS)\b
 description: ''
 tags:

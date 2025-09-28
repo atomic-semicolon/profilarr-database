@@ -1,4 +1,4 @@
-name: QCE
+name: (TRaSH) QCE
 pattern: \b(QCE)\b
 description: ''
 tags:

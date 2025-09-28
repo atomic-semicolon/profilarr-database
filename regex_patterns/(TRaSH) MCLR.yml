@@ -1,4 +1,4 @@
-name: MCLR
+name: (TRaSH) MCLR
 pattern: \b(MCLR)\b
 description: ''
 tags:

@@ -1,4 +1,4 @@
-name: SHFS
+name: (TRaSH) SHFS
 pattern: \b(SHFS)\b
 description: ''
 tags:

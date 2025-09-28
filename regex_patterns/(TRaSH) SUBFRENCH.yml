@@ -1,4 +1,4 @@
-name: SUBFRENCH
+name: (TRaSH) SUBFRENCH
 pattern: \b(SUBFR(A|ENCH)?)\b
 description: ''
 tags:

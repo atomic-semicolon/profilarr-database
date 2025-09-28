@@ -1,4 +1,4 @@
-name: ARC
+name: (TRaSH) ARC
 pattern: \[ARC\]|-ARC\b
 description: ''
 tags:

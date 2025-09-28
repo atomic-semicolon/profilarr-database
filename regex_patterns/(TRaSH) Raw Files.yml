@@ -1,4 +1,4 @@
-name: Raw Files
+name: (TRaSH) Raw Files
 pattern: \b(M2TS|BDMV|BDVD)\b
 description: ''
 tags:
