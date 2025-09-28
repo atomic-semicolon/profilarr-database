@@ -19,14 +19,15 @@ def sanitise_filename(name):
     return str(name).translate(replacements)
 
 def write_regex_pattern_file(template_directory, regex_pattern_directory, regex_pattern_name, regex_pattern):
+    regex_pattern_filename = sanitise_filename(f"(TRaSH) {regex_pattern_name}")
     regex_template = load_template(template_directory / "regexPattern.yml")
-    regex_template['name'] = regex_pattern_name
+    regex_template['name'] = regex_pattern_filename
     regex_template['description'] = ''
     regex_template['pattern'] = regex_pattern
     regex_template['tags'] = [ 'TRaSH' ]
     regex_template['tests'] = []
 
-    with open(regex_pattern_directory / f"(TRaSH) {sanitise_filename(regex_pattern_name)}.yml", 'w') as regex_pattern_file:
+    with open(regex_pattern_directory / f"{regex_pattern_filename}.yml", 'w') as regex_pattern_file:
         yaml.dump(regex_template,
                   regex_pattern_file,
                   sort_keys=False,
@@ -90,8 +91,9 @@ def main():
         sys.exit(1)
         
     # Load template
+    profile_filename = sanitise_filename(f"(TRaSH) {data['name']}")
     profile_template = load_template(template_dir / "profile.yml")
-    profile_template['name'] = f"(TRaSH) {data['name']}"
+    profile_template['name'] = profile_filename
     profile_template['description'] = f"{str(data['trash_description']).replace('<br>', '\n')}"
     profile_template['tags'] = ["TRaSH"]
     profile_template['upgradesAllowed'] = data['upgradeAllowed']
@@ -100,11 +102,11 @@ def main():
     profile_template['minScoreIncrement'] = data['minUpgradeFormatScore']
     profile_template['language'] = "must-original"
     
-    print(f"Creating {profile_template['name']} profile...")
+    print(f"Creating {profile_filename} profile...")
     
     # Setup qualities
     # Use mapping IDs provided
-    # Create a negative index for quality groups
+    # Create a negative index for quality groups (or unknown qualities)
     profile_template['qualities'] = []
     quality_group_index = -1
     for quality in data['items']:
@@ -145,8 +147,9 @@ def main():
     
     profile_template['custom_formats'] = []
     for format_name in data['formatItems']:
-        format_entry = {
-            'name': f"(TRaSH) {format_name}",
+        custom_format_filename = sanitise_filename(f"(TRaSH) {format_name}")
+        custom_format_entry = {
+            'name': custom_format_filename,
             'score': 0
         }
         
@@ -160,13 +163,13 @@ def main():
             
         # Use profile score set, fallback to default, last resort zero score
         if custom_format.get('trash_scores', {}).get(profile_score_set, {}):
-            format_entry['score'] = custom_format['trash_scores'][profile_score_set]
+            custom_format_entry['score'] = custom_format['trash_scores'][profile_score_set]
         elif custom_format.get('trash_scores', {}).get(default_score_set, {}):
-            format_entry['score'] = custom_format['trash_scores'][default_score_set]
+            custom_format_entry['score'] = custom_format['trash_scores'][default_score_set]
         
         # Create custom format file YML
         custom_format_template = load_template(template_dir / "customFormat.yml")
-        custom_format_template['name'] = custom_format['name']
+        custom_format_template['name'] = custom_format_filename
         custom_format_template['description'] = get_custom_format_description(custom_format_descriptions_dir, cf_file_path)
         custom_format_template['tags'] = [ 'TRaSH' ]
         custom_format_template['tests'] = []
@@ -201,16 +204,16 @@ def main():
             
         custom_format_template['conditions'] = custom_format_conditions
 
-        with open(format_dir / f"(TRaSH) {sanitise_filename(custom_format['name'])}.yml", 'w') as custom_format_file:
+        with open(format_dir / f"{custom_format_filename}.yml", 'w') as custom_format_file:
             yaml.dump(custom_format_template, 
                       custom_format_file,
                       sort_keys=False,
                       default_flow_style=False,
                       indent=2)
         
-        profile_template['custom_formats'].append(format_entry)
+        profile_template['custom_formats'].append(custom_format_entry)
     
-    with open(profile_dir / f"(TRaSH) {sanitise_filename(data['name'])}.yml", 'w') as profile_file:
+    with open(profile_dir / f"{profile_filename}.yml", 'w') as profile_file:
         yaml.dump(profile_template,
                   profile_file,
                   sort_keys=False,
