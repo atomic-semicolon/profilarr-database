@@ -21,6 +21,41 @@ def sanitise_filename(name):
     })
     return str(name).translate(replacements)
 
+def write_regex_pattern_file(template_directory, regex_pattern_directory, regex_pattern_name, regex_pattern):
+    regex_template = load_template(template_directory / "regexPattern.yml")
+    regex_template['name'] = regex_pattern_name
+    regex_template['description'] = ''
+    regex_template['pattern'] = regex_pattern
+    regex_template['tags'] = [ 'TRaSH' ]
+    regex_template['tests'] = []
+
+    with open(regex_pattern_directory / f"(TRaSH) {sanitise_filename(regex_pattern_name)}.yml", 'w') as regex_pattern_file:
+        yaml.dump(regex_template,
+                  regex_pattern_file,
+                  sort_keys=False,
+                  default_flow_style=False,
+                  indent=2)
+        
+def get_custom_format_description(descriptions_directory, custom_format_filename):
+    filename = Path(custom_format_filename).stem
+    description = filename
+    description_lines = []
+    
+    try:
+        with open(descriptions_directory / f"{filename}.md", 'r') as custom_format_description_file:
+            for index, line in enumerate(custom_format_description_file):
+                # TRaSH Guide descriptions only start on line 4
+                if index < 3:
+                    continue
+                if line.lstrip().startswith('<!--'):
+                    break
+                description_lines.append(line.rstrip('\n'))
+        description = '\n'.join(description_lines)
+    except FileNotFoundError:
+        print(f"Warning: Description file not found for custom format {filename}")
+    
+    return description
+
 def main():
     parser = argparse.ArgumentParser(description='Create Dictionarry database entries for TRaSH guides')
     parser.add_argument('json_file', help='Input JSON file containing profile information')
@@ -35,8 +70,10 @@ def main():
     template_dir = script_dir.parent / "templates"
     
     # TRaSH paths
+    # docs/json/sonarr/quality-profiles/*.json
     source_dir = Path(args.json_file).parent.parent
     custom_formats_dir = source_dir / "cf"
+    custom_format_descriptions_dir = source_dir.parent.parent.parent / "includes" / "cf-descriptions"
     
     # Load and parse input JSON
     try:
@@ -101,11 +138,12 @@ def main():
     profile_template['custom_formats'] = []
     for format_name in data['formatItems']:
         format_entry = {
-            'name': format_name,
+            'name': f"(TRaSH) {format_name}",
             'score': 0
         }
         
-        with open(f"{custom_formats_dir}/{cf_mapping[data['formatItems'][format_name]]}") as cf_file:
+        cf_file_path = cf_mapping[data['formatItems'][format_name]]
+        with open(f"{custom_formats_dir}/{cf_file_path}") as cf_file:
             custom_format = json.load(cf_file)
         
         profile_score_set = default_score_set = "default"
@@ -121,7 +159,7 @@ def main():
         # Create custom format file YML
         custom_format_template = load_template(template_dir / "customFormat.yml")
         custom_format_template['name'] = custom_format['name']
-        custom_format_template['description'] = ''
+        custom_format_template['description'] = get_custom_format_description(custom_format_descriptions_dir, cf_file_path)
         custom_format_template['tags'] = [ 'TRaSH' ]
         custom_format_template['tests'] = []
         
@@ -155,7 +193,7 @@ def main():
         
         for specification in custom_format['specifications']:
             condition = {
-                'name': specification['name'],
+                'name': f"(TRaSH) {specification['name']}",
                 'type': condition_type[specification['implementation']],
                 'required': specification['required'],
                 'negate': specification['negate']
@@ -163,7 +201,7 @@ def main():
             
             match condition['type']:
                 case 'source':
-                    condition['source'] = source_type[condition['name']]
+                    condition['source'] = source_type[specification['name']]
                 case 'language':
                     condition['language'] = language[specification['fields']['value']]
                     # TODO: Double-check the purpose of exceptLanguage
@@ -172,19 +210,10 @@ def main():
                     condition['pattern'] = condition['name']
 
                     # Add a regex pattern file for the given condition
-                    regex_template = load_template(template_dir / "regexPattern.yml")
-                    regex_template['name'] = condition['name']
-                    regex_template['description'] = ''
-                    regex_template['pattern'] = specification['fields']['value']
-                    regex_template['tags'] = [ 'TRaSH' ]
-                    regex_template['tests'] = []
-        
-                    with open(regex_dir / f"(TRaSH) {sanitise_filename(condition['name'])}.yml", 'w') as regex_pattern_file:
-                        yaml.dump(regex_template,
-                                  regex_pattern_file,
-                                  sort_keys=False,
-                                  default_flow_style=False,
-                                  indent=2)
+                    write_regex_pattern_file(template_dir, 
+                                             regex_dir, 
+                                             specification['name'], 
+                                             specification['fields']['value'])
             
             custom_format_conditions.append(condition)
             
