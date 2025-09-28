@@ -1,4 +1,4 @@
-name: Rip Time
+name: (TRaSH) Rip Time
 pattern: \b(Rip[ .-]?Time)\b
 description: ''
 tags:

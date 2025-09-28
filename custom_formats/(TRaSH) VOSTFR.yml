@@ -1,4 +1,4 @@
-name: VOSTFR
+name: (TRaSH) VOSTFR
 description: Indicates soundtrack in the original language, with French subtitles.
   It should be noted that SUBFRENCH is included inside this Custom Format. However,
   SUB often means that the subtitle was embedded inside the picture (hardcoded). French

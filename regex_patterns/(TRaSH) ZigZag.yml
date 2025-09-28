@@ -1,4 +1,4 @@
-name: ZigZag
+name: (TRaSH) ZigZag
 pattern: "\\[ZigZag\\]|-ZigZab\b"
 description: ''
 tags:

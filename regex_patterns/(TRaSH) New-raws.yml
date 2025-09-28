@@ -1,4 +1,4 @@
-name: New-raws
+name: (TRaSH) New-raws
 pattern: New[ ._-]?(raws)
 description: ''
 tags:

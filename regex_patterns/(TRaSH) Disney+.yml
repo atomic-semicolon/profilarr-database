@@ -1,4 +1,4 @@
-name: Disney+
+name: (TRaSH) Disney+
 pattern: \b(dsnp|dsny|disney|Disney\+)\b
 description: ''
 tags:

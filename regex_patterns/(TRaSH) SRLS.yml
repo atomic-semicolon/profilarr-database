@@ -1,4 +1,4 @@
-name: SRLS
+name: (TRaSH) SRLS
 pattern: \b(SRLS)\b
 description: ''
 tags:

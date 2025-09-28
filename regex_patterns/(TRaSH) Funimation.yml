@@ -1,4 +1,4 @@
-name: Funimation
+name: (TRaSH) Funimation
 pattern: \b(FUNi(mation)?)\b
 description: ''
 tags:

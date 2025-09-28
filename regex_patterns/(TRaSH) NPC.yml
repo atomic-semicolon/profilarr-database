@@ -1,4 +1,4 @@
-name: NPC
+name: (TRaSH) NPC
 pattern: \[NPC\]|-NPC\b
 description: ''
 tags:

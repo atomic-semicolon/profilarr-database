@@ -1,4 +1,4 @@
-name: Arg0
+name: (TRaSH) Arg0
 pattern: \b(Arg0)\b
 description: ''
 tags:

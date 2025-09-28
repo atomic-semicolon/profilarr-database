@@ -1,4 +1,4 @@
-name: Smoke
+name: (TRaSH) Smoke
 pattern: \[Smoke\]|-Smoke\b
 description: ''
 tags:

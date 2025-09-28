@@ -1,4 +1,4 @@
-name: ABEMA
+name: (TRaSH) ABEMA
 pattern: \b(ABEMA[ ._-]?(TV)?)\b
 description: ''
 tags:

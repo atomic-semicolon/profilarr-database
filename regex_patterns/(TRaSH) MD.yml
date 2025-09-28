@@ -1,4 +1,4 @@
-name: MD
+name: (TRaSH) MD
 pattern: \[MD\]|-MD\b
 description: ''
 tags:

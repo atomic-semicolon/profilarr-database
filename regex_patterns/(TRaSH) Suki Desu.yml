@@ -1,4 +1,4 @@
-name: Suki Desu
+name: (TRaSH) Suki Desu
 pattern: \[Suki[ .-]?Desu\]|-Suki[ .-]?Desu\b
 description: ''
 tags:

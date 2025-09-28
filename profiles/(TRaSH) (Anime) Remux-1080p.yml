@@ -1,4 +1,4 @@
-name: (TRaSH) [Anime] Remux-1080p
+name: (TRaSH) (Anime) Remux-1080p
 description: 'Anime Quality Profile that covers:
 
   - SDTV, DVD
@@ -29,7 +29,7 @@ custom_formats:
   score: 1000
 - name: (TRaSH) Anime BD Tier 06 (FanSubs)
   score: 900
-- name: (TRaSH) Anime BD Tier 07 (P2P/Scene)
+- name: (TRaSH) Anime BD Tier 07 (P2P&Scene)
   score: 800
 - name: (TRaSH) Anime BD Tier 08 (Mini Encodes)
   score: 700
@@ -102,47 +102,47 @@ custom_formats:
 - name: (TRaSH) Bilibili
   score: 0
 qualities:
-- id: 1
+- id: 24
   name: SDTV
-- id: 2
+- id: 22
   name: DVD
-- id: 3
+- id: 0
   name: WEB 480p
   qualities:
-  - id: 4
+  - id: 19
     name: WEBDL-480p
-  - id: 5
+  - id: 20
     name: WEBRip-480p
-- id: 6
+- id: 18
   name: Bluray-480p
-- id: 7
+- id: 0
   name: WEB 720p
   qualities:
-  - id: 8
+  - id: 14
     name: WEBDL-720p
-  - id: 9
+  - id: 15
     name: WEBRip-720p
-  - id: 10
+  - id: 16
     name: HDTV-720p
-- id: 11
+- id: 13
   name: Bluray-720p
-- id: 12
+- id: 0
   name: WEB 1080p
   qualities:
-  - id: 13
+  - id: 9
     name: WEBDL-1080p
-  - id: 14
+  - id: 11
     name: WEBRip-1080p
-  - id: 15
+  - id: 12
     name: HDTV-1080p
-- id: 16
+- id: 0
   name: Bluray 1080p
   qualities:
-  - id: 17
+  - id: 10
     name: Bluray-1080p
-  - id: 18
+  - id: 0
     name: Bluray-1080p Remux
 upgrade_until:
-  id: 16
+  id: 0
   name: Bluray 1080p
-language: original
+language: must-original

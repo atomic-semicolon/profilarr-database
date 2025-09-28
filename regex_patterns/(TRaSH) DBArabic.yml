@@ -1,4 +1,4 @@
-name: DBArabic
+name: (TRaSH) DBArabic
 pattern: \b(DBArabic)\b
 description: ''
 tags:

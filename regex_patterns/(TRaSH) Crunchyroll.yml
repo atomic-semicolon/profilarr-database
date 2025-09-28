@@ -1,4 +1,4 @@
-name: Crunchyroll
+name: (TRaSH) Crunchyroll
 pattern: \b(C(runchy)?[ .-]?R(oll)?)\b
 description: ''
 tags:

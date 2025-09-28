@@ -1,4 +1,4 @@
-name: GST
+name: (TRaSH) GST
 pattern: \b(GST)\b
 description: ''
 tags:
