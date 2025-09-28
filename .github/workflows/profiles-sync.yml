@@ -1,4 +1,4 @@
-name: Sync with Dictionarry
+name: Process and sync profiles
 permissions:
   contents: write
   pull-requests: write
