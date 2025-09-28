@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 import yaml
+from constants import *
 
 def load_template(template_path):
     """Load a YAML template file."""
@@ -14,11 +15,7 @@ def load_template(template_path):
         sys.exit(1)
 
 def sanitise_filename(name):
-    replacements = str.maketrans({
-        '/': '&',
-        '[': '(',
-        ']': ')'
-    })
+    replacements = str.maketrans(TEXT_REPLACEMENTS)
     return str(name).translate(replacements)
 
 def write_regex_pattern_file(template_directory, regex_pattern_directory, regex_pattern_name, regex_pattern):
@@ -55,6 +52,12 @@ def get_custom_format_description(descriptions_directory, custom_format_filename
         print(f"Warning: Description file not found for custom format {filename}")
     
     return description
+
+def set_quality_id(quality, index):
+    if QUALITIES.get(quality['name']):
+        quality['id'] = QUALITIES[quality['name']]
+        return index
+    return index - 1
 
 def main():
     parser = argparse.ArgumentParser(description='Create Dictionarry database entries for TRaSH guides')
@@ -95,38 +98,43 @@ def main():
     profile_template['minCustomFormatScore'] = data['minFormatScore']
     profile_template['upgradeUntilScore'] = data['cutoffFormatScore']
     profile_template['minScoreIncrement'] = data['minUpgradeFormatScore']
-    profile_template['language'] = "original"
+    profile_template['language'] = "must-original"
     
     print(f"Creating {profile_template['name']} profile...")
     
     # Setup qualities
+    # Use mapping IDs provided
+    # Create a negative index for quality groups
     profile_template['qualities'] = []
-    quality_index = 1
+    quality_group_index = -1
     for quality in data['items']:
         if quality.get('allowed'):
             quality_entry = {
-                'id': quality_index,
+                'id': 0,
                 'name': quality['name']
             }
+            
+            quality_group_index = set_quality_id(quality_entry, quality_group_index)
 
-            if quality['name'] == data['cutoff']:
-                profile_template['upgrade_until'] = {
-                    'id': quality_index,
-                    'name': quality['name']
-                }
-            
-            quality_index += 1
-            
             # Quality groups
             if quality.get('items'):
                 quality_entry['qualities'] = []
                 for sub_quality in quality['items']:
                     sub_quality_entry = {
-                        'id': quality_index,
+                        'id': 0,
                         'name': sub_quality
                     }
-                    quality_index += 1
+                    
+                    quality_group_index = set_quality_id(sub_quality_entry, quality_group_index)
+                        
                     quality_entry['qualities'].append(sub_quality_entry)
+
+            # Set 'upgrade until' value
+            if quality['name'] == data['cutoff']:
+                profile_template['upgrade_until'] = {
+                    'id': quality_entry['id'],
+                    'name': quality_entry['name']
+                }
             
             profile_template['qualities'].append(quality_entry)
             
@@ -164,46 +172,20 @@ def main():
         custom_format_template['tests'] = []
         
         custom_format_conditions = []
-        condition_type = {
-            'ReleaseTitleSpecification': 'release_title',
-            'ReleaseGroupSpecification': 'release_group',
-            'LanguageSpecification': 'language',
-            'SourceSpecification': 'source'
-        }
-        source_type = {
-            'Bluray': 'bluray',
-            'Bluray Remux': 'bluray_raw',
-            'Remux': 'raw',
-            'DVD': 'dvd',
-            'WEB': 'web_dl',
-            'WEBDL': 'web_dl',
-            'WEBRIP': 'webrip'
-        }
-        
-        language = {
-            -2: 'original',
-            1: 'english',
-            2: 'french',
-            4: 'german',
-            8: 'japanese',
-            10: 'chinese',
-            19: 'flemish',
-            21: 'korean'
-        }
         
         for specification in custom_format['specifications']:
             condition = {
                 'name': f"(TRaSH) {specification['name']}",
-                'type': condition_type[specification['implementation']],
+                'type': CONDITION_TYPE[specification['implementation']],
                 'required': specification['required'],
                 'negate': specification['negate']
             }
             
             match condition['type']:
                 case 'source':
-                    condition['source'] = source_type[specification['name']]
+                    condition['source'] = SOURCE_TYPE[specification['name']]
                 case 'language':
-                    condition['language'] = language[specification['fields']['value']]
+                    condition['language'] = LANGUAGE[specification['fields']['value']]
                     # TODO: Double-check the purpose of exceptLanguage
                     condition['exceptLanguage'] = 'false'
                 case 'release_title' | 'release_group':
