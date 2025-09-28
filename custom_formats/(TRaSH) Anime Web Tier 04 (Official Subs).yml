@@ -1,0 +1,81 @@
+name: Anime Web Tier 04 (Official Subs)
+description: Official sub groups.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) BlueLobster
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) BlueLobster
+- name: (TRaSH) Erai-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Erai-Raws
+- name: (TRaSH) GST
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GST
+- name: (TRaSH) HorribleRips
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) HorribleRips
+- name: (TRaSH) HorribleSubs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) HorribleSubs
+- name: (TRaSH) KAN3D2M
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) KAN3D2M
+- name: (TRaSH) KiyoshiStar
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) KiyoshiStar
+- name: (TRaSH) Lia
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Lia
+- name: (TRaSH) NanDesuKa
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) NanDesuKa
+- name: (TRaSH) URANIME
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) URANIME
+- name: (TRaSH) VARYG
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) VARYG
+- name: (TRaSH) ZigZag
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ZigZag
+tests: []

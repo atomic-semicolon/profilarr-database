@@ -1,0 +1,112 @@
+name: Anime Web Tier 02 (Top FanSubs)
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) 0x539
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) 0x539
+- name: (TRaSH) Asakura
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Asakura
+- name: (TRaSH) Cyan
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Cyan
+- name: (TRaSH) Dae
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Dae
+- name: (TRaSH) Foxtrot
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Foxtrot
+- name: (TRaSH) Gao
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Gao
+- name: (TRaSH) GSK_kun
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GSK_kun
+- name: (TRaSH) Half-Baked
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Half-Baked
+- name: (TRaSH) HatSubs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) HatSubs
+- name: (TRaSH) MALD
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) MALD
+- name: (TRaSH) MTBB
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) MTBB
+- name: (TRaSH) Not-Vodes
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Not-Vodes
+- name: (TRaSH) Okay-Subs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Okay-Subs
+- name: (TRaSH) Pizza
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Pizza
+- name: (TRaSH) Reza
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Reza
+- name: (TRaSH) Slyfox
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Slyfox
+- name: (TRaSH) SoLCE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SoLCE
+- name: (TRaSH) Tenshi
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Tenshi
+tests: []

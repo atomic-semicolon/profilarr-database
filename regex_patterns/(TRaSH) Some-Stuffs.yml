@@ -1,0 +1,6 @@
+name: Some-Stuffs
+pattern: \b(Some-Stuffs)\b
+description: ''
+tags:
+- TRaSH
+tests: []

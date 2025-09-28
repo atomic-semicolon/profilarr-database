@@ -1,0 +1,6 @@
+name: AsukaRaws
+pattern: Asuka[ ._-]?(Raws)
+description: ''
+tags:
+- TRaSH
+tests: []

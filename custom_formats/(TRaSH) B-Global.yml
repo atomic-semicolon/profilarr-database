@@ -1,0 +1,27 @@
+name: B-Global
+description: '[From Wikipedia, the free encyclopedia](https://www.wikiwand.com/en/Bilibili){:target="\_blank"
+  rel="noopener noreferrer"}'
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) B-Global
+  type: release_title
+  required: true
+  negate: false
+  pattern: (TRaSH) B-Global
+tests: []

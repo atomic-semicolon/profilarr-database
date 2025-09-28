@@ -1,0 +1,11 @@
+name: v0
+description: Custom Format to cover releases named with v0 which we don't want.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) v0
+  type: release_title
+  required: true
+  negate: false
+  pattern: (TRaSH) v0
+tests: []

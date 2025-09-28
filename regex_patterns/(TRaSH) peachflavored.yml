@@ -1,0 +1,6 @@
+name: peachflavored
+pattern: \b(peachflavored)\b
+description: ''
+tags:
+- TRaSH
+tests: []

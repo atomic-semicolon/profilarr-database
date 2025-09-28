@@ -1,0 +1,6 @@
+name: BMF
+pattern: ^(BMF)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,206 @@
+name: Anime BD Tier 06 (FanSubs)
+description: FanSub groups that are consistent.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: (TRaSH) Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: (TRaSH) DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: (TRaSH) Afro
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Afro
+- name: (TRaSH) Akai
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Akai
+- name: (TRaSH) Almighty
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Almighty
+- name: (TRaSH) ANE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ANE
+- name: (TRaSH) Asenshi
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Asenshi
+- name: (TRaSH) BlurayDesuYo
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) BlurayDesuYo
+- name: (TRaSH) Bunny-Apocalypse
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Bunny-Apocalypse
+- name: (TRaSH) CH
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) CH
+- name: (TRaSH) EJF
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) EJF
+- name: (TRaSH) Exiled-Destiny
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Exiled-Destiny
+- name: (TRaSH) FFF
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) FFF
+- name: (TRaSH) Final8
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Final8
+- name: (TRaSH) GS
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GS
+- name: (TRaSH) Harunatsu
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Harunatsu
+- name: (TRaSH) Impatience
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Impatience
+- name: (TRaSH) Inka-Subs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Inka-Subs
+- name: (TRaSH) Judgement
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Judgement
+- name: (TRaSH) Kantai
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kantai
+- name: (TRaSH) LCE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) LCE
+- name: (TRaSH) Licca
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Licca
+- name: (TRaSH) Nii-sama
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Nii-sama
+- name: (TRaSH) niizk
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) niizk
+- name: (TRaSH) Nishi-Taku
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Nishi-Taku
+- name: (TRaSH) OnDeed
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) OnDeed
+- name: (TRaSH) orz
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) orz
+- name: (TRaSH) PAS
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) PAS
+- name: (TRaSH) peachflavored
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) peachflavored
+- name: (TRaSH) Saizen
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Saizen
+- name: (TRaSH) SCP-2223
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SCP-2223
+- name: (TRaSH) SHiN-gx
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SHiN-gx
+- name: (TRaSH) SmugCat
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SmugCat
+- name: (TRaSH) Soldado
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Soldado
+- name: (TRaSH) Sushi
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Sushi
+- name: (TRaSH) Vivid
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Vivid
+- name: (TRaSH) Watashi
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Watashi
+- name: (TRaSH) Yabai
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Yabai
+- name: (TRaSH) Zurako
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Zurako
+tests: []

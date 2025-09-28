@@ -1,0 +1,126 @@
+name: WEB Tier 01
+description: 'Groups that:
+
+
+  - Have established themselves as consistently delivering high-quality releases.
+
+  - Create hybrids.
+
+  - If TV Shows => Sign up for the gentleman list on a certain private tracker.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines){:target="_blank"
+  rel="noopener noreferrer"}.'
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) ABBiE
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) ABBiE
+- name: (TRaSH) AJP69
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) AJP69
+- name: (TRaSH) APEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) APEX
+- name: (TRaSH) CasStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) CasStudio
+- name: (TRaSH) CRFW
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) CRFW
+- name: (TRaSH) CtrlHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) CtrlHD
+- name: (TRaSH) FLUX
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) FLUX
+- name: (TRaSH) HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) HONE
+- name: (TRaSH) KiNGS
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) KiNGS
+- name: (TRaSH) Kitsune
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) Kitsune
+- name: (TRaSH) monkee
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) monkee
+- name: (TRaSH) NOSiViD
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) NOSiViD
+- name: (TRaSH) NTb
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) NTb
+- name: (TRaSH) NTG
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) NTG
+- name: (TRaSH) QOQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) QOQ
+- name: (TRaSH) RTN
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) RTN
+- name: (TRaSH) SiC
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) SiC
+- name: (TRaSH) T6D
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) T6D
+- name: (TRaSH) TOMMY
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) TOMMY
+- name: (TRaSH) ViSUM
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) ViSUM
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

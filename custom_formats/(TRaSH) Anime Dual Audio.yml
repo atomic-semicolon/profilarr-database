@@ -1,0 +1,34 @@
+name: Anime Dual Audio
+description: This Custom Format covers releases that have Dual Audio.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Dual Audio
+  type: release_title
+  required: true
+  negate: false
+  pattern: (TRaSH) Dual Audio
+- name: (TRaSH) Not Single Language Only
+  type: release_title
+  required: true
+  negate: true
+  pattern: (TRaSH) Not Single Language Only
+- name: (TRaSH) Japanese Language
+  type: language
+  required: false
+  negate: false
+  language: japanese
+  exceptLanguage: 'false'
+- name: (TRaSH) Chinese Language
+  type: language
+  required: false
+  negate: false
+  language: chinese
+  exceptLanguage: 'false'
+- name: (TRaSH) Korean Language
+  type: language
+  required: false
+  negate: false
+  language: korean
+  exceptLanguage: 'false'
+tests: []

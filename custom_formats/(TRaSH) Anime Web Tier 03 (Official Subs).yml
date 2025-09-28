@@ -1,0 +1,36 @@
+name: Anime Web Tier 03 (Official Subs)
+description: Official sub groups that tend to be more consistent and release fast.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) SubsPlease
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SubsPlease
+- name: (TRaSH) SubsPlus+
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SubsPlus+
+- name: (TRaSH) ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ZR
+tests: []

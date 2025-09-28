@@ -1,0 +1,6 @@
+name: Not Single Language Only
+pattern: \[(JA|ZH|KO)\]
+description: ''
+tags:
+- TRaSH
+tests: []

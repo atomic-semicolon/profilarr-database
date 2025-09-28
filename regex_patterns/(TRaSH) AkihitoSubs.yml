@@ -1,0 +1,6 @@
+name: AkihitoSubs
+pattern: \b(AkihitoSubs)\b
+description: ''
+tags:
+- TRaSH
+tests: []

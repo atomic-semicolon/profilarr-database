@@ -1,0 +1,51 @@
+name: Anime Web Tier 06 (FanSubs)
+description: FanSub groups that are consistent.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) Asenshi
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Asenshi
+- name: (TRaSH) Chihiro
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Chihiro
+- name: (TRaSH) Commie
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Commie
+- name: (TRaSH) DameDesuYo
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) DameDesuYo
+- name: (TRaSH) Doki
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Doki
+- name: (TRaSH) Tsundere
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Tsundere
+tests: []

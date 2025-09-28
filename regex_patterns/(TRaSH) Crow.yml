@@ -1,0 +1,6 @@
+name: Crow
+pattern: \[Crow\]|-Crow\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,51 @@
+name: Anime Web Tier 05 (FanSubs)
+description: FanSub groups that are consistent.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: (TRaSH) WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: (TRaSH) 9volt
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) 9volt
+- name: (TRaSH) GJM
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GJM
+- name: (TRaSH) Kaleido
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kaleido
+- name: (TRaSH) Kantai
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kantai
+- name: (TRaSH) SobsPlease
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SobsPlease
+- name: (TRaSH) Some-Stuffs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Some-Stuffs
+tests: []

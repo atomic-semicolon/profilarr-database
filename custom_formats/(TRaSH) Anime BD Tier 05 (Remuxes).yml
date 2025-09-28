@@ -1,0 +1,66 @@
+name: Anime BD Tier 05 (Remuxes)
+description: Groups that are consistent and do Remuxes.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: (TRaSH) Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: (TRaSH) DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: (TRaSH) BluDragon
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) BluDragon
+- name: (TRaSH) D4C
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) D4C
+- name: (TRaSH) E.N.D
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) E.N.D
+- name: (TRaSH) PMR
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) PMR
+- name: (TRaSH) Raizel
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Raizel
+- name: (TRaSH) REVO
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) REVO
+- name: (TRaSH) SRLS
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SRLS
+- name: (TRaSH) TTGA
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) TTGA
+- name: (TRaSH) VULCAN
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) VULCAN
+tests: []

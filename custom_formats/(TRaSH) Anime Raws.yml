@@ -1,0 +1,116 @@
+name: Anime Raws
+description: A collection of known groups that release raws.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) AsukaRaws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) AsukaRaws
+- name: (TRaSH) Beatrice-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Beatrice-Raws
+- name: (TRaSH) Daddy-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Daddy-Raws
+- name: (TRaSH) Fumi-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Fumi-Raws
+- name: (TRaSH) IrizaRaws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) IrizaRaws
+- name: (TRaSH) Kawaiika-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kawaiika-Raws
+- name: (TRaSH) km
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) km
+- name: (TRaSH) Koi-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Koi-Raws
+- name: (TRaSH) Lilith-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Lilith-Raws
+- name: (TRaSH) LowPower-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) LowPower-Raws
+- name: (TRaSH) Moozzi2
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Moozzi2
+- name: (TRaSH) NanakoRaws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) NanakoRaws
+- name: (TRaSH) NC-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) NC-Raws
+- name: (TRaSH) neko-raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) neko-raws
+- name: (TRaSH) New-raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) New-raws
+- name: (TRaSH) Ohys-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Ohys-Raws
+- name: (TRaSH) Pandoratv-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Pandoratv-Raws
+- name: (TRaSH) Raws-Maji
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Raws-Maji
+- name: (TRaSH) ReinForce
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ReinForce
+- name: (TRaSH) Scryous-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Scryous-Raws
+- name: (TRaSH) Seicher-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Seicher-Raws
+- name: (TRaSH) Shiniori-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Shiniori-Raws
+tests: []
