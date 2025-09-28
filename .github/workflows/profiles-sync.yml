@@ -5,6 +5,11 @@ permissions:
 on:
   schedule:
     - cron: '0 0 * * *'
+  pull_request: 
+    tags-ignore:
+      - sync
+    types:
+      - closed
   workflow_dispatch:
 jobs:
   sync:
