@@ -1,0 +1,6 @@
+name: PMR
+pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: EPSiLON
+pattern: ^(EPSiLON)$
+description: ''
+tags:
+- TRaSH
+tests: []

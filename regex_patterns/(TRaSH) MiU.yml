@@ -1,0 +1,6 @@
+name: MiU
+pattern: ^(MiU)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,148 @@
+name: (TRaSH) [Anime] Remux-1080p
+description: 'Anime Quality Profile that covers:
+
+  - SDTV, DVD
+
+  - HDTV 720p, 1080p
+
+  - WEBDL: 480p, 720, 1080p
+
+  - Bluray 480p, 576p, 720p, 1080p
+
+  - Remux 1080p'
+tags:
+- TRaSH
+upgradesAllowed: true
+minCustomFormatScore: 100
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: (TRaSH) Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 1400
+- name: (TRaSH) Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
+- name: (TRaSH) Anime BD Tier 03 (SeaDex Muxers)
+  score: 1200
+- name: (TRaSH) Anime BD Tier 04 (SeaDex Muxers)
+  score: 1100
+- name: (TRaSH) Anime BD Tier 05 (Remuxes)
+  score: 1000
+- name: (TRaSH) Anime BD Tier 06 (FanSubs)
+  score: 900
+- name: (TRaSH) Anime BD Tier 07 (P2P/Scene)
+  score: 800
+- name: (TRaSH) Anime BD Tier 08 (Mini Encodes)
+  score: 700
+- name: (TRaSH) Anime Web Tier 01 (Muxers)
+  score: 600
+- name: (TRaSH) Anime Web Tier 02 (Top FanSubs)
+  score: 500
+- name: (TRaSH) WEB Tier 01
+  score: 350
+- name: (TRaSH) WEB Tier 02
+  score: 250
+- name: (TRaSH) Anime Web Tier 03 (Official Subs)
+  score: 400
+- name: (TRaSH) WEB Tier 03
+  score: 150
+- name: (TRaSH) Remux Tier 01
+  score: 1050
+- name: (TRaSH) Remux Tier 02
+  score: 1000
+- name: (TRaSH) Anime Web Tier 04 (Official Subs)
+  score: 300
+- name: (TRaSH) Anime Web Tier 05 (FanSubs)
+  score: 200
+- name: (TRaSH) Anime Web Tier 06 (FanSubs)
+  score: 100
+- name: (TRaSH) Anime Raws
+  score: -10000
+- name: (TRaSH) Anime LQ Groups
+  score: -10000
+- name: (TRaSH) AV1
+  score: -10000
+- name: (TRaSH) Uncensored
+  score: 0
+- name: (TRaSH) v0
+  score: -51
+- name: (TRaSH) v1
+  score: 1
+- name: (TRaSH) v2
+  score: 2
+- name: (TRaSH) v3
+  score: 3
+- name: (TRaSH) v4
+  score: 4
+- name: (TRaSH) 10bit
+  score: 0
+- name: (TRaSH) Anime Dual Audio
+  score: 0
+- name: (TRaSH) Dubs Only
+  score: -10000
+- name: (TRaSH) VOSTFR
+  score: -10000
+- name: (TRaSH) CR
+  score: 6
+- name: (TRaSH) DSNP
+  score: 5
+- name: (TRaSH) NF
+  score: 4
+- name: (TRaSH) AMZN
+  score: 3
+- name: (TRaSH) VRV
+  score: 3
+- name: (TRaSH) FUNi
+  score: 2
+- name: (TRaSH) ABEMA
+  score: 1
+- name: (TRaSH) ADN
+  score: 1
+- name: (TRaSH) B-Global
+  score: 0
+- name: (TRaSH) Bilibili
+  score: 0
+qualities:
+- id: 1
+  name: SDTV
+- id: 2
+  name: DVD
+- id: 3
+  name: WEB 480p
+  qualities:
+  - id: 4
+    name: WEBDL-480p
+  - id: 5
+    name: WEBRip-480p
+- id: 6
+  name: Bluray-480p
+- id: 7
+  name: WEB 720p
+  qualities:
+  - id: 8
+    name: WEBDL-720p
+  - id: 9
+    name: WEBRip-720p
+  - id: 10
+    name: HDTV-720p
+- id: 11
+  name: Bluray-720p
+- id: 12
+  name: WEB 1080p
+  qualities:
+  - id: 13
+    name: WEBDL-1080p
+  - id: 14
+    name: WEBRip-1080p
+  - id: 15
+    name: HDTV-1080p
+- id: 16
+  name: Bluray 1080p
+  qualities:
+  - id: 17
+    name: Bluray-1080p
+  - id: 18
+    name: Bluray-1080p Remux
+upgrade_until:
+  id: 16
+  name: Bluray 1080p
+language: original

@@ -1,0 +1,6 @@
+name: ROCCaT
+pattern: ^(ROCCaT)$
+description: ''
+tags:
+- TRaSH
+tests: []

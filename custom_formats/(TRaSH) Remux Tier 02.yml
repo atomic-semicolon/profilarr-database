@@ -1,0 +1,60 @@
+name: Remux Tier 02
+description: 'Groups that:
+
+
+  - Haven''t released much. (yet)
+
+  - Produce remuxes from multiple sources (discs) and combine them to produce the
+  best end result.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines){:target="_blank"
+  rel="noopener noreferrer"}.'
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Remux
+  type: source
+  required: true
+  negate: false
+  source: raw
+- name: (TRaSH) decibeL
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) decibeL
+- name: (TRaSH) EPSiLON
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) EPSiLON
+- name: (TRaSH) HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) HiFi
+- name: (TRaSH) KRaLiMaRKo
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) KRaLiMaRKo
+- name: (TRaSH) playBD
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) playBD
+- name: (TRaSH) PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) PTer
+- name: (TRaSH) SiCFoI
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) SiCFoI
+- name: (TRaSH) TRiToN
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) TRiToN
+tests: []

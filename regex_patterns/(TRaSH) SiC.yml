@@ -1,0 +1,6 @@
+name: SiC
+pattern: ^(SiC)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,212 @@
+name: Anime BD Tier 03 (SeaDex Muxers)
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: (TRaSH) Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: (TRaSH) DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: (TRaSH) AC
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) AC
+- name: (TRaSH) ASC
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ASC
+- name: (TRaSH) AssMix
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) AssMix
+- name: (TRaSH) Ayashii
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Ayashii
+- name: (TRaSH) B00BA
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) B00BA
+- name: (TRaSH) CBT
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) CBT
+- name: (TRaSH) CRUCiBLE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) CRUCiBLE
+- name: (TRaSH) CTR
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) CTR
+- name: (TRaSH) CyC
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) CyC
+- name: (TRaSH) Dekinai
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Dekinai
+- name: (TRaSH) EXP
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) EXP
+- name: (TRaSH) Flugel
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Flugel
+- name: (TRaSH) Galator
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Galator
+- name: (TRaSH) GSK_kun
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GSK_kun
+- name: (TRaSH) Headpatter
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Headpatter
+- name: (TRaSH) Holomux
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Holomux
+- name: (TRaSH) IK
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) IK
+- name: (TRaSH) Kaizoku
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kaizoku
+- name: (TRaSH) Kametsu
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Kametsu
+- name: (TRaSH) KH
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) KH
+- name: (TRaSH) kuchikirukia
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) kuchikirukia
+- name: (TRaSH) LazyRemux
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) LazyRemux
+- name: (TRaSH) MK
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) MK
+- name: (TRaSH) Mysteria
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Mysteria
+- name: (TRaSH) NAN0
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) NAN0
+- name: (TRaSH) Netaro
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Netaro
+- name: (TRaSH) Pn8
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Pn8
+- name: (TRaSH) Pookie
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Pookie
+- name: (TRaSH) Quetzal
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Quetzal
+- name: (TRaSH) Rasetsu
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Rasetsu
+- name: (TRaSH) Senjou
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Senjou
+- name: (TRaSH) ShowY
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ShowY
+- name: (TRaSH) WBDP
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) WBDP
+- name: (TRaSH) WSE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) WSE
+- name: (TRaSH) Yoghurt
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Yoghurt
+- name: (TRaSH) YURI
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) YURI
+- name: (TRaSH) ZOIO
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ZOIO
+- name: (TRaSH) ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ZR
+tests: []

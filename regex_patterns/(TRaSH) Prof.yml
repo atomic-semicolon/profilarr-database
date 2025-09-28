@@ -1,0 +1,6 @@
+name: Prof
+pattern: \[Prof\]|-Prof\b
+description: ''
+tags:
+- TRaSH
+tests: []

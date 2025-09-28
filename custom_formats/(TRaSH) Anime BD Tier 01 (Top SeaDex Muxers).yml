@@ -1,0 +1,82 @@
+name: Anime BD Tier 01 (Top SeaDex Muxers)
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: (TRaSH) Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: (TRaSH) DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: (TRaSH) Aergia
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Aergia
+- name: (TRaSH) Arg0
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Arg0
+- name: (TRaSH) Legion
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Legion
+- name: (TRaSH) LYS1TH3A
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) LYS1TH3A
+- name: (TRaSH) OZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) OZR
+- name: (TRaSH) sam
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) sam
+- name: (TRaSH) SCY
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SCY
+- name: (TRaSH) smol
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) smol
+- name: (TRaSH) SoM
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) SoM
+- name: (TRaSH) Vanilla
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Vanilla
+- name: (TRaSH) Vodes
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Vodes
+- name: (TRaSH) ZeroBuild
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) ZeroBuild
+tests: []

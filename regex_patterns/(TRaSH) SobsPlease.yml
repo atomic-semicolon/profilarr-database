@@ -1,0 +1,6 @@
+name: SobsPlease
+pattern: \b(SobsPlease)\b
+description: ''
+tags:
+- TRaSH
+tests: []

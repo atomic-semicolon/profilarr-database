@@ -1,0 +1,76 @@
+name: Anime BD Tier 08 (Mini Encodes)
+description: Know groups that do mini encodes.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: (TRaSH) Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: (TRaSH) DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: (TRaSH) AkihitoSubs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) AkihitoSubs
+- name: (TRaSH) Arukoru
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Arukoru
+- name: (TRaSH) EDGE
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) EDGE
+- name: (TRaSH) EMBER
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) EMBER
+- name: (TRaSH) GHOST
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) GHOST
+- name: (TRaSH) Judas
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Judas
+- name: (TRaSH) naiyas
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) naiyas
+- name: (TRaSH) Nep_Blanc
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Nep_Blanc
+- name: (TRaSH) Prof
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) Prof
+- name: "(TRaSH) Shir\u03C3"
+  type: release_title
+  required: false
+  negate: false
+  pattern: "(TRaSH) Shir\u03C3"
+- name: (TRaSH) YURASAKA
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) YURASAKA
+tests: []

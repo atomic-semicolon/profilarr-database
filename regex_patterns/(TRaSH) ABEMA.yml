@@ -1,0 +1,6 @@
+name: ABEMA
+pattern: \b(ABEMA[ ._-]?(TV)?)\b
+description: ''
+tags:
+- TRaSH
+tests: []

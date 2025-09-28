@@ -1,0 +1,40 @@
+name: Remux Tier 01
+description: 'Groups that:
+
+
+  - Have established themselves as consistently delivering high-quality releases.
+
+  - Produce remuxes from multiple sources (discs) and combine them to produce the
+  best end result.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines){:target="_blank"
+  rel="noopener noreferrer"}.'
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) Remux
+  type: source
+  required: true
+  negate: false
+  source: raw
+- name: (TRaSH) BLURANiUM
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) BLURANiUM
+- name: (TRaSH) BMF
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) BMF
+- name: (TRaSH) FraMeSToR
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) FraMeSToR
+- name: (TRaSH) PmP
+  type: release_group
+  required: false
+  negate: false
+  pattern: (TRaSH) PmP
+tests: []

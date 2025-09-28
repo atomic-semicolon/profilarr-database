@@ -1,0 +1,6 @@
+name: EMBER
+pattern: \[EMBER\]|-EMBER\b
+description: ''
+tags:
+- TRaSH
+tests: []

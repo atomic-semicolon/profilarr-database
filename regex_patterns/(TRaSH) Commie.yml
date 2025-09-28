@@ -1,0 +1,6 @@
+name: Commie
+pattern: \b(Commie)\b
+description: ''
+tags:
+- TRaSH
+tests: []

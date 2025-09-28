@@ -1,0 +1,11 @@
+name: v3
+description: Custom Format to cover v3 releases.
+tags:
+- TRaSH
+conditions:
+- name: (TRaSH) v3
+  type: release_title
+  required: true
+  negate: false
+  pattern: (TRaSH) v3
+tests: []
