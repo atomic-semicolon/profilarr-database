@@ -1,6 +1,0 @@
-name: Quetzal
-pattern: \b(Quetzal)\b
-description: ''
-tags:
-- TRaSH
-tests: []

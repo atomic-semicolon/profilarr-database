@@ -1,6 +1,0 @@
-name: Zurako
-pattern: \b(Zurako)\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: DKB
-pattern: \b(DKB)\b
-description: ''
-tags:
-- TRaSH
-tests: []

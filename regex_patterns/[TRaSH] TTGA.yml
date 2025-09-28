@@ -1,6 +1,0 @@
-name: TTGA
-pattern: \b(TTGA)\b
-description: ''
-tags:
-- TRaSH
-tests: []

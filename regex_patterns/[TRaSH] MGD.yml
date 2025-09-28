@@ -1,6 +1,0 @@
-name: MGD
-pattern: \b(MGD)\b
-description: ''
-tags:
-- TRaSH
-tests: []

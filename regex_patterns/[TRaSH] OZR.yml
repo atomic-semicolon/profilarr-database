@@ -1,6 +1,0 @@
-name: OZR
-pattern: \b(OZR)\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: Reaktor
-pattern: \b(Reaktor)\b
-description: ''
-tags:
-- TRaSH
-tests: []

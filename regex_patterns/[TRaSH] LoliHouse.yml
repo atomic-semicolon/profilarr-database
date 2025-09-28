@@ -1,6 +1,0 @@
-name: LoliHouse
-pattern: \b(LoliHouse)\b
-description: ''
-tags:
-- TRaSH
-tests: []

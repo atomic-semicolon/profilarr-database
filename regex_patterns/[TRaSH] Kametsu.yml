@@ -1,6 +1,0 @@
-name: Kametsu
-pattern: \b(Kametsu)\b
-description: ''
-tags:
-- TRaSH
-tests: []

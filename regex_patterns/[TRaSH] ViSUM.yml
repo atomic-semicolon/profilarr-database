@@ -1,6 +1,0 @@
-name: ViSUM
-pattern: ^(ViSUM)$
-description: ''
-tags:
-- TRaSH
-tests: []

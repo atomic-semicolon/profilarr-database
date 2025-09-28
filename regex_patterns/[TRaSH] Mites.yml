@@ -1,6 +1,0 @@
-name: Mites
-pattern: \b(Mites)\b
-description: ''
-tags:
-- TRaSH
-tests: []

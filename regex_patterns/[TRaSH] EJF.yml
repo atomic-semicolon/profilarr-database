@@ -1,6 +1,0 @@
-name: EJF
-pattern: \b(EJF)\b
-description: ''
-tags:
-- TRaSH
-tests: []

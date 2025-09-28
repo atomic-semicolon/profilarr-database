@@ -1,6 +1,0 @@
-name: SHFS
-pattern: \b(SHFS)\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: REVO
-pattern: \b(REVO)\b
-description: ''
-tags:
-- TRaSH
-tests: []

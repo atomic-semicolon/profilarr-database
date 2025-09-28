@@ -1,6 +1,0 @@
-name: Asenshi
-pattern: \b(Asenshi)\b
-description: ''
-tags:
-- TRaSH
-tests: []

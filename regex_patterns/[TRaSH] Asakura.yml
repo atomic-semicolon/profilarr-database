@@ -1,6 +1,0 @@
-name: Asakura
-pattern: \[Asakura\]|-Asakura\b
-description: ''
-tags:
-- TRaSH
-tests: []

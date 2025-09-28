@@ -1,6 +1,0 @@
-name: Pandoratv-Raws
-pattern: Pandoratv[ ._-]?(Raws)
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: ArataEnc
-pattern: \b(ArataEnc)\b
-description: ''
-tags:
-- TRaSH
-tests: []

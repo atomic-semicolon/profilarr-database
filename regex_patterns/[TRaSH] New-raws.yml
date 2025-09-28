@@ -1,6 +1,0 @@
-name: New-raws
-pattern: New[ ._-]?(raws)
-description: ''
-tags:
-- TRaSH
-tests: []

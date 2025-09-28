@@ -1,6 +1,0 @@
-name: Pixel
-pattern: \[Pixel\]|-Pixel\b
-description: ''
-tags:
-- TRaSH
-tests: []
