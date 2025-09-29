@@ -43,6 +43,11 @@ conditions:
   required: false
   negate: false
   pattern: (TRaSH) Doki
+- name: (TRaSH) KawaSubs
+  type: release_title
+  required: false
+  negate: false
+  pattern: (TRaSH) KawaSubs
 - name: (TRaSH) Tsundere
   type: release_title
   required: false
