@@ -103,7 +103,8 @@ jobs:
             sync
 
       - name: Merge PR
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' 
+          && (steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated' || steps.pr.outputs.pull-request-number)
         run: |
           gh pr merge ${{ steps.pr.outputs.pull-request-number }} --auto --squash --delete-branch
         env:
