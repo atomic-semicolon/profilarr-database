@@ -54,12 +54,6 @@ def get_custom_format_description(descriptions_directory, custom_format_filename
     
     return description
 
-def set_quality_id(quality, index):
-    if QUALITIES.get(quality['name']):
-        quality['id'] = QUALITIES[quality['name']]
-        return index
-    return index - 1
-
 def main():
     parser = argparse.ArgumentParser(description='Create Dictionarry database entries for TRaSH guides')
     parser.add_argument('json_file', help='Input JSON file containing profile information')
@@ -111,25 +105,30 @@ def main():
     quality_group_index = -1
     for quality in data['items']:
         if quality.get('allowed'):
+            # Don't set the ID just yet
             quality_entry = {
-                'id': 0,
                 'name': quality['name']
             }
             
-            quality_group_index = set_quality_id(quality_entry, quality_group_index)
-
             # Quality groups
+            # These don't have an associated ID, any negative integer works
             if quality.get('items'):
                 quality_entry['qualities'] = []
                 for sub_quality in quality['items']:
+                    # Sub-quality is usually not a group, i.e. no nested quality groups
+                    # ID should be set instantly
                     sub_quality_entry = {
-                        'id': 0,
+                        'id': QUALITIES[sub_quality],
                         'name': sub_quality
                     }
                     
-                    quality_group_index = set_quality_id(sub_quality_entry, quality_group_index)
-                        
                     quality_entry['qualities'].append(sub_quality_entry)
+                
+                quality_entry['id'] = quality_group_index
+                quality_group_index -= 1
+            else:
+                # If it's not a quality group, it MUST have an associated ID
+                quality_entry['id'] = QUALITIES[quality['name']]
 
             # Set 'upgrade until' value
             if quality['name'] == data['cutoff']:
@@ -138,8 +137,10 @@ def main():
                     'name': quality_entry['name']
                 }
             
-            profile_template['qualities'].append(quality_entry)
-            
+            # Add quality to the beginning of list
+            # TRaSH Guides seem to put qualities in order of increasing favorability
+            profile_template['qualities'] = [quality_entry] + profile_template['qualities']
+    
     # Set up regex patterns and custom formats
     # Make sure to run trash_custom_format_id_mapper before this
     with open(f"{script_dir}/trash-cf-mapping.json", 'r') as cf_mapping_file:
