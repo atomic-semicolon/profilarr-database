@@ -1,5 +1,5 @@
 name: (TRaSH) LYS1TH3A
-pattern: \b(LYS1TH3A)\b
+pattern: \\b(LYS1TH3A)\\b
 description: ''
 tags:
 - TRaSH

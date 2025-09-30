@@ -1,5 +1,5 @@
 name: (TRaSH) Pantsu
-pattern: \[Pantsu\]|-Pantsu\b
+pattern: \\[Pantsu\\]|-Pantsu\\b
 description: ''
 tags:
 - TRaSH

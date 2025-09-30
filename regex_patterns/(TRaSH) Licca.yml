@@ -1,5 +1,5 @@
 name: (TRaSH) Licca
-pattern: \b(Licca)\b
+pattern: \\b(Licca)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Saizen
-pattern: \b(Saizen)\b
+pattern: \\b(Saizen)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) DragsterPS
-pattern: \b(DragsterPS)\b
+pattern: \\b(DragsterPS)\\b
 description: ''
 tags:
 - TRaSH

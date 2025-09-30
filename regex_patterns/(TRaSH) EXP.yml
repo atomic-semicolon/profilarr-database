@@ -1,5 +1,5 @@
 name: (TRaSH) EXP
-pattern: \[EXP\]|-EXP\b
+pattern: \\[EXP\\]|-EXP\\b
 description: ''
 tags:
 - TRaSH

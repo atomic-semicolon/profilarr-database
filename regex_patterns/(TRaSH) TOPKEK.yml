@@ -1,5 +1,5 @@
 name: (TRaSH) TOPKEK
-pattern: \b(TOPKEK)\b
+pattern: \\b(TOPKEK)\\b
 description: ''
 tags:
 - TRaSH

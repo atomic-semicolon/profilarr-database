@@ -1,5 +1,5 @@
 name: (TRaSH) 224
-pattern: \[224\]|-224\b
+pattern: \\[224\\]|-224\\b
 description: ''
 tags:
 - TRaSH

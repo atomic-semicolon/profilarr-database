@@ -1,5 +1,5 @@
 name: (TRaSH) A-L
-pattern: \b(A-L)\b
+pattern: \\b(A-L)\\b
 description: ''
 tags:
 - TRaSH

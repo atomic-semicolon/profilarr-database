@@ -1,5 +1,5 @@
 name: (TRaSH) Legion
-pattern: \[Legion\]|-Legion\b
+pattern: \\[Legion\\]|-Legion\\b
 description: ''
 tags:
 - TRaSH

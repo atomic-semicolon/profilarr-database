@@ -1,5 +1,5 @@
 name: (TRaSH) torenter69
-pattern: \b(torenter69)\b
+pattern: \\b(torenter69)\\b
 description: ''
 tags:
 - TRaSH

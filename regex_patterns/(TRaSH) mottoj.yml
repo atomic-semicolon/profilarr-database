@@ -1,5 +1,5 @@
 name: (TRaSH) mottoj
-pattern: \b(mottoj)\b
+pattern: \\b(mottoj)\\b
 description: ''
 tags:
 - TRaSH

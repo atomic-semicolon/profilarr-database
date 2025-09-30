@@ -1,5 +1,5 @@
 name: (TRaSH) Setsugen
-pattern: \b(Setsugen)\b
+pattern: \\b(Setsugen)\\b
 description: ''
 tags:
 - TRaSH

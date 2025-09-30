@@ -1,5 +1,5 @@
 name: (TRaSH) peachflavored
-pattern: \b(peachflavored)\b
+pattern: \\b(peachflavored)\\b
 description: ''
 tags:
 - TRaSH

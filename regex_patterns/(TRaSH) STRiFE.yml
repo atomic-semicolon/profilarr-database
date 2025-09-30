@@ -1,5 +1,5 @@
 name: (TRaSH) STRiFE
-pattern: \[STRiFE\]|-STRiFE\b
+pattern: \\[STRiFE\\]|-STRiFE\\b
 description: ''
 tags:
 - TRaSH

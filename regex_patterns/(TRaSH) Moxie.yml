@@ -1,5 +1,5 @@
 name: (TRaSH) Moxie
-pattern: \[Moxie\]|-Moxie\b
+pattern: \\[Moxie\\]|-Moxie\\b
 description: ''
 tags:
 - TRaSH

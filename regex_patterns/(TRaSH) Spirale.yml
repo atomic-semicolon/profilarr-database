@@ -1,5 +1,5 @@
 name: (TRaSH) Spirale
-pattern: \b(Spirale)\b
+pattern: \\b(Spirale)\\b
 description: ''
 tags:
 - TRaSH

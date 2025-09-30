@@ -1,5 +1,5 @@
 name: (TRaSH) Nokou
-pattern: \b(Nokou)\b
+pattern: \\b(Nokou)\\b
 description: ''
 tags:
 - TRaSH

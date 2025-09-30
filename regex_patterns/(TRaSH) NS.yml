@@ -1,5 +1,5 @@
 name: (TRaSH) NS
-pattern: \b(NS)\b
+pattern: \\b(NS)\\b
 description: ''
 tags:
 - TRaSH

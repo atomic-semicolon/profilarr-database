@@ -1,5 +1,5 @@
 name: (TRaSH) AREY
-pattern: \b(AREY)\b
+pattern: \\b(AREY)\\b
 description: ''
 tags:
 - TRaSH

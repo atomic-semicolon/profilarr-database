@@ -1,5 +1,5 @@
 name: (TRaSH) SLAX
-pattern: \b(SLAX)\b
+pattern: \\b(SLAX)\\b
 description: ''
 tags:
 - TRaSH

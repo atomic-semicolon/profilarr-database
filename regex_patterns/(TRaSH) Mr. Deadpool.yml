@@ -1,5 +1,5 @@
 name: (TRaSH) Mr. Deadpool
-pattern: \b(Mr\.Deadpool)\b
+pattern: \\b(Mr\\.Deadpool)\\b
 description: ''
 tags:
 - TRaSH

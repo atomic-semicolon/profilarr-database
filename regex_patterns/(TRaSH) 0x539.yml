@@ -1,5 +1,5 @@
 name: (TRaSH) 0x539
-pattern: \b(0x539)\b
+pattern: \\b(0x539)\\b
 description: ''
 tags:
 - TRaSH

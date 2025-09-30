@@ -1,5 +1,5 @@
 name: (TRaSH) AnimeKuro
-pattern: \b(AnimeKuro)\b
+pattern: \\b(AnimeKuro)\\b
 description: ''
 tags:
 - TRaSH

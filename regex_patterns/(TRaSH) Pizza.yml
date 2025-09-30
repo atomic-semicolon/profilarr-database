@@ -1,5 +1,5 @@
 name: (TRaSH) Pizza
-pattern: \[Pizza\]|-Pizza\b
+pattern: \\[Pizza\\]|-Pizza\\b
 description: ''
 tags:
 - TRaSH

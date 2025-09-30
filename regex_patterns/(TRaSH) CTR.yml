@@ -1,5 +1,5 @@
 name: (TRaSH) CTR
-pattern: \b(CTR)\b
+pattern: \\b(CTR)\\b
 description: ''
 tags:
 - TRaSH

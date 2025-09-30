@@ -1,5 +1,5 @@
 name: (TRaSH) DameDesuYo
-pattern: \b(DameDesuYo)\b
+pattern: \\b(DameDesuYo)\\b
 description: ''
 tags:
 - TRaSH

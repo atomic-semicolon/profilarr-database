@@ -1,5 +1,5 @@
 name: (TRaSH) BluDragon
-pattern: \b(BluDragon)\b
+pattern: \\b(BluDragon)\\b
 description: ''
 tags:
 - TRaSH

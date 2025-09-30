@@ -1,5 +1,5 @@
 name: (TRaSH) Kaleido
-pattern: \b(Kaleido)\b
+pattern: \\b(Kaleido)\\b
 description: ''
 tags:
 - TRaSH

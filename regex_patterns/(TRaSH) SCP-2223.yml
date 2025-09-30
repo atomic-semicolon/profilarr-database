@@ -1,5 +1,5 @@
 name: (TRaSH) SCP-2223
-pattern: \b(SCP-2223)\b
+pattern: \\b(SCP-2223)\\b
 description: ''
 tags:
 - TRaSH

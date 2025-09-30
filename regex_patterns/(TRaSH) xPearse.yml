@@ -1,5 +1,5 @@
 name: (TRaSH) xPearse
-pattern: \b(xPearse)\b
+pattern: \\b(xPearse)\\b
 description: ''
 tags:
 - TRaSH

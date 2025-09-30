@@ -1,5 +1,5 @@
 name: (TRaSH) KH
-pattern: \b(KH)\b
+pattern: \\b(KH)\\b
 description: ''
 tags:
 - TRaSH

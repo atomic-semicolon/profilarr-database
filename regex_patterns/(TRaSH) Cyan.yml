@@ -1,5 +1,5 @@
 name: (TRaSH) Cyan
-pattern: \[Cyan\]|-Cyan\b
+pattern: \\[Cyan\\]|-Cyan\\b
 description: ''
 tags:
 - TRaSH

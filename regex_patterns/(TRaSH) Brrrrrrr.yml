@@ -1,5 +1,5 @@
 name: (TRaSH) Brrrrrrr
-pattern: \b(Brrrrrrr)\b
+pattern: \\b(Brrrrrrr)\\b
 description: ''
 tags:
 - TRaSH

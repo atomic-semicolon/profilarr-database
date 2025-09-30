@@ -1,5 +1,5 @@
 name: (TRaSH) RAI
-pattern: \b(RAI)\b
+pattern: \\b(RAI)\\b
 description: ''
 tags:
 - TRaSH

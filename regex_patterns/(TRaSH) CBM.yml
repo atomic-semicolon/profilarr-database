@@ -1,5 +1,5 @@
 name: (TRaSH) CBM
-pattern: \b(CBM)\b
+pattern: \\b(CBM)\\b
 description: ''
 tags:
 - TRaSH

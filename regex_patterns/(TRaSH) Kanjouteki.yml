@@ -1,5 +1,5 @@
 name: (TRaSH) Kanjouteki
-pattern: \b(Kanjouteki)\b
+pattern: \\b(Kanjouteki)\\b
 description: ''
 tags:
 - TRaSH

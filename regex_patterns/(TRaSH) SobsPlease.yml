@@ -1,5 +1,5 @@
 name: (TRaSH) SobsPlease
-pattern: \b(SobsPlease)\b
+pattern: \\b(SobsPlease)\\b
 description: ''
 tags:
 - TRaSH

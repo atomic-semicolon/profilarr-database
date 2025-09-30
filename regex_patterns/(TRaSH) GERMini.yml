@@ -1,5 +1,5 @@
 name: (TRaSH) GERMini
-pattern: \b(GERMini)\b
+pattern: \\b(GERMini)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Samir755
-pattern: \b(Samir755)\b
+pattern: \\b(Samir755)\\b
 description: ''
 tags:
 - TRaSH

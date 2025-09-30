@@ -1,5 +1,5 @@
 name: (TRaSH) YuiSubs
-pattern: \b(YuiSubs)\b
+pattern: \\b(YuiSubs)\\b
 description: ''
 tags:
 - TRaSH

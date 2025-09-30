@@ -1,5 +1,5 @@
 name: (TRaSH) AOmundson
-pattern: \b(AOmundson)\b
+pattern: \\b(AOmundson)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) YakuboEncodes
-pattern: \b(YakuboEncodes)\b
+pattern: \\b(YakuboEncodes)\\b
 description: ''
 tags:
 - TRaSH

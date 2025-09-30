@@ -1,5 +1,5 @@
 name: (TRaSH) Nyanpasu
-pattern: \b(Nyanpasu)\b
+pattern: \\b(Nyanpasu)\\b
 description: ''
 tags:
 - TRaSH

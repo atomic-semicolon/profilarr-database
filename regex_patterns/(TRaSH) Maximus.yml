@@ -1,5 +1,5 @@
 name: (TRaSH) Maximus
-pattern: \[Maximus\]|-Maximus\b
+pattern: \\[Maximus\\]|-Maximus\\b
 description: ''
 tags:
 - TRaSH

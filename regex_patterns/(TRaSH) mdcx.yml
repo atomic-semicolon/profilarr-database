@@ -1,5 +1,5 @@
 name: (TRaSH) mdcx
-pattern: \b(mdcx)\b
+pattern: \\b(mdcx)\\b
 description: ''
 tags:
 - TRaSH

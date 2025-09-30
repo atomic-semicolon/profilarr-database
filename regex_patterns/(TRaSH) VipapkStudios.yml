@@ -1,5 +1,5 @@
 name: (TRaSH) VipapkStudios
-pattern: \b(VipapkStudios)\b
+pattern: \\b(VipapkStudios)\\b
 description: ''
 tags:
 - TRaSH

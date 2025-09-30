@@ -1,5 +1,5 @@
 name: (TRaSH) ASW
-pattern: \b(ASW)\b
+pattern: \\b(ASW)\\b
 description: ''
 tags:
 - TRaSH

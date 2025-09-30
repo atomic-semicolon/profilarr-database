@@ -1,5 +1,5 @@
 name: (TRaSH) Dekinai
-pattern: \[Dekinai\]|-Dekinai\b
+pattern: \\[Dekinai\\]|-Dekinai\\b
 description: ''
 tags:
 - TRaSH

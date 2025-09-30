@@ -1,5 +1,5 @@
 name: (TRaSH) HatSubs
-pattern: \b(HatSubs)\b
+pattern: \\b(HatSubs)\\b
 description: ''
 tags:
 - TRaSH

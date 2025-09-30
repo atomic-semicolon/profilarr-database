@@ -1,5 +1,5 @@
 name: (TRaSH) Drag
-pattern: \[Drag\]|-Drag\b
+pattern: \\[Drag\\]|-Drag\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Watashi
-pattern: \[Watashi\]|-Watashi\b
+pattern: \\[Watashi\\]|-Watashi\\b
 description: ''
 tags:
 - TRaSH

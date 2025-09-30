@@ -1,5 +1,5 @@
 name: (TRaSH) Sokudo
-pattern: \[Sokudo\]|-Sokudo\b
+pattern: \\[Sokudo\\]|-Sokudo\\b
 description: ''
 tags:
 - TRaSH

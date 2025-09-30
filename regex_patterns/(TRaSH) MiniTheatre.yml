@@ -1,5 +1,5 @@
 name: (TRaSH) MiniTheatre
-pattern: \b(MiniTheatre)\b
+pattern: \\b(MiniTheatre)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Inka-Subs
-pattern: \b(Inka-Subs)\b
+pattern: \\b(Inka-Subs)\\b
 description: ''
 tags:
 - TRaSH

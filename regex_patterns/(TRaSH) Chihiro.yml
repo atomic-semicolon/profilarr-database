@@ -1,5 +1,5 @@
 name: (TRaSH) Chihiro
-pattern: \[Chihiro\]|-Chihiro\b
+pattern: \\[Chihiro\\]|-Chihiro\\b
 description: ''
 tags:
 - TRaSH

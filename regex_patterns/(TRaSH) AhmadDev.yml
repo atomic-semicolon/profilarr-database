@@ -1,5 +1,5 @@
 name: (TRaSH) AhmadDev
-pattern: \b(AhmadDev)\b
+pattern: \\b(AhmadDev)\\b
 description: ''
 tags:
 - TRaSH

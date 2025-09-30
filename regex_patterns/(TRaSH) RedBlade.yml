@@ -1,5 +1,5 @@
 name: (TRaSH) RedBlade
-pattern: \b(RedBlade)\b
+pattern: \\b(RedBlade)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Yoghurt
-pattern: \b(Yoghurt)\b
+pattern: \\b(Yoghurt)\\b
 description: ''
 tags:
 - TRaSH

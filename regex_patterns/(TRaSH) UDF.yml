@@ -1,5 +1,5 @@
 name: (TRaSH) UDF
-pattern: \b(UDF)\b
+pattern: \\b(UDF)\\b
 description: ''
 tags:
 - TRaSH

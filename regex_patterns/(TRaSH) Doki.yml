@@ -1,5 +1,5 @@
 name: (TRaSH) Doki
-pattern: \[Doki\]|-Doki\b
+pattern: \\[Doki\\]|-Doki\\b
 description: ''
 tags:
 - TRaSH

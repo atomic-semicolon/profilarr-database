@@ -1,5 +1,5 @@
 name: (TRaSH) Datte13
-pattern: \b(Datte13)\b
+pattern: \\b(Datte13)\\b
 description: ''
 tags:
 - TRaSH

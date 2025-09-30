@@ -1,5 +1,5 @@
 name: (TRaSH) BlueLobster
-pattern: \b(BlueLobster)\b
+pattern: \\b(BlueLobster)\\b
 description: ''
 tags:
 - TRaSH

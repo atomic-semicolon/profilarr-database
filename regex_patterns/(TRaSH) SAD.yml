@@ -1,5 +1,5 @@
 name: (TRaSH) SAD
-pattern: \[SAD\]|-SAD\b
+pattern: \\[SAD\\]|-SAD\\b
 description: ''
 tags:
 - TRaSH

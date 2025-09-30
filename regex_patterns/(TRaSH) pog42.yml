@@ -1,5 +1,5 @@
 name: (TRaSH) pog42
-pattern: \b(pog42)\b
+pattern: \\b(pog42)\\b
 description: ''
 tags:
 - TRaSH

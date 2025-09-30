@@ -1,5 +1,5 @@
 name: (TRaSH) GSK_kun
-pattern: \b(GSK[._-]kun)\b
+pattern: \\b(GSK[._-]kun)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Kametsu
-pattern: \b(Kametsu)\b
+pattern: \\b(Kametsu)\\b
 description: ''
 tags:
 - TRaSH

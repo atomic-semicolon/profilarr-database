@@ -1,5 +1,5 @@
 name: (TRaSH) PAS
-pattern: \b(PAS)\b
+pattern: \\b(PAS)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) KamiFS
-pattern: \b(KamiFS)\b
+pattern: \\b(KamiFS)\\b
 description: ''
 tags:
 - TRaSH

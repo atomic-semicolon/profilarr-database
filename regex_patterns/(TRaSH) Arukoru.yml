@@ -1,5 +1,5 @@
 name: (TRaSH) Arukoru
-pattern: \b(Arukoru)\b
+pattern: \\b(Arukoru)\\b
 description: ''
 tags:
 - TRaSH

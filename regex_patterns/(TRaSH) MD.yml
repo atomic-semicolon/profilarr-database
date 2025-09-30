@@ -1,5 +1,5 @@
 name: (TRaSH) MD
-pattern: \[MD\]|-MD\b
+pattern: \\[MD\\]|-MD\\b
 description: ''
 tags:
 - TRaSH

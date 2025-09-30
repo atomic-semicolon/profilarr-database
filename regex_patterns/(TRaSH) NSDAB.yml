@@ -1,5 +1,5 @@
 name: (TRaSH) NSDAB
-pattern: \b(NSDAB)\b
+pattern: \\b(NSDAB)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Bunny-Apocalypse
-pattern: \b(Bunny-Apocalypse)\b
+pattern: \\b(Bunny-Apocalypse)\\b
 description: ''
 tags:
 - TRaSH

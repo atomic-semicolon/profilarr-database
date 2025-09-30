@@ -1,5 +1,5 @@
 name: (TRaSH) NH
-pattern: \b(NH)\b
+pattern: \\b(NH)\\b
 description: ''
 tags:
 - TRaSH

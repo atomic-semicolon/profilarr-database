@@ -1,5 +1,5 @@
 name: (TRaSH) Not-Vodes
-pattern: \[Not-Vodes\]|-Not-Vodes\b
+pattern: \\[Not-Vodes\\]|-Not-Vodes\\b
 description: ''
 tags:
 - TRaSH

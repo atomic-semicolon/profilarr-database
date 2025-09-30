@@ -1,5 +1,5 @@
 name: (TRaSH) 9volt
-pattern: \b(9volt)\b
+pattern: \\b(9volt)\\b
 description: ''
 tags:
 - TRaSH

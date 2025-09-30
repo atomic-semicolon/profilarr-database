@@ -1,5 +1,5 @@
 name: (TRaSH) ASO
-pattern: \b(ASO)\b
+pattern: \\b(ASO)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: "(TRaSH) Shir\u03C3"
-pattern: "\\b(Shir\u03C3)\\b"
+pattern: "\\\\b(Shir\u03C3)\\\\b"
 description: ''
 tags:
 - TRaSH

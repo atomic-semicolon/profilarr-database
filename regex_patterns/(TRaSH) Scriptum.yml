@@ -1,5 +1,5 @@
 name: (TRaSH) Scriptum
-pattern: \b(Scriptum)\b
+pattern: \\b(Scriptum)\\b
 description: ''
 tags:
 - TRaSH

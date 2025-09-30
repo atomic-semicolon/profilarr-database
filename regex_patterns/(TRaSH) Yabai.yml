@@ -1,5 +1,5 @@
 name: (TRaSH) Yabai
-pattern: \[Yabai\]|-Yabai\b
+pattern: \\[Yabai\\]|-Yabai\\b
 description: ''
 tags:
 - TRaSH

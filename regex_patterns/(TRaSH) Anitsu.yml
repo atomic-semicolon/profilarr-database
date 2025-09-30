@@ -1,5 +1,5 @@
 name: (TRaSH) Anitsu
-pattern: \b(Anitsu)\b
+pattern: \\b(Anitsu)\\b
 description: ''
 tags:
 - TRaSH

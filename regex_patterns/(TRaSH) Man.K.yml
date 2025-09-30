@@ -1,5 +1,5 @@
 name: (TRaSH) Man.K
-pattern: \b(Man\.K)\b
+pattern: \\b(Man\\.K)\\b
 description: ''
 tags:
 - TRaSH

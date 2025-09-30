@@ -1,5 +1,5 @@
 name: (TRaSH) KawaSubs
-pattern: \b(KawaSubs)\b
+pattern: \\b(KawaSubs)\\b
 description: ''
 tags:
 - TRaSH

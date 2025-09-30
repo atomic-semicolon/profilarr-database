@@ -1,5 +1,5 @@
 name: (TRaSH) ANiHLS
-pattern: \b(ANiHLS)\b
+pattern: \\b(ANiHLS)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) zza
-pattern: \[zza\]|-zza\b
+pattern: \\[zza\\]|-zza\\b
 description: ''
 tags:
 - TRaSH

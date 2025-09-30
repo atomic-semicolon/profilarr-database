@@ -1,5 +1,5 @@
 name: (TRaSH) CUNNY
-pattern: \b(CUNNY)\b
+pattern: \\b(CUNNY)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) E.N.D
-pattern: \b(E[.-]N[.-]D)\b
+pattern: \\b(E[.-]N[.-]D)\\b
 description: ''
 tags:
 - TRaSH

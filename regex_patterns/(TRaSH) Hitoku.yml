@@ -1,5 +1,5 @@
 name: (TRaSH) Hitoku
-pattern: \[Hitoku\]|-Hitoku\b
+pattern: \\[Hitoku\\]|-Hitoku\\b
 description: ''
 tags:
 - TRaSH

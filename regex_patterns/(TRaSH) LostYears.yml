@@ -1,5 +1,5 @@
 name: (TRaSH) LostYears
-pattern: \b(LostYears)\b
+pattern: \\b(LostYears)\\b
 description: ''
 tags:
 - TRaSH

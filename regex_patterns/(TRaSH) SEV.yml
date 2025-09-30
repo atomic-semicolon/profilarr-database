@@ -1,5 +1,5 @@
 name: (TRaSH) SEV
-pattern: \b(SEV)\b
+pattern: \\b(SEV)\\b
 description: ''
 tags:
 - TRaSH

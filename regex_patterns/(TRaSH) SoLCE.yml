@@ -1,5 +1,5 @@
 name: (TRaSH) SoLCE
-pattern: \b(SoLCE)\b
+pattern: \\b(SoLCE)\\b
 description: ''
 tags:
 - TRaSH

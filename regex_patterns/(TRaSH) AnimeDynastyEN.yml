@@ -1,5 +1,5 @@
 name: (TRaSH) AnimeDynastyEN
-pattern: \b(AnimeDynastyEN)\b
+pattern: \\b(AnimeDynastyEN)\\b
 description: ''
 tags:
 - TRaSH

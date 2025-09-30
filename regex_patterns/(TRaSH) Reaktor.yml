@@ -1,5 +1,5 @@
 name: (TRaSH) Reaktor
-pattern: \b(Reaktor)\b
+pattern: \\b(Reaktor)\\b
 description: ''
 tags:
 - TRaSH

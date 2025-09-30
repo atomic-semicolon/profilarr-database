@@ -1,5 +1,5 @@
 name: (TRaSH) Bulldog
-pattern: \[Bulldog\]|-Bulldog\b
+pattern: \\[Bulldog\\]|-Bulldog\\b
 description: ''
 tags:
 - TRaSH

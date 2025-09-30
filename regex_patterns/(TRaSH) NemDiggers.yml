@@ -1,5 +1,5 @@
 name: (TRaSH) NemDiggers
-pattern: \b(NemDiggers)\b
+pattern: \\b(NemDiggers)\\b
 description: ''
 tags:
 - TRaSH

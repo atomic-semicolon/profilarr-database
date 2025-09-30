@@ -1,5 +1,5 @@
 name: (TRaSH) McBalls
-pattern: \b(McBalls)\b
+pattern: \\b(McBalls)\\b
 description: ''
 tags:
 - TRaSH

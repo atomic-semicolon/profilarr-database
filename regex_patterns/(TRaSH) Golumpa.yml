@@ -1,5 +1,5 @@
 name: (TRaSH) Golumpa
-pattern: \b(Golumpa)\b
+pattern: \\b(Golumpa)\\b
 description: ''
 tags:
 - TRaSH

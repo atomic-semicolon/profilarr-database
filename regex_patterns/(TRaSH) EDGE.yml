@@ -1,5 +1,5 @@
 name: (TRaSH) EDGE
-pattern: \[EDGE\]|-EDGE\b
+pattern: \\[EDGE\\]|-EDGE\\b
 description: ''
 tags:
 - TRaSH

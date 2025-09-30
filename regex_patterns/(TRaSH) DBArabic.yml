@@ -1,5 +1,5 @@
 name: (TRaSH) DBArabic
-pattern: \b(DBArabic)\b
+pattern: \\b(DBArabic)\\b
 description: ''
 tags:
 - TRaSH

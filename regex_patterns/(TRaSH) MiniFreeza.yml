@@ -1,5 +1,5 @@
 name: (TRaSH) MiniFreeza
-pattern: \b(MiniFreeza)\b
+pattern: \\b(MiniFreeza)\\b
 description: ''
 tags:
 - TRaSH

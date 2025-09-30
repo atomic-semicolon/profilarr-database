@@ -1,5 +1,5 @@
 name: (TRaSH) Iznjie Biznjie
-pattern: \b(Iznjie[ .-]Biznjie)\b
+pattern: \\b(Iznjie[ .-]Biznjie)\\b
 description: ''
 tags:
 - TRaSH
