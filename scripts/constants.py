@@ -77,11 +77,13 @@ QUALITIES = {
     "Raw-HD": 1,
     "BR-Disk": 2,
     "Remux-2160p": 3,
+    "Bluray-2160p Remux": 3, # Sonarr only, equivalent to Remux-2160p
     "Bluray-2160p": 4,
     "WEBDL-2160p": 5,
     "WEBRip-2160p": 6,
     "HDTV-2160p": 7,
     "Remux-1080p": 8,
+    "Bluray-1080p Remux": 8, # Sonarr only, equivalent to Remux-1080p
     "WEBDL-1080p": 9,
     "Bluray-1080p": 10,
     "WEBRip-1080p": 11,
