@@ -3,6 +3,9 @@ permissions:
   contents: write
   pull-requests: write
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '30 5 * * *'
   pull_request:
