@@ -4,12 +4,16 @@ permissions:
   pull-requests: write
 on:
   schedule:
-    - cron: '0 0 * * *'
-  pull_request: 
+    - cron: '30 5 * * *'
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - main
     tags-ignore:
       - sync
-    types:
-      - closed
   workflow_dispatch:
 jobs:
   sync:
