@@ -23,7 +23,7 @@ def write_regex_pattern_file(template_directory, regex_pattern_directory, regex_
     regex_template = load_template(template_directory / "regexPattern.yml")
     regex_template['name'] = regex_pattern_filename
     regex_template['description'] = ''
-    regex_template['pattern'] = regex_pattern
+    regex_template['pattern'] = repr(regex_pattern)[1:-1]
     regex_template['tags'] = [ 'TRaSH' ]
     regex_template['tests'] = []
 
