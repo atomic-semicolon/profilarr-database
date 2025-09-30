@@ -1,5 +1,5 @@
 name: (TRaSH) Holomux
-pattern: \b(Holomux)\b
+pattern: \\b(Holomux)\\b
 description: ''
 tags:
 - TRaSH

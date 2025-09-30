@@ -1,5 +1,5 @@
 name: (TRaSH) DsunS
-pattern: \b(DsunS)\b
+pattern: \\b(DsunS)\\b
 description: ''
 tags:
 - TRaSH

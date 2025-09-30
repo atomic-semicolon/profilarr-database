@@ -1,5 +1,5 @@
 name: (TRaSH) TTGA
-pattern: \b(TTGA)\b
+pattern: \\b(TTGA)\\b
 description: ''
 tags:
 - TRaSH

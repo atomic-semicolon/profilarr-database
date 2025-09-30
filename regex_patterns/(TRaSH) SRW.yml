@@ -1,5 +1,5 @@
 name: (TRaSH) SRW
-pattern: \b(SRW)\b
+pattern: \\b(SRW)\\b
 description: ''
 tags:
 - TRaSH

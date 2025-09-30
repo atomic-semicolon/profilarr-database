@@ -1,5 +1,5 @@
 name: (TRaSH) FLFL
-pattern: \b(FLFL)\b
+pattern: \\b(FLFL)\\b
 description: ''
 tags:
 - TRaSH

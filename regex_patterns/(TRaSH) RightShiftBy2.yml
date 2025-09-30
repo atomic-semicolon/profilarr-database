@@ -1,5 +1,5 @@
 name: (TRaSH) RightShiftBy2
-pattern: \b(RightShiftBy2)\b
+pattern: \\b(RightShiftBy2)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Asenshi
-pattern: \b(Asenshi)\b
+pattern: \\b(Asenshi)\\b
 description: ''
 tags:
 - TRaSH

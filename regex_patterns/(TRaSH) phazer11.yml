@@ -1,5 +1,5 @@
 name: (TRaSH) phazer11
-pattern: \b(phazer11)\b
+pattern: \\b(phazer11)\\b
 description: ''
 tags:
 - TRaSH

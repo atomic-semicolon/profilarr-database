@@ -1,5 +1,5 @@
 name: (TRaSH) PnPSubs
-pattern: \b(PnPSubs)\b
+pattern: \\b(PnPSubs)\\b
 description: ''
 tags:
 - TRaSH

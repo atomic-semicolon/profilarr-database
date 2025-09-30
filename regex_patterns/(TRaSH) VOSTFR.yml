@@ -1,5 +1,5 @@
 name: (TRaSH) VOSTFR
-pattern: \b(VOST.*?FR(E|A)?)\b
+pattern: \\b(VOST.*?FR(E|A)?)\\b
 description: ''
 tags:
 - TRaSH

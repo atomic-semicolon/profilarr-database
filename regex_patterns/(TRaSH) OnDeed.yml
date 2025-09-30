@@ -1,5 +1,5 @@
 name: (TRaSH) OnDeed
-pattern: \b(OnDeed)\b
+pattern: \\b(OnDeed)\\b
 description: ''
 tags:
 - TRaSH

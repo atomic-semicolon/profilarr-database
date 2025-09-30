@@ -1,5 +1,5 @@
 name: (TRaSH) ShowY
-pattern: \b(ShowY)\b
+pattern: \\b(ShowY)\\b
 description: ''
 tags:
 - TRaSH

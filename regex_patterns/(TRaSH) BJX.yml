@@ -1,5 +1,5 @@
 name: (TRaSH) BJX
-pattern: \b(BJX)\b
+pattern: \\b(BJX)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) kBaraka
-pattern: \b(kBaraka)\b
+pattern: \\b(kBaraka)\\b
 description: ''
 tags:
 - TRaSH

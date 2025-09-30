@@ -1,5 +1,5 @@
 name: (TRaSH) iKaos
-pattern: \b(iKaos)\b
+pattern: \\b(iKaos)\\b
 description: ''
 tags:
 - TRaSH

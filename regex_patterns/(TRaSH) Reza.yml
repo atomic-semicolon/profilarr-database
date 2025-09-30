@@ -1,5 +1,5 @@
 name: (TRaSH) Reza
-pattern: \b(Reza)\b
+pattern: \\b(Reza)\\b
 description: ''
 tags:
 - TRaSH

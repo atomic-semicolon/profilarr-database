@@ -1,5 +1,5 @@
 name: (TRaSH) BlurayDesuYo
-pattern: \b(BlurayDesuYo)\b
+pattern: \\b(BlurayDesuYo)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) niizk
-pattern: \b(niizk)\b
+pattern: \\b(niizk)\\b
 description: ''
 tags:
 - TRaSH

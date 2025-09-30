@@ -1,5 +1,5 @@
 name: (TRaSH) CH
-pattern: \[CH\]|-CH\b
+pattern: \\[CH\\]|-CH\\b
 description: ''
 tags:
 - TRaSH

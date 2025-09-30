@@ -1,5 +1,5 @@
 name: (TRaSH) Trix
-pattern: \[Trix\]|-Trix\b
+pattern: \\[Trix\\]|-Trix\\b
 description: ''
 tags:
 - TRaSH

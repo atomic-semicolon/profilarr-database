@@ -1,5 +1,5 @@
 name: (TRaSH) FunArts
-pattern: \b(FunArts)\b
+pattern: \\b(FunArts)\\b
 description: ''
 tags:
 - TRaSH

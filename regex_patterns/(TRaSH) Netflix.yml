@@ -1,5 +1,5 @@
 name: (TRaSH) Netflix
-pattern: \b(nf|netflix(u?hd)?)\b
+pattern: \\b(nf|netflix(u?hd)?)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Netaro
-pattern: \b(Netaro)\b
+pattern: \\b(Netaro)\\b
 description: ''
 tags:
 - TRaSH

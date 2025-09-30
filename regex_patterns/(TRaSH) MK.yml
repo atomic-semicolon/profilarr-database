@@ -1,5 +1,5 @@
 name: (TRaSH) MK
-pattern: \b(MK)\b
+pattern: \\b(MK)\\b
 description: ''
 tags:
 - TRaSH

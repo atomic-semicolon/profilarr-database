@@ -1,5 +1,5 @@
 name: (TRaSH) Gao
-pattern: \[Gao\]|-Gao\b
+pattern: \\[Gao\\]|-Gao\\b
 description: ''
 tags:
 - TRaSH

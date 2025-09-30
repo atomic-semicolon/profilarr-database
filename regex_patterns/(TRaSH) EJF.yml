@@ -1,5 +1,5 @@
 name: (TRaSH) EJF
-pattern: \b(EJF)\b
+pattern: \\b(EJF)\\b
 description: ''
 tags:
 - TRaSH

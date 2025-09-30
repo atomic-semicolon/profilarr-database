@@ -1,5 +1,5 @@
 name: (TRaSH) Plex Friendly
-pattern: \b(Plex[ .-]?Friendly)\b
+pattern: \\b(Plex[ .-]?Friendly)\\b
 description: ''
 tags:
 - TRaSH

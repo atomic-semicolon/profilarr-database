@@ -1,5 +1,5 @@
 name: (TRaSH) NanDesuKa
-pattern: \b(NanDesuKa)\b
+pattern: \\b(NanDesuKa)\\b
 description: ''
 tags:
 - TRaSH

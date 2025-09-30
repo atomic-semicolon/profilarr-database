@@ -1,5 +1,5 @@
 name: (TRaSH) Emmid
-pattern: \[Emmid\]|-Emmid\b
+pattern: \\[Emmid\\]|-Emmid\\b
 description: ''
 tags:
 - TRaSH

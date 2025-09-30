@@ -1,5 +1,5 @@
 name: (TRaSH) Foxtrot
-pattern: \[Foxtrot\]|-Foxtrot\b
+pattern: \\[Foxtrot\\]|-Foxtrot\\b
 description: ''
 tags:
 - TRaSH

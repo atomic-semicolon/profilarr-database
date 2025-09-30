@@ -1,5 +1,5 @@
 name: (TRaSH) Quetzal
-pattern: \b(Quetzal)\b
+pattern: \\b(Quetzal)\\b
 description: ''
 tags:
 - TRaSH

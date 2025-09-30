@@ -1,5 +1,5 @@
 name: (TRaSH) Rasetsu
-pattern: \b(Rasetsu)\b
+pattern: \\b(Rasetsu)\\b
 description: ''
 tags:
 - TRaSH

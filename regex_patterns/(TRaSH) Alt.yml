@@ -1,5 +1,5 @@
 name: (TRaSH) Alt
-pattern: \[Alt\]|-Alt\b
+pattern: \\[Alt\\]|-Alt\\b
 description: ''
 tags:
 - TRaSH

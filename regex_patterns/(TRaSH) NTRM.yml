@@ -1,5 +1,5 @@
 name: (TRaSH) NTRM
-pattern: \b(NTRM)\b
+pattern: \\b(NTRM)\\b
 description: ''
 tags:
 - TRaSH

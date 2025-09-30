@@ -1,5 +1,5 @@
 name: (TRaSH) Yuki
-pattern: \[Yuki\]|-Yuki\b
+pattern: \\[Yuki\\]|-Yuki\\b
 description: ''
 tags:
 - TRaSH

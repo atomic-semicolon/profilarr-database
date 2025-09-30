@@ -1,5 +1,5 @@
 name: (TRaSH) Final8
-pattern: \b(Final8)\b
+pattern: \\b(Final8)\\b
 description: ''
 tags:
 - TRaSH

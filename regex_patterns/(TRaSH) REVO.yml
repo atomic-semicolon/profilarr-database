@@ -1,5 +1,5 @@
 name: (TRaSH) REVO
-pattern: \b(REVO)\b
+pattern: \\b(REVO)\\b
 description: ''
 tags:
 - TRaSH

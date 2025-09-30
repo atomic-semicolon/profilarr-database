@@ -1,5 +1,5 @@
 name: (TRaSH) LCE
-pattern: \b(LCE)\b
+pattern: \\b(LCE)\\b
 description: ''
 tags:
 - TRaSH

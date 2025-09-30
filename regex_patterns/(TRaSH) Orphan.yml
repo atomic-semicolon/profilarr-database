@@ -1,5 +1,5 @@
 name: (TRaSH) Orphan
-pattern: \[Orphan\]|-Orphan\b
+pattern: \\[Orphan\\]|-Orphan\\b
 description: ''
 tags:
 - TRaSH

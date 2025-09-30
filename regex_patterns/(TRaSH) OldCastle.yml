@@ -1,5 +1,5 @@
 name: (TRaSH) OldCastle
-pattern: \b(OldCastle)\b
+pattern: \\b(OldCastle)\\b
 description: ''
 tags:
 - TRaSH

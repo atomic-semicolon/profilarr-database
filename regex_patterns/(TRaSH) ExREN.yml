@@ -1,5 +1,5 @@
 name: (TRaSH) ExREN
-pattern: \b(ExREN)\b
+pattern: \\b(ExREN)\\b
 description: ''
 tags:
 - TRaSH

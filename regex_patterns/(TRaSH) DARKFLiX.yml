@@ -1,5 +1,5 @@
 name: (TRaSH) DARKFLiX
-pattern: \b(DARKFLiX)\b
+pattern: \\b(DARKFLiX)\\b
 description: ''
 tags:
 - TRaSH

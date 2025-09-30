@@ -1,5 +1,5 @@
 name: (TRaSH) CuaP
-pattern: \b(CuaP)\b
+pattern: \\b(CuaP)\\b
 description: ''
 tags:
 - TRaSH

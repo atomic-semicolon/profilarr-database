@@ -1,5 +1,5 @@
 name: (TRaSH) Salieri
-pattern: \b(Salieri)\b
+pattern: \\b(Salieri)\\b
 description: ''
 tags:
 - TRaSH

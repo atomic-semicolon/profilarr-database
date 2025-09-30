@@ -1,5 +1,5 @@
 name: (TRaSH) PuyaSubs
-pattern: \b(PuyaSubs)\b
+pattern: \\b(PuyaSubs)\\b
 description: ''
 tags:
 - TRaSH

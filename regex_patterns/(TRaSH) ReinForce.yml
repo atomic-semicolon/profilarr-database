@@ -1,5 +1,5 @@
 name: (TRaSH) ReinForce
-pattern: \b(ReinForce)\b
+pattern: \\b(ReinForce)\\b
 description: ''
 tags:
 - TRaSH

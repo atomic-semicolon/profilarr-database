@@ -1,5 +1,5 @@
 name: (TRaSH) Funimation
-pattern: \b(FUNi(mation)?)\b
+pattern: \\b(FUNi(mation)?)\\b
 description: ''
 tags:
 - TRaSH

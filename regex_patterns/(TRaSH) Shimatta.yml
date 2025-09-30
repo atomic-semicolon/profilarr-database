@@ -1,5 +1,5 @@
 name: (TRaSH) Shimatta
-pattern: \b(Shimatta)\b
+pattern: \\b(Shimatta)\\b
 description: ''
 tags:
 - TRaSH

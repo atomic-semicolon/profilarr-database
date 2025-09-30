@@ -1,5 +1,5 @@
 name: (TRaSH) ASC
-pattern: \b(ASC)\b
+pattern: \\b(ASC)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Aergia
-pattern: \[Aergia\]|-Aergia(?!-raws)\b
+pattern: \\[Aergia\\]|-Aergia(?!-raws)\\b
 description: ''
 tags:
 - TRaSH

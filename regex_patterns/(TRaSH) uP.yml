@@ -1,5 +1,5 @@
 name: (TRaSH) uP
-pattern: \[uP\]
+pattern: \\[uP\\]
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) AV1
-pattern: \bAV1\b
+pattern: \\bAV1\\b
 description: ''
 tags:
 - TRaSH

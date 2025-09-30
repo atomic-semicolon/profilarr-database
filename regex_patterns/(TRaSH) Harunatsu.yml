@@ -1,5 +1,5 @@
 name: (TRaSH) Harunatsu
-pattern: \[Harunatsu\]|-Harunatsu\b
+pattern: \\[Harunatsu\\]|-Harunatsu\\b
 description: ''
 tags:
 - TRaSH

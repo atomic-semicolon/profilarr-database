@@ -1,5 +1,5 @@
 name: (TRaSH) HENiL
-pattern: \b(HENiL)\b
+pattern: \\b(HENiL)\\b
 description: ''
 tags:
 - TRaSH

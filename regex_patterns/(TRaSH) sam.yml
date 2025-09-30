@@ -1,5 +1,5 @@
 name: (TRaSH) sam
-pattern: \[sam\]|-sam\b
+pattern: \\[sam\\]|-sam\\b
 description: ''
 tags:
 - TRaSH

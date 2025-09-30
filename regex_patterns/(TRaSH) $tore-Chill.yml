@@ -1,5 +1,5 @@
 name: (TRaSH) $tore-Chill
-pattern: \b(\$tore-Chill)\b
+pattern: \\b(\\$tore-Chill)\\b
 description: ''
 tags:
 - TRaSH

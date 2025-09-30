@@ -1,5 +1,5 @@
 name: (TRaSH) Judas
-pattern: \[Judas\]|-Judas
+pattern: \\[Judas\\]|-Judas
 description: ''
 tags:
 - TRaSH

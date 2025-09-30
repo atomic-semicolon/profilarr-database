@@ -1,5 +1,5 @@
 name: (TRaSH) DP
-pattern: \b(DP)\b
+pattern: \\b(DP)\\b
 description: ''
 tags:
 - TRaSH

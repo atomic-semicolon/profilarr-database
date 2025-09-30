@@ -1,5 +1,5 @@
 name: (TRaSH) xiao-av1
-pattern: \b(xiao-av1)\b
+pattern: \\b(xiao-av1)\\b
 description: ''
 tags:
 - TRaSH

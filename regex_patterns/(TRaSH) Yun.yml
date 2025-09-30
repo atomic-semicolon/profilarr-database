@@ -1,5 +1,5 @@
 name: (TRaSH) Yun
-pattern: \[Yun\]|-Yun\b
+pattern: \\[Yun\\]|-Yun\\b
 description: ''
 tags:
 - TRaSH

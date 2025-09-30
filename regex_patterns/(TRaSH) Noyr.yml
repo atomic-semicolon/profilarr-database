@@ -1,5 +1,5 @@
 name: (TRaSH) Noyr
-pattern: \b(Noyr)\b
+pattern: \\b(Noyr)\\b
 description: ''
 tags:
 - TRaSH

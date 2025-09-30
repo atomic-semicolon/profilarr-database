@@ -1,5 +1,5 @@
 name: (TRaSH) Almighty
-pattern: \[Almighty\]|-Almighty\b
+pattern: \\[Almighty\\]|-Almighty\\b
 description: ''
 tags:
 - TRaSH

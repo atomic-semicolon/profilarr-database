@@ -1,5 +1,5 @@
 name: (TRaSH) AC
-pattern: \[AC\]|-AC$
+pattern: \\[AC\\]|-AC$
 description: ''
 tags:
 - TRaSH

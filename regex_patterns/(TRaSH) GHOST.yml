@@ -1,5 +1,5 @@
 name: (TRaSH) GHOST
-pattern: \[GHOST\]|-GHOST\b
+pattern: \\[GHOST\\]|-GHOST\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Animesubs
-pattern: \b(Animesubs)\b
+pattern: \\b(Animesubs)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) IK
-pattern: \b(IK)\b
+pattern: \\b(IK)\\b
 description: ''
 tags:
 - TRaSH

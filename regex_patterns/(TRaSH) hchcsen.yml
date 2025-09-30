@@ -1,5 +1,5 @@
 name: (TRaSH) hchcsen
-pattern: \b(hchcsen)\b
+pattern: \\b(hchcsen)\\b
 description: ''
 tags:
 - TRaSH

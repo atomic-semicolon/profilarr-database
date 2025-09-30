@@ -1,5 +1,5 @@
 name: (TRaSH) Half-Baked
-pattern: \b(Half-Baked)\b
+pattern: \\b(Half-Baked)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) DKB
-pattern: \b(DKB)\b
+pattern: \\b(DKB)\\b
 description: ''
 tags:
 - TRaSH

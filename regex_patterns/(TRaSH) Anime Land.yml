@@ -1,5 +1,5 @@
 name: (TRaSH) Anime Land
-pattern: \b(Anime[ .-]?Land)\b
+pattern: \\b(Anime[ .-]?Land)\\b
 description: ''
 tags:
 - TRaSH

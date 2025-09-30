@@ -1,5 +1,5 @@
 name: (TRaSH) Ayashii
-pattern: \[Ayashii\]|-Ayashii\b
+pattern: \\[Ayashii\\]|-Ayashii\\b
 description: ''
 tags:
 - TRaSH

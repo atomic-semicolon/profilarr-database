@@ -1,5 +1,5 @@
 name: (TRaSH) URANIME
-pattern: \b(URANIME)\b
+pattern: \\b(URANIME)\\b
 description: ''
 tags:
 - TRaSH

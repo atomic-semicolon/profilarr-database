@@ -1,5 +1,5 @@
 name: (TRaSH) Hakata Ramen
-pattern: \b(Hakata[ .-]?Ramen)\b
+pattern: \\b(Hakata[ .-]?Ramen)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Cleo
-pattern: \[Cleo\]|-Cleo
+pattern: \\[Cleo\\]|-Cleo
 description: ''
 tags:
 - TRaSH

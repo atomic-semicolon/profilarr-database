@@ -1,5 +1,5 @@
 name: (TRaSH) Senjou
-pattern: \[Senjou\]|-Senjou\b
+pattern: \\[Senjou\\]|-Senjou\\b
 description: ''
 tags:
 - TRaSH

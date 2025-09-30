@@ -1,5 +1,5 @@
 name: (TRaSH) Matsya
-pattern: \b(Matsya)\b
+pattern: \\b(Matsya)\\b
 description: ''
 tags:
 - TRaSH

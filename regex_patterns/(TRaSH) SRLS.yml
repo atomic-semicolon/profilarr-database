@@ -1,5 +1,5 @@
 name: (TRaSH) SRLS
-pattern: \b(SRLS)\b
+pattern: \\b(SRLS)\\b
 description: ''
 tags:
 - TRaSH

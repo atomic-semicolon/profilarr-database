@@ -1,5 +1,5 @@
 name: (TRaSH) StrayGods
-pattern: \b(StrayGods)\b
+pattern: \\b(StrayGods)\\b
 description: ''
 tags:
 - TRaSH

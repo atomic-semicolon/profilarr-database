@@ -1,5 +1,5 @@
 name: (TRaSH) Crow
-pattern: \[Crow\]|-Crow\b
+pattern: \\[Crow\\]|-Crow\\b
 description: ''
 tags:
 - TRaSH

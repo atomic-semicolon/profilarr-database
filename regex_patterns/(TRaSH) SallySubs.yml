@@ -1,5 +1,5 @@
 name: (TRaSH) SallySubs
-pattern: \b(SallySubs)\b
+pattern: \\b(SallySubs)\\b
 description: ''
 tags:
 - TRaSH

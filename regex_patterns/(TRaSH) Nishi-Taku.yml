@@ -1,5 +1,5 @@
 name: (TRaSH) Nishi-Taku
-pattern: \b(Nishi-Taku)\b
+pattern: \\b(Nishi-Taku)\\b
 description: ''
 tags:
 - TRaSH

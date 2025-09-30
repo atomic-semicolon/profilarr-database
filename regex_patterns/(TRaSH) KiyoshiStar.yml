@@ -1,5 +1,5 @@
 name: (TRaSH) KiyoshiStar
-pattern: \b(KS|KiyoshiStar)\b
+pattern: \\b(KS|KiyoshiStar)\\b
 description: ''
 tags:
 - TRaSH

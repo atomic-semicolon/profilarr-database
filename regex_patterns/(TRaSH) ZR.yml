@@ -1,5 +1,5 @@
 name: (TRaSH) ZR
-pattern: \b(ZR)\b
+pattern: \\b(ZR)\\b
 description: ''
 tags:
 - TRaSH

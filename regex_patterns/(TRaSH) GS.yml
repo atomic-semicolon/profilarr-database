@@ -1,5 +1,5 @@
 name: (TRaSH) GS
-pattern: \b(GS)\b
+pattern: \\b(GS)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) ShadyCrab
-pattern: \b(ShadyCrab)\b
+pattern: \\b(ShadyCrab)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) SanKyuu
-pattern: \b(SanKyuu)\b
+pattern: \\b(SanKyuu)\\b
 description: ''
 tags:
 - TRaSH

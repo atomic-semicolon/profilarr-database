@@ -1,5 +1,5 @@
 name: (TRaSH) USD
-pattern: \[USD\]|-USD\b
+pattern: \\[USD\\]|-USD\\b
 description: ''
 tags:
 - TRaSH

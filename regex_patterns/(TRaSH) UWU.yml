@@ -1,5 +1,5 @@
 name: (TRaSH) UWU
-pattern: \b(UWU)\b
+pattern: \\b(UWU)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) HorribleRips
-pattern: \b(HorribleRips)\b
+pattern: \\b(HorribleRips)\\b
 description: ''
 tags:
 - TRaSH

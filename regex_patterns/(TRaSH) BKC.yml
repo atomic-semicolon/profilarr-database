@@ -1,5 +1,5 @@
 name: (TRaSH) BKC
-pattern: \b(BKC)\b
+pattern: \\b(BKC)\\b
 description: ''
 tags:
 - TRaSH

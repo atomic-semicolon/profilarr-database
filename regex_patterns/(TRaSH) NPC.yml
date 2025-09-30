@@ -1,5 +1,5 @@
 name: (TRaSH) NPC
-pattern: \[NPC\]|-NPC\b
+pattern: \\[NPC\\]|-NPC\\b
 description: ''
 tags:
 - TRaSH

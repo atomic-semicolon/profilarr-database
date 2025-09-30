@@ -1,5 +1,5 @@
 name: (TRaSH) Ranger
-pattern: \[Ranger\]|-Ranger\b
+pattern: \\[Ranger\\]|-Ranger\\b
 description: ''
 tags:
 - TRaSH

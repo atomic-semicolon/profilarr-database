@@ -1,5 +1,5 @@
 name: (TRaSH) ICEBLUE
-pattern: \b(ICEBLUE)\b
+pattern: \\b(ICEBLUE)\\b
 description: ''
 tags:
 - TRaSH

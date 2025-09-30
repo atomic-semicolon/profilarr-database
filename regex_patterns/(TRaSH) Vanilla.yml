@@ -1,5 +1,5 @@
 name: (TRaSH) Vanilla
-pattern: \[Vanilla\]|-Vanilla\b
+pattern: \\[Vanilla\\]|-Vanilla\\b
 description: ''
 tags:
 - TRaSH

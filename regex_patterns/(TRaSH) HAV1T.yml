@@ -1,5 +1,5 @@
 name: (TRaSH) HAV1T
-pattern: \b(HAV1T)\b
+pattern: \\b(HAV1T)\\b
 description: ''
 tags:
 - TRaSH

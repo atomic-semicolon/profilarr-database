@@ -1,5 +1,5 @@
 name: (TRaSH) AssMix
-pattern: \b(AssMix)\b
+pattern: \\b(AssMix)\\b
 description: ''
 tags:
 - TRaSH

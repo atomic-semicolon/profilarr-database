@@ -1,5 +1,5 @@
 name: (TRaSH) MinisCuba
-pattern: \b(MinisCuba)\b
+pattern: \\b(MinisCuba)\\b
 description: ''
 tags:
 - TRaSH

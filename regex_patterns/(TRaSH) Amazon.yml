@@ -1,5 +1,5 @@
 name: (TRaSH) Amazon
-pattern: \b(amzn|amazon(hd)?)\b
+pattern: \\b(amzn|amazon(hd)?)\\b
 description: ''
 tags:
 - TRaSH

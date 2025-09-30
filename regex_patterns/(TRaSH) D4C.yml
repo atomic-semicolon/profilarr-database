@@ -1,5 +1,5 @@
 name: (TRaSH) D4C
-pattern: \b(D4C)\b
+pattern: \\b(D4C)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Mysteria
-pattern: \[Mysteria\]|-Mysteria\b
+pattern: \\[Mysteria\\]|-Mysteria\\b
 description: ''
 tags:
 - TRaSH

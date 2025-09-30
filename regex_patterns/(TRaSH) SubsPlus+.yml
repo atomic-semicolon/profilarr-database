@@ -1,5 +1,5 @@
 name: (TRaSH) SubsPlus+
-pattern: \b(SubsPlus\+?)\b
+pattern: \\b(SubsPlus\\+?)\\b
 description: ''
 tags:
 - TRaSH

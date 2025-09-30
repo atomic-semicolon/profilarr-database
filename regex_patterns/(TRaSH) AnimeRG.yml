@@ -1,5 +1,5 @@
 name: (TRaSH) AnimeRG
-pattern: \b(AnimeRG)\b
+pattern: \\b(AnimeRG)\\b
 description: ''
 tags:
 - TRaSH

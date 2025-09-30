@@ -1,5 +1,5 @@
 name: (TRaSH) orz
-pattern: \b(orz)\b
+pattern: \\b(orz)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) Cerberus
-pattern: \[Cerberus\]|-Cerberus\b
+pattern: \\[Cerberus\\]|-Cerberus\\b
 description: ''
 tags:
 - TRaSH

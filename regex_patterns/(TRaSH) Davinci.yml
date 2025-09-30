@@ -1,5 +1,5 @@
 name: (TRaSH) Davinci
-pattern: \[Davinci\]|-Davinci\b
+pattern: \\[Davinci\\]|-Davinci\\b
 description: ''
 tags:
 - TRaSH

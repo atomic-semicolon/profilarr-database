@@ -1,5 +1,5 @@
 name: (TRaSH) Kirion
-pattern: \b(Kirion)\b
+pattern: \\b(Kirion)\\b
 description: ''
 tags:
 - TRaSH

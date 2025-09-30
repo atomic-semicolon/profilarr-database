@@ -1,5 +1,5 @@
 name: (TRaSH) Lulu
-pattern: \[Lulu\]|-Lulu\b
+pattern: \\[Lulu\\]|-Lulu\\b
 description: ''
 tags:
 - TRaSH

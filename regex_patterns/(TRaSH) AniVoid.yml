@@ -1,5 +1,5 @@
 name: (TRaSH) AniVoid
-pattern: \b(AniVoid)\b
+pattern: \\b(AniVoid)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) TnF
-pattern: \b(TnF)\b
+pattern: \\b(TnF)\\b
 description: ''
 tags:
 - TRaSH

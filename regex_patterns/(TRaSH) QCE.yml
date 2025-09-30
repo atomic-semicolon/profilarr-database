@@ -1,5 +1,5 @@
 name: (TRaSH) QCE
-pattern: \b(QCE)\b
+pattern: \\b(QCE)\\b
 description: ''
 tags:
 - TRaSH

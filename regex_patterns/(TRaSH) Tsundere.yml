@@ -1,5 +1,5 @@
 name: (TRaSH) Tsundere
-pattern: \[Tsundere\]|-Tsundere(?!-)\b
+pattern: \\[Tsundere\\]|-Tsundere(?!-)\\b
 description: ''
 tags:
 - TRaSH

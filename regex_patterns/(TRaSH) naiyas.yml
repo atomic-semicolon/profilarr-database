@@ -1,5 +1,5 @@
 name: (TRaSH) naiyas
-pattern: \[naiyas\]|-naiyas\b
+pattern: \\[naiyas\\]|-naiyas\\b
 description: ''
 tags:
 - TRaSH

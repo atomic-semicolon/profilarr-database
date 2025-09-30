@@ -1,5 +1,5 @@
 name: (TRaSH) Zurako
-pattern: \b(Zurako)\b
+pattern: \\b(Zurako)\\b
 description: ''
 tags:
 - TRaSH

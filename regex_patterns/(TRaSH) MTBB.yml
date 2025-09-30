@@ -1,5 +1,5 @@
 name: (TRaSH) MTBB
-pattern: \b(MTBB)\b
+pattern: \\b(MTBB)\\b
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: (TRaSH) MALD
-pattern: \b(MALD)\b
+pattern: \\b(MALD)\\b
 description: ''
 tags:
 - TRaSH

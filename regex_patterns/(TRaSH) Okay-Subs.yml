@@ -1,5 +1,5 @@
 name: (TRaSH) Okay-Subs
-pattern: \b(Okay-Subs)\b
+pattern: \\b(Okay-Subs)\\b
 description: ''
 tags:
 - TRaSH

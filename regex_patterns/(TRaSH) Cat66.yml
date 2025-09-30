@@ -1,5 +1,5 @@
 name: (TRaSH) Cat66
-pattern: \b(Cat66)\b
+pattern: \\b(Cat66)\\b
 description: ''
 tags:
 - TRaSH

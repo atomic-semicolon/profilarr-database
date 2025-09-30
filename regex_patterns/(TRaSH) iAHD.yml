@@ -1,5 +1,5 @@
 name: (TRaSH) iAHD
-pattern: \b(iAHD)\b
+pattern: \\b(iAHD)\\b
 description: ''
 tags:
 - TRaSH

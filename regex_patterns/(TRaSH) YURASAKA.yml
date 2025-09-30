@@ -1,5 +1,5 @@
 name: (TRaSH) YURASAKA
-pattern: \[YURASUKA\]|-YURASUKA\b
+pattern: \\[YURASUKA\\]|-YURASUKA\\b
 description: ''
 tags:
 - TRaSH

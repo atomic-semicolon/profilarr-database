@@ -1,5 +1,5 @@
 name: (TRaSH) Cunnysseur
-pattern: \b(Cunnysseur)\b
+pattern: \\b(Cunnysseur)\\b
 description: ''
 tags:
 - TRaSH

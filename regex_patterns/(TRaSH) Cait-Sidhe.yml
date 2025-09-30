@@ -1,5 +1,5 @@
 name: (TRaSH) Cait-Sidhe
-pattern: \b(Cait-Sidhe)\b
+pattern: \\b(Cait-Sidhe)\\b
 description: ''
 tags:
 - TRaSH
