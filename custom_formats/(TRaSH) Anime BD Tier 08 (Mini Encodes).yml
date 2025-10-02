@@ -3,74 +3,74 @@ description: Know groups that do mini encodes.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Bluray
+- name: Bluray
   type: source
   required: false
   negate: false
   source: bluray
-- name: (TRaSH) Bluray Remux
+- name: Bluray Remux
   type: source
   required: false
   negate: false
   source: bluray_raw
-- name: (TRaSH) DVD
+- name: DVD
   type: source
   required: false
   negate: false
   source: dvd
-- name: (TRaSH) AkihitoSubs
+- name: AkihitoSubs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) AkihitoSubs
-- name: (TRaSH) Arukoru
+  pattern: AkihitoSubs
+- name: Arukoru
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Arukoru
-- name: (TRaSH) EDGE
+  pattern: Arukoru
+- name: EDGE
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) EDGE
-- name: (TRaSH) EMBER
+  pattern: EDGE
+- name: EMBER
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) EMBER
-- name: (TRaSH) GHOST
+  pattern: EMBER
+- name: GHOST
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) GHOST
-- name: (TRaSH) Judas
+  pattern: GHOST
+- name: Judas
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Judas
-- name: (TRaSH) naiyas
+  pattern: Judas
+- name: naiyas
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) naiyas
-- name: (TRaSH) Nep_Blanc
+  pattern: naiyas
+- name: Nep_Blanc
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Nep_Blanc
-- name: (TRaSH) Prof
+  pattern: Nep_Blanc
+- name: Prof
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Prof
-- name: "(TRaSH) Shir\u03C3"
+  pattern: Prof
+- name: "Shir\u03C3"
   type: release_title
   required: false
   negate: false
-  pattern: "(TRaSH) Shir\u03C3"
-- name: (TRaSH) YURASAKA
+  pattern: "Shir\u03C3"
+- name: YURASAKA
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) YURASAKA
+  pattern: YURASAKA
 tests: []

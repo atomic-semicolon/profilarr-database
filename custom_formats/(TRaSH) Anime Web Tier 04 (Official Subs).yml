@@ -3,79 +3,79 @@ description: Official sub groups.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) BlueLobster
+- name: BlueLobster
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) BlueLobster
-- name: (TRaSH) Erai-Raws
+  pattern: BlueLobster
+- name: Erai-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Erai-Raws
-- name: (TRaSH) GST
+  pattern: Erai-Raws
+- name: GST
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) GST
-- name: (TRaSH) HorribleRips
+  pattern: GST
+- name: HorribleRips
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) HorribleRips
-- name: (TRaSH) HorribleSubs
+  pattern: HorribleRips
+- name: HorribleSubs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) HorribleSubs
-- name: (TRaSH) KAN3D2M
+  pattern: HorribleSubs
+- name: KAN3D2M
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KAN3D2M
-- name: (TRaSH) KiyoshiStar
+  pattern: KAN3D2M
+- name: KiyoshiStar
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KiyoshiStar
-- name: (TRaSH) Lia
+  pattern: KiyoshiStar
+- name: Lia
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Lia
-- name: (TRaSH) NanDesuKa
+  pattern: Lia
+- name: NanDesuKa
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) NanDesuKa
-- name: (TRaSH) URANIME
+  pattern: NanDesuKa
+- name: URANIME
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) URANIME
-- name: (TRaSH) VARYG
+  pattern: URANIME
+- name: VARYG
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) VARYG
-- name: (TRaSH) ZigZag
+  pattern: VARYG
+- name: ZigZag
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ZigZag
+  pattern: ZigZag
 tests: []

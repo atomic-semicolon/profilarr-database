@@ -3,114 +3,114 @@ description: A collection of known groups that release raws.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) AsukaRaws
+- name: AsukaRaws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) AsukaRaws
-- name: (TRaSH) Beatrice-Raws
+  pattern: AsukaRaws
+- name: Beatrice-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Beatrice-Raws
-- name: (TRaSH) Daddy-Raws
+  pattern: Beatrice-Raws
+- name: Daddy-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Daddy-Raws
-- name: (TRaSH) Fumi-Raws
+  pattern: Daddy-Raws
+- name: Fumi-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Fumi-Raws
-- name: (TRaSH) IrizaRaws
+  pattern: Fumi-Raws
+- name: IrizaRaws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) IrizaRaws
-- name: (TRaSH) Kawaiika-Raws
+  pattern: IrizaRaws
+- name: Kawaiika-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Kawaiika-Raws
-- name: (TRaSH) km
+  pattern: Kawaiika-Raws
+- name: km
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) km
-- name: (TRaSH) Koi-Raws
+  pattern: km
+- name: Koi-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Koi-Raws
-- name: (TRaSH) Lilith-Raws
+  pattern: Koi-Raws
+- name: Lilith-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Lilith-Raws
-- name: (TRaSH) LowPower-Raws
+  pattern: Lilith-Raws
+- name: LowPower-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) LowPower-Raws
-- name: (TRaSH) Moozzi2
+  pattern: LowPower-Raws
+- name: Moozzi2
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Moozzi2
-- name: (TRaSH) NanakoRaws
+  pattern: Moozzi2
+- name: NanakoRaws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) NanakoRaws
-- name: (TRaSH) NC-Raws
+  pattern: NanakoRaws
+- name: NC-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) NC-Raws
-- name: (TRaSH) neko-raws
+  pattern: NC-Raws
+- name: neko-raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) neko-raws
-- name: (TRaSH) New-raws
+  pattern: neko-raws
+- name: New-raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) New-raws
-- name: (TRaSH) Ohys-Raws
+  pattern: New-raws
+- name: Ohys-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Ohys-Raws
-- name: (TRaSH) Pandoratv-Raws
+  pattern: Ohys-Raws
+- name: Pandoratv-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Pandoratv-Raws
-- name: (TRaSH) Raws-Maji
+  pattern: Pandoratv-Raws
+- name: Raws-Maji
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Raws-Maji
-- name: (TRaSH) ReinForce
+  pattern: Raws-Maji
+- name: ReinForce
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ReinForce
-- name: (TRaSH) Scryous-Raws
+  pattern: ReinForce
+- name: Scryous-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Scryous-Raws
-- name: (TRaSH) Seicher-Raws
+  pattern: Scryous-Raws
+- name: Seicher-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Seicher-Raws
-- name: (TRaSH) Shiniori-Raws
+  pattern: Seicher-Raws
+- name: Shiniori-Raws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Shiniori-Raws
+  pattern: Shiniori-Raws
 tests: []

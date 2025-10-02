@@ -3,39 +3,39 @@ description: This Custom Format covers releases that only have Dubs.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Dubbed
+- name: Dubbed
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Dubbed
-- name: (TRaSH) Golumpa
+  pattern: Dubbed
+- name: Golumpa
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Golumpa
-- name: (TRaSH) KaiDubs (Not Dual Audio)
+  pattern: Golumpa
+- name: KaiDubs (Not Dual Audio)
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KaiDubs (Not Dual Audio)
-- name: (TRaSH) KamiFS
+  pattern: KaiDubs (Not Dual Audio)
+- name: KamiFS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KamiFS
-- name: (TRaSH) KS (Not Dual Audio)
+  pattern: KamiFS
+- name: KS (Not Dual Audio)
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KS (Not Dual Audio)
-- name: (TRaSH) torenter69
+  pattern: KS (Not Dual Audio)
+- name: torenter69
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) torenter69
-- name: (TRaSH) Yameii
+  pattern: torenter69
+- name: Yameii
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Yameii
+  pattern: Yameii
 tests: []

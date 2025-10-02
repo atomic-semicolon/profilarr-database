@@ -13,9 +13,9 @@ description: 'AV1 encodes are currently targeting small file sizes, rather than 
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) AV1
+- name: AV1
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) AV1
+  pattern: AV1
 tests: []

@@ -3,64 +3,64 @@ description: Groups that are consistent and do Remuxes.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Bluray
+- name: Bluray
   type: source
   required: false
   negate: false
   source: bluray
-- name: (TRaSH) Bluray Remux
+- name: Bluray Remux
   type: source
   required: false
   negate: false
   source: bluray_raw
-- name: (TRaSH) DVD
+- name: DVD
   type: source
   required: false
   negate: false
   source: dvd
-- name: (TRaSH) BluDragon
+- name: BluDragon
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) BluDragon
-- name: (TRaSH) D4C
+  pattern: BluDragon
+- name: D4C
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) D4C
-- name: (TRaSH) E.N.D
+  pattern: D4C
+- name: E.N.D
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) E.N.D
-- name: (TRaSH) PMR
+  pattern: E.N.D
+- name: PMR
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) PMR
-- name: (TRaSH) Raizel
+  pattern: PMR
+- name: Raizel
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Raizel
-- name: (TRaSH) REVO
+  pattern: Raizel
+- name: REVO
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) REVO
-- name: (TRaSH) SRLS
+  pattern: REVO
+- name: SRLS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SRLS
-- name: (TRaSH) TTGA
+  pattern: SRLS
+- name: TTGA
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) TTGA
-- name: (TRaSH) VULCAN
+  pattern: TTGA
+- name: VULCAN
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) VULCAN
+  pattern: VULCAN
 tests: []

@@ -11,17 +11,17 @@ description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/w
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Amazon
+- name: Amazon
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) Amazon
-- name: (TRaSH) WEBDL
+  pattern: Amazon
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

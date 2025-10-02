@@ -4,79 +4,79 @@ description: Groups that do the best releases as per SeaDex. They are more consi
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Bluray
+- name: Bluray
   type: source
   required: false
   negate: false
   source: bluray
-- name: (TRaSH) Bluray Remux
+- name: Bluray Remux
   type: source
   required: false
   negate: false
   source: bluray_raw
-- name: (TRaSH) DVD
+- name: DVD
   type: source
   required: false
   negate: false
   source: dvd
-- name: (TRaSH) Aergia
+- name: Aergia
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Aergia
-- name: (TRaSH) Arg0
+  pattern: Aergia
+- name: Arg0
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Arg0
-- name: (TRaSH) Legion
+  pattern: Arg0
+- name: Legion
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Legion
-- name: (TRaSH) LYS1TH3A
+  pattern: Legion
+- name: LYS1TH3A
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) LYS1TH3A
-- name: (TRaSH) OZR
+  pattern: LYS1TH3A
+- name: OZR
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) OZR
-- name: (TRaSH) sam
+  pattern: OZR
+- name: sam
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) sam
-- name: (TRaSH) SCY
+  pattern: sam
+- name: SCY
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SCY
-- name: (TRaSH) smol
+  pattern: SCY
+- name: smol
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) smol
-- name: (TRaSH) SoM
+  pattern: smol
+- name: SoM
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SoM
-- name: (TRaSH) Vanilla
+  pattern: SoM
+- name: Vanilla
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Vanilla
-- name: (TRaSH) Vodes
+  pattern: Vanilla
+- name: Vodes
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Vodes
-- name: (TRaSH) ZeroBuild
+  pattern: Vodes
+- name: ZeroBuild
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ZeroBuild
+  pattern: ZeroBuild
 tests: []

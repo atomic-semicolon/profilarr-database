@@ -3,49 +3,49 @@ description: FanSub groups that are consistent.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) 9volt
+- name: 9volt
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) 9volt
-- name: (TRaSH) GJM
+  pattern: 9volt
+- name: GJM
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) GJM
-- name: (TRaSH) Kaleido
+  pattern: GJM
+- name: Kaleido
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Kaleido
-- name: (TRaSH) Kantai
+  pattern: Kaleido
+- name: Kantai
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Kantai
-- name: (TRaSH) SobsPlease
+  pattern: Kantai
+- name: SobsPlease
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SobsPlease
-- name: (TRaSH) Some-Stuffs
+  pattern: SobsPlease
+- name: Some-Stuffs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Some-Stuffs
+  pattern: Some-Stuffs
 tests: []

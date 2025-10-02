@@ -12,232 +12,232 @@ description: 'Groups that:
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) 3cTWeB
+- name: 3cTWeB
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) 3cTWeB
-- name: (TRaSH) BLUTONiUM
+  pattern: 3cTWeB
+- name: BLUTONiUM
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) BLUTONiUM
-- name: (TRaSH) BTW
+  pattern: BLUTONiUM
+- name: BTW
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) BTW
-- name: (TRaSH) BYNDR
+  pattern: BTW
+- name: BYNDR
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) BYNDR
-- name: (TRaSH) Chotab
+  pattern: BYNDR
+- name: Chotab
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) Chotab
-- name: (TRaSH) Cinefeel
+  pattern: Chotab
+- name: Cinefeel
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) Cinefeel
-- name: (TRaSH) CiT
+  pattern: Cinefeel
+- name: CiT
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) CiT
-- name: (TRaSH) CMRG
+  pattern: CiT
+- name: CMRG
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) CMRG
-- name: (TRaSH) Coo7
+  pattern: CMRG
+- name: Coo7
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) Coo7
-- name: (TRaSH) dB
+  pattern: Coo7
+- name: dB
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) dB
-- name: (TRaSH) DEEP
+  pattern: dB
+- name: DEEP
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) DEEP
-- name: (TRaSH) END
+  pattern: DEEP
+- name: END
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) END
-- name: (TRaSH) ETHiCS
+  pattern: END
+- name: ETHiCS
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) ETHiCS
-- name: (TRaSH) FC
+  pattern: ETHiCS
+- name: FC
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) FC
-- name: (TRaSH) Flights
+  pattern: FC
+- name: Flights
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) Flights
-- name: (TRaSH) GNOME
+  pattern: Flights
+- name: GNOME
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) GNOME
-- name: (TRaSH) iJP
+  pattern: GNOME
+- name: iJP
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) iJP
-- name: (TRaSH) iKA
+  pattern: iJP
+- name: iKA
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) iKA
-- name: (TRaSH) iT00NZ
+  pattern: iKA
+- name: iT00NZ
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) iT00NZ
-- name: (TRaSH) JETIX
+  pattern: iT00NZ
+- name: JETIX
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) JETIX
-- name: (TRaSH) KHN
+  pattern: JETIX
+- name: KHN
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) KHN
-- name: (TRaSH) KiMCHI
+  pattern: KHN
+- name: KiMCHI
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) KiMCHI
-- name: (TRaSH) LAZY
+  pattern: KiMCHI
+- name: LAZY
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) LAZY
-- name: (TRaSH) MiU
+  pattern: LAZY
+- name: MiU
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) MiU
-- name: (TRaSH) MZABI
+  pattern: MiU
+- name: MZABI
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) MZABI
-- name: (TRaSH) NPMS
+  pattern: MZABI
+- name: NPMS
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NPMS
-- name: (TRaSH) NYH
+  pattern: NPMS
+- name: NYH
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NYH
-- name: (TRaSH) orbitron
+  pattern: NYH
+- name: orbitron
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) orbitron
-- name: (TRaSH) PHOENiX
+  pattern: orbitron
+- name: PHOENiX
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) PHOENiX
-- name: (TRaSH) playWEB
+  pattern: PHOENiX
+- name: playWEB
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) playWEB
-- name: (TRaSH) PSiG
+  pattern: playWEB
+- name: PSiG
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) PSiG
-- name: (TRaSH) RAWR
+  pattern: PSiG
+- name: RAWR
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) RAWR
-- name: (TRaSH) ROCCaT
+  pattern: RAWR
+- name: ROCCaT
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) ROCCaT
-- name: (TRaSH) RTFM
+  pattern: ROCCaT
+- name: RTFM
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) RTFM
-- name: (TRaSH) SA89
+  pattern: RTFM
+- name: SA89
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SA89
-- name: (TRaSH) SbR
+  pattern: SA89
+- name: SbR
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SbR
-- name: (TRaSH) SDCC
+  pattern: SbR
+- name: SDCC
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SDCC
-- name: (TRaSH) SIGMA
+  pattern: SDCC
+- name: SIGMA
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SIGMA
-- name: (TRaSH) SMURF
+  pattern: SIGMA
+- name: SMURF
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SMURF
-- name: (TRaSH) SPiRiT
+  pattern: SMURF
+- name: SPiRiT
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SPiRiT
-- name: (TRaSH) TEPES
+  pattern: SPiRiT
+- name: TEPES
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) TEPES
-- name: (TRaSH) TVSmash
+  pattern: TEPES
+- name: TVSmash
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) TVSmash
-- name: (TRaSH) WELP
+  pattern: TVSmash
+- name: WELP
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) WELP
-- name: (TRaSH) XEBEC
+  pattern: WELP
+- name: XEBEC
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) XEBEC
-- name: (TRaSH) WEBDL
+  pattern: XEBEC
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

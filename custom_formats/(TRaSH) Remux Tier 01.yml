@@ -11,29 +11,29 @@ description: 'Groups that:
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Remux
+- name: Remux
   type: source
   required: true
   negate: false
   source: raw
-- name: (TRaSH) BLURANiUM
+- name: BLURANiUM
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) BLURANiUM
-- name: (TRaSH) BMF
+  pattern: BLURANiUM
+- name: BMF
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) BMF
-- name: (TRaSH) FraMeSToR
+  pattern: BMF
+- name: FraMeSToR
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) FraMeSToR
-- name: (TRaSH) PmP
+  pattern: FraMeSToR
+- name: PmP
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) PmP
+  pattern: PmP
 tests: []

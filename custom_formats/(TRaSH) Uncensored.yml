@@ -3,9 +3,9 @@ description: This Custom Format covers releases that are uncensored.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Uncensored
+- name: Uncensored
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) Uncensored
+  pattern: Uncensored
 tests: []
