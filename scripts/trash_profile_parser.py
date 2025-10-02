@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 import yaml
@@ -69,7 +70,9 @@ def get_custom_format_description(descriptions_directory, custom_format_filename
                 if line.lstrip().startswith('<!--'):
                     break
                 description_lines.append(line.rstrip('\n'))
-        description = '\n'.join(description_lines)
+        
+        # Remove unused markdown properties
+        description = re.sub(r'''\{:(\w*=['|"].*['|"])*}''', '', '\n'.join(description_lines))
     except FileNotFoundError:
         print(f"Warning: Description file not found for custom format {filename}")
     
