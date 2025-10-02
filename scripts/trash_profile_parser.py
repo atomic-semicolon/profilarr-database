@@ -118,7 +118,7 @@ def main():
     profile_template['minCustomFormatScore'] = data['minFormatScore']
     profile_template['upgradeUntilScore'] = data['cutoffFormatScore']
     profile_template['minScoreIncrement'] = data['minUpgradeFormatScore']
-    profile_template['language'] = "must-original"
+    profile_template['language'] = "must_original"
     
     print(f"Creating {profile_filename} profile...")
     
