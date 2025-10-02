@@ -1,6 +1,0 @@
-name: (TRaSH) DP
-pattern: \\b(DP)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

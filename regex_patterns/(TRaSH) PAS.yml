@@ -1,6 +1,0 @@
-name: (TRaSH) PAS
-pattern: \\b(PAS)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

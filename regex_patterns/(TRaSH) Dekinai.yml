@@ -1,6 +1,0 @@
-name: (TRaSH) Dekinai
-pattern: \\[Dekinai\\]|-Dekinai\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) Rip Time
-pattern: \\b(Rip[ .-]?Time)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

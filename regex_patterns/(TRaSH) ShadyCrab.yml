@@ -1,6 +1,0 @@
-name: (TRaSH) ShadyCrab
-pattern: \\b(ShadyCrab)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

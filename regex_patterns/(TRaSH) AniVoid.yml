@@ -1,6 +1,0 @@
-name: (TRaSH) AniVoid
-pattern: \\b(AniVoid)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

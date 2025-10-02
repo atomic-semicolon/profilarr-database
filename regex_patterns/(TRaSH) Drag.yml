@@ -1,6 +1,0 @@
-name: (TRaSH) Drag
-pattern: \\[Drag\\]|-Drag\\b
-description: ''
-tags:
-- TRaSH
-tests: []

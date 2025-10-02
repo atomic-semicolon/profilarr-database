@@ -1,6 +1,0 @@
-name: (TRaSH) SanKyuu
-pattern: \\b(SanKyuu)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

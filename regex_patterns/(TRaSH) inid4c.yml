@@ -1,6 +1,0 @@
-name: (TRaSH) inid4c
-pattern: \\b(inid4c)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

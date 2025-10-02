@@ -1,6 +1,0 @@
-name: (TRaSH) Fish
-pattern: \\b((Baked|Dead|Space)Fish)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

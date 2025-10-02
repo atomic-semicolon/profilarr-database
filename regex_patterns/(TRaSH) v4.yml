@@ -1,6 +1,0 @@
-name: (TRaSH) v4
-pattern: (\\b|\\d)(v4)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

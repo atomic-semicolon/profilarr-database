@@ -1,6 +1,0 @@
-name: (TRaSH) orz
-pattern: \\b(orz)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

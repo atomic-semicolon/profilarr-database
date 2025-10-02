@@ -1,6 +1,0 @@
-name: (TRaSH) Nii-sama
-pattern: \\[Nii-sama\\]|-Nii-sama\\b
-description: ''
-tags:
-- TRaSH
-tests: []

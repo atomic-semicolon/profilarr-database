@@ -1,6 +1,0 @@
-name: (TRaSH) HatSubs
-pattern: \\b(HatSubs)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

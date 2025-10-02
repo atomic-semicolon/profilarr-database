@@ -1,6 +1,0 @@
-name: (TRaSH) ZigZag
-pattern: \\[ZigZag\\]|-ZigZab\x08
-description: ''
-tags:
-- TRaSH
-tests: []

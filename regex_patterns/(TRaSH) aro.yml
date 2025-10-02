@@ -1,6 +1,0 @@
-name: (TRaSH) aro
-pattern: \\b(aro)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

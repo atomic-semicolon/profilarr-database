@@ -1,6 +1,0 @@
-name: (TRaSH) STRiFE
-pattern: \\[STRiFE\\]|-STRiFE\\b
-description: ''
-tags:
-- TRaSH
-tests: []

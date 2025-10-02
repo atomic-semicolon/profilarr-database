@@ -1,6 +1,0 @@
-name: (TRaSH) MC
-pattern: \\b(MC)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

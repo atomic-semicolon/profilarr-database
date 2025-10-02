@@ -1,6 +1,0 @@
-name: (TRaSH) Orphan
-pattern: \\[Orphan\\]|-Orphan\\b
-description: ''
-tags:
-- TRaSH
-tests: []

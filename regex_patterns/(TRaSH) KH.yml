@@ -1,6 +1,0 @@
-name: (TRaSH) KH
-pattern: \\b(KH)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

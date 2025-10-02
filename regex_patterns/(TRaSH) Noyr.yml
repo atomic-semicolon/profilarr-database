@@ -1,6 +1,0 @@
-name: (TRaSH) Noyr
-pattern: \\b(Noyr)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

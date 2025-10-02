@@ -1,6 +1,0 @@
-name: (TRaSH) SSA
-pattern: \\b(SSA)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

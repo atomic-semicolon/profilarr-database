@@ -1,6 +1,0 @@
-name: (TRaSH) NemDiggers
-pattern: \\b(NemDiggers)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

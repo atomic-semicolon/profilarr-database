@@ -1,6 +1,0 @@
-name: (TRaSH) USD
-pattern: \\[USD\\]|-USD\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) sam
-pattern: \\[sam\\]|-sam\\b
-description: ''
-tags:
-- TRaSH
-tests: []

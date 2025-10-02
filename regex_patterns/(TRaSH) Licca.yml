@@ -1,6 +1,0 @@
-name: (TRaSH) Licca
-pattern: \\b(Licca)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

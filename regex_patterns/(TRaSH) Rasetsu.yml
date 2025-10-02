@@ -1,6 +1,0 @@
-name: (TRaSH) Rasetsu
-pattern: \\b(Rasetsu)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

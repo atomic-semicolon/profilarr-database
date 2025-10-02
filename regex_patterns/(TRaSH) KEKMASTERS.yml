@@ -1,6 +1,0 @@
-name: (TRaSH) KEKMASTERS
-pattern: \\b(KEKMASTERS)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) Holomux
-pattern: \\b(Holomux)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

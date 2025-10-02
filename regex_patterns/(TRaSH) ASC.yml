@@ -1,6 +1,0 @@
-name: (TRaSH) ASC
-pattern: \\b(ASC)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

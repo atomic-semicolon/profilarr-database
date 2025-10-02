@@ -1,6 +1,0 @@
-name: (TRaSH) ANE
-pattern: \\[ANE\\]|-ANE$
-description: ''
-tags:
-- TRaSH
-tests: []

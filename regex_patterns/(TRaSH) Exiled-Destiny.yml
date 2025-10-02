@@ -1,6 +1,0 @@
-name: (TRaSH) Exiled-Destiny
-pattern: \\b(Exiled-Destiny|E-D)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

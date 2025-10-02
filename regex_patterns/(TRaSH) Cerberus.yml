@@ -1,6 +1,0 @@
-name: (TRaSH) Cerberus
-pattern: \\[Cerberus\\]|-Cerberus\\b
-description: ''
-tags:
-- TRaSH
-tests: []

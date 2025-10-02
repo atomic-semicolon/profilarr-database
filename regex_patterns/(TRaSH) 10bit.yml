@@ -1,6 +1,0 @@
-name: (TRaSH) 10bit
-pattern: 10[.-]?bit
-description: ''
-tags:
-- TRaSH
-tests: []

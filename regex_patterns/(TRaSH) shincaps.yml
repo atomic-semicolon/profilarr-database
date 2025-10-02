@@ -1,6 +1,0 @@
-name: (TRaSH) shincaps
-pattern: \\b(shincaps)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

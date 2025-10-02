@@ -1,6 +1,0 @@
-name: (TRaSH) Anitsu
-pattern: \\b(Anitsu)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

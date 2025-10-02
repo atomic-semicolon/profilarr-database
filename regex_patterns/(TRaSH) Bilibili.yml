@@ -1,6 +1,0 @@
-name: (TRaSH) Bilibili
-pattern: \\b(Bili(bili)?)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

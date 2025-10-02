@@ -1,6 +1,0 @@
-name: (TRaSH) U3-Web
-pattern: \\b(U3-Web)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

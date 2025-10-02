@@ -1,6 +1,0 @@
-name: (TRaSH) CMRG
-pattern: ^(CMRG)$
-description: ''
-tags:
-- TRaSH
-tests: []

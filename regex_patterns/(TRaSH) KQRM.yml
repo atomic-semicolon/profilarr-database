@@ -1,6 +1,0 @@
-name: (TRaSH) KQRM
-pattern: \\b(KQRM)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

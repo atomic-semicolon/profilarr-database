@@ -1,6 +1,0 @@
-name: (TRaSH) KRP
-pattern: \\b(KRP)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

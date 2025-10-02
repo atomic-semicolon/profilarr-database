@@ -1,6 +1,0 @@
-name: (TRaSH) Wardevil
-pattern: \\[Wardevil\\]|-Wardevil\\b
-description: ''
-tags:
-- TRaSH
-tests: []

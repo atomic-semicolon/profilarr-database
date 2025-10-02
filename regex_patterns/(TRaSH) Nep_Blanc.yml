@@ -1,6 +1,0 @@
-name: (TRaSH) Nep_Blanc
-pattern: \\b(Nep[ ._-]Blanc)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

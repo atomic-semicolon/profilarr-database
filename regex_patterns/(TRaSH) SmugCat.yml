@@ -1,6 +1,0 @@
-name: (TRaSH) SmugCat
-pattern: \\b(SmugCat)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

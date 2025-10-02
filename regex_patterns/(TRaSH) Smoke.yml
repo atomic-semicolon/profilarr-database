@@ -1,6 +1,0 @@
-name: (TRaSH) Smoke
-pattern: \\[Smoke\\]|-Smoke\\b
-description: ''
-tags:
-- TRaSH
-tests: []

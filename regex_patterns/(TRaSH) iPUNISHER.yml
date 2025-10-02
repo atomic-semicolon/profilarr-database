@@ -1,6 +1,0 @@
-name: (TRaSH) iPUNISHER
-pattern: \\b(iPUNISHER)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) XEBEC
-pattern: ^(XEBEC|4KBEC|CEBEX)$
-description: ''
-tags:
-- TRaSH
-tests: []

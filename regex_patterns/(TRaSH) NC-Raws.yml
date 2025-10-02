@@ -1,6 +1,0 @@
-name: (TRaSH) NC-Raws
-pattern: NC[ ._-]?(Raws)
-description: ''
-tags:
-- TRaSH
-tests: []

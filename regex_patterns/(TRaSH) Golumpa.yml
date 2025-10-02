@@ -1,6 +1,0 @@
-name: (TRaSH) Golumpa
-pattern: \\b(Golumpa)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

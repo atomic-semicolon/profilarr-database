@@ -1,6 +1,0 @@
-name: (TRaSH) Flights
-pattern: ^(Flights)$
-description: ''
-tags:
-- TRaSH
-tests: []

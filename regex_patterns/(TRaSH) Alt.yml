@@ -1,6 +1,0 @@
-name: (TRaSH) Alt
-pattern: \\[Alt\\]|-Alt\\b
-description: ''
-tags:
-- TRaSH
-tests: []

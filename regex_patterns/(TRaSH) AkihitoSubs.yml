@@ -1,6 +1,0 @@
-name: (TRaSH) AkihitoSubs
-pattern: \\b(AkihitoSubs)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

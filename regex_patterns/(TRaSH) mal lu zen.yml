@@ -1,6 +1,0 @@
-name: (TRaSH) mal lu zen
-pattern: \\b(mal[ .-]lu[ .-]zen)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

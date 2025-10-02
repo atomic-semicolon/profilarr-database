@@ -1,6 +1,0 @@
-name: (TRaSH) Pizza
-pattern: \\[Pizza\\]|-Pizza\\b
-description: ''
-tags:
-- TRaSH
-tests: []

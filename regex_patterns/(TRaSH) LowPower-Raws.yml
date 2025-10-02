@@ -1,6 +1,0 @@
-name: (TRaSH) LowPower-Raws
-pattern: LowPower[ ._-]?(Raws)
-description: ''
-tags:
-- TRaSH
-tests: []

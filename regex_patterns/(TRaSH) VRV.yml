@@ -1,6 +1,0 @@
-name: (TRaSH) VRV
-pattern: \\b(VRV)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

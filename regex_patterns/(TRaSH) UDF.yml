@@ -1,6 +1,0 @@
-name: (TRaSH) UDF
-pattern: \\b(UDF)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

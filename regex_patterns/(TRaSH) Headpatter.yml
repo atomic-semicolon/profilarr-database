@@ -1,6 +1,0 @@
-name: (TRaSH) Headpatter
-pattern: \\[Headpatter\\]|-Headpatter\\b
-description: ''
-tags:
-- TRaSH
-tests: []

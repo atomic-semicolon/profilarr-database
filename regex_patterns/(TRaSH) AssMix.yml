@@ -1,6 +1,0 @@
-name: (TRaSH) AssMix
-pattern: \\b(AssMix)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

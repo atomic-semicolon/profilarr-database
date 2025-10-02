@@ -1,6 +1,0 @@
-name: (TRaSH) Pookie
-pattern: \\b(Pookie)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

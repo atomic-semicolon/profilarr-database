@@ -1,6 +1,0 @@
-name: (TRaSH) naiyas
-pattern: \\[naiyas\\]|-naiyas\\b
-description: ''
-tags:
-- TRaSH
-tests: []

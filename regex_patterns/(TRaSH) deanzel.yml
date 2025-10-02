@@ -1,6 +1,0 @@
-name: (TRaSH) deanzel
-pattern: \\b(deanzel)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

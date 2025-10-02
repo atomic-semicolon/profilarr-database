@@ -1,6 +1,0 @@
-name: (TRaSH) RTN
-pattern: ^(RTN)$
-description: ''
-tags:
-- TRaSH
-tests: []

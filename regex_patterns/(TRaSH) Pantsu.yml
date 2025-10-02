@@ -1,6 +1,0 @@
-name: (TRaSH) Pantsu
-pattern: \\[Pantsu\\]|-Pantsu\\b
-description: ''
-tags:
-- TRaSH
-tests: []
