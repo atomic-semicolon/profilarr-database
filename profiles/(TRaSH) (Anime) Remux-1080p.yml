@@ -145,4 +145,4 @@ qualities:
 upgrade_until:
   id: -4
   name: Bluray 1080p
-language: must-original
+language: must_original
