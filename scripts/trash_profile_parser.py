@@ -203,7 +203,7 @@ def main():
         
         for specification in custom_format['specifications']:
             condition = {
-                'name': f"(TRaSH) {specification['name']}",
+                'name': specification['name'],
                 'type': CONDITION_TYPE[specification['implementation']],
                 'required': specification['required'],
                 'negate': specification['negate']
