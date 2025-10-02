@@ -1,6 +1,0 @@
-name: (TRaSH) TENEIGHTY
-pattern: \\b(TENEIGHTY)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

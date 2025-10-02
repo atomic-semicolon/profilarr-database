@@ -1,6 +1,0 @@
-name: (TRaSH) MALD
-pattern: \\b(MALD)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

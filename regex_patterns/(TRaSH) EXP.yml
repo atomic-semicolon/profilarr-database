@@ -1,6 +1,0 @@
-name: (TRaSH) EXP
-pattern: \\[EXP\\]|-EXP\\b
-description: ''
-tags:
-- TRaSH
-tests: []

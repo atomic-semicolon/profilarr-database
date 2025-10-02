@@ -1,6 +1,0 @@
-name: (TRaSH) LazyRemux
-pattern: \\b(LazyRemux)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

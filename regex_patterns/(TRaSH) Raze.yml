@@ -1,6 +1,0 @@
-name: (TRaSH) Raze
-pattern: \\[Raze\\]|-Raze\\b
-description: ''
-tags:
-- TRaSH
-tests: []

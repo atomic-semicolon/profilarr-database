@@ -1,6 +1,0 @@
-name: (TRaSH) CyC
-pattern: \\b(CyC)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

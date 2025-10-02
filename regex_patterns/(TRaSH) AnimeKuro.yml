@@ -1,6 +1,0 @@
-name: (TRaSH) AnimeKuro
-pattern: \\b(AnimeKuro)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) Koitern
-pattern: \\b(Koitern)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

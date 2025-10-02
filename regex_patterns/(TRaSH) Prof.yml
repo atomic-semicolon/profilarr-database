@@ -1,6 +1,0 @@
-name: (TRaSH) Prof
-pattern: \\[Prof\\]|-Prof\\b
-description: ''
-tags:
-- TRaSH
-tests: []

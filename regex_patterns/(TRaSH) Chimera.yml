@@ -1,6 +1,0 @@
-name: (TRaSH) Chimera
-pattern: \\[Chimera\\]|-Chimera\\b
-description: ''
-tags:
-- TRaSH
-tests: []

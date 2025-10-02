@@ -1,6 +1,0 @@
-name: (TRaSH) Metal
-pattern: \\[Metal\\]|-Metal\\b
-description: ''
-tags:
-- TRaSH
-tests: []

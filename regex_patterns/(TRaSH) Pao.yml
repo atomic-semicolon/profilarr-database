@@ -1,6 +1,0 @@
-name: (TRaSH) Pao
-pattern: \\[Pao\\]|-Pao\\b
-description: ''
-tags:
-- TRaSH
-tests: []

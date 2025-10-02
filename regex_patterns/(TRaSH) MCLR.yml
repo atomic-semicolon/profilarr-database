@@ -1,6 +1,0 @@
-name: (TRaSH) MCLR
-pattern: \\b(MCLR)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

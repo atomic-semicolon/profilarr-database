@@ -1,6 +1,0 @@
-name: (TRaSH) MinisCuba
-pattern: \\b(MinisCuba)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

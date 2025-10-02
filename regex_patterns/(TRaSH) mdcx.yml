@@ -1,6 +1,0 @@
-name: (TRaSH) mdcx
-pattern: \\b(mdcx)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

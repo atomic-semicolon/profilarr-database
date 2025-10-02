@@ -1,6 +1,0 @@
-name: (TRaSH) MCR
-pattern: \\b(MCR)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

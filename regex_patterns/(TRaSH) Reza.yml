@@ -1,6 +1,0 @@
-name: (TRaSH) Reza
-pattern: \\b(Reza)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

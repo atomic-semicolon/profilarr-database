@@ -1,6 +1,0 @@
-name: (TRaSH) NS
-pattern: \\b(NS)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

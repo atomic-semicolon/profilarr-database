@@ -1,6 +1,0 @@
-name: (TRaSH) Dae
-pattern: \\[Dae\\]|-Dae\\b
-description: ''
-tags:
-- TRaSH
-tests: []

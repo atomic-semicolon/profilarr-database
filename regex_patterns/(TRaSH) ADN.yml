@@ -1,6 +1,0 @@
-name: (TRaSH) ADN
-pattern: \\b(ADN)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

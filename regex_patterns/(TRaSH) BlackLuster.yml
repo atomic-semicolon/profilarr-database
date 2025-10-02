@@ -1,6 +1,0 @@
-name: (TRaSH) BlackLuster
-pattern: \\b(BlackLuster)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

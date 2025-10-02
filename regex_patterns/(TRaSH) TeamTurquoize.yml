@@ -1,6 +1,0 @@
-name: (TRaSH) TeamTurquoize
-pattern: \\b(TeamTurquoize)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

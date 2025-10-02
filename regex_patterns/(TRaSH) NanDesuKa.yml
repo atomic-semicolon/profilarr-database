@@ -1,6 +1,0 @@
-name: (TRaSH) NanDesuKa
-pattern: \\b(NanDesuKa)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

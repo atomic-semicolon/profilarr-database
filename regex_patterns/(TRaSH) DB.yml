@@ -1,6 +1,0 @@
-name: (TRaSH) DB
-pattern: \\[DB\\]
-description: ''
-tags:
-- TRaSH
-tests: []

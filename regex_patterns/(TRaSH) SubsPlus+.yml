@@ -1,6 +1,0 @@
-name: (TRaSH) SubsPlus+
-pattern: \\b(SubsPlus\\+?)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

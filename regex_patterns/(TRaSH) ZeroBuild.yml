@@ -1,6 +1,0 @@
-name: (TRaSH) ZeroBuild
-pattern: \\b(ZeroBuild)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) THORA
-pattern: \\b(THORA)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

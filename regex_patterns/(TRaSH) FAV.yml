@@ -1,6 +1,0 @@
-name: (TRaSH) FAV
-pattern: \\[FAV\\]|-FAV\\b
-description: ''
-tags:
-- TRaSH
-tests: []

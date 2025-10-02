@@ -1,6 +1,0 @@
-name: (TRaSH) Almighty
-pattern: \\[Almighty\\]|-Almighty\\b
-description: ''
-tags:
-- TRaSH
-tests: []

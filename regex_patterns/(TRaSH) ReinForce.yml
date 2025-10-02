@@ -1,6 +1,0 @@
-name: (TRaSH) ReinForce
-pattern: \\b(ReinForce)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

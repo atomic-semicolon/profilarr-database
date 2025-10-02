@@ -1,6 +1,0 @@
-name: (TRaSH) SubsPlease
-pattern: \\b(SubsPlease)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

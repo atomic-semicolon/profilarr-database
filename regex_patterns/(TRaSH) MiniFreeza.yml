@@ -1,6 +1,0 @@
-name: (TRaSH) MiniFreeza
-pattern: \\b(MiniFreeza)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

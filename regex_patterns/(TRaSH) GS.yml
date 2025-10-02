@@ -1,6 +1,0 @@
-name: (TRaSH) GS
-pattern: \\b(GS)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

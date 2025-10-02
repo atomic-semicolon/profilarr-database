@@ -1,6 +1,0 @@
-name: (TRaSH) SEiN
-pattern: \\[SEiN\\]|-SEiN\\b
-description: ''
-tags:
-- TRaSH
-tests: []

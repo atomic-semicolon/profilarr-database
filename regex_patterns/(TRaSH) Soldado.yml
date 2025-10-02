@@ -1,6 +1,0 @@
-name: (TRaSH) Soldado
-pattern: \\[Soldado\\]|-Soldado\\b
-description: ''
-tags:
-- TRaSH
-tests: []

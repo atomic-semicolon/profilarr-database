@@ -1,6 +1,0 @@
-name: (TRaSH) FunArts
-pattern: \\b(FunArts)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

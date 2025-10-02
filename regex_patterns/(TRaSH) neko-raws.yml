@@ -1,6 +1,0 @@
-name: (TRaSH) neko-raws
-pattern: neko[ ._-]?(raws)
-description: ''
-tags:
-- TRaSH
-tests: []

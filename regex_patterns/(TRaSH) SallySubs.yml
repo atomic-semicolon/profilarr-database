@@ -1,6 +1,0 @@
-name: (TRaSH) SallySubs
-pattern: \\b(SallySubs)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) NPMS
-pattern: ^(NPMS)$
-description: ''
-tags:
-- TRaSH
-tests: []

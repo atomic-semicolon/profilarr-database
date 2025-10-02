@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 import yaml
@@ -19,20 +20,41 @@ def sanitise_filename(name):
     return str(name).translate(replacements)
 
 def write_regex_pattern_file(template_directory, regex_pattern_directory, regex_pattern_name, regex_pattern):
-    regex_pattern_filename = sanitise_filename(f"(TRaSH) {regex_pattern_name}")
+    # Try opening the regex file if it already exists
+    # Add the newly found pattern as an alternative, and merge the rest of the information
+    # TRaSH JSON files store the regex pattern pre-escaped, so they must be processed before saving in Profilarr
+    regex_pattern_filename = sanitise_filename(f"{regex_pattern_name}")
     regex_template = load_template(template_directory / "regexPattern.yml")
     regex_template['name'] = regex_pattern_filename
     regex_template['description'] = ''
-    regex_template['pattern'] = repr(regex_pattern)[1:-1]
+    regex_template['pattern'] = regex_pattern
     regex_template['tags'] = [ 'TRaSH' ]
     regex_template['tests'] = []
-
-    with open(regex_pattern_directory / f"{regex_pattern_filename}.yml", 'w') as regex_pattern_file:
-        yaml.dump(regex_template,
-                  regex_pattern_file,
-                  sort_keys=False,
-                  default_flow_style=False,
-                  indent=2)
+    
+    try:
+        with open(regex_pattern_directory / f"{regex_pattern_filename}.yml", 'r+') as regex_pattern_file:
+            regex_pattern_data = yaml.load(regex_pattern_file, Loader=yaml.SafeLoader)
+            if regex_template['pattern'] not in regex_pattern_data['pattern']:
+                regex_pattern_data['pattern'] += f"|{regex_template['pattern']}"
+            if 'TRaSH' not in regex_pattern_data['tags']:
+                regex_pattern_data['tags'].append('TRaSH')
+            
+            # Re-save the file
+            regex_pattern_file.seek(0)
+            regex_pattern_file.truncate()
+            yaml.dump(regex_pattern_data, 
+                      regex_pattern_file,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      indent=2)
+            
+    except FileNotFoundError:
+        with open(regex_pattern_directory / f"{regex_pattern_filename}.yml", 'w') as regex_pattern_file:
+            yaml.dump(regex_template,
+                      regex_pattern_file,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      indent=2)
         
 def get_custom_format_description(descriptions_directory, custom_format_filename):
     filename = Path(custom_format_filename).stem
@@ -48,7 +70,9 @@ def get_custom_format_description(descriptions_directory, custom_format_filename
                 if line.lstrip().startswith('<!--'):
                     break
                 description_lines.append(line.rstrip('\n'))
-        description = '\n'.join(description_lines)
+        
+        # Remove unused markdown properties
+        description = re.sub(r'''\{:(\w*=['|"].*['|"])*}''', '', '\n'.join(description_lines))
     except FileNotFoundError:
         print(f"Warning: Description file not found for custom format {filename}")
     

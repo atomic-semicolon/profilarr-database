@@ -1,6 +1,0 @@
-name: (TRaSH) hydes
-pattern: \\b(hydes)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

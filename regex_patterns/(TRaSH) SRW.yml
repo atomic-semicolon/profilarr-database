@@ -1,6 +1,0 @@
-name: (TRaSH) SRW
-pattern: \\b(SRW)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

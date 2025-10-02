@@ -1,6 +1,0 @@
-name: (TRaSH) Mysteria
-pattern: \\[Mysteria\\]|-Mysteria\\b
-description: ''
-tags:
-- TRaSH
-tests: []

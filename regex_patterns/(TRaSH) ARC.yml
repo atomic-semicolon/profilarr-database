@@ -1,6 +1,0 @@
-name: (TRaSH) ARC
-pattern: \\[ARC\\]|-ARC\\b
-description: ''
-tags:
-- TRaSH
-tests: []

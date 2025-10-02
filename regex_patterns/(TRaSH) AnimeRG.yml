@@ -1,6 +1,0 @@
-name: (TRaSH) AnimeRG
-pattern: \\b(AnimeRG)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

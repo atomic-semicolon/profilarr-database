@@ -1,6 +1,0 @@
-name: (TRaSH) mottoj
-pattern: \\b(mottoj)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

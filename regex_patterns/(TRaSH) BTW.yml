@@ -1,6 +1,0 @@
-name: (TRaSH) BTW
-pattern: ^(BTW)$
-description: ''
-tags:
-- TRaSH
-tests: []

@@ -1,6 +1,0 @@
-name: (TRaSH) Sushi
-pattern: \\[Sushi\\]|-Sushi\\b
-description: ''
-tags:
-- TRaSH
-tests: []

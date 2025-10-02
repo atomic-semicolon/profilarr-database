@@ -1,6 +1,0 @@
-name: (TRaSH) Arid
-pattern: \\[Arid\\]|-Arid\\b
-description: ''
-tags:
-- TRaSH
-tests: []

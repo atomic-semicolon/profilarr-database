@@ -1,6 +1,0 @@
-name: (TRaSH) SIGMA
-pattern: ^(SIGMA)$
-description: ''
-tags:
-- TRaSH
-tests: []

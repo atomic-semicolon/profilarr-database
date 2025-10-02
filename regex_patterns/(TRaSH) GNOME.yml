@@ -1,6 +1,0 @@
-name: (TRaSH) GNOME
-pattern: ^(GNOME)$
-description: ''
-tags:
-- TRaSH
-tests: []

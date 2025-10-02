@@ -1,6 +1,0 @@
-name: (TRaSH) B-Global
-pattern: \\b(B[ .-]?Global)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

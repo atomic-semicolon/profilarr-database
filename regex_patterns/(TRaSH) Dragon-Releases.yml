@@ -1,6 +1,0 @@
-name: (TRaSH) Dragon-Releases
-pattern: \\b(Dragon-Releases)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

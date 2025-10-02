@@ -1,6 +1,0 @@
-name: (TRaSH) SDCC
-pattern: ^(SDCC)$
-description: ''
-tags:
-- TRaSH
-tests: []

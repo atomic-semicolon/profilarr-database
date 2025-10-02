@@ -1,6 +1,0 @@
-name: (TRaSH) SOLA
-pattern: \\[SOLA\\]|-SOLA\\b
-description: ''
-tags:
-- TRaSH
-tests: []

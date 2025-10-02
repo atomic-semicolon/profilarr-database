@@ -1,6 +1,0 @@
-name: (TRaSH) Akai
-pattern: \\[Akai\\]|-Akai\\b
-description: ''
-tags:
-- TRaSH
-tests: []

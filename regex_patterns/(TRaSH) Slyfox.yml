@@ -1,6 +1,0 @@
-name: (TRaSH) Slyfox
-pattern: \\b(Slyfox)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

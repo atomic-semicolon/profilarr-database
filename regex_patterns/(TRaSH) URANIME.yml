@@ -1,6 +1,0 @@
-name: (TRaSH) URANIME
-pattern: \\b(URANIME)\\b
-description: ''
-tags:
-- TRaSH
-tests: []

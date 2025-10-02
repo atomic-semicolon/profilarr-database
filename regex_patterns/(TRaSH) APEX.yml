@@ -1,6 +1,0 @@
-name: (TRaSH) APEX
-pattern: ^(APEX|PAXA|PEXA|XEPA)$
-description: ''
-tags:
-- TRaSH
-tests: []

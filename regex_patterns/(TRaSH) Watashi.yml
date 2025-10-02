@@ -1,6 +1,0 @@
-name: (TRaSH) Watashi
-pattern: \\[Watashi\\]|-Watashi\\b
-description: ''
-tags:
-- TRaSH
-tests: []
