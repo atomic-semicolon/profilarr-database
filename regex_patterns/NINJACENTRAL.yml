@@ -1,7 +1,8 @@
 name: NINJACENTRAL
-pattern: (?<=^|[\s.-])NINJACENTRAL\b
+pattern: (?<=^|[\s.-])NINJACENTRAL\b|^(NINJACENTRAL)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: smol
-pattern: (?<=^|[\s.-])smol\b
+pattern: (?<=^|[\s.-])smol\b|\[smol\]|-smol\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

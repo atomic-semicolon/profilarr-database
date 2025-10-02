@@ -1,7 +1,8 @@
 name: HorribleSubs
-pattern: (?<=^|[\s.-])HorribleSubs\b
+pattern: (?<=^|[\s.-])HorribleSubs\b|\b(HorribleSubs)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

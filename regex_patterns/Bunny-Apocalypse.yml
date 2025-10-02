@@ -1,7 +1,8 @@
 name: Bunny-Apocalypse
-pattern: (?<=^|[\s.-])Bunny-Apocalypse\b
+pattern: (?<=^|[\s.-])Bunny-Apocalypse\b|\b(Bunny-Apocalypse)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

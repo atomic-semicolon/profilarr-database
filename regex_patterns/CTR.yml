@@ -1,7 +1,8 @@
 name: CTR
-pattern: (?<=^|[\s.-])CTR\b
+pattern: (?<=^|[\s.-])CTR\b|\b(CTR)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

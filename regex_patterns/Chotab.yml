@@ -1,7 +1,8 @@
 name: Chotab
-pattern: (?<=^|[\s.-])Chotab\b
+pattern: (?<=^|[\s.-])Chotab\b|\b(Chotab)\b|^(Chotab)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

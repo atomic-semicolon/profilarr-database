@@ -1,7 +1,8 @@
 name: Saizen
-pattern: (?<=^|[\s.-])Saizen\b
+pattern: (?<=^|[\s.-])Saizen\b|\b(Saizen)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

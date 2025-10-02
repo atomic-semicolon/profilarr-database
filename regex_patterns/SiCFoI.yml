@@ -1,7 +1,8 @@
 name: SiCFoI
-pattern: (?<=^|[\s.-])SiCFoI\b
+pattern: (?<=^|[\s.-])SiCFoI\b|^(SiCFoI)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

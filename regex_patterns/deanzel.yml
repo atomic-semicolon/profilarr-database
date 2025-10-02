@@ -1,7 +1,8 @@
 name: deanzel
-pattern: (?<=^|[\s.-])deanzel\b
+pattern: (?<=^|[\s.-])deanzel\b|\b(deanzel)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

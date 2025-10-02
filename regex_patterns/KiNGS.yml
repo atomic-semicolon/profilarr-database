@@ -1,7 +1,8 @@
 name: KiNGS
-pattern: (?<=^|[\s.-])KiNGS\b
+pattern: (?<=^|[\s.-])KiNGS\b|^(KiNGS)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

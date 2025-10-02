@@ -1,7 +1,8 @@
 name: CoalGirls
-pattern: (?<=^|[\s.-])CoalGirls\b
+pattern: (?<=^|[\s.-])CoalGirls\b|\b(CoalGirls)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

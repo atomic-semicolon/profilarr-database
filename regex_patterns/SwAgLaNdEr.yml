@@ -1,7 +1,8 @@
 name: SwAgLaNdEr
-pattern: (?<=^|[\s.-])SwAgLaNdEr\b
+pattern: (?<=^|[\s.-])SwAgLaNdEr\b|^(SwAgLaNdEr)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

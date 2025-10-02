@@ -1,0 +1,6 @@
+name: Arukoru
+pattern: \b(Arukoru)\b
+description: ''
+tags:
+- TRaSH
+tests: []

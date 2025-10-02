@@ -1,7 +1,8 @@
 name: Pookie
-pattern: (?<=^|[\s.-])Pookie\b
+pattern: (?<=^|[\s.-])Pookie\b|\b(Pookie)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: Okay-Subs
-pattern: (?<=^|[\s.-])Okay-Subs\b
+pattern: (?<=^|[\s.-])Okay-Subs\b|\b(Okay-Subs)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

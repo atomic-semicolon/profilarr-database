@@ -1,7 +1,8 @@
 name: SPiRiT
-pattern: (?<=^|[\s.-])SPiRiT\b
+pattern: (?<=^|[\s.-])SPiRiT\b|^(SPiRiT)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

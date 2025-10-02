@@ -1,7 +1,8 @@
 name: Kitsune
-pattern: (?<=^|[\s.-])Kitsune\b
+pattern: (?<=^|[\s.-])Kitsune\b|^(Kitsune)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

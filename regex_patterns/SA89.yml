@@ -1,7 +1,8 @@
 name: SA89
-pattern: (?<=^|[\s.-])SA89\b
+pattern: (?<=^|[\s.-])SA89\b|^(SA89)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

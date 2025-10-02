@@ -1,7 +1,8 @@
 name: kuchikirukia
-pattern: (?<=^|[\s.-])kuchikirukia\b
+pattern: (?<=^|[\s.-])kuchikirukia\b|\b(kuchikirukia)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

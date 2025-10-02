@@ -1,7 +1,8 @@
 name: Iznjie Biznjie
-pattern: (?<=^|[\s.-])Iznjie Biznjie\b
+pattern: (?<=^|[\s.-])Iznjie Biznjie\b|\b(Iznjie[ .-]Biznjie)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

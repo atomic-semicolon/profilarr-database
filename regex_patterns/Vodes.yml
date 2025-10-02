@@ -1,7 +1,8 @@
 name: Vodes
-pattern: (?<=^|[\s.-])Vodes\b
+pattern: (?<=^|[\s.-])Vodes\b|\[Vodes\]|(?<!Not)-Vodes\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

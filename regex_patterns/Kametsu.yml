@@ -1,7 +1,8 @@
 name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+pattern: (?<=^|[\s.-])Kametsu\b|\b(Kametsu)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

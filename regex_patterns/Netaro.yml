@@ -1,7 +1,8 @@
 name: Netaro
-pattern: (?<=^|[\s.-])Netaro\b
+pattern: (?<=^|[\s.-])Netaro\b|\b(Netaro)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

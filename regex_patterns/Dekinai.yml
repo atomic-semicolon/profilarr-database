@@ -1,7 +1,8 @@
 name: Dekinai
-pattern: (?<=^|[\s.-])Dekinai\b
+pattern: (?<=^|[\s.-])Dekinai\b|\[Dekinai\]|-Dekinai\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

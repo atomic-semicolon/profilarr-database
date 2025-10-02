@@ -1,7 +1,8 @@
 name: RAWR
-pattern: (?<=^|[\s.-])RAWR\b
+pattern: (?<=^|[\s.-])RAWR\b|^(RAWR)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

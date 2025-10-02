@@ -1,7 +1,8 @@
 name: BLURANiUM
-pattern: (?<=^|[\s.-])BLURANiUM\b
+pattern: (?<=^|[\s.-])BLURANiUM\b|^(BLURANiUM)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

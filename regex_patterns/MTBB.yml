@@ -1,7 +1,8 @@
 name: MTBB
-pattern: (?<=^|[\s.-])MTBB\b
+pattern: (?<=^|[\s.-])MTBB\b|\b(MTBB)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

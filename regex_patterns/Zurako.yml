@@ -1,7 +1,8 @@
 name: Zurako
-pattern: (?<=^|[\s.-])Zurako\b
+pattern: (?<=^|[\s.-])Zurako\b|\b(Zurako)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

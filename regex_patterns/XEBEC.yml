@@ -1,7 +1,8 @@
 name: XEBEC
-pattern: (?<=^|[\s.-])XEBEC\b
+pattern: (?<=^|[\s.-])XEBEC\b|^(XEBEC|4KBEC|CEBEX)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

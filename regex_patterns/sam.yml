@@ -1,7 +1,8 @@
 name: sam
-pattern: (?<=^|[\s.-])sam\b
+pattern: (?<=^|[\s.-])sam\b|\[sam\]|-sam\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: KawaSubs
+pattern: \b(KawaSubs)\b
+description: ''
+tags:
+- TRaSH
+tests: []

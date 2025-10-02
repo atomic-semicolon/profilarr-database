@@ -1,7 +1,8 @@
 name: APEX
-pattern: (?<=^|[\s.-])APEX\b
+pattern: (?<=^|[\s.-])APEX\b|^(APEX|PAXA|PEXA|XEPA)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

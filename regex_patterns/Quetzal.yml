@@ -1,7 +1,8 @@
 name: Quetzal
-pattern: (?<=^|[\s.-])Quetzal\b
+pattern: (?<=^|[\s.-])Quetzal\b|\b(Quetzal)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

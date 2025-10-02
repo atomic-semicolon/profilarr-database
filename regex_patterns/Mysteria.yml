@@ -1,7 +1,8 @@
 name: Mysteria
-pattern: (?<=^|[\s.-])Mysteria\b
+pattern: (?<=^|[\s.-])Mysteria\b|\[Mysteria\]|-Mysteria\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

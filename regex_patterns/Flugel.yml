@@ -1,7 +1,8 @@
 name: Flugel
-pattern: (?<=^|[\s.-])Flugel\b
+pattern: (?<=^|[\s.-])Flugel\b|\b(Flugel)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

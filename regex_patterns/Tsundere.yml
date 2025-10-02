@@ -1,7 +1,8 @@
 name: Tsundere
-pattern: (?<=^|[\s.-])Tsundere\b
+pattern: (?<=^|[\s.-])Tsundere\b|\[Tsundere\]|-Tsundere(?!-)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

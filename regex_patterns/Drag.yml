@@ -1,7 +1,8 @@
 name: Drag
-pattern: (?<=^|[\s.-])Drag\b
+pattern: (?<=^|[\s.-])Drag\b|\[Drag\]|-Drag\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

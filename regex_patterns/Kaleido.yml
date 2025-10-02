@@ -1,7 +1,8 @@
 name: Kaleido
-pattern: (?<=^|[\s.-])Kaleido\b
+pattern: (?<=^|[\s.-])Kaleido\b|\b(Kaleido)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

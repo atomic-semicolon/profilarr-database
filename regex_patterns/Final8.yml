@@ -1,7 +1,8 @@
 name: Final8
-pattern: (?<=^|[\s.-])Final8\b
+pattern: (?<=^|[\s.-])Final8\b|\b(Final8)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

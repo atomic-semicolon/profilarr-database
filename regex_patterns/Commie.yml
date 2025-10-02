@@ -1,7 +1,8 @@
 name: Commie
-pattern: (?<=^|[\s.-])Commie\b
+pattern: (?<=^|[\s.-])Commie\b|\b(Commie)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

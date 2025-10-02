@@ -1,7 +1,8 @@
 name: AJP69
-pattern: (?<=^|[\s.-])AJP69\b
+pattern: (?<=^|[\s.-])AJP69\b|^(AJP69)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

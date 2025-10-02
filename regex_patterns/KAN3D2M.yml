@@ -1,7 +1,8 @@
 name: KAN3D2M
-pattern: (?<=^|[\s.-])KAN3D2M\b
+pattern: (?<=^|[\s.-])KAN3D2M\b|\b(KAN3D2M)\b
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

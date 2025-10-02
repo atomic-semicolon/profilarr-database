@@ -1,7 +1,8 @@
 name: 9volt
-pattern: (?<=^|[\s.-])9volt\b
+pattern: (?<=^|[\s.-])9volt\b|\b(9volt)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

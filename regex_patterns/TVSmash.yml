@@ -1,7 +1,8 @@
 name: TVSmash
-pattern: (?<=^|[\s.-])TVSmash\b
+pattern: (?<=^|[\s.-])TVSmash\b|^(TVSmash)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

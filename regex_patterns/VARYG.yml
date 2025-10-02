@@ -1,7 +1,8 @@
 name: VARYG
-pattern: (?<=^|[\s.-])VARYG\b
+pattern: (?<=^|[\s.-])VARYG\b|\b(VARYG)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

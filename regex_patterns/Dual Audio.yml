@@ -1,10 +1,13 @@
 name: Dual Audio
-pattern: \b((multi[^a-zA-Z]*)|(dual[\s.-](audio|complete)))\b
+pattern: \b((multi[^a-zA-Z]*)|(dual[\s.-](audio|complete)))\b|dual[ ._-]?(audio)|[([]dual[])]|\b(JA|ZH|KO)(?=
+  ?\+ ?.*?\b(EN))|\b(EN)(?= ?\+ ?.*?\b(JA|ZH|KO))|\b(Japanese|Chinese|Korean) ?[ ._\+&-]
+  ?\b(English)|\b(English) ?[ ._\+&-] ?\b(Japanese|Chinese|Korean)|\b(\d{3,4}(p|i)|4K|U(ltra)?HD)\b.*\b(DUAL)\b(?!.*\(|\))
 description: Matches releases with Dual Audio; Media releases that contain two language
   tracks - typically the original language (such as Japanese) along with an English
   dub, allowing viewers to switch between either audio track while watching the same
   video content.
-tags: []
+tags:
+- TRaSH
 tests:
 - expected: true
   id: 1

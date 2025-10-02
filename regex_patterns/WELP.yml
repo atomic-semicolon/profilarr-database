@@ -1,7 +1,8 @@
 name: WELP
-pattern: (?<=^|[\s.-])WELP\b
+pattern: (?<=^|[\s.-])WELP\b|^(WELP)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

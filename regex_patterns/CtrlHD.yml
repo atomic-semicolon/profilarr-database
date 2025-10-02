@@ -1,7 +1,8 @@
 name: CtrlHD
-pattern: (?<=^|[\s.-])CtrlHD\b
+pattern: (?<=^|[\s.-])CtrlHD\b|^(CtrlHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

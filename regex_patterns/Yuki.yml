@@ -1,7 +1,8 @@
 name: Yuki
-pattern: (?<=^|[\s.-])Yuki\b
+pattern: (?<=^|[\s.-])Yuki\b|\[Yuki\]|-Yuki\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

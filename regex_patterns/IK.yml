@@ -1,7 +1,8 @@
 name: IK
-pattern: (?<=^|[\s.-])IK\b
+pattern: (?<=^|[\s.-])IK\b|\b(IK)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

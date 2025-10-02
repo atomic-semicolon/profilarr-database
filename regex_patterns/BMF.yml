@@ -1,8 +1,9 @@
 name: BMF
-pattern: (?<=^|[\s.-])BMF\b
+pattern: (?<=^|[\s.-])BMF\b|^(BMF)$
 description: ''
 tags:
 - Release Group
 - Remux
 - Bluray
+- TRaSH
 tests: []

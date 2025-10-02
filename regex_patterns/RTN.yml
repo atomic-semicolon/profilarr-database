@@ -1,7 +1,8 @@
 name: RTN
-pattern: (?<=^|[\s.-])RTN\b
+pattern: (?<=^|[\s.-])RTN\b|^(RTN)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

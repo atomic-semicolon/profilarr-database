@@ -1,9 +1,10 @@
 name: PTer
-pattern: (?<=^|[\s.-])PTer\b
+pattern: (?<=^|[\s.-])PTer\b|^(PTer)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests:
 - expected: false
   id: 1

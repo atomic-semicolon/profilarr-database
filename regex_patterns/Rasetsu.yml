@@ -1,7 +1,8 @@
 name: Rasetsu
-pattern: (?<=^|[\s.-])Rasetsu\b
+pattern: (?<=^|[\s.-])Rasetsu\b|\b(Rasetsu)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: KRaLiMaRKo
-pattern: (?<=^|[\s.-])KRaLiMaRKo\b
+pattern: (?<=^|[\s.-])KRaLiMaRKo\b|^(KRaLiMaRKo)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

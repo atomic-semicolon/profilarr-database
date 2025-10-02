@@ -1,7 +1,8 @@
 name: E.N.D
-pattern: (?<=^|[\s.-])E.N.D\b
+pattern: (?<=^|[\s.-])E.N.D\b|\b(E[.-]N[.-]D)\b
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

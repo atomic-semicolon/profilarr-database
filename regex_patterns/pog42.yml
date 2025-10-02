@@ -1,7 +1,8 @@
 name: pog42
-pattern: (?<=^|[\s.-])pog42\b
+pattern: (?<=^|[\s.-])pog42\b|\b(pog42)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

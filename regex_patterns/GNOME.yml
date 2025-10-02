@@ -1,7 +1,8 @@
 name: GNOME
-pattern: (?<=^|[\s.-])GNOME\b
+pattern: (?<=^|[\s.-])GNOME\b|^(GNOME)$
 description: Matches "GNOME" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

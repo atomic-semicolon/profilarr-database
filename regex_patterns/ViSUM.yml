@@ -1,7 +1,8 @@
 name: ViSUM
-pattern: (?<=^|[\s.-])ViSUM\b
+pattern: (?<=^|[\s.-])ViSUM\b|^(ViSUM)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: TTGA
-pattern: (?<=^|[\s.-])TTGA\b
+pattern: (?<=^|[\s.-])TTGA\b|\b(TTGA)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

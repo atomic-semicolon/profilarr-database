@@ -1,7 +1,8 @@
 name: NOSiViD
-pattern: (?<=^|[\s.-])NOSiViD\b
+pattern: (?<=^|[\s.-])NOSiViD\b|^(NOSiViD)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: Raizel
-pattern: (?<=^|[\s.-])Raizel\b
+pattern: (?<=^|[\s.-])Raizel\b|\b(Raizel)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

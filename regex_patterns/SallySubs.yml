@@ -1,7 +1,8 @@
 name: SallySubs
-pattern: (?<=^|[\s.-])SallySubs\b
+pattern: (?<=^|[\s.-])SallySubs\b|\b(SallySubs)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []
