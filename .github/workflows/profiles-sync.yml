@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '30 18 * * *'
   pull_request:
     types:
       - opened
