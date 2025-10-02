@@ -1,7 +1,8 @@
 name: EPSiLON
-pattern: (?<=^|[\s.-])EPSiLON\b
+pattern: (?<=^|[\s.-])EPSiLON\b|^(EPSiLON)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

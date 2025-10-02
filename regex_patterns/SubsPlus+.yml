@@ -1,7 +1,8 @@
 name: SubsPlus+
-pattern: (?<=^|[\s.-])SubsPlus+\b
+pattern: (?<=^|[\s.-])SubsPlus+\b|\b(SubsPlus\+?)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

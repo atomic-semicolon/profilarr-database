@@ -1,7 +1,8 @@
 name: NAN0
-pattern: (?<=^|[\s.-])NAN0\b
+pattern: (?<=^|[\s.-])NAN0\b|(?<=remux).*\b(NAN0)\b
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

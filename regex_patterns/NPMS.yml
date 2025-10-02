@@ -1,7 +1,8 @@
 name: NPMS
-pattern: (?<=^|[\s.-])NPMS\b
+pattern: (?<=^|[\s.-])NPMS\b|^(NPMS)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

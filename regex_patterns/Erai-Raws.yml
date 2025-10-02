@@ -1,7 +1,8 @@
 name: Erai-Raws
-pattern: (?<=^|[\s.-])Erai-Raws\b
+pattern: (?<=^|[\s.-])Erai-Raws\b|\b(Erai-raws)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

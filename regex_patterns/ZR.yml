@@ -1,7 +1,8 @@
 name: ZR
-pattern: (?<=^|[\s.-])ZR\b
+pattern: (?<=^|[\s.-])ZR\b|\b(ZR)\b|-ZR-
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

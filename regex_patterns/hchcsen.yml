@@ -1,7 +1,8 @@
 name: hchcsen
-pattern: (?<=^|[\s.-])hchcsen\b
+pattern: (?<=^|[\s.-])hchcsen\b|\b(hchcsen)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

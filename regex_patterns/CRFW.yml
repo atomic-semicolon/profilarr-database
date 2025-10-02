@@ -1,7 +1,8 @@
 name: CRFW
-pattern: (?<=^|[\s.-])CRFW\b
+pattern: (?<=^|[\s.-])CRFW\b|^(CRFW)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

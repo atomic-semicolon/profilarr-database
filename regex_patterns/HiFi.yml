@@ -1,7 +1,8 @@
 name: HiFi
-pattern: (?<=^|[\s.-])HiFi\b
+pattern: (?<=^|[\s.-])HiFi\b|^(HiFi)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

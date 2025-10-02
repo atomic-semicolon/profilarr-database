@@ -1,7 +1,8 @@
 name: CasStudio
-pattern: (?<=^|[\s.-])CasStudio\b
+pattern: (?<=^|[\s.-])CasStudio\b|^(CasStudio)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: BLUTONiUM
-pattern: (?<=^|[\s.-])BLUTONiUM\b
+pattern: (?<=^|[\s.-])BLUTONiUM\b|^(BLUTONiUM)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

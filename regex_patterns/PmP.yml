@@ -1,7 +1,8 @@
 name: PmP
-pattern: (?<=^|[\s.-])PmP\b
+pattern: (?<=^|[\s.-])PmP\b|^(PmP)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

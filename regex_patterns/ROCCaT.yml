@@ -1,7 +1,8 @@
 name: ROCCaT
-pattern: (?<=^|[\s.-])ROCCaT\b
+pattern: (?<=^|[\s.-])ROCCaT\b|^(ROCCaT)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

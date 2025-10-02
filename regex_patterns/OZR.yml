@@ -1,7 +1,8 @@
 name: OZR
-pattern: (?<=^|[\s.-])OZR\b
+pattern: (?<=^|[\s.-])OZR\b|\b(OZR)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

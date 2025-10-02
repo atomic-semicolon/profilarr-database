@@ -1,7 +1,8 @@
 name: KHN
-pattern: (?<=^|[\s.-])KHN\b
+pattern: (?<=^|[\s.-])KHN\b|^(KHN)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

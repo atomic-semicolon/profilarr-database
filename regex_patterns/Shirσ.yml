@@ -1,0 +1,6 @@
+name: "Shir\u03C3"
+pattern: "\\b(Shir\u03C3)\\b"
+description: ''
+tags:
+- TRaSH
+tests: []

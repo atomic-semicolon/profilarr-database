@@ -1,7 +1,8 @@
 name: WBDP
-pattern: (?<=^|[\s.-])WBDP\b
+pattern: (?<=^|[\s.-])WBDP\b|\b(WBDP)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: Koten_Gars
-pattern: (?<=^|[\s.-])Koten_Gars\b
+pattern: (?<=^|[\s.-])Koten_Gars\b|\b(Koten[ ._-]Gars)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

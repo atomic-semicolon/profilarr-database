@@ -1,7 +1,8 @@
 name: monkee
-pattern: (?<=^|[\s.-])monkee\b
+pattern: (?<=^|[\s.-])monkee\b|^(monkee)$
 description: Matches "monkee" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: TEPES
-pattern: (?<=^|[\s.-])TEPES\b
+pattern: (?<=^|[\s.-])TEPES\b|^(TEPES)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

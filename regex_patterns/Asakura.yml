@@ -1,7 +1,8 @@
 name: Asakura
-pattern: (?<=^|[\s.-])Asakura\b
+pattern: (?<=^|[\s.-])Asakura\b|\[Asakura\]|-Asakura\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

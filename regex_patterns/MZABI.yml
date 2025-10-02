@@ -1,7 +1,8 @@
 name: MZABI
-pattern: (?<=^|[\s.-])MZABI\b
+pattern: (?<=^|[\s.-])MZABI\b|^(MZABI)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

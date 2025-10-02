@@ -1,7 +1,8 @@
 name: Lulu
-pattern: (?<=^|[\s.-])Lulu\b
+pattern: (?<=^|[\s.-])Lulu\b|\[Lulu\]|-Lulu\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

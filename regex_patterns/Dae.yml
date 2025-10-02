@@ -1,0 +1,6 @@
+name: Dae
+pattern: \b(Dae)\b|\[Dae\]|-Dae\b
+description: ''
+tags:
+- TRaSH
+tests: []

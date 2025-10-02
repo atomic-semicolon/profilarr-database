@@ -1,7 +1,8 @@
 name: FraMeSToR
-pattern: (?<=^|[\s.-])FraMeSToR\b
+pattern: (?<=^|[\s.-])FraMeSToR\b|^(FraMeSToR)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

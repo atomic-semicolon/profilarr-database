@@ -1,7 +1,8 @@
 name: YURI
-pattern: (?<=^|[\s.-])YURI\b
+pattern: (?<=^|[\s.-])YURI\b|\[YURI\]|-YURI\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

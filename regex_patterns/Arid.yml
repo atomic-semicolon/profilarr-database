@@ -1,7 +1,8 @@
 name: Arid
-pattern: (?<=^|[\s.-])Arid\b
+pattern: (?<=^|[\s.-])Arid\b|\[Arid\]|-Arid\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: SiC
-pattern: (?<=^|[\s.-])SiC\b
+pattern: (?<=^|[\s.-])SiC\b|^(SiC)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

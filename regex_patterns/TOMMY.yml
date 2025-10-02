@@ -1,7 +1,8 @@
 name: TOMMY
-pattern: (?<=^|[\s.-])TOMMY\b
+pattern: (?<=^|[\s.-])TOMMY\b|^(TOMMY)$
 description: Matches "TOMMY" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

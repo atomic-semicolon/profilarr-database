@@ -1,7 +1,8 @@
 name: Cait-Sidhe
-pattern: (?<=^|[\s.-])Cait-Sidhe\b
+pattern: (?<=^|[\s.-])Cait-Sidhe\b|\b(Cait-Sidhe)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

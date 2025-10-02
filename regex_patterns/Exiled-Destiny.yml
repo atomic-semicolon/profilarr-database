@@ -1,7 +1,8 @@
 name: Exiled-Destiny
-pattern: (?<=^|[\s.-])Exiled-Destiny\b
+pattern: (?<=^|[\s.-])Exiled-Destiny\b|\b(Exiled-Destiny|E-D)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

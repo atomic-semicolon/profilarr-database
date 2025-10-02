@@ -1,7 +1,8 @@
 name: playWEB
-pattern: (?<=^|[\s.-])playWEB\b
+pattern: (?<=^|[\s.-])playWEB\b|^(playWEB)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

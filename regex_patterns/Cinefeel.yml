@@ -1,7 +1,8 @@
 name: Cinefeel
-pattern: (?<=^|[\s.-])Cinefeel\b
+pattern: (?<=^|[\s.-])Cinefeel\b|^(Cinefeel)$
 description: Matches "Cinefeel" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

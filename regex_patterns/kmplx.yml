@@ -1,7 +1,8 @@
 name: kmplx
-pattern: (?<=^|[\s.-])kmplx\b
+pattern: (?<=^|[\s.-])kmplx\b|\b(kmplx)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

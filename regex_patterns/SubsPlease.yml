@@ -1,7 +1,8 @@
 name: SubsPlease
-pattern: (?<=^|[\s.-])SubsPlease\b
+pattern: (?<=^|[\s.-])SubsPlease\b|\b(SubsPlease)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

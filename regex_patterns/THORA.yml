@@ -1,7 +1,8 @@
 name: THORA
-pattern: (?<=^|[\s.-])THORA\b
+pattern: (?<=^|[\s.-])THORA\b|\b(THORA)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

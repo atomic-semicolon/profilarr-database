@@ -1,7 +1,8 @@
 name: LazyRemux
-pattern: (?<=^|[\s.-])LazyRemux\b
+pattern: (?<=^|[\s.-])LazyRemux\b|\b(LazyRemux)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

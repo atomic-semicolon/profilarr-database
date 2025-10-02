@@ -1,7 +1,8 @@
 name: FFF
-pattern: (?<=^|[\s.-])FFF\b
+pattern: (?<=^|[\s.-])FFF\b|\b(FFF)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

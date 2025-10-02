@@ -1,7 +1,8 @@
 name: HONE
-pattern: (?<=^|[\s.-])HONE\b
+pattern: (?<=^|[\s.-])HONE\b|^(HONE)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

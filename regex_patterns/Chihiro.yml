@@ -1,7 +1,8 @@
 name: Chihiro
-pattern: (?<=^|[\s.-])Chihiro\b
+pattern: (?<=^|[\s.-])Chihiro\b|\[Chihiro\]|-Chihiro\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

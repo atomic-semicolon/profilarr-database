@@ -1,7 +1,8 @@
 name: TRiToN
-pattern: (?<=^|[\s.-])TRiToN\b
+pattern: (?<=^|[\s.-])TRiToN\b|^(TRiToN)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

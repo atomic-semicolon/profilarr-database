@@ -1,7 +1,8 @@
 name: AC
-pattern: (?<=^|[\s.-])AC\b
+pattern: (?<=^|[\s.-])AC\b|\[AC\]|-AC$
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

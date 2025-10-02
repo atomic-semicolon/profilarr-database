@@ -1,9 +1,10 @@
 name: CMRG
-pattern: (?<=^|[\s.-])CM(a)?R(io)?G\b
+pattern: (?<=^|[\s.-])CM(a)?R(io)?G\b|^(CMRG)$
 description: 'Prolific WEB-DL group. '
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests:
 - expected: true
   id: 1

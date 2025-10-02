@@ -1,7 +1,8 @@
 name: KH
-pattern: (?<=^|[\s.-])KH\b
+pattern: (?<=^|[\s.-])KH\b|\b(KH)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

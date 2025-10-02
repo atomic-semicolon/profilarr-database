@@ -1,6 +1,7 @@
 name: PHOENiX
-pattern: (?<=^|[\s.-])PHOENiX\b
+pattern: (?<=^|[\s.-])PHOENiX\b|^(PHOENiX)$
 description: Matches "PHOENiX" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
+- TRaSH
 tests: []

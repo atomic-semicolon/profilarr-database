@@ -1,7 +1,8 @@
 name: BlurayDesuYo
-pattern: (?<=^|[\s.-])BlurayDesuYo\b
+pattern: (?<=^|[\s.-])BlurayDesuYo\b|\b(BlurayDesuYo)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

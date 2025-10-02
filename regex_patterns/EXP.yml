@@ -1,7 +1,8 @@
 name: EXP
-pattern: (?<=^|[\s.-])EXP\b
+pattern: (?<=^|[\s.-])EXP\b|\[EXP\]|-EXP\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

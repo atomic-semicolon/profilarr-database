@@ -1,7 +1,8 @@
 name: dB
-pattern: (?<=^|[\s.-])dB\b
+pattern: (?<=^|[\s.-])dB\b|^(dB)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

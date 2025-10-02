@@ -1,7 +1,8 @@
 name: SMURF
-pattern: (?<=^|[\s.-])SMURF\b
+pattern: (?<=^|[\s.-])SMURF\b|^(SMURF)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: playBD
-pattern: (?<=^|[\s.-])playBD\b
+pattern: (?<=^|[\s.-])playBD\b|^(playBD)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

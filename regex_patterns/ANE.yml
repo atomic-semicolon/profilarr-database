@@ -1,7 +1,8 @@
 name: ANE
-pattern: (?<=^|[\s.-])ANE\b
+pattern: (?<=^|[\s.-])ANE\b|\[ANE\]|-ANE$
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: AOmundson
-pattern: (?<=^|[\s.-])AOmundson\b
+pattern: (?<=^|[\s.-])AOmundson\b|\b(AOmundson)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

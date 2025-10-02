@@ -1,7 +1,8 @@
 name: BYNDR
-pattern: (?<=^|[\s.-])BYNDR\b
+pattern: (?<=^|[\s.-])BYNDR\b|^(BYNDR)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

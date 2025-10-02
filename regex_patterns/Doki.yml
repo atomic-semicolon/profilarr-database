@@ -1,7 +1,8 @@
 name: Doki
-pattern: (?<=^|[\s.-])Doki\b
+pattern: (?<=^|[\s.-])Doki\b|\[Doki\]|-Doki\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

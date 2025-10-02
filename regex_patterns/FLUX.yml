@@ -1,7 +1,8 @@
 name: FLUX
-pattern: (?<=^|[\s.-])FLUX\b
+pattern: (?<=^|[\s.-])FLUX\b|^(FLUX)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

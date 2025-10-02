@@ -1,7 +1,8 @@
 name: SbR
-pattern: (?<=^|[\s.-])SbR\b
+pattern: (?<=^|[\s.-])SbR\b|^(SbR)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

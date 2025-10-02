@@ -1,7 +1,8 @@
 name: SCY
-pattern: (?<=^|[\s.-])SCY\b
+pattern: (?<=^|[\s.-])SCY\b|\b(SCY)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []

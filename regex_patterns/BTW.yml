@@ -1,7 +1,8 @@
 name: BTW
-pattern: (?<=^|[\s.-])BTW\b
+pattern: (?<=^|[\s.-])BTW\b|^(BTW)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

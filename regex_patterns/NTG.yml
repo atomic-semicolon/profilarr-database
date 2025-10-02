@@ -1,7 +1,8 @@
 name: NTG
-pattern: (?<=^|[\s.-])NTG\b
+pattern: (?<=^|[\s.-])NTG\b|^(NTG)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: decibeL
-pattern: (?<=^|[\s.-])decibeL\b
+pattern: (?<=^|[\s.-])decibeL\b|^(decibeL)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

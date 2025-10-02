@@ -1,7 +1,8 @@
 name: CBT
-pattern: (?<=^|[\s.-])CBT\b
+pattern: (?<=^|[\s.-])CBT\b|\b(CBT)\b
 description: ''
 tags:
 - Release Group
 - Anime
+- TRaSH
 tests: []
