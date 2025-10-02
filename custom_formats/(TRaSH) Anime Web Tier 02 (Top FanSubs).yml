@@ -4,109 +4,109 @@ description: Groups that do the best releases as per SeaDex. They are more consi
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) 0x539
+- name: '0x539'
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) 0x539
-- name: (TRaSH) Asakura
+  pattern: '0x539'
+- name: Asakura
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Asakura
-- name: (TRaSH) Cyan
+  pattern: Asakura
+- name: Cyan
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Cyan
-- name: (TRaSH) Dae
+  pattern: Cyan
+- name: Dae
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Dae
-- name: (TRaSH) Foxtrot
+  pattern: Dae
+- name: Foxtrot
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Foxtrot
-- name: (TRaSH) Gao
+  pattern: Foxtrot
+- name: Gao
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Gao
-- name: (TRaSH) GSK_kun
+  pattern: Gao
+- name: GSK_kun
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) GSK_kun
-- name: (TRaSH) Half-Baked
+  pattern: GSK_kun
+- name: Half-Baked
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Half-Baked
-- name: (TRaSH) HatSubs
+  pattern: Half-Baked
+- name: HatSubs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) HatSubs
-- name: (TRaSH) MALD
+  pattern: HatSubs
+- name: MALD
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) MALD
-- name: (TRaSH) MTBB
+  pattern: MALD
+- name: MTBB
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) MTBB
-- name: (TRaSH) Not-Vodes
+  pattern: MTBB
+- name: Not-Vodes
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Not-Vodes
-- name: (TRaSH) Okay-Subs
+  pattern: Not-Vodes
+- name: Okay-Subs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Okay-Subs
-- name: (TRaSH) Pizza
+  pattern: Okay-Subs
+- name: Pizza
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Pizza
-- name: (TRaSH) Reza
+  pattern: Pizza
+- name: Reza
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Reza
-- name: (TRaSH) Slyfox
+  pattern: Reza
+- name: Slyfox
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Slyfox
-- name: (TRaSH) SoLCE
+  pattern: Slyfox
+- name: SoLCE
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SoLCE
-- name: (TRaSH) Tenshi
+  pattern: SoLCE
+- name: Tenshi
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Tenshi
+  pattern: Tenshi
 tests: []

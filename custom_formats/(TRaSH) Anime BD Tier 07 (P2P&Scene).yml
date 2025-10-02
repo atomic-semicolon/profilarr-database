@@ -3,109 +3,109 @@ description: Known P2P and Scene Anime groups.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Bluray
+- name: Bluray
   type: source
   required: false
   negate: false
   source: bluray
-- name: (TRaSH) Bluray Remux
+- name: Bluray Remux
   type: source
   required: false
   negate: false
   source: bluray_raw
-- name: (TRaSH) DVD
+- name: DVD
   type: source
   required: false
   negate: false
   source: dvd
-- name: (TRaSH) A-L
+- name: A-L
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) A-L
-- name: (TRaSH) ANiHLS
+  pattern: A-L
+- name: ANiHLS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ANiHLS
-- name: (TRaSH) CBM
+  pattern: ANiHLS
+- name: CBM
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) CBM
-- name: (TRaSH) DHD
+  pattern: CBM
+- name: DHD
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) DHD
-- name: (TRaSH) DragsterPS
+  pattern: DHD
+- name: DragsterPS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) DragsterPS
-- name: (TRaSH) HAiKU
+  pattern: DragsterPS
+- name: HAiKU
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) HAiKU
-- name: (TRaSH) Hark0N
+  pattern: HAiKU
+- name: Hark0N
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Hark0N
-- name: (TRaSH) iAHD
+  pattern: Hark0N
+- name: iAHD
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) iAHD
-- name: (TRaSH) inid4c
+  pattern: iAHD
+- name: inid4c
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) inid4c
-- name: (TRaSH) KiyoshiStar
+  pattern: inid4c
+- name: KiyoshiStar
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KiyoshiStar
-- name: (TRaSH) MCR
+  pattern: KiyoshiStar
+- name: MCR
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) MCR
-- name: (TRaSH) NPC
+  pattern: MCR
+- name: NPC
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) NPC
-- name: (TRaSH) RedBlade
+  pattern: NPC
+- name: RedBlade
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) RedBlade
-- name: (TRaSH) RH
+  pattern: RedBlade
+- name: RH
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) RH
-- name: (TRaSH) SEV
+  pattern: RH
+- name: SEV
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SEV
-- name: (TRaSH) STRiFE
+  pattern: SEV
+- name: STRiFE
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) STRiFE
-- name: (TRaSH) TENEIGHTY
+  pattern: STRiFE
+- name: TENEIGHTY
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) TENEIGHTY
-- name: (TRaSH) WaLMaRT
+  pattern: TENEIGHTY
+- name: WaLMaRT
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) WaLMaRT
+  pattern: WaLMaRT
 tests: []

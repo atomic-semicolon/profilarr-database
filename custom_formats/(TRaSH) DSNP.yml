@@ -12,17 +12,17 @@ description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/w
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Disney+
+- name: Disney+
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) Disney+
-- name: (TRaSH) WEBDL
+  pattern: Disney+
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

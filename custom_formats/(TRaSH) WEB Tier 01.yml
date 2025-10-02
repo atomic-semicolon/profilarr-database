@@ -12,112 +12,112 @@ description: 'Groups that:
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) ABBiE
+- name: ABBiE
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) ABBiE
-- name: (TRaSH) AJP69
+  pattern: ABBiE
+- name: AJP69
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) AJP69
-- name: (TRaSH) APEX
+  pattern: AJP69
+- name: APEX
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) APEX
-- name: (TRaSH) CasStudio
+  pattern: APEX
+- name: CasStudio
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) CasStudio
-- name: (TRaSH) CRFW
+  pattern: CasStudio
+- name: CRFW
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) CRFW
-- name: (TRaSH) CtrlHD
+  pattern: CRFW
+- name: CtrlHD
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) CtrlHD
-- name: (TRaSH) FLUX
+  pattern: CtrlHD
+- name: FLUX
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) FLUX
-- name: (TRaSH) HONE
+  pattern: FLUX
+- name: HONE
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) HONE
-- name: (TRaSH) KiNGS
+  pattern: HONE
+- name: KiNGS
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) KiNGS
-- name: (TRaSH) Kitsune
+  pattern: KiNGS
+- name: Kitsune
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) Kitsune
-- name: (TRaSH) monkee
+  pattern: Kitsune
+- name: monkee
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) monkee
-- name: (TRaSH) NOSiViD
+  pattern: monkee
+- name: NOSiViD
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NOSiViD
-- name: (TRaSH) NTb
+  pattern: NOSiViD
+- name: NTb
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NTb
-- name: (TRaSH) NTG
+  pattern: NTb
+- name: NTG
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NTG
-- name: (TRaSH) QOQ
+  pattern: NTG
+- name: QOQ
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) QOQ
-- name: (TRaSH) RTN
+  pattern: QOQ
+- name: RTN
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) RTN
-- name: (TRaSH) SiC
+  pattern: RTN
+- name: SiC
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SiC
-- name: (TRaSH) T6D
+  pattern: SiC
+- name: T6D
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) T6D
-- name: (TRaSH) TOMMY
+  pattern: T6D
+- name: TOMMY
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) TOMMY
-- name: (TRaSH) ViSUM
+  pattern: TOMMY
+- name: ViSUM
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) ViSUM
-- name: (TRaSH) WEBDL
+  pattern: ViSUM
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

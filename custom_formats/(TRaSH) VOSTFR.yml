@@ -7,14 +7,14 @@ description: Indicates soundtrack in the original language, with French subtitle
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) VOSTFR
+- name: VOSTFR
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) VOSTFR
-- name: (TRaSH) SUBFRENCH
+  pattern: VOSTFR
+- name: SUBFRENCH
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SUBFRENCH
+  pattern: SUBFRENCH
 tests: []

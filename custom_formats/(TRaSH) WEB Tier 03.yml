@@ -14,42 +14,42 @@ description: 'Groups that:
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) DRACULA
+- name: DRACULA
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) DRACULA
-- name: (TRaSH) NINJACENTRAL
+  pattern: DRACULA
+- name: NINJACENTRAL
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) NINJACENTRAL
-- name: (TRaSH) SLiGNOME
+  pattern: NINJACENTRAL
+- name: SLiGNOME
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SLiGNOME
-- name: (TRaSH) SwAgLaNdEr
+  pattern: SLiGNOME
+- name: SwAgLaNdEr
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SwAgLaNdEr
-- name: (TRaSH) T4H
+  pattern: SwAgLaNdEr
+- name: T4H
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) T4H
-- name: (TRaSH) ViSiON
+  pattern: T4H
+- name: ViSiON
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) ViSiON
-- name: (TRaSH) WEBDL
+  pattern: ViSiON
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

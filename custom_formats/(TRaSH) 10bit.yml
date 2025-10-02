@@ -3,14 +3,14 @@ description: This Custom Format covers releases that are 10bit.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) 10bit
+- name: 10bit
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) 10bit
-- name: (TRaSH) hi10p
+  pattern: 10bit
+- name: hi10p
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) hi10p
+  pattern: hi10p
 tests: []

@@ -3,54 +3,54 @@ description: FanSub groups that are consistent.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) Asenshi
+- name: Asenshi
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Asenshi
-- name: (TRaSH) Chihiro
+  pattern: Asenshi
+- name: Chihiro
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Chihiro
-- name: (TRaSH) Commie
+  pattern: Chihiro
+- name: Commie
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Commie
-- name: (TRaSH) DameDesuYo
+  pattern: Commie
+- name: DameDesuYo
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) DameDesuYo
-- name: (TRaSH) Doki
+  pattern: DameDesuYo
+- name: Doki
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Doki
-- name: (TRaSH) KawaSubs
+  pattern: Doki
+- name: KawaSubs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) KawaSubs
-- name: (TRaSH) Tsundere
+  pattern: KawaSubs
+- name: Tsundere
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Tsundere
+  pattern: Tsundere
 tests: []

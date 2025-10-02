@@ -11,49 +11,49 @@ description: 'Groups that:
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Remux
+- name: Remux
   type: source
   required: true
   negate: false
   source: raw
-- name: (TRaSH) decibeL
+- name: decibeL
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) decibeL
-- name: (TRaSH) EPSiLON
+  pattern: decibeL
+- name: EPSiLON
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) EPSiLON
-- name: (TRaSH) HiFi
+  pattern: EPSiLON
+- name: HiFi
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) HiFi
-- name: (TRaSH) KRaLiMaRKo
+  pattern: HiFi
+- name: KRaLiMaRKo
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) KRaLiMaRKo
-- name: (TRaSH) playBD
+  pattern: KRaLiMaRKo
+- name: playBD
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) playBD
-- name: (TRaSH) PTer
+  pattern: playBD
+- name: PTer
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) PTer
-- name: (TRaSH) SiCFoI
+  pattern: PTer
+- name: SiCFoI
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) SiCFoI
-- name: (TRaSH) TRiToN
+  pattern: SiCFoI
+- name: TRiToN
   type: release_group
   required: false
   negate: false
-  pattern: (TRaSH) TRiToN
+  pattern: TRiToN
 tests: []

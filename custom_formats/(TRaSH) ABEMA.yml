@@ -3,22 +3,22 @@ description: '[From Wikipedia, the free encyclopedia](https://www.wikiwand.com/e
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) ABEMA
+- name: ABEMA
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) ABEMA
-- name: (TRaSH) WEBDL
+  pattern: ABEMA
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false

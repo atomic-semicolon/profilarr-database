@@ -3,9 +3,9 @@ description: Custom Format to cover v1 releases.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) v1
+- name: v1
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) v1
+  pattern: v1
 tests: []

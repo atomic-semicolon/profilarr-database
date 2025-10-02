@@ -3,204 +3,204 @@ description: FanSub groups that are consistent.
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Bluray
+- name: Bluray
   type: source
   required: false
   negate: false
   source: bluray
-- name: (TRaSH) Bluray Remux
+- name: Bluray Remux
   type: source
   required: false
   negate: false
   source: bluray_raw
-- name: (TRaSH) DVD
+- name: DVD
   type: source
   required: false
   negate: false
   source: dvd
-- name: (TRaSH) Afro
+- name: Afro
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Afro
-- name: (TRaSH) Akai
+  pattern: Afro
+- name: Akai
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Akai
-- name: (TRaSH) Almighty
+  pattern: Akai
+- name: Almighty
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Almighty
-- name: (TRaSH) ANE
+  pattern: Almighty
+- name: ANE
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ANE
-- name: (TRaSH) Asenshi
+  pattern: ANE
+- name: Asenshi
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Asenshi
-- name: (TRaSH) BlurayDesuYo
+  pattern: Asenshi
+- name: BlurayDesuYo
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) BlurayDesuYo
-- name: (TRaSH) Bunny-Apocalypse
+  pattern: BlurayDesuYo
+- name: Bunny-Apocalypse
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Bunny-Apocalypse
-- name: (TRaSH) CH
+  pattern: Bunny-Apocalypse
+- name: CH
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) CH
-- name: (TRaSH) EJF
+  pattern: CH
+- name: EJF
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) EJF
-- name: (TRaSH) Exiled-Destiny
+  pattern: EJF
+- name: Exiled-Destiny
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Exiled-Destiny
-- name: (TRaSH) FFF
+  pattern: Exiled-Destiny
+- name: FFF
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) FFF
-- name: (TRaSH) Final8
+  pattern: FFF
+- name: Final8
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Final8
-- name: (TRaSH) GS
+  pattern: Final8
+- name: GS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) GS
-- name: (TRaSH) Harunatsu
+  pattern: GS
+- name: Harunatsu
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Harunatsu
-- name: (TRaSH) Impatience
+  pattern: Harunatsu
+- name: Impatience
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Impatience
-- name: (TRaSH) Inka-Subs
+  pattern: Impatience
+- name: Inka-Subs
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Inka-Subs
-- name: (TRaSH) Judgement
+  pattern: Inka-Subs
+- name: Judgement
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Judgement
-- name: (TRaSH) Kantai
+  pattern: Judgement
+- name: Kantai
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Kantai
-- name: (TRaSH) LCE
+  pattern: Kantai
+- name: LCE
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) LCE
-- name: (TRaSH) Licca
+  pattern: LCE
+- name: Licca
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Licca
-- name: (TRaSH) Nii-sama
+  pattern: Licca
+- name: Nii-sama
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Nii-sama
-- name: (TRaSH) niizk
+  pattern: Nii-sama
+- name: niizk
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) niizk
-- name: (TRaSH) Nishi-Taku
+  pattern: niizk
+- name: Nishi-Taku
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Nishi-Taku
-- name: (TRaSH) OnDeed
+  pattern: Nishi-Taku
+- name: OnDeed
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) OnDeed
-- name: (TRaSH) orz
+  pattern: OnDeed
+- name: orz
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) orz
-- name: (TRaSH) PAS
+  pattern: orz
+- name: PAS
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) PAS
-- name: (TRaSH) peachflavored
+  pattern: PAS
+- name: peachflavored
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) peachflavored
-- name: (TRaSH) Saizen
+  pattern: peachflavored
+- name: Saizen
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Saizen
-- name: (TRaSH) SCP-2223
+  pattern: Saizen
+- name: SCP-2223
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SCP-2223
-- name: (TRaSH) SHiN-gx
+  pattern: SCP-2223
+- name: SHiN-gx
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SHiN-gx
-- name: (TRaSH) SmugCat
+  pattern: SHiN-gx
+- name: SmugCat
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SmugCat
-- name: (TRaSH) Soldado
+  pattern: SmugCat
+- name: Soldado
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Soldado
-- name: (TRaSH) Sushi
+  pattern: Soldado
+- name: Sushi
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Sushi
-- name: (TRaSH) Vivid
+  pattern: Sushi
+- name: Vivid
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Vivid
-- name: (TRaSH) Watashi
+  pattern: Vivid
+- name: Watashi
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Watashi
-- name: (TRaSH) Yabai
+  pattern: Watashi
+- name: Yabai
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Yabai
-- name: (TRaSH) Zurako
+  pattern: Yabai
+- name: Zurako
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Zurako
+  pattern: Zurako
 tests: []

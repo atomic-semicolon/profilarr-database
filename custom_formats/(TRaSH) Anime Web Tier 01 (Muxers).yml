@@ -4,89 +4,89 @@ description: Groups that do the best releases as per SeaDex. They are more consi
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) Arg0
+- name: Arg0
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Arg0
-- name: (TRaSH) Arid
+  pattern: Arg0
+- name: Arid
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Arid
-- name: (TRaSH) Baws
+  pattern: Arid
+- name: Baws
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Baws
-- name: (TRaSH) LostYears
+  pattern: Baws
+- name: LostYears
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) LostYears
-- name: (TRaSH) LYS1TH3A
+  pattern: LostYears
+- name: LYS1TH3A
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) LYS1TH3A
-- name: (TRaSH) McBalls
+  pattern: LYS1TH3A
+- name: McBalls
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) McBalls
-- name: (TRaSH) sam
+  pattern: McBalls
+- name: sam
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) sam
-- name: (TRaSH) SCY
+  pattern: sam
+- name: SCY
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SCY
-- name: (TRaSH) Setsugen
+  pattern: SCY
+- name: Setsugen
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Setsugen
-- name: (TRaSH) smol
+  pattern: Setsugen
+- name: smol
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) smol
-- name: (TRaSH) SoM
+  pattern: smol
+- name: SoM
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SoM
-- name: (TRaSH) Vodes
+  pattern: SoM
+- name: Vodes
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Vodes
-- name: (TRaSH) Z4ST1N
+  pattern: Vodes
+- name: Z4ST1N
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) Z4ST1N
-- name: (TRaSH) ZeroBuild
+  pattern: Z4ST1N
+- name: ZeroBuild
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ZeroBuild
+  pattern: ZeroBuild
 tests: []

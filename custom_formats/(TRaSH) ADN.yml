@@ -3,24 +3,24 @@ description: '[From Wikipedia, the free encyclopedia](https://fr.wikipedia.org/w
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) ADN
+- name: ADN
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) ADN
+  pattern: ADN
 tests: []

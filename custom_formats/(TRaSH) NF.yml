@@ -8,17 +8,17 @@ description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/w
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) Netflix
+- name: Netflix
   type: release_title
   required: true
   negate: false
-  pattern: (TRaSH) Netflix
-- name: (TRaSH) WEBDL
+  pattern: Netflix
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false

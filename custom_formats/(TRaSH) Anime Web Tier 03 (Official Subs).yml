@@ -3,34 +3,34 @@ description: Official sub groups that tend to be more consistent and release fas
 tags:
 - TRaSH
 conditions:
-- name: (TRaSH) WEBDL
+- name: WEBDL
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) WEBRIP
+- name: WEBRIP
   type: source
   required: false
   negate: false
   source: webrip
-- name: (TRaSH) WEB
+- name: WEB
   type: source
   required: false
   negate: false
   source: web_dl
-- name: (TRaSH) SubsPlease
+- name: SubsPlease
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SubsPlease
-- name: (TRaSH) SubsPlus+
+  pattern: SubsPlease
+- name: SubsPlus+
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) SubsPlus+
-- name: (TRaSH) ZR
+  pattern: SubsPlus+
+- name: ZR
   type: release_title
   required: false
   negate: false
-  pattern: (TRaSH) ZR
+  pattern: ZR
 tests: []
