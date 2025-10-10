@@ -244,24 +244,28 @@ def process_custom_formats(trash_quality_profile, trash_custom_format_mapping, t
         for specification in trash_custom_format['specifications']:
             condition = {
                 'name': specification['name'],
-                'type': CONDITION_TYPE[specification['implementation']],
+                'type': CONDITION_TYPES[specification['implementation']],
                 'required': specification['required'],
                 'negate': specification['negate']
             }
 
             match condition['type']:
                 case 'quality_modifier':
-                    condition['qualityModifier'] = QUALITY_MODIFIER[specification['fields']['value']]
+                    condition['qualityModifier'] = QUALITY_MODIFIERS[specification['fields']['value']]
                 case 'resolution':
                     condition['resolution'] = f"{specification['fields']['value']}p"
                 case 'source':
                     if specification['name'].lower().startswith('not'):
                         # Handle "not <quality>" cases
-                        condition['source'] = SOURCE_TYPE[specification['name'][4:].lower()]
+                        condition['source'] = SOURCE_TYPES[specification['name'][4:].lower()]
                     else:
-                        condition['source'] = SOURCE_TYPE[specification['name'].lower()]
+                        condition['source'] = SOURCE_TYPES[specification['name'].lower()]
                 case 'language':
-                    condition['language'] = LANGUAGE[specification['fields']['value']]
+                    match target_app:
+                        case TargetApp.RADARR:
+                            condition['language'] = LANGUAGES_RADARR[specification['fields']['value']]
+                        case TargetApp.SONARR:
+                            condition['language'] = LANGUAGES_SONARR[specification['fields']['value']]
                     # TODO: Double-check the purpose of exceptLanguage
                     condition['exceptLanguage'] = 'false'
                 case 'release_title' | 'release_group':
