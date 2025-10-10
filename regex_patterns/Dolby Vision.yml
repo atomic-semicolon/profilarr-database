@@ -1,5 +1,5 @@
 name: Dolby Vision
-pattern: \b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\b
+pattern: \b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\b|\b(dv|dovi|dolby[ .]?V(ision)?)\b
 description: Dolby Vision is a high dynamic range (HDR) video format that uses dynamic
   metadata to deliver enhanced brightness, contrast, and color on a scene-by-scene
   or frame-by-frame basis, providing superior picture quality. This pattern excludes
@@ -9,6 +9,7 @@ tags:
 - Enhancement
 - Colour Grade
 - HDR
+- TRaSH
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,6 @@
+name: POE
+pattern: (POE)$|^(POE)$
+description: ''
+tags:
+- TRaSH
+tests: []

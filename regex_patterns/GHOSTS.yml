@@ -1,0 +1,6 @@
+name: GHOSTS
+pattern: ^(GHOSTS)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -7,6 +7,7 @@ description: HBO Max is an American subscription video-on-demand streaming servi
 tags:
 - Streaming Service
 - WEB-DL
+- TRaSH
 tests:
 - expected: true
   id: 1

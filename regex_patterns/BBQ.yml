@@ -1,0 +1,6 @@
+name: BBQ
+pattern: ^(BBQ)$
+description: ''
+tags:
+- TRaSH
+tests: []

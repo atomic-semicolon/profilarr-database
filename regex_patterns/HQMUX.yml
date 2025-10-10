@@ -1,7 +1,8 @@
 name: HQMUX
-pattern: (?<=^|[\s.-])HQMUX\b
+pattern: (?<=^|[\s.-])HQMUX\b|^(HQMUX)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

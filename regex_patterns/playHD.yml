@@ -1,7 +1,8 @@
 name: playHD
-pattern: (?<=^|[\s.-])playHD\b
+pattern: (?<=^|[\s.-])playHD\b|^(playHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

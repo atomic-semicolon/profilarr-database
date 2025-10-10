@@ -1,0 +1,39 @@
+name: (TRaSH) UHD Bluray Tier 02
+description: 'Groups that:
+
+  - Use remuxes as their source without micro-sizing them.
+
+  - HDR/DoVi (Depending on what''s offered and often both).
+
+  - Use Lossless Audio (TrueHD, DTS-X, DTS-HD, etc).
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
+tags:
+- TRaSH
+conditions:
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+- name: Not WEBDL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: Not WEBRIP
+  type: source
+  required: true
+  negate: true
+  source: webrip
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: HQMUX
+  type: release_group
+  required: false
+  negate: false
+  pattern: HQMUX
+tests: []

@@ -1,0 +1,6 @@
+name: GTF
+pattern: ^(GTF)$
+description: ''
+tags:
+- TRaSH
+tests: []

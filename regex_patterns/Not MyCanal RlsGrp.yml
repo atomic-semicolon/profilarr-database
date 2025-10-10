@@ -1,0 +1,6 @@
+name: Not MyCanal RlsGrp
+pattern: \b(MyCanal)\b
+description: ''
+tags:
+- TRaSH
+tests: []

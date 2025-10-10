@@ -1,0 +1,6 @@
+name: NEO
+pattern: ^(NEO)$
+description: ''
+tags:
+- TRaSH
+tests: []

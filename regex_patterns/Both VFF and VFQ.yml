@@ -1,0 +1,6 @@
+name: Both VFF and VFQ
+pattern: \b(VF(F|Q)[ .]VF(F|Q))\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: RiPiT
+pattern: ^(RiPiT)$
+description: ''
+tags:
+- TRaSH
+tests: []

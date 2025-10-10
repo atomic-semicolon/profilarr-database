@@ -1,7 +1,8 @@
 name: VD0N
-pattern: (?<=^|[\s.-])VD0N\b
+pattern: (?<=^|[\s.-])VD0N\b|^(VD0N)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

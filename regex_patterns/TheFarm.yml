@@ -1,7 +1,8 @@
 name: TheFarm
-pattern: (?<=^|[\s.-])TheFarm\b
+pattern: (?<=^|[\s.-])TheFarm\b|^(TheFarm)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

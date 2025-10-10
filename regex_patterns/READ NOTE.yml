@@ -1,0 +1,6 @@
+name: READ NOTE
+pattern: \b(READ(\s|\.)+NOTE)\b
+description: ''
+tags:
+- TRaSH
+tests: []

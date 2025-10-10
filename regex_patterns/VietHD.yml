@@ -1,7 +1,8 @@
 name: VietHD
-pattern: (?<=^|[\s.-])VietHD\b
+pattern: (?<=^|[\s.-])VietHD\b|^(VietHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

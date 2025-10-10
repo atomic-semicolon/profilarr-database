@@ -1,0 +1,6 @@
+name: HDT
+pattern: ^(HDT)$
+description: ''
+tags:
+- TRaSH
+tests: []

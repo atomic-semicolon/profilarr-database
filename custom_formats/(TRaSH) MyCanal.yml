@@ -1,0 +1,31 @@
+name: (TRaSH) MyCanal
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Groupe_Canal%2B)'
+tags:
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: CANAL+
+  type: release_title
+  required: false
+  negate: false
+  pattern: CANAL+
+- name: MyCANAL
+  type: release_title
+  required: false
+  negate: false
+  pattern: MyCANAL
+- name: Not MyCanal RlsGrp
+  type: release_group
+  required: true
+  negate: true
+  pattern: Not MyCanal RlsGrp
+tests: []

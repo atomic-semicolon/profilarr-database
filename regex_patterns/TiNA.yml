@@ -1,0 +1,6 @@
+name: TiNA
+pattern: ^(TiNA)$
+description: ''
+tags:
+- TRaSH
+tests: []

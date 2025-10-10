@@ -1,0 +1,6 @@
+name: KIRA
+pattern: ^(KIRA)$
+description: ''
+tags:
+- TRaSH
+tests: []

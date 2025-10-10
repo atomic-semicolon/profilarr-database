@@ -1,7 +1,8 @@
 name: NhaNc3
-pattern: (?<=^|[\s.-])NhaNc3\b
+pattern: (?<=^|[\s.-])NhaNc3\b|^(NhaNc3)$
 description: Banned for Low Mixed Quality Releases
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

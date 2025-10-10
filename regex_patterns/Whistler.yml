@@ -1,0 +1,6 @@
+name: Whistler
+pattern: (Whistler)$|^(Whistler)$
+description: ''
+tags:
+- TRaSH
+tests: []

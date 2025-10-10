@@ -1,0 +1,11 @@
+name: (TRaSH) VQ
+description: 'Quebec Version (strong Quebec accent, ex: The Simpsons movie).'
+tags:
+- TRaSH
+conditions:
+- name: "Version Qu\xE9b\xE9coise"
+  type: release_title
+  required: true
+  negate: false
+  pattern: "Version Qu\xE9b\xE9coise"
+tests: []

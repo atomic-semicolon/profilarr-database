@@ -1,0 +1,11 @@
+name: (TRaSH) VFI
+description: International French Version.
+tags:
+- TRaSH
+conditions:
+- name: French International
+  type: release_title
+  required: true
+  negate: false
+  pattern: French International
+tests: []

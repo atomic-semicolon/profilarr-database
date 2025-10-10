@@ -1,0 +1,6 @@
+name: RiiR Aliases
+pattern: \b(TOJ)\b
+description: ''
+tags:
+- TRaSH
+tests: []

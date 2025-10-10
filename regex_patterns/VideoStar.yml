@@ -1,0 +1,6 @@
+name: VideoStar
+pattern: ^(VideoStar)$
+description: ''
+tags:
+- TRaSH
+tests: []

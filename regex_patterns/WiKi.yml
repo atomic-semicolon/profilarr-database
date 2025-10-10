@@ -1,7 +1,8 @@
 name: WiKi
-pattern: (?<=^|[\s.-])WiKi\b
+pattern: (?<=^|[\s.-])WiKi\b|^(WiKi)$
 description: Banned for Upscale
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

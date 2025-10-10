@@ -1,0 +1,6 @@
+name: sbR
+pattern: ^(sbR)$
+description: ''
+tags:
+- TRaSH
+tests: []

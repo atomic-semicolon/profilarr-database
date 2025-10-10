@@ -1,7 +1,8 @@
 name: SumVision
-pattern: (?<=^|[\s.-])SumVision\b
+pattern: (?<=^|[\s.-])SumVision\b|^(SumVision)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

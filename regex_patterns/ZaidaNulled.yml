@@ -1,0 +1,6 @@
+name: ZaidaNulled
+pattern: (ZaidaNulled)$|^(ZaidaNulled)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: TBS
+pattern: ^(TBS)$
+description: ''
+tags:
+- TRaSH
+tests: []

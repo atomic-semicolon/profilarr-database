@@ -1,8 +1,9 @@
 name: NCmt
-pattern: (?<=^|[\s.-])NCmt\b
+pattern: (?<=^|[\s.-])NCmt\b|^(NCmt)$
 description: ''
 tags:
 - Release Group
 - Remux
 - Bluray
+- TRaSH
 tests: []

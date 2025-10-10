@@ -1,0 +1,6 @@
+name: SUPPLY
+pattern: ^(SUPPLY)$
+description: ''
+tags:
+- TRaSH
+tests: []

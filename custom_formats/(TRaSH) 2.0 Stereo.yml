@@ -1,0 +1,31 @@
+name: (TRaSH) 2.0 Stereo
+description: 20-stereo
+tags:
+- TRaSH
+conditions:
+- name: Stereo
+  type: release_title
+  required: true
+  negate: false
+  pattern: Stereo
+- name: Not 3.0ch
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 3.0ch
+- name: Not 4.0ch
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 4.0ch
+- name: Not High Channel Count
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not High Channel Count
+- name: Not Mono
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Mono
+tests: []

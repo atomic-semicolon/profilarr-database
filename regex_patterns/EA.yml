@@ -1,7 +1,8 @@
 name: EA
-pattern: (?<=^|[\s.-])EA\b
+pattern: (?<=^|[\s.-])EA\b|^(EA)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

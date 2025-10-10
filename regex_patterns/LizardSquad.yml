@@ -1,0 +1,6 @@
+name: LizardSquad
+pattern: (LizardSquad)$|^(LizardSquad)$
+description: ''
+tags:
+- TRaSH
+tests: []

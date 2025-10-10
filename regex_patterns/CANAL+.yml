@@ -1,0 +1,6 @@
+name: CANAL+
+pattern: \b(C(?:anal)?[ .-]?(Plus|\+))[ .]
+description: ''
+tags:
+- TRaSH
+tests: []

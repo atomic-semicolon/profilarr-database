@@ -1,0 +1,6 @@
+name: MAMA
+pattern: ^(MAMA)$
+description: ''
+tags:
+- TRaSH
+tests: []

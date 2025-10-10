@@ -1,0 +1,6 @@
+name: G
+pattern: ^(GHOULS|GiMBAP|GLiMMER|Goatlove)$
+description: ''
+tags:
+- TRaSH
+tests: []

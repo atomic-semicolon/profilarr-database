@@ -1,0 +1,6 @@
+name: jennaortega
+pattern: ^(jennaortega(UHD)?)$|(?<!-)\b(jennaortega(UHD)?)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: INFLATE
+pattern: ^(INFLATE)$
+description: ''
+tags:
+- TRaSH
+tests: []

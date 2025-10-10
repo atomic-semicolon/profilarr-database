@@ -1,0 +1,6 @@
+name: FSX
+pattern: (FSX)$|^(FSX)$
+description: ''
+tags:
+- TRaSH
+tests: []

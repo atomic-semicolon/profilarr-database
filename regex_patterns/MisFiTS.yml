@@ -1,0 +1,6 @@
+name: MisFiTS
+pattern: ^(MisFiTS)$
+description: ''
+tags:
+- TRaSH
+tests: []

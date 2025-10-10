@@ -1,0 +1,6 @@
+name: TVS iTunesHD
+pattern: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
+description: ''
+tags:
+- TRaSH
+tests: []

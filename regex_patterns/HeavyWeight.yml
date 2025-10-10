@@ -1,0 +1,6 @@
+name: HeavyWeight
+pattern: ^(HeavyWeight)$
+description: ''
+tags:
+- TRaSH
+tests: []

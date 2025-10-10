@@ -1,7 +1,8 @@
 name: SHD
-pattern: (?<=^|[\s.-])SHD\b
+pattern: (?<=^|[\s.-])SHD\b|^(SHD)$
 description: Banned for Retagging
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

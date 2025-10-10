@@ -1,0 +1,6 @@
+name: PL
+pattern: (PL)$|^(PL)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,7 +1,8 @@
 name: HiDt
-pattern: (?<=^|[\s.-])HiDt\b
+pattern: (?<=^|[\s.-])HiDt\b|^(HiDt)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

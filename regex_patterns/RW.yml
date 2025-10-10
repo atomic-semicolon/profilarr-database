@@ -1,0 +1,6 @@
+name: RW
+pattern: \b(RW)\b
+description: ''
+tags:
+- TRaSH
+tests: []

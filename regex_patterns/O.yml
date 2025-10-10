@@ -1,0 +1,6 @@
+name: O
+pattern: ^(OBSTACLE|OohLaLa|OOKAMI)$
+description: ''
+tags:
+- TRaSH
+tests: []

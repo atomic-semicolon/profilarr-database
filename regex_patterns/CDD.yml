@@ -1,0 +1,6 @@
+name: CDD
+pattern: ^(CDD)$
+description: ''
+tags:
+- TRaSH
+tests: []

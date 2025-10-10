@@ -1,0 +1,16 @@
+name: (TRaSH) WEB Scene
+description: One of the few scene groups that released quality releases.
+tags:
+- TRaSH
+conditions:
+- name: DEFLATE
+  type: release_group
+  required: false
+  negate: false
+  pattern: DEFLATE
+- name: INFLATE
+  type: release_group
+  required: false
+  negate: false
+  pattern: INFLATE
+tests: []

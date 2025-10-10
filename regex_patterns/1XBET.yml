@@ -1,0 +1,6 @@
+name: 1XBET
+pattern: (1XBET)$|\b(1XBET)\b|^(1XBET)$
+description: ''
+tags:
+- TRaSH
+tests: []

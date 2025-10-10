@@ -1,0 +1,6 @@
+name: CHX
+pattern: ^(CHX)$
+description: ''
+tags:
+- TRaSH
+tests: []

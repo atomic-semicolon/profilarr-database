@@ -1,0 +1,6 @@
+name: SunDry
+pattern: (SunDry)$|^(SunDry)$
+description: ''
+tags:
+- TRaSH
+tests: []

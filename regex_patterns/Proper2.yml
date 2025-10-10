@@ -1,0 +1,6 @@
+name: Proper2
+pattern: \b(Proper2)\b
+description: ''
+tags:
+- TRaSH
+tests: []

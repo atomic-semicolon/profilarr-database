@@ -1,0 +1,6 @@
+name: Oergel
+pattern: (Oergel)$|^(Oergel)$
+description: ''
+tags:
+- TRaSH
+tests: []

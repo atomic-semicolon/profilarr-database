@@ -1,0 +1,6 @@
+name: TkHD
+pattern: ^(TkHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

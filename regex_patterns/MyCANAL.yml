@@ -1,0 +1,6 @@
+name: MyCANAL
+pattern: \b(MyCANAL)\b
+description: ''
+tags:
+- TRaSH
+tests: []

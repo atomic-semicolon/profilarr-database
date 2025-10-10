@@ -1,0 +1,6 @@
+name: OJ
+pattern: (OJ)$|^(OJ)$
+description: ''
+tags:
+- TRaSH
+tests: []

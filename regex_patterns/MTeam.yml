@@ -1,7 +1,8 @@
 name: MTeam
-pattern: (?<=^|[\s.-])MTeam\b
+pattern: (?<=^|[\s.-])MTeam\b|^(MTeam|MT)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

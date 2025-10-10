@@ -1,0 +1,6 @@
+name: SHOWE
+pattern: (SHOWE)$|^(SHOWE)$
+description: ''
+tags:
+- TRaSH
+tests: []

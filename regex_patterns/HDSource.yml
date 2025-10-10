@@ -1,0 +1,6 @@
+name: HDSource
+pattern: ^(HDSource)$
+description: ''
+tags:
+- TRaSH
+tests: []

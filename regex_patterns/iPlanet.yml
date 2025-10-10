@@ -1,0 +1,6 @@
+name: iPlanet
+pattern: ^(iPlanet)$
+description: ''
+tags:
+- TRaSH
+tests: []

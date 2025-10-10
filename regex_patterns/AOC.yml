@@ -1,7 +1,8 @@
 name: AOC
-pattern: (?<=^|[\s.-])AOC\b
+pattern: (?<=^|[\s.-])AOC\b|^(AOC)$
 description: Banned for Excessive Audio Streams
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,7 +1,8 @@
 name: beAst
-pattern: (?<=^|[\s.-])beAst\b
+pattern: (?<=^|[\s.-])beAst\b|^(beAst)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

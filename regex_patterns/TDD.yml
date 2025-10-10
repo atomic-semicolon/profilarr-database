@@ -1,7 +1,8 @@
 name: TDD
-pattern: (?<=^|[\s.-])TDD\b
+pattern: (?<=^|[\s.-])TDD\b|^(TDD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

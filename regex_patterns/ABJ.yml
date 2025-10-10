@@ -1,0 +1,6 @@
+name: ABJ
+pattern: (ABJ)$|^(ABJ)$
+description: ''
+tags:
+- TRaSH
+tests: []

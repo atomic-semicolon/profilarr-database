@@ -1,0 +1,6 @@
+name: PEPiTE
+pattern: ^(PEPiTE)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,47 @@
+name: (TRaSH) DD+ ATMOS
+description: Atmos via UHD Blu-ray will be lossless, or lossy via streaming services
+  so in this case it will be lossy + Atmos
+tags:
+- TRaSH
+conditions:
+- name: Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dolby Digital Plus
+- name: ATMOS
+  type: release_title
+  required: true
+  negate: false
+  pattern: ATMOS
+- name: Not TrueHD
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: 'Not Basic Dolby Digital '
+  type: release_title
+  required: true
+  negate: true
+  pattern: 'Not Basic Dolby Digital '
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+tests: []

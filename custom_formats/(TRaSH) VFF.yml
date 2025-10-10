@@ -1,0 +1,17 @@
+name: (TRaSH) VFF
+description: Full French version (dubbing done in France) and French version (normally
+  equivalent to VFQ).
+tags:
+- TRaSH
+conditions:
+- name: TRUEFRENCH
+  type: release_title
+  required: true
+  negate: false
+  pattern: TRUEFRENCH
+- name: Not VF2
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not VF2
+tests: []

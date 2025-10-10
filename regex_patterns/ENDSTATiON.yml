@@ -1,0 +1,6 @@
+name: ENDSTATiON
+pattern: ^(ENDSTATiON)$
+description: ''
+tags:
+- TRaSH
+tests: []

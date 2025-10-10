@@ -1,7 +1,8 @@
 name: ShieldBearer
-pattern: (?<=^|[\s.-])ShieldBearer\b
+pattern: (?<=^|[\s.-])ShieldBearer\b|^(ShieldBearer)$
 description: Banned For AI Upscale
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

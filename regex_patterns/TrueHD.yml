@@ -1,7 +1,8 @@
 name: TrueHD
-pattern: True[ .-]?HD[ .-]?
+pattern: True[ .-]?HD[ .-]?|True[ .-]?HD|W4NK3R|HQMUX
 description: ''
 tags:
 - Audio
 - Lossless
+- TRaSH
 tests: []

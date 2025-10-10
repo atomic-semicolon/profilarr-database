@@ -1,7 +1,8 @@
 name: BHDStudio
-pattern: (?<=^|[\s.-])BHDStudio\b
+pattern: (?<=^|[\s.-])BHDStudio\b|^(BHDStudio)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

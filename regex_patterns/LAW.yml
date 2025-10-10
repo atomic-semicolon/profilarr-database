@@ -1,0 +1,6 @@
+name: LAW
+pattern: (LAW)$|^(LAW)$
+description: ''
+tags:
+- TRaSH
+tests: []

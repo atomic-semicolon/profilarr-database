@@ -1,0 +1,21 @@
+name: (TRaSH) SALTO
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Salto_(streaming_service)>)'
+tags:
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: SALTO
+  type: release_title
+  required: true
+  negate: false
+  pattern: SALTO
+tests: []

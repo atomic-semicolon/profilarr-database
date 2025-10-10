@@ -1,7 +1,8 @@
 name: SWTYBLZ
-pattern: (?<=^|[\s.-])SWTYBLZ\b
+pattern: (?<=^|[\s.-])SWTYBLZ\b|\b(SWTYBLZ)\b
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

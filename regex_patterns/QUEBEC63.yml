@@ -1,0 +1,6 @@
+name: QUEBEC63
+pattern: ^(Q(UEBE)?C63)$
+description: ''
+tags:
+- TRaSH
+tests: []

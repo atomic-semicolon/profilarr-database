@@ -1,0 +1,35 @@
+name: (TRaSH) German
+description: This custom format helps Radarr/Sonarr recognize German audio releases
+  that contain only a German language track and no others. It will add `German` to
+  your filename.
+tags:
+- TRaSH
+conditions:
+- name: German
+  type: language
+  required: true
+  negate: false
+  language: german
+  exceptLanguage: 'false'
+- name: NOT Original
+  type: language
+  required: true
+  negate: true
+  language: original
+  exceptLanguage: 'false'
+- name: DL
+  type: release_title
+  required: true
+  negate: true
+  pattern: DL
+- name: ML
+  type: release_title
+  required: true
+  negate: true
+  pattern: ML
+- name: Not Subbed
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Subbed
+tests: []

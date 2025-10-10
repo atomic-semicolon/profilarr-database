@@ -1,0 +1,6 @@
+name: OCA
+pattern: ^(OCA)$
+description: ''
+tags:
+- TRaSH
+tests: []

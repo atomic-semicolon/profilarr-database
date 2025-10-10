@@ -1,0 +1,6 @@
+name: Not TrueHD&ATMOS
+pattern: True[ .-]?HD|\bATMOS(\b|\d)|\b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
+description: ''
+tags:
+- TRaSH
+tests: []

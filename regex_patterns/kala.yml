@@ -1,0 +1,6 @@
+name: kala
+pattern: (kala)$|^(kala)$
+description: ''
+tags:
+- TRaSH
+tests: []

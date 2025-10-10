@@ -1,7 +1,8 @@
 name: DRX
-pattern: (?<=^|[\s.-])DRX\b
+pattern: (?<=^|[\s.-])DRX\b|^(DRX)$
 description: Banned for Non Retail Audio
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

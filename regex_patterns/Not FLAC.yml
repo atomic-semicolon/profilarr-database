@@ -1,0 +1,6 @@
+name: Not FLAC
+pattern: \bFLAC(\b|\d)
+description: ''
+tags:
+- TRaSH
+tests: []

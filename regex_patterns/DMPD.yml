@@ -1,0 +1,6 @@
+name: DMPD
+pattern: ^(DMPD)$
+description: ''
+tags:
+- TRaSH
+tests: []

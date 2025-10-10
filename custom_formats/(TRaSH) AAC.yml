@@ -1,0 +1,45 @@
+name: (TRaSH) AAC
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)
+
+  Advanced Audio Coding (AAC) is an audio coding standard for lossy digital audio
+  compression. Designed to be the successor of the MP3 format, AAC generally achieves
+  higher sound quality than MP3 at the same bit rate.'
+tags:
+- TRaSH
+conditions:
+- name: AAC
+  type: release_title
+  required: true
+  negate: false
+  pattern: AAC
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: 'Not Dolby Digital Plus '
+  type: release_title
+  required: true
+  negate: true
+  pattern: 'Not Dolby Digital Plus '
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Basic Dolby Digital
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+tests: []

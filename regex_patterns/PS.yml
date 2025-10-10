@@ -1,0 +1,6 @@
+name: PS
+pattern: (PS)$|^(PS)$
+description: ''
+tags:
+- TRaSH
+tests: []

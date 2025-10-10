@@ -1,7 +1,8 @@
 name: LoRD
-pattern: (?<=^|[\s.-])LoRD\b
+pattern: (?<=^|[\s.-])LoRD\b|^(LoRD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

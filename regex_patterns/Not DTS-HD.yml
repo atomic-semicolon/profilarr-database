@@ -1,0 +1,6 @@
+name: Not DTS-HD
+pattern: \b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\b|\d)
+description: ''
+tags:
+- TRaSH
+tests: []

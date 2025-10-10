@@ -1,5 +1,5 @@
 name: D-Z0N3
-pattern: (?<=^|[\s.-])D-Z0N3\b|\b(D-Z0N3)\b
+pattern: (?<=^|[\s.-])D-Z0N3\b|\b(D-Z0N3)\b|^(D-Z0N3)$
 description: ''
 tags:
 - Release Group

@@ -1,7 +1,8 @@
 name: MeGusta
-pattern: (?<=^|[\s.-])MeGusta\b
+pattern: (?<=^|[\s.-])MeGusta\b|^(MeGusta)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

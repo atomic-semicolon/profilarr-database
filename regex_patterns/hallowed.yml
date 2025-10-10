@@ -1,9 +1,10 @@
 name: hallowed
-pattern: (?<=^|[\s.-])hallowed\b
+pattern: (?<=^|[\s.-])hallowed\b|^(hallowed)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests:
 - expected: true
   id: 1

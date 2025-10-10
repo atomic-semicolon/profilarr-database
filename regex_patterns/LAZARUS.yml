@@ -1,7 +1,8 @@
 name: LAZARUS
-pattern: (?<=^|[\s.-])LAZARUS\b
+pattern: (?<=^|[\s.-])LAZARUS\b|^(LAZARUS)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

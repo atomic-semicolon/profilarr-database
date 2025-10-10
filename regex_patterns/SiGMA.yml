@@ -1,7 +1,8 @@
 name: SiGMA
-pattern: (?<=^|[\s.-])SiGMA\b
+pattern: (?<=^|[\s.-])SiGMA\b|^(SiGMA)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

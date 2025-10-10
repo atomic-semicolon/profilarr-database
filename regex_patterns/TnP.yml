@@ -1,7 +1,8 @@
 name: TnP
-pattern: (?<=^|[\s.-])TnP\b
+pattern: (?<=^|[\s.-])TnP\b|^(TnP)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

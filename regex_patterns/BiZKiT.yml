@@ -1,7 +1,8 @@
 name: BiZKiT
-pattern: (?<=^|[\s.-])BiZKiT\b
+pattern: (?<=^|[\s.-])BiZKiT\b|^(BiZKiT)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

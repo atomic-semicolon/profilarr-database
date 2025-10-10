@@ -1,7 +1,8 @@
 name: WATCHABLE
-pattern: (?<=^|[\s.-])WATCHABLE\b
+pattern: (?<=^|[\s.-])WATCHABLE\b|^(WATCHABLE)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

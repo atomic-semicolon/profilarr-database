@@ -1,0 +1,22 @@
+name: (TRaSH) German LQ (release title)
+description: A collection of terms seen in the titles of Low-Quality releases that
+  are not captured by using a release group name.
+tags:
+- TRaSH
+conditions:
+- name: TVS iTunesHD
+  type: release_title
+  required: false
+  negate: false
+  pattern: TVS iTunesHD
+- name: Jellyfin-Plex
+  type: release_title
+  required: false
+  negate: false
+  pattern: Jellyfin-Plex
+- name: Double German Tag
+  type: release_title
+  required: false
+  negate: false
+  pattern: Double German Tag
+tests: []

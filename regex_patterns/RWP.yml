@@ -1,0 +1,6 @@
+name: RWP
+pattern: ^(RWP)$
+description: ''
+tags:
+- TRaSH
+tests: []

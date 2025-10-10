@@ -1,7 +1,8 @@
 name: iFT
-pattern: (?<=^|[\s.-])iFT\b
+pattern: (?<=^|[\s.-])iFT\b|^(iFT)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

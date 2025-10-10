@@ -1,0 +1,6 @@
+name: Cancer58
+pattern: (Cancer58)$|^(Cancer58)$
+description: ''
+tags:
+- TRaSH
+tests: []

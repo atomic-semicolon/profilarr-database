@@ -1,0 +1,6 @@
+name: WOMBAT
+pattern: ^(WOMBAT)$
+description: ''
+tags:
+- TRaSH
+tests: []

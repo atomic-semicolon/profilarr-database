@@ -1,0 +1,6 @@
+name: Not TrueHD
+pattern: True[ .-]?HD
+description: ''
+tags:
+- TRaSH
+tests: []
