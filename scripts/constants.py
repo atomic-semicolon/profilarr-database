@@ -1,3 +1,12 @@
+from pathlib import Path
+
+CUSTOM_FORMAT_MAPPING_FILENAME = "trash-cf-mapping.json"
+
+TEMPLATE_PATH = Path(__file__).parent.parent / "templates"
+PROFILE_PATH = Path(__file__).parent.parent / "profiles"
+REGEX_PATH = Path(__file__).parent.parent / "regex_patterns"
+FORMAT_PATH = Path(__file__).parent.parent / "custom_formats"
+
 TEXT_REPLACEMENTS = {
     '/': '&',
     '[': '(',
@@ -8,17 +17,19 @@ CONDITION_TYPE = {
     'ReleaseTitleSpecification': 'release_title',
     'ReleaseGroupSpecification': 'release_group',
     'LanguageSpecification': 'language',
-    'SourceSpecification': 'source'
+    'SourceSpecification': 'source',
+    'ResolutionSpecification': 'resolution',
+    'QualityModifierSpecification': 'quality_modifier'
 }
 
 SOURCE_TYPE = {
-    'Bluray': 'bluray',
-    'Bluray Remux': 'bluray_raw',
-    'Remux': 'raw',
-    'DVD': 'dvd',
-    'WEB': 'web_dl',
-    'WEBDL': 'web_dl',
-    'WEBRIP': 'webrip'
+    'bluray': 'bluray',
+    'bluray remux': 'bluray_raw',
+    'remux': 'raw',
+    'dvd': 'dvd',
+    'web': 'web_dl',
+    'webdl': 'web_dl',
+    'webrip': 'webrip'
 }
 
 # TODO: Might need to have separate constants for Radarr and Sonarr, using Sonarr for now
@@ -106,4 +117,14 @@ QUALITIES = {
     "WORKPRINT": 28,
     "CAM": 29,
     "Unknown": 30
+}
+
+# Radarr only
+QUALITY_MODIFIER = {
+    0: 'none',
+    1: 'regional',
+    2: 'screener',
+    3: 'rawhd',
+    4: 'brdisk',
+    5: 'remux'
 }
