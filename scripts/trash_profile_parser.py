@@ -179,11 +179,11 @@ def write_quality_profile_file(quality_profile):
             quality_profile_data = yaml.safe_load(quality_profile_file)
 
             # Merge non-empty lists from the original file into the new one
-            if quality_profile_data['custom_formats_sonarr'] and not quality_profile['custom_formats_sonarr']:
+            if quality_profile_data.get('custom_formats_sonarr', {}) and not quality_profile['custom_formats_sonarr']:
                 quality_profile['custom_formats_sonarr'] += [x for x in quality_profile_data['custom_formats_sonarr'] if x not in quality_profile['custom_formats_sonarr']]
-            if quality_profile_data['custom_formats_radarr'] and not quality_profile['custom_formats_radarr']:
+            if quality_profile_data.get('custom_formats_radarr', {}) and not quality_profile['custom_formats_radarr']:
                 quality_profile['custom_formats_radarr'] += [x for x in quality_profile_data['custom_formats_radarr'] if x not in quality_profile['custom_formats_radarr']]
-            if quality_profile_data['custom_formats'] and not quality_profile['custom_formats']:
+            if quality_profile_data.get('custom_formats', {}) and not quality_profile['custom_formats']:
                 quality_profile['custom_formats'] += [x for x in quality_profile_data['custom_formats'] if x not in quality_profile['custom_formats']]
 
             # Find commonalities between the app-specific custom formats and merge them
