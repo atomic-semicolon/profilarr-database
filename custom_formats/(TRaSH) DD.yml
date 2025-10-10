@@ -1,0 +1,43 @@
+name: (TRaSH) DD
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Dolby_Digital)
+
+  Dolby Digital, also known as Dolby AC-3, is a lossy audio compression format.'
+tags:
+- TRaSH
+conditions:
+- name: Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: false
+  pattern: Basic Dolby Digital
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Dolby Digital Plus
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+tests: []

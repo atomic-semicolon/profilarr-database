@@ -1,0 +1,6 @@
+name: TFA
+pattern: ^(TFA)$
+description: ''
+tags:
+- TRaSH
+tests: []

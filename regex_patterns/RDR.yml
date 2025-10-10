@@ -1,0 +1,6 @@
+name: RDR
+pattern: ^(RDR)$
+description: ''
+tags:
+- TRaSH
+tests: []

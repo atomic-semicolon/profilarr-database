@@ -1,0 +1,6 @@
+name: AWARDS
+pattern: ^(AWARDS)$
+description: ''
+tags:
+- TRaSH
+tests: []

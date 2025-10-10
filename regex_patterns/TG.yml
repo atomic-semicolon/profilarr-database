@@ -1,0 +1,6 @@
+name: TG
+pattern: ^(TG)$
+description: ''
+tags:
+- TRaSH
+tests: []

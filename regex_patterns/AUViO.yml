@@ -1,0 +1,6 @@
+name: AUViO
+pattern: \b(AUVIO)\b
+description: ''
+tags:
+- TRaSH
+tests: []

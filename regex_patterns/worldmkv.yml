@@ -1,0 +1,6 @@
+name: worldmkv
+pattern: ^(worldmkv)$
+description: ''
+tags:
+- TRaSH
+tests: []

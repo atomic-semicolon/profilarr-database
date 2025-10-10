@@ -1,0 +1,6 @@
+name: Zeus
+pattern: ^(Zeus)$
+description: ''
+tags:
+- TRaSH
+tests: []

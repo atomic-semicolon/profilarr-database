@@ -1,0 +1,6 @@
+name: Not SDR
+pattern: \bSDR\b
+description: ''
+tags:
+- TRaSH
+tests: []

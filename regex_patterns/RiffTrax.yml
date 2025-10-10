@@ -1,0 +1,6 @@
+name: RiffTrax
+pattern: ^(Rifftrax)$
+description: ''
+tags:
+- TRaSH
+tests: []

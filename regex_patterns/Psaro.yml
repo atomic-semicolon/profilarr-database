@@ -1,0 +1,6 @@
+name: Psaro
+pattern: ^(Psaro)$
+description: ''
+tags:
+- TRaSH
+tests: []

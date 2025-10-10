@@ -1,0 +1,12 @@
+name: (TRaSH) Sing-Along Versions
+description: Versions of musical films that have sing-along lyrics hardcoded into
+  the video stream.
+tags:
+- TRaSH
+conditions:
+- name: Sing-Along
+  type: release_title
+  required: true
+  negate: false
+  pattern: Sing-Along
+tests: []

@@ -1,0 +1,6 @@
+name: EMVY
+pattern: (EMVY)$|^(EMVY)$
+description: ''
+tags:
+- TRaSH
+tests: []

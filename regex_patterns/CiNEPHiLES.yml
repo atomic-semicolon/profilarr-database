@@ -1,7 +1,8 @@
 name: CiNEPHiLES
-pattern: (?<=^|[\s.-])CiNEPHiLES\b
+pattern: (?<=^|[\s.-])CiNEPHiLES\b|^(CiNEPHiLES)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: RUBBiSH
+pattern: ^(RUBBiSH)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: U
+pattern: ^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY)$|^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY|USURY)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,7 +1,8 @@
 name: 3L
-pattern: (?<=^|[\s.-])3L\b
+pattern: (?<=^|[\s.-])3L\b|^(3L)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

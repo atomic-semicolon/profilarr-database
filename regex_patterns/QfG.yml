@@ -1,0 +1,6 @@
+name: QfG
+pattern: (QfG)$|^(QfG)$
+description: ''
+tags:
+- TRaSH
+tests: []

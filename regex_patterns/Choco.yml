@@ -1,0 +1,6 @@
+name: Choco
+pattern: ^(Choco)$
+description: ''
+tags:
+- TRaSH
+tests: []

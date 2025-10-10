@@ -1,7 +1,8 @@
 name: x0r
-pattern: (?<=^|[\s.-])x0r\b
+pattern: (?<=^|[\s.-])x0r\b|^(x0r)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

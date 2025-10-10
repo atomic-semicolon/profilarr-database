@@ -1,0 +1,6 @@
+name: VISIONPLUSHDR
+pattern: ^(VISIONPLUSHDR(-X|1000)?)$
+description: ''
+tags:
+- TRaSH
+tests: []

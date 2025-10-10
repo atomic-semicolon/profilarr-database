@@ -1,0 +1,6 @@
+name: AIDA
+pattern: ^(AIDA)$
+description: ''
+tags:
+- TRaSH
+tests: []

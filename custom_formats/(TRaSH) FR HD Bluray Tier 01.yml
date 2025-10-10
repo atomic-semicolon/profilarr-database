@@ -1,0 +1,59 @@
+name: (TRaSH) FR HD Bluray Tier 01
+description: '- WiP
+
+  - Groups that create encodes from a remux without micro-sizing them.
+
+  - Groups that have a minimum count of great releases (best encode in its class 1080p
+  and lower).
+
+  - Groups that add the best French audio track to an English release from Tier 01
+  or 02.'
+tags:
+- TRaSH
+conditions:
+- name: BLURAY
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not REMUX
+  type: source
+  required: true
+  negate: true
+  source: raw
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+- name: ARK01
+  type: release_group
+  required: false
+  negate: false
+  pattern: ARK01
+- name: BONBON
+  type: release_group
+  required: false
+  negate: false
+  pattern: BONBON
+- name: FRATERNiTY
+  type: release_group
+  required: false
+  negate: false
+  pattern: FRATERNiTY
+- name: FTMVHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: FTMVHD
+- name: HeavyWeight
+  type: release_group
+  required: false
+  negate: false
+  pattern: HeavyWeight
+- name: Psaro
+  type: release_group
+  required: false
+  negate: false
+  pattern: Psaro
+tests: []

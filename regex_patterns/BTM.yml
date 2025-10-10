@@ -1,7 +1,8 @@
 name: BTM
-pattern: (?<=^|[\s.-])BTM\b
+pattern: (?<=^|[\s.-])BTM\b|^(BTM)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: FCK
+pattern: ^(FCK)$
+description: ''
+tags:
+- TRaSH
+tests: []

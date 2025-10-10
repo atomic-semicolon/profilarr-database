@@ -1,7 +1,8 @@
 name: FRDS
-pattern: (?<=^|[\s.-])FRDS\b
+pattern: (?<=^|[\s.-])FRDS\b|^(FRDS)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

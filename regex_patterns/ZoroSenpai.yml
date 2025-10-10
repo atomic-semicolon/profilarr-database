@@ -1,7 +1,8 @@
 name: ZoroSenpai
-pattern: (?<=^|[\s.-])ZoroSenpai\b
+pattern: (?<=^|[\s.-])ZoroSenpai\b|^(ZoroSenpai)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

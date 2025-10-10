@@ -1,7 +1,8 @@
 name: EDPH
-pattern: (?<=^|[\s.-])EDPH\b
+pattern: (?<=^|[\s.-])EDPH\b|^(EDPH)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

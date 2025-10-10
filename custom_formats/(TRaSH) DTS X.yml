@@ -1,0 +1,54 @@
+name: (TRaSH) DTS X
+description: "[DTS:X is an object-based audio codec](https://www.whathifi.com/advice/dtsx-what-it-how-can-you-get-it)\
+  \ which aims to create a multi-dimensional sound that \u201Cmoves around you like\
+  \ it would in real life\u201D.\nYou may think that sounds similar to Dolby Atmos,\
+  \ and you\u2019d be right, but where DTS:X's differences lie in the required speaker\
+  \ configuration. While Dolby Atmos requires adding additional overhead channels\
+  \ to your 5.1 or 7.1 setup, DTS:X works with standard surround speaker setups \u2013\
+  \ just like the one you might already have at home. It can support up to 32 speaker\
+  \ locations and an 11.2-channel system.\nDTS:X, like other higher-quality DTS formats\
+  \ (e.g. DTS-HD MA), is lossless."
+tags:
+- TRaSH
+conditions:
+- name: DTS X
+  type: release_title
+  required: true
+  negate: false
+  pattern: DTS X
+- name: Not Basic DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Basic DTS
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Basic Dolby Digital
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Dolby Digital Plus
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+tests: []

@@ -1,0 +1,6 @@
+name: TAT
+pattern: ^(TAT)$
+description: ''
+tags:
+- TRaSH
+tests: []

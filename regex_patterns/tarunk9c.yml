@@ -1,7 +1,8 @@
 name: tarunk9c
-pattern: (?<=^|[\s.-])tarunk9c\b
+pattern: (?<=^|[\s.-])tarunk9c\b|^(tarunk9c)$
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

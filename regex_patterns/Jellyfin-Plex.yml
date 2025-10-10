@@ -1,0 +1,6 @@
+name: Jellyfin-Plex
+pattern: Jellyfin-Plex$
+description: ''
+tags:
+- TRaSH
+tests: []

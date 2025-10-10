@@ -1,0 +1,6 @@
+name: SHOWEHD
+pattern: (SHOWEHD)$|^(SHOWEHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,73 @@
+name: (TRaSH) FR WEB Tier 02
+description: '- WiP
+
+  - Groups that source and add the French audio track from the source to an English
+  release.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: COLL3CTiF
+  type: release_group
+  required: false
+  negate: false
+  pattern: COLL3CTiF
+- name: FiND
+  type: release_group
+  required: false
+  negate: false
+  pattern: FiND
+- name: FrIeNdS
+  type: release_group
+  required: false
+  negate: false
+  pattern: FrIeNdS
+- name: HeavyWeight
+  type: release_group
+  required: false
+  negate: false
+  pattern: HeavyWeight
+- name: NoNe
+  type: release_group
+  required: false
+  negate: false
+  pattern: NoNe
+- name: pERsO
+  type: release_group
+  required: false
+  negate: false
+  pattern: pERsO
+- name: POTO
+  type: release_group
+  required: false
+  negate: false
+  pattern: POTO
+- name: RG
+  type: release_group
+  required: false
+  negate: false
+  pattern: RG
+- name: RiPiT
+  type: release_group
+  required: false
+  negate: false
+  pattern: RiPiT
+- name: TAT
+  type: release_group
+  required: false
+  negate: false
+  pattern: TAT
+tests: []

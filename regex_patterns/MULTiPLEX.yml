@@ -1,0 +1,6 @@
+name: MULTiPLEX
+pattern: (MULTiPLEX)$|^(MULTiPLEX)$
+description: ''
+tags:
+- TRaSH
+tests: []

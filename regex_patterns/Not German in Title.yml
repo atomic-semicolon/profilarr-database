@@ -1,0 +1,6 @@
+name: Not German in Title
+pattern: (?i)\bgerman\b
+description: ''
+tags:
+- TRaSH
+tests: []

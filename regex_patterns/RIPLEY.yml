@@ -1,0 +1,6 @@
+name: RIPLEY
+pattern: ^(RIPLEY)$
+description: ''
+tags:
+- TRaSH
+tests: []

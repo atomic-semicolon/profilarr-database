@@ -1,0 +1,6 @@
+name: TSCC
+pattern: ^(TSCC)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: pmHD
+pattern: (pmHD)$|^(pmHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

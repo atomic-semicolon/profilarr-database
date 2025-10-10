@@ -1,0 +1,11 @@
+name: (TRaSH) BHDStudio
+description: bhdstudio
+tags:
+- TRaSH
+conditions:
+- name: BHDStudio
+  type: release_group
+  required: true
+  negate: false
+  pattern: BHDStudio
+tests: []

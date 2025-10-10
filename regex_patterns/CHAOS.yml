@@ -1,7 +1,8 @@
 name: CHAOS
-pattern: (?<=^|[\s.-])CHAOS\b
+pattern: (?<=^|[\s.-])CHAOS\b|^(CHAOS)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

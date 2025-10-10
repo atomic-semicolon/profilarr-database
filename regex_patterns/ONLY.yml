@@ -1,0 +1,6 @@
+name: ONLY
+pattern: ^(ONLY)$
+description: ''
+tags:
+- TRaSH
+tests: []

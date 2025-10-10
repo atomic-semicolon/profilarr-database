@@ -1,0 +1,6 @@
+name: ACED
+pattern: ^(ACED)$
+description: ''
+tags:
+- TRaSH
+tests: []

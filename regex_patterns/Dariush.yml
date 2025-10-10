@@ -1,7 +1,8 @@
 name: Dariush
-pattern: (?<=^|[\s.-])Dariush\b
+pattern: (?<=^|[\s.-])Dariush\b|^(Dariush)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

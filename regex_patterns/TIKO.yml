@@ -1,0 +1,6 @@
+name: TIKO
+pattern: ^(TIKO)$
+description: ''
+tags:
+- TRaSH
+tests: []

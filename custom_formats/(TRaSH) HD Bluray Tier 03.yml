@@ -1,0 +1,72 @@
+name: (TRaSH) HD Bluray Tier 03
+description: 'Groups that:
+
+  - Use remuxes as their source without micro-sizing them.
+
+  - Are added for a specific reason for other guides quality profiles.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
+tags:
+- TRaSH
+conditions:
+- name: BLURAY
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+- name: ATELiER
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
+- name: hallowed
+  type: release_group
+  required: false
+  negate: false
+  pattern: hallowed
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
+- name: HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HONE
+- name: LoRD
+  type: release_group
+  required: false
+  negate: false
+  pattern: LoRD
+- name: playHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: playHD
+- name: SPHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SPHD
+- name: W4NK3R
+  type: release_group
+  required: false
+  negate: false
+  pattern: W4NK3R
+tests: []

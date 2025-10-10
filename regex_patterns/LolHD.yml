@@ -1,7 +1,8 @@
 name: LolHD
-pattern: (?<=^|[\s.-])LolHD\b
+pattern: (?<=^|[\s.-])LolHD\b|^(LolHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

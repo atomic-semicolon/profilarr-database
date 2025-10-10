@@ -1,0 +1,6 @@
+name: JFF
+pattern: ^(JFF)$
+description: ''
+tags:
+- TRaSH
+tests: []

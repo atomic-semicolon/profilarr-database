@@ -1,7 +1,8 @@
 name: WiLDCAT
-pattern: (?<=^|[\s.-])WiLDCAT\b
+pattern: (?<=^|[\s.-])WiLDCAT\b|^(WiLDCAT)$
 description: ''
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

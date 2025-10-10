@@ -1,0 +1,6 @@
+name: LuRCH
+pattern: (LuRCH)$|^(LuRCH)$
+description: ''
+tags:
+- TRaSH
+tests: []

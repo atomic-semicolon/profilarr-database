@@ -1,0 +1,6 @@
+name: POTO
+pattern: ^(POTO)$
+description: ''
+tags:
+- TRaSH
+tests: []

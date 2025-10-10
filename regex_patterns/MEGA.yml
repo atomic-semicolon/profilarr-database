@@ -1,0 +1,6 @@
+name: MEGA
+pattern: (MEGA)$|^(MEGA)$
+description: ''
+tags:
+- TRaSH
+tests: []

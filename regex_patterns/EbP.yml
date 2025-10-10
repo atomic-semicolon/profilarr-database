@@ -1,7 +1,8 @@
 name: EbP
-pattern: (?<=^|[\s.-])EbP\b
+pattern: (?<=^|[\s.-])EbP\b|^(EbP)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: RealProperRepack
+pattern: \b(REAL\.(PROPER|REPACK))\b
+description: ''
+tags:
+- TRaSH
+tests: []

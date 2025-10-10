@@ -1,7 +1,8 @@
 name: CRUD
-pattern: (?<=^|[\s.-])CRUD\b
+pattern: (?<=^|[\s.-])CRUD\b|^(CRUD)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

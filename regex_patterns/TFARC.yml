@@ -1,0 +1,6 @@
+name: TFARC
+pattern: (TFARC)$|^(TFARC)$
+description: ''
+tags:
+- TRaSH
+tests: []

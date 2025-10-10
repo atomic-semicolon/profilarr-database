@@ -1,7 +1,8 @@
 name: CRiSC
-pattern: (?<=^|[\s.-])CRiSC\b
+pattern: (?<=^|[\s.-])CRiSC\b|^(CRiSC)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

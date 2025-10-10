@@ -1,0 +1,6 @@
+name: MAX
+pattern: ^(MAX)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: FENDT
+pattern: ^(FENDT)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,7 +1,8 @@
 name: MainFrame
-pattern: (?<=^|[\s.-])MainFrame\b
+pattern: (?<=^|[\s.-])MainFrame\b|^(MainFrame)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: MBA
+pattern: (MBA)$|^(MBA)$
+description: ''
+tags:
+- TRaSH
+tests: []

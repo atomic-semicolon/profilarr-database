@@ -1,7 +1,8 @@
 name: CHD
-pattern: (?<=^|[\s.-])CHD\b
+pattern: (?<=^|[\s.-])CHD\b|^(CHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

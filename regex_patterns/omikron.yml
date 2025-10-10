@@ -1,0 +1,6 @@
+name: omikron
+pattern: (omikron)$|^(omikron)$
+description: ''
+tags:
+- TRaSH
+tests: []

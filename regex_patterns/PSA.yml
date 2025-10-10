@@ -1,7 +1,8 @@
 name: PSA
-pattern: (?<=^|[\s.-])PSA\b
+pattern: (?<=^|[\s.-])PSA\b|^(PSA)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

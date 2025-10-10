@@ -1,0 +1,6 @@
+name: FZHD
+pattern: ^(FZHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

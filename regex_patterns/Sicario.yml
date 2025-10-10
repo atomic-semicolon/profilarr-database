@@ -1,0 +1,6 @@
+name: Sicario
+pattern: ^(Sicario)$
+description: ''
+tags:
+- TRaSH
+tests: []

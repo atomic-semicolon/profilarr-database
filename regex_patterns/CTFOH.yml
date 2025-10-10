@@ -1,0 +1,6 @@
+name: CTFOH
+pattern: (CTFOH)$|^(CTFOH)$
+description: ''
+tags:
+- TRaSH
+tests: []

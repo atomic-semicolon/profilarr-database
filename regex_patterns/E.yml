@@ -1,0 +1,6 @@
+name: E
+pattern: ^(E)$|^(ENJOi|EUBDS)$
+description: ''
+tags:
+- TRaSH
+tests: []

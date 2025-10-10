@@ -1,0 +1,6 @@
+name: Kristallprinz
+pattern: (Kristallprinz)$|^(Kristallprinz)$
+description: ''
+tags:
+- TRaSH
+tests: []

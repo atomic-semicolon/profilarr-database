@@ -1,7 +1,8 @@
 name: TvR
-pattern: (?<=^|[\s.-])TvR\b
+pattern: (?<=^|[\s.-])TvR\b|(TvR)$|^(TvR)$
 description: Banned for Mislabeling WEB-DL with Remux
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

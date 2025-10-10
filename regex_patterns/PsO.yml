@@ -1,0 +1,6 @@
+name: PsO
+pattern: (PsO)$|^(PsO)$
+description: ''
+tags:
+- TRaSH
+tests: []

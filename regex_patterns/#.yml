@@ -1,0 +1,6 @@
+name: '#'
+pattern: ^(4FR)$
+description: ''
+tags:
+- TRaSH
+tests: []

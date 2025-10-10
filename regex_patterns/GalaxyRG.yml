@@ -1,0 +1,6 @@
+name: GalaxyRG
+pattern: ^(GalaxyRG)$|\b(GalaxyRG)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,7 +1,8 @@
 name: DepraveD
-pattern: (?<=^|[\s.-])DepraveD\b
+pattern: (?<=^|[\s.-])DepraveD\b|^(DepraveD)$
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

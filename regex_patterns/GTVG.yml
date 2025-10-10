@@ -1,0 +1,6 @@
+name: GTVG
+pattern: ^(GTVG)$
+description: ''
+tags:
+- TRaSH
+tests: []

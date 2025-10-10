@@ -1,0 +1,6 @@
+name: EVO (no WEBDL)
+pattern: (?<=\b[12]\d{3}\b.*?)(?<!\b(web[ ._-]?(dl|rip)?).*?)\b(EVO)\b
+description: ''
+tags:
+- TRaSH
+tests: []

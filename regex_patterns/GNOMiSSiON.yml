@@ -1,7 +1,8 @@
 name: GNOMiSSiON
-pattern: (?<=^|[\s.-])GNOMiSSiON\b
+pattern: (?<=^|[\s.-])GNOMiSSiON\b|^(GNOMiSSiON)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

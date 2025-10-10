@@ -1,0 +1,6 @@
+name: RSG
+pattern: ^(RSG)$
+description: ''
+tags:
+- TRaSH
+tests: []

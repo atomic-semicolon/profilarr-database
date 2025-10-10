@@ -1,0 +1,6 @@
+name: ENCOUNTERS
+pattern: ^(ENCOUNTERS)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: HQC
+pattern: ^(HQC)$
+description: ''
+tags:
+- TRaSH
+tests: []

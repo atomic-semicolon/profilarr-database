@@ -1,7 +1,8 @@
 name: DON
-pattern: (?<=^|[\s.-])DON\b
+pattern: (?<=^|[\s.-])DON\b|^(DON)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

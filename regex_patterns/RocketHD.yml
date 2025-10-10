@@ -1,0 +1,6 @@
+name: RocketHD
+pattern: ^(RocketHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

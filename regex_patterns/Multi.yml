@@ -1,0 +1,6 @@
+name: Multi
+pattern: \b(Multi)(?![ ._-]?sub(s)?)(\b|\d)
+description: ''
+tags:
+- TRaSH
+tests: []

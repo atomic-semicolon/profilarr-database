@@ -1,7 +1,8 @@
 name: Geek
-pattern: (?<=^|[\s.-])Geek\b
+pattern: (?<=^|[\s.-])Geek\b|^(Geek)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: WQM
+pattern: ^(WQM)$
+description: ''
+tags:
+- TRaSH
+tests: []

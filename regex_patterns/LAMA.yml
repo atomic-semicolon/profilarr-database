@@ -1,7 +1,8 @@
 name: LAMA
-pattern: (?<=^|[\s.-])LAMA\b
+pattern: (?<=^|[\s.-])LAMA\b|^(LAMA)$
 description: Banned for Retagging
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

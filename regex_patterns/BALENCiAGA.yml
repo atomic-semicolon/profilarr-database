@@ -1,0 +1,6 @@
+name: BALENCiAGA
+pattern: (BALENCiAGA)$|^(BALENCiAGA)$
+description: ''
+tags:
+- TRaSH
+tests: []

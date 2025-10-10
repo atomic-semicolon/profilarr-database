@@ -1,7 +1,8 @@
 name: iVy
-pattern: (?<=^|[\s.-])iVy\b
+pattern: (?<=^|[\s.-])iVy\b|^(iVy)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []

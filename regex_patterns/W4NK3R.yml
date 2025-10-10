@@ -1,7 +1,8 @@
 name: W4NK3R
-pattern: (?<=^|[\s.-])W4NK3R\b
+pattern: (?<=^|[\s.-])W4NK3R\b|^(W4NK3R)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: NoLo
+pattern: ^(NoLo)$
+description: ''
+tags:
+- TRaSH
+tests: []

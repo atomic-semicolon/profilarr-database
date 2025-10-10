@@ -1,0 +1,6 @@
+name: SALTO
+pattern: \b(SALTO)\b
+description: ''
+tags:
+- TRaSH
+tests: []

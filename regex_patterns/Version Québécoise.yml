@@ -1,0 +1,6 @@
+name: "Version Qu\xE9b\xE9coise"
+pattern: \b(VQ)\b
+description: ''
+tags:
+- TRaSH
+tests: []

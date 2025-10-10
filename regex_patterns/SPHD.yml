@@ -1,7 +1,8 @@
 name: SPHD
-pattern: (?<=^|[\s.-])SPHD\b
+pattern: (?<=^|[\s.-])SPHD\b|^(SPHD)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

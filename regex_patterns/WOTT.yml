@@ -1,0 +1,6 @@
+name: WOTT
+pattern: (WOTT)$|^(WOTT)$
+description: ''
+tags:
+- TRaSH
+tests: []

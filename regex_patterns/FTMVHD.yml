@@ -1,0 +1,6 @@
+name: FTMVHD
+pattern: ^(FTMVHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

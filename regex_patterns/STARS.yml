@@ -1,0 +1,6 @@
+name: STARS
+pattern: ^(STARS)$
+description: ''
+tags:
+- TRaSH
+tests: []

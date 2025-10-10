@@ -1,0 +1,16 @@
+name: (TRaSH) VFQ
+description: Canadian French Version.
+tags:
+- TRaSH
+conditions:
+- name: Canadian French
+  type: release_title
+  required: true
+  negate: false
+  pattern: Canadian French
+- name: Not VF2
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not VF2
+tests: []

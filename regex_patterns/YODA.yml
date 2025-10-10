@@ -1,0 +1,6 @@
+name: YODA
+pattern: ^(YODA)$
+description: ''
+tags:
+- TRaSH
+tests: []

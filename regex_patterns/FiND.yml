@@ -1,0 +1,6 @@
+name: FiND
+pattern: ^(FiND)$
+description: ''
+tags:
+- TRaSH
+tests: []

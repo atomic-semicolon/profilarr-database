@@ -1,0 +1,6 @@
+name: euHD
+pattern: ^(euHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

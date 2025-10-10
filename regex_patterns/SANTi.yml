@@ -1,0 +1,6 @@
+name: SANTi
+pattern: ^(SANTi)$
+description: ''
+tags:
+- TRaSH
+tests: []

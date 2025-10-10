@@ -1,0 +1,6 @@
+name: nSD
+pattern: ^(nSD)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,7 +1,8 @@
 name: YIFY
-pattern: (?<=^|[\s.-])YIFY\b
+pattern: (?<=^|[\s.-])YIFY\b|^(YIFY)$
 description: Matches "YIFY" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

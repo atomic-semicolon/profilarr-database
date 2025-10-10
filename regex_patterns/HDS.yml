@@ -1,7 +1,8 @@
 name: HDS
-pattern: (?<=^|[\s.-])HDS\b
+pattern: (?<=^|[\s.-])HDS\b|^(HDS)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

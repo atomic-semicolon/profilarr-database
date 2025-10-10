@@ -1,0 +1,6 @@
+name: FLOP
+pattern: ^(FLOP)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: HiQVE
+pattern: ^(HiQVE)$
+description: ''
+tags:
+- TRaSH
+tests: []

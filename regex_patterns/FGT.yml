@@ -1,7 +1,8 @@
 name: FGT
-pattern: (?<=^|[\s.-])FGT\b
+pattern: (?<=^|[\s.-])FGT\b|^(FGT)$
 description: Banned for Retagging
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

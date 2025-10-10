@@ -1,7 +1,8 @@
 name: YTS
-pattern: (?<=^|[\s.-])YTS(.(MX|LT|AG))?\b
+pattern: (?<=^|[\s.-])YTS(.(MX|LT|AG))?\b|^(YTS(.(MX|LT|AG))?)$
 description: Matches "YTS" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

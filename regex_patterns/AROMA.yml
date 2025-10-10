@@ -1,7 +1,8 @@
 name: AROMA
-pattern: (?<=^|[\s.-])AROMA\b
+pattern: (?<=^|[\s.-])AROMA\b|^(AROMA)$
 description: Banned for Retagging
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []

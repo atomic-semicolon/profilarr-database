@@ -1,7 +1,8 @@
 name: STUTTERSHIT
-pattern: (?<=^|[\s.-])STUTTERSHIT\b
+pattern: (?<=^|[\s.-])STUTTERSHIT\b|^(STUTTERSHIT)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

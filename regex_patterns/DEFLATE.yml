@@ -1,7 +1,8 @@
 name: DEFLATE
-pattern: (?<=^|[\s.-])DEFLATE\b
+pattern: (?<=^|[\s.-])DEFLATE\b|^(DEFLATE)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

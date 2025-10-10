@@ -1,10 +1,11 @@
 name: EVO
-pattern: (?<=^|[\s.-])EVO\b
+pattern: (?<=^|[\s.-])EVO\b|^(EVO)$
 description: 'iPT Internal known for releasing pre-releases before anyone else. Also
   releases encodes of varying quality. '
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests:
 - expected: true
   id: 1

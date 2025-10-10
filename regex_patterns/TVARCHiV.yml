@@ -1,0 +1,6 @@
+name: TVARCHiV
+pattern: (TVARCHiV)$|^(TVARCHiV)$
+description: ''
+tags:
+- TRaSH
+tests: []

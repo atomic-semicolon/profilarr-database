@@ -1,9 +1,11 @@
 name: Extras
 pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ ._-]Clip|Special
-  Feature[s]?)\b
+  Feature[s]?)\b|(?<=\b[12]\d{3}\b).*\b(Extras|Bonus|Extended[ ._-]Clip)\b|(?<=\bS\d+\b).*\b(Extras|Bonus|Extended[
+  ._-]Clip)\b
 description: Extras, Special Features, Featurettes, etc
 tags:
 - Banned
+- TRaSH
 tests:
 - expected: false
   id: 1

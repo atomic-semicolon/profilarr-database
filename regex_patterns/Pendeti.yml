@@ -1,0 +1,6 @@
+name: Pendeti
+pattern: (Pendeti)$|^(Pendeti)$
+description: ''
+tags:
+- TRaSH
+tests: []

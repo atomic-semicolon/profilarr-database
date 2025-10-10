@@ -1,0 +1,6 @@
+name: RobertDeNiro
+pattern: (RobertDeNiro)$|^(RobertDeNiro)$
+description: ''
+tags:
+- TRaSH
+tests: []

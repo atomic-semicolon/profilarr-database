@@ -1,0 +1,6 @@
+name: PaZ
+pattern: (PaZ)$|^(PaZ)$
+description: ''
+tags:
+- TRaSH
+tests: []

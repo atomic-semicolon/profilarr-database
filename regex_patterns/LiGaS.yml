@@ -1,0 +1,6 @@
+name: LiGaS
+pattern: ^(LiGaS)$
+description: ''
+tags:
+- TRaSH
+tests: []

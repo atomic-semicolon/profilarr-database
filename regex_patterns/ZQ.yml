@@ -1,8 +1,9 @@
 name: ZQ
-pattern: (?<=^|[\s.-])ZQ\b
+pattern: (?<=^|[\s.-])ZQ\b|^(ZQ)$
 description: ''
 tags:
 - Release Group
 - Remux
 - Bluray
+- TRaSH
 tests: []

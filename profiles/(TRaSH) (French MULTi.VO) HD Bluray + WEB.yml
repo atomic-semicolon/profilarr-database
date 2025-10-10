@@ -1,0 +1,101 @@
+name: (TRaSH) (French MULTi.VO) HD Bluray + WEB
+description: 'French Quality Profile that covers:
+
+  - WEBDL: 1080p
+
+  - Bluray 720p, 1080p'
+tags:
+- TRaSH
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats: []
+custom_formats_sonarr: []
+custom_formats_radarr:
+- name: (TRaSH) VFF
+  score: 0
+- name: (TRaSH) VOF
+  score: 0
+- name: (TRaSH) VFI
+  score: 0
+- name: (TRaSH) VF2
+  score: 0
+- name: (TRaSH) VFQ
+  score: 0
+- name: (TRaSH) VOQ
+  score: 0
+- name: (TRaSH) VQ
+  score: 0
+- name: (TRaSH) VFB
+  score: 0
+- name: '(TRaSH) Language: Not Original'
+  score: -10000
+- name: '(TRaSH) Language: Not French'
+  score: 0
+- name: '(TRaSH) Language: Original + French'
+  score: 500
+- name: (TRaSH) MULTi
+  score: 0
+- name: (TRaSH) FR HD Bluray Tier 01
+  score: 1800
+- name: (TRaSH) FR HD Bluray Tier 02
+  score: 1750
+- name: (TRaSH) FR WEB Tier 01
+  score: 1700
+- name: (TRaSH) FR WEB Tier 02
+  score: 1650
+- name: (TRaSH) FR Scene Groups
+  score: 1500
+- name: (TRaSH) FR LQ
+  score: -10000
+- name: (TRaSH) HD Bluray Tier 01
+  score: 1800
+- name: (TRaSH) HD Bluray Tier 02
+  score: 1750
+- name: (TRaSH) HD Bluray Tier 03
+  score: 1700
+- name: (TRaSH) WEB Tier 01
+  score: 1700
+- name: (TRaSH) WEB Tier 02
+  score: 1650
+- name: (TRaSH) WEB Tier 03
+  score: 1600
+- name: (TRaSH) Repack&Proper
+  score: 5
+- name: (TRaSH) Repack2
+  score: 6
+- name: (TRaSH) Repack3
+  score: 7
+- name: (TRaSH) BR-DISK
+  score: -10000
+- name: (TRaSH) LQ
+  score: -10000
+- name: (TRaSH) LQ (Release Title)
+  score: -10000
+- name: (TRaSH) 3D
+  score: -10000
+- name: (TRaSH) Upscaled
+  score: -10000
+- name: (TRaSH) Extras
+  score: -10000
+- name: (TRaSH) Sing-Along Versions
+  score: -10000
+- name: (TRaSH) AV1
+  score: -10000
+qualities:
+- name: Bluray|WEB 1080p
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 10
+    name: Bluray-1080p
+  id: -1
+- name: Bluray-720p
+  id: 13
+upgrade_until:
+  id: -1
+  name: Bluray|WEB 1080p
+language: must_original

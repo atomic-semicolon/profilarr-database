@@ -1,0 +1,6 @@
+name: FORMBA
+pattern: (FORMBA)$|^(FORMBA)$
+description: ''
+tags:
+- TRaSH
+tests: []

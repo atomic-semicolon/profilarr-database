@@ -1,0 +1,6 @@
+name: BDHD
+pattern: ^(BDHD)$
+description: ''
+tags:
+- TRaSH
+tests: []

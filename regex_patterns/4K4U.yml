@@ -1,5 +1,5 @@
 name: 4K4U
-pattern: (?<=^|[\s.-])4K4U\b
+pattern: (?<=^|[\s.-])4K4U\b|^(4K4U)$
 description: 'Matches the release group `4K4U` only if it is:
 
 
@@ -11,4 +11,5 @@ description: 'Matches the release group `4K4U` only if it is:
 tags:
 - Release Group
 - Remux
+- TRaSH
 tests: []

@@ -1,0 +1,6 @@
+name: FX
+pattern: ^(FX)$
+description: ''
+tags:
+- TRaSH
+tests: []
