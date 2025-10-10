@@ -266,7 +266,9 @@ def process_custom_formats(trash_quality_profile, trash_custom_format_mapping, t
                             condition['language'] = LANGUAGES_RADARR[specification['fields']['value']]
                         case TargetApp.SONARR:
                             condition['language'] = LANGUAGES_SONARR[specification['fields']['value']]
-                    # TODO: Double-check the purpose of exceptLanguage
+                    # exceptLanguage does not have many uses (supposedly)
+                    # Mainly to denote "every other language except this one"
+                    # TRaSH seems to cover this using the 'negate' key, so defaulting this to false
                     condition['exceptLanguage'] = 'false'
                 case 'release_title' | 'release_group':
                     condition['pattern'] = condition['name']
