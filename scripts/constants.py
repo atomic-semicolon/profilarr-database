@@ -1,28 +1,38 @@
+from pathlib import Path
+
+CUSTOM_FORMAT_MAPPING_FILENAME = "trash-cf-mapping.json"
+
+TEMPLATE_PATH = Path(__file__).parent.parent / "templates"
+PROFILE_PATH = Path(__file__).parent.parent / "profiles"
+REGEX_PATH = Path(__file__).parent.parent / "regex_patterns"
+FORMAT_PATH = Path(__file__).parent.parent / "custom_formats"
+
 TEXT_REPLACEMENTS = {
     '/': '&',
     '[': '(',
     ']': ')'
 }
 
-CONDITION_TYPE = {
+CONDITION_TYPES = {
     'ReleaseTitleSpecification': 'release_title',
     'ReleaseGroupSpecification': 'release_group',
     'LanguageSpecification': 'language',
-    'SourceSpecification': 'source'
+    'SourceSpecification': 'source',
+    'ResolutionSpecification': 'resolution',
+    'QualityModifierSpecification': 'quality_modifier'
 }
 
-SOURCE_TYPE = {
-    'Bluray': 'bluray',
-    'Bluray Remux': 'bluray_raw',
-    'Remux': 'raw',
-    'DVD': 'dvd',
-    'WEB': 'web_dl',
-    'WEBDL': 'web_dl',
-    'WEBRIP': 'webrip'
+SOURCE_TYPES = {
+    'bluray': 'bluray',
+    'bluray remux': 'bluray_raw',
+    'remux': 'raw',
+    'dvd': 'dvd',
+    'web': 'web_dl',
+    'webdl': 'web_dl',
+    'webrip': 'webrip'
 }
 
-# TODO: Might need to have separate constants for Radarr and Sonarr, using Sonarr for now
-LANGUAGE = {
+LANGUAGES_SONARR = {
     -2: "original",
     0: "unknown",
     1: "english",
@@ -73,6 +83,63 @@ LANGUAGE = {
     46: "slovenian"
 }
 
+LANGUAGES_RADARR = {
+    -1: "any",
+    -2: "original",
+    0: "unknown",
+    1: "english",
+    2: "french",
+    3: "spanish",
+    4: "german",
+    5: "italian",
+    6: "danish",
+    7: "dutch",
+    8: "japanese",
+    9: "icelandic",
+    10: "chinese",
+    11: "russian",
+    12: "polish",
+    13: "vietnamese",
+    14: "swedish",
+    15: "norwegian",
+    16: "finnish",
+    17: "turkish",
+    18: "portuguese",
+    19: "flemish",
+    20: "greek",
+    21: "korean",
+    22: "hungarian",
+    23: "hebrew",
+    24: "lithuanian",
+    25: "czech",
+    26: "hindi",
+    27: "romanian",
+    28: "thai",
+    29: "bulgarian",
+    30: "portuguese_br",
+    31: "arabic",
+    32: "ukrainian",
+    33: "persian",
+    34: "bengali",
+    35: "slovak",
+    36: "latvian",
+    37: "spanish_latino",
+    38: "catalan",
+    39: "croatian",
+    40: "serbian",
+    41: "bosnian",
+    42: "estonian",
+    43: "tamil",
+    44: "indonesian",
+    45: "telugu",
+    46: "macedonian",
+    47: "slovenian",
+    48: "malayalam",
+    49: "kannada",
+    50: "albanian",
+    51: "afrikaans"
+}
+
 QUALITIES = {
     "Raw-HD": 1,
     "BR-Disk": 2,
@@ -106,4 +173,14 @@ QUALITIES = {
     "WORKPRINT": 28,
     "CAM": 29,
     "Unknown": 30
+}
+
+# Radarr only
+QUALITY_MODIFIERS = {
+    0: 'none',
+    1: 'regional',
+    2: 'screener',
+    3: 'rawhd',
+    4: 'brdisk',
+    5: 'remux'
 }

@@ -5,7 +5,9 @@ upgradesAllowed: <upgradesAllowed>
 minCustomFormatScore: <minScore>
 upgradeUntilScore: <upgradeUntil>
 minScoreIncrement: <minScoreIncrement>
-custom_formats:
+custom_formats: []
+custom_formats_sonarr: []
+custom_formats_radarr: []
 qualities:
 upgrade_until:
 language: <language>
