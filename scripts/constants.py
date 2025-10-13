@@ -19,7 +19,8 @@ CONDITION_TYPES = {
     'LanguageSpecification': 'language',
     'SourceSpecification': 'source',
     'ResolutionSpecification': 'resolution',
-    'QualityModifierSpecification': 'quality_modifier'
+    'QualityModifierSpecification': 'quality_modifier',
+    'ReleaseTypeSpecification': 'release_type'
 }
 
 SOURCE_TYPES = {
@@ -183,4 +184,12 @@ QUALITY_MODIFIERS = {
     3: 'rawhd',
     4: 'brdisk',
     5: 'remux'
+}
+
+# Sonarr only
+RELEASE_TYPES = {
+    0: 'none',
+    1: 'single_episode',
+    2: 'multi_episode',
+    3: 'season_pack'
 }

@@ -267,15 +267,14 @@ def process_custom_formats(trash_quality_profile, trash_custom_format_mapping, t
                         case TargetApp.SONARR:
                             condition['language'] = LANGUAGES_SONARR[specification['fields']['value']]
                     # exceptLanguage does not have many uses (supposedly)
-                    # Mainly to denote "every other language except this one"
-                    # TRaSH seems to cover this using the 'negate' key, so defaulting this to false
+                    # Mainly seems to denote "every other language except this one"
+                    # TRaSH mostly covers this using the 'negate' key, so defaulting this to false
                     condition['exceptLanguage'] = 'false'
                 case 'release_title' | 'release_group':
                     condition['pattern'] = condition['name']
-
-                    # Add a regex pattern file for the given condition
-                    write_regex_pattern_file(specification['name'],
-                                             specification['fields']['value'])
+                    write_regex_pattern_file(specification['name'], specification['fields']['value'])
+                case 'release_type':
+                    condition['releaseType'] = RELEASE_TYPES[specification['fields']['value']]
 
             custom_format['conditions'].append(condition)
 
