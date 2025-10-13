@@ -10,7 +10,7 @@ from enum import Enum, auto
 from colorama import Fore, init
 
 # Colorama setup
-init(autoreset=True)
+init(strip=False, autoreset=True)
 
 class TargetApp(Enum):
     RADARR = auto()
