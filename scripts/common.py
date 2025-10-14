@@ -1,4 +1,9 @@
+import sys
+from enum import Enum, auto
 from pathlib import Path
+
+import yaml
+from colorama import Fore
 
 CUSTOM_FORMAT_MAPPING_FILENAME = "trash-cf-mapping.json"
 
@@ -19,7 +24,9 @@ CONDITION_TYPES = {
     'LanguageSpecification': 'language',
     'SourceSpecification': 'source',
     'ResolutionSpecification': 'resolution',
-    'QualityModifierSpecification': 'quality_modifier'
+    'QualityModifierSpecification': 'quality_modifier',
+    'ReleaseTypeSpecification': 'release_type',
+    'IndexerFlagSpecification': 'indexer_flag'
 }
 
 SOURCE_TYPES = {
@@ -175,6 +182,30 @@ QUALITIES = {
     "Unknown": 30
 }
 
+INDEXER_FLAGS_RADARR = {
+    1: "freeleech",
+    2: "halfleech",
+    4: "double_upload",
+    8: "ptp_golden",
+    16: "ptp_approved",
+    32: "internal",
+    128: "scene",
+    256: "freeleech_75",
+    512: "freeleech_25",
+    2048: "nuked"
+}
+
+INDEXER_FLAGS_SONARR = {
+    1: "freeleech",
+    2: "halfleech",
+    4: "double_upload",
+    8: "internal",
+    16: "scene",
+    32: "freeleech_75",
+    64: "freeleech_25",
+    128: "nuked"
+}
+
 # Radarr only
 QUALITY_MODIFIERS = {
     0: 'none',
@@ -184,3 +215,44 @@ QUALITY_MODIFIERS = {
     4: 'brdisk',
     5: 'remux'
 }
+
+# Sonarr only
+RELEASE_TYPES = {
+    0: 'none',
+    1: 'single_episode',
+    2: 'multi_episode',
+    3: 'season_pack'
+}
+
+class TargetApp(Enum):
+    RADARR = auto()
+    SONARR = auto()
+
+def get_target_app_name(target_app):
+    match target_app:
+        case TargetApp.RADARR:
+            return 'radarr'
+        case TargetApp.SONARR:
+            return 'sonarr'
+    return ''
+
+def sanitise_filename(name):
+    replacements = str.maketrans(TEXT_REPLACEMENTS)
+    return str(name).translate(replacements)
+
+def load_template(template_path):
+    """Load a YAML template file."""
+    try:
+        with open(template_path, 'r') as template_file:
+            return yaml.safe_load(template_file)
+    except FileNotFoundError:
+        print(Fore.RED + f"Error: Template file not found: {template_path}")
+        sys.exit(1)
+
+def get_filename_prefix(target_app):
+    match target_app:
+        case TargetApp.RADARR:
+            return '(TG-R) '
+        case TargetApp.SONARR:
+            return '(TG-S) '
+    return '(TG) '

@@ -4,7 +4,7 @@ import json
 import os
 from glob import glob
 from pathlib import Path
-from constants import CUSTOM_FORMAT_MAPPING_FILENAME
+from common import CUSTOM_FORMAT_MAPPING_FILENAME
 
 def main():
     parser = argparse.ArgumentParser(description='Create a mapping from TRaSH custom format filenames to their IDs')
