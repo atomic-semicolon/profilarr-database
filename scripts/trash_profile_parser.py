@@ -1,114 +1,13 @@
 import argparse
 import json
-import os.path
-import re
-import sys
-import yaml
-from constants import *
 from glob import glob
-from enum import Enum, auto
-from colorama import Fore, init
+
+from colorama import init
+
+from common import *
 
 # Colorama setup
 init(strip=False, autoreset=True)
-
-class TargetApp(Enum):
-    RADARR = auto()
-    SONARR = auto()
-
-def get_target_app_name(target_app):
-    match target_app:
-        case TargetApp.RADARR:
-            return 'radarr'
-        case TargetApp.SONARR:
-            return 'sonarr'
-    return ''
-
-def load_template(template_path):
-    """Load a YAML template file."""
-    try:
-        with open(template_path, 'r') as template_file:
-            return yaml.safe_load(template_file)
-    except FileNotFoundError:
-        print(Fore.RED + f"Error: Template file not found: {template_path}")
-        sys.exit(1)
-
-def sanitise_filename(name):
-    replacements = str.maketrans(TEXT_REPLACEMENTS)
-    return str(name).translate(replacements)
-
-def write_regex_pattern_file(regex_pattern_name, regex_pattern):
-    # Try opening the regex file if it already exists
-    # Add the newly found pattern as an alternative, and merge the rest of the information
-    # TRaSH JSON files store the regex pattern pre-escaped, so they must be processed before saving in Profilarr
-    regex_pattern_filename = sanitise_filename(f"{regex_pattern_name}")
-    regex_template = load_template(TEMPLATE_PATH / "regexPattern.yml")
-    regex_template['name'] = regex_pattern_filename
-    regex_template['description'] = ''
-    regex_template['pattern'] = regex_pattern
-    regex_template['tags'] = [ 'TRaSH' ]
-    regex_template['tests'] = []
-    
-    try:
-        with open(REGEX_PATH / f"{regex_pattern_filename}.yml", 'r+') as regex_pattern_file:
-            regex_pattern_data = yaml.load(regex_pattern_file, Loader=yaml.SafeLoader)
-            if regex_template['pattern'] not in regex_pattern_data['pattern']:
-                regex_pattern_data['pattern'] += f"|{regex_template['pattern']}"
-            if 'TRaSH' not in regex_pattern_data['tags']:
-                regex_pattern_data['tags'].append('TRaSH')
-            
-            # Re-save the file
-            regex_pattern_file.seek(0)
-            regex_pattern_file.truncate()
-            yaml.dump(regex_pattern_data, 
-                      regex_pattern_file,
-                      sort_keys=False,
-                      default_flow_style=False,
-                      indent=2)
-            
-    except FileNotFoundError:
-        with open(REGEX_PATH / f"{regex_pattern_filename}.yml", 'w') as regex_pattern_file:
-            yaml.dump(regex_template,
-                      regex_pattern_file,
-                      sort_keys=False,
-                      default_flow_style=False,
-                      indent=2)
-
-def parse_custom_format_description(custom_format_description_file):
-    description_lines = []
-    for index, line in enumerate(custom_format_description_file):
-        # Remove markdown linters and header lines
-        if line.lstrip().startswith(('<!--', '**')):
-            continue
-        if line.rstrip():
-            description_lines.append(line.rstrip())
-
-    # Remove unused markdown properties
-    return re.sub(r'''{[!:].*!?}''', '', '\n'.join(description_lines))
-
-def get_custom_format_description(descriptions_directory, custom_format_filename, target_app):
-    filename = Path(custom_format_filename).stem
-    description = filename
-    
-    try:
-        with open(descriptions_directory / f"{filename}.md", 'r') as custom_format_description_file:
-            description = parse_custom_format_description(custom_format_description_file)
-    except FileNotFoundError:
-        # Some custom formats have different descriptions based on the target app
-        try:
-            filename += f"-{get_target_app_name(target_app)}"
-            with open(descriptions_directory / f"{filename}.md", 'r') as custom_format_description_file:
-                description = parse_custom_format_description(custom_format_description_file)
-        except FileNotFoundError:
-            print(Fore.YELLOW + f"Warning: Description file not found for custom format {filename}")
-
-    # Some custom formats have an additional warning statement
-    custom_format_warning_description_filepath = descriptions_directory / f"{filename}-warning.md"
-    if os.path.exists(custom_format_warning_description_filepath):
-        with open(custom_format_warning_description_filepath, 'r') as custom_format_warning_description_file:
-            description += parse_custom_format_description(custom_format_warning_description_file)
-    
-    return description
 
 def initialise_profile_template(trash_quality_profile):
     profile_filename = sanitise_filename(f"(TRaSH) {trash_quality_profile['name']}")
@@ -210,15 +109,17 @@ def write_quality_profile_file(quality_profile):
 
 def process_custom_formats(trash_quality_profile, trash_custom_format_mapping, trash_directory, quality_profile, target_app):
     trash_custom_formats_dir = trash_directory / "docs" / "json" / get_target_app_name(target_app) / "cf"
-    trash_custom_format_descriptions_dir = trash_directory / "includes" / "cf-descriptions"
-    
+
     for trash_custom_format_name in trash_quality_profile['formatItems']:
-        custom_format_filename = sanitise_filename(f"(TRaSH) {trash_custom_format_name}")
+        custom_format_filename = sanitise_filename(f"{get_filename_prefix(target_app)}{trash_custom_format_name}")
+
+        # Initialise the entry that will be in the quality profile
         custom_format_entry = {
             'name': custom_format_filename,
             'score': 0
         }
-        
+
+        # Map to the custom format files already created
         trash_custom_format_filename = trash_custom_format_mapping[trash_quality_profile['formatItems'][trash_custom_format_name]]
         with open(f"{trash_custom_formats_dir}/{trash_custom_format_filename}", 'r') as trash_custom_format_file:
             trash_custom_format = json.load(trash_custom_format_file)
@@ -233,57 +134,6 @@ def process_custom_formats(trash_quality_profile, trash_custom_format_mapping, t
             custom_format_entry['score'] = trash_custom_format['trash_scores'][profile_score_set]
         elif trash_custom_format.get('trash_scores', {}).get(default_score_set, {}):
             custom_format_entry['score'] = trash_custom_format['trash_scores'][default_score_set]
-        
-        custom_format = load_template(TEMPLATE_PATH / "customFormat.yml")
-        custom_format['name'] = custom_format_filename
-        custom_format['description'] = get_custom_format_description(trash_custom_format_descriptions_dir, trash_custom_format_filename, target_app)
-        custom_format['tags'] = [ 'TRaSH' ]
-        custom_format['conditions'] = []
-        custom_format['tests'] = []
-
-        for specification in trash_custom_format['specifications']:
-            condition = {
-                'name': specification['name'],
-                'type': CONDITION_TYPES[specification['implementation']],
-                'required': specification['required'],
-                'negate': specification['negate']
-            }
-
-            match condition['type']:
-                case 'quality_modifier':
-                    condition['qualityModifier'] = QUALITY_MODIFIERS[specification['fields']['value']]
-                case 'resolution':
-                    condition['resolution'] = f"{specification['fields']['value']}p"
-                case 'source':
-                    if specification['name'].lower().startswith('not'):
-                        # Handle "not <quality>" cases
-                        condition['source'] = SOURCE_TYPES[specification['name'][4:].lower()]
-                    else:
-                        condition['source'] = SOURCE_TYPES[specification['name'].lower()]
-                case 'language':
-                    match target_app:
-                        case TargetApp.RADARR:
-                            condition['language'] = LANGUAGES_RADARR[specification['fields']['value']]
-                        case TargetApp.SONARR:
-                            condition['language'] = LANGUAGES_SONARR[specification['fields']['value']]
-                    # exceptLanguage does not have many uses (supposedly)
-                    # Mainly seems to denote "every other language except this one"
-                    # TRaSH mostly covers this using the 'negate' key, so defaulting this to false
-                    condition['exceptLanguage'] = 'false'
-                case 'release_title' | 'release_group':
-                    condition['pattern'] = condition['name']
-                    write_regex_pattern_file(specification['name'], specification['fields']['value'])
-                case 'release_type':
-                    condition['releaseType'] = RELEASE_TYPES[specification['fields']['value']]
-
-            custom_format['conditions'].append(condition)
-
-        with open(FORMAT_PATH / f"{custom_format_filename}.yml", 'w') as custom_format_file:
-            yaml.dump(custom_format,
-                      custom_format_file,
-                      sort_keys=False,
-                      default_flow_style=False,
-                      indent=2)
 
         match target_app:
             case TargetApp.RADARR:
