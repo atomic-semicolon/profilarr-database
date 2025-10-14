@@ -1,11 +1,12 @@
 name: HDR10
-pattern: \bHDR10(?!\+|Plus)\b
+pattern: \bHDR10(?!\+|Plus)\b|\b(HDR10(?![+]|P(lus)?))
 description: 'This regex matches `HDR10` only when it *is not* followed by any HDR
   format specifiers like `+`, or `Plus`. '
 tags:
 - Enhancement
 - Colour Grade
 - HDR
+- TRaSH
 tests:
 - expected: false
   id: 2

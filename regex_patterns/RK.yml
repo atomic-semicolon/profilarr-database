@@ -1,0 +1,6 @@
+name: RK
+pattern: ^(RK)$
+description: ''
+tags:
+- TRaSH
+tests: []

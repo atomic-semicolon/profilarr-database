@@ -1,0 +1,24 @@
+name: (TG-R) FOD
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Fuji_Television)
+
+  [FOD Website](https://fod-sp.fujitv.co.jp)'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: FOD
+  type: release_title
+  required: true
+  negate: false
+  pattern: FOD
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

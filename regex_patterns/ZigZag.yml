@@ -1,5 +1,5 @@
 name: ZigZag
-pattern: "\\[ZigZag\\]|-ZigZab\b"
+pattern: "\\[ZigZag\\]|-ZigZab\b|^(ZigZag)$"
 description: ''
 tags:
 - TRaSH

@@ -1,0 +1,6 @@
+name: BBC iPlayer
+pattern: \b(ip|iplayer)\b
+description: ''
+tags:
+- TRaSH
+tests: []

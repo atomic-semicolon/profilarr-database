@@ -1,0 +1,6 @@
+name: postbot
+pattern: -postbot\b
+description: ''
+tags:
+- TRaSH
+tests: []

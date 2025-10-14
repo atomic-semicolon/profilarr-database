@@ -1,0 +1,42 @@
+name: (TG-S) DD+
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Dolby_Digital_Plus)
+
+  Dolby Digital Plus, also known as Enhanced AC-3 (commonly abbreviated as DD+ or
+  E-AC-3, or EC-3), is the successor to Dolby Digital (AC-3). It is a digital audio
+  compression scheme developed by Dolby Labs for the transport and storage of multi-channel
+  digital audio.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dolby Digital Plus
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+tests: []

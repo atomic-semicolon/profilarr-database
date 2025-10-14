@@ -1,0 +1,25 @@
+name: (TG-S) ATV
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Apple_TV%2B)
+
+  Apple TV is Apple Inc.''s video on demand service, offering movies and TV shows
+  that are not Apple Originals.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Apple TV
+  type: release_title
+  required: true
+  negate: false
+  pattern: Apple TV
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

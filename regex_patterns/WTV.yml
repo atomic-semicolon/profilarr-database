@@ -1,0 +1,6 @@
+name: WTV
+pattern: ^(WTV)$
+description: ''
+tags:
+- TRaSH
+tests: []

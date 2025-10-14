@@ -1,0 +1,45 @@
+name: (TG-S) FLAC
+description: FLAC stands for Free Lossless Audio Codec, an audio format similar to
+  MP3 - but lossless, meaning that the audio compressed with FLAC does not receive
+  any loss in quality. This is similar to how Zip works, except with FLAC you will
+  get much better compression because it is designed specifically for audio.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: FLAC
+  type: release_title
+  required: true
+  negate: false
+  pattern: FLAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Basic Dolby Digital
+- name: 'Not Dolby Digital Plus '
+  type: release_title
+  required: true
+  negate: true
+  pattern: 'Not Dolby Digital Plus '
+tests: []

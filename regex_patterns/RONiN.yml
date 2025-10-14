@@ -1,0 +1,6 @@
+name: RONiN
+pattern: \b(RONiN)\b
+description: ''
+tags:
+- TRaSH
+tests: []

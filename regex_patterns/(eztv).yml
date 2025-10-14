@@ -1,0 +1,6 @@
+name: (eztv)
+pattern: \[eztvx?[ ._-]?(io|re|to)?\]
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,52 @@
+name: (TG-R) German Remux Tier 02
+description: '- WiP
+
+  - Groups that get their releases directly from the source.
+
+  - Groups that create encodes from a remux without micro-sizing them.
+
+  - Groups that have the best German audio track to an English release.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: MULTiPLEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: MULTiPLEX
+- name: RHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: RHD
+- name: HDSource
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDSource
+- name: iNCEPTION
+  type: release_group
+  required: false
+  negate: false
+  pattern: iNCEPTION
+- name: FX
+  type: release_group
+  required: false
+  negate: false
+  pattern: FX
+- name: RocketHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: RocketHD
+- name: Remux
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+tests: []

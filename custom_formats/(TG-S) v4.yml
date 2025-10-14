@@ -1,0 +1,12 @@
+name: (TG-S) v4
+description: Custom Format to cover v4 releases.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: v4
+  type: release_title
+  required: true
+  negate: false
+  pattern: v4
+tests: []

@@ -1,0 +1,24 @@
+name: (TG-S) U-NEXT
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/U-Next)
+
+  [U-NEXT Website](https://video.unext.jp)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: U-NEXT
+  type: release_title
+  required: true
+  negate: false
+  pattern: U-NEXT
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

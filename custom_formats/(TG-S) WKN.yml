@@ -1,0 +1,27 @@
+name: (TG-S) WKN
+description: '[From Wikipedia, the free encyclopedia](https://fr.wikipedia.org/wiki/Wakanim)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WKN
+  type: release_title
+  required: true
+  negate: false
+  pattern: WKN
+tests: []

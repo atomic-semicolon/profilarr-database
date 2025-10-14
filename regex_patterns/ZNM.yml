@@ -1,0 +1,6 @@
+name: ZNM
+pattern: ^(ZNM)$
+description: ''
+tags:
+- TRaSH
+tests: []

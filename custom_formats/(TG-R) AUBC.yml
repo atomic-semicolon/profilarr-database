@@ -1,0 +1,24 @@
+name: (TG-R) AUBC
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Australian_Broadcasting_Corporation>)
+
+  The Australian Broadcasting Corporation (ABC) is the national broadcaster of Australia'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: AUBC
+  type: release_title
+  required: true
+  negate: false
+  pattern: AUBC
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

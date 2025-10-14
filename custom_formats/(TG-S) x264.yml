@@ -1,0 +1,21 @@
+name: (TG-S) x264
+description: 'x264 is a *free software library* and *application* for encoding video
+  streams into the [H.264/MPEG-4 AVC](https://en.wikipedia.org/wiki/H.264).
+
+  x264 is primarily used for 720p/1080p encodes and has better direct-play and compatibility
+  support.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: x|h264
+  type: release_title
+  required: true
+  negate: false
+  pattern: x|h264
+- name: Not Remux
+  type: source
+  required: true
+  negate: true
+  source: raw
+tests: []

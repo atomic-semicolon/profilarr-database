@@ -1,0 +1,6 @@
+name: BAT
+pattern: ^(BAT)$
+description: ''
+tags:
+- TRaSH
+tests: []

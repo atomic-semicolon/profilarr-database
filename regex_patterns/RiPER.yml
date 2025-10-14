@@ -1,0 +1,6 @@
+name: RiPER
+pattern: ^(RiPER)$
+description: ''
+tags:
+- TRaSH
+tests: []

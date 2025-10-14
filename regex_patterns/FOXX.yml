@@ -1,0 +1,6 @@
+name: FOXX
+pattern: ^(FOXX)$
+description: ''
+tags:
+- TRaSH
+tests: []

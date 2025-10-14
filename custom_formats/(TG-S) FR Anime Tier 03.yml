@@ -1,0 +1,81 @@
+name: (TG-S) FR Anime Tier 03
+description: '- WIP
+
+  - Groups with no or little activity that have at some point made an interesting
+  release which is either the only one available (in VOSTFR/MULTi) or still top of
+  its category.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups doing only anime that have retired (or no longer exist) and may not have
+  the best quality by today''s standards.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: BLV
+  type: release_title
+  required: false
+  negate: false
+  pattern: BLV
+- name: D3T3R10R1TY
+  type: release_title
+  required: false
+  negate: false
+  pattern: D3T3R10R1TY
+- name: Galactic
+  type: release_title
+  required: false
+  negate: false
+  pattern: Galactic
+- name: HANAMi
+  type: release_title
+  required: false
+  negate: false
+  pattern: HANAMi
+- name: kazuizui
+  type: release_title
+  required: false
+  negate: false
+  pattern: kazuizui
+- name: KHAYA
+  type: release_title
+  required: false
+  negate: false
+  pattern: KHAYA
+- name: KushEnthusiast
+  type: release_title
+  required: false
+  negate: false
+  pattern: KushEnthusiast
+- name: matheousse
+  type: release_title
+  required: false
+  negate: false
+  pattern: matheousse
+- name: Monkey-D.Lulu
+  type: release_title
+  required: false
+  negate: false
+  pattern: Monkey-D.Lulu
+- name: NeoSG
+  type: release_title
+  required: false
+  negate: false
+  pattern: NeoSG
+- name: RONiN
+  type: release_title
+  required: false
+  negate: false
+  pattern: RONiN
+- name: TheFantastics
+  type: release_title
+  required: false
+  negate: false
+  pattern: TheFantastics
+- name: TTN
+  type: release_title
+  required: false
+  negate: false
+  pattern: TTN
+tests: []

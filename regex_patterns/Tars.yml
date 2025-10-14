@@ -1,0 +1,6 @@
+name: Tars
+pattern: ^(Tars)$
+description: ''
+tags:
+- TRaSH
+tests: []

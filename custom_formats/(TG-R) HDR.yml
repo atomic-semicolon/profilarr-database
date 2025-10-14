@@ -1,0 +1,45 @@
+name: (TG-R) HDR
+description: 'All users with HDR-capable equipment should add the HDR custom format.
+
+  <sub>*This is a catch-all custom format for all HDR-related formats, including those
+  with HDR10 or HDR10+ fallback capabilities, such as DV HDR10 or DV HDR10+.*</sub>'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: DV With HDR10 fallback
+  type: release_title
+  required: false
+  negate: false
+  pattern: DV With HDR10 fallback
+- name: HDR
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDR
+- name: HDR10
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDR10
+- name: HDR10+
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDR10+
+- name: HLG
+  type: release_title
+  required: false
+  negate: false
+  pattern: HLG
+- name: PQ
+  type: release_title
+  required: false
+  negate: false
+  pattern: PQ
+- name: RlsGrp (Missing HDR)
+  type: release_title
+  required: false
+  negate: false
+  pattern: RlsGrp (Missing HDR)
+tests: []

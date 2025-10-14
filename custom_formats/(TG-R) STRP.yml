@@ -1,0 +1,28 @@
+name: (TG-R) STRP
+description: "[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Star%2B)\n\
+  Star+ (Star Plus; stylized as ST\u2605R+) is a subscription video on-demand over-the-top\
+  \ streaming service available in almost all Ibero-American states. The service is\
+  \ owned by The Walt Disney Company through the Disney Entertainment division and\
+  \ business segment.\nIn December 2023, it was confirmed that Star+ will be merged\
+  \ into Disney+ in the second quarter of 2024 with all of its content, including\
+  \ live sports from ESPN, migrating to Disney+ and its standalone app being discontinued."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Star+
+  type: release_title
+  required: true
+  negate: false
+  pattern: Star+
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

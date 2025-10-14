@@ -1,0 +1,14 @@
+name: '(TG-S) Language: Not French'
+description: Because it uses reverse scoring, and if you use the default scores, it
+  will assign all releases without the French audio a score of `-10000`.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Not French Language
+  type: language
+  required: false
+  negate: true
+  language: french
+  exceptLanguage: 'false'
+tests: []

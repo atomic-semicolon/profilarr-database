@@ -1,0 +1,81 @@
+name: (TG-R) German Bluray Tier 01
+description: '- WiP
+
+  - Groups that get their releases directly from the source.
+
+  - Groups that create encodes from a remux without micro-sizing them.
+
+  - Groups that source and add the German audio track from the source to an English
+  release from Tier 01 or 02.
+
+  - HDR/DoVi (Depending on what''s offered and often both).'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: ZeroTwo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo
+- name: ZeroTwo Aliases
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo Aliases
+- name: TSCC
+  type: release_group
+  required: false
+  negate: false
+  pattern: TSCC
+- name: TvR
+  type: release_group
+  required: false
+  negate: false
+  pattern: TvR
+- name: NIMA4K
+  type: release_group
+  required: false
+  negate: false
+  pattern: NIMA4K
+- name: TVS
+  type: release_group
+  required: false
+  negate: false
+  pattern: TVS
+- name: PXL
+  type: release_group
+  required: false
+  negate: false
+  pattern: PXL
+- name: CNY
+  type: release_group
+  required: false
+  negate: false
+  pattern: CNY
+- name: WeebPinn
+  type: release_group
+  required: false
+  negate: false
+  pattern: WeebPinn
+- name: MAMA
+  type: release_group
+  required: false
+  negate: false
+  pattern: MAMA
+- name: WalterBishop
+  type: release_group
+  required: false
+  negate: false
+  pattern: WalterBishop
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not Remux
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+tests: []

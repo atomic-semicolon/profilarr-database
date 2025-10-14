@@ -1,0 +1,51 @@
+name: (TG-S) German Web Tier 03
+description: '- WiP
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: RobertDeNiro
+  type: release_group
+  required: false
+  negate: false
+  pattern: RobertDeNiro
+- name: BALENCiAGA
+  type: release_group
+  required: false
+  negate: false
+  pattern: BALENCiAGA
+- name: HQC
+  type: release_group
+  required: false
+  negate: false
+  pattern: HQC
+- name: HDSource
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDSource
+- name: iNCEPTION
+  type: release_group
+  required: false
+  negate: false
+  pattern: iNCEPTION
+- name: RDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: RDR
+- name: WebDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WebRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

@@ -1,0 +1,12 @@
+name: (TG-R) hallowed
+description: hallowed
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: hallowed
+  type: release_group
+  required: true
+  negate: false
+  pattern: hallowed
+tests: []

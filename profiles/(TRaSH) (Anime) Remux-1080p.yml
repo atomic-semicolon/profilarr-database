@@ -16,97 +16,161 @@ upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 10000
 minScoreIncrement: 1
-custom_formats:
-- name: (TRaSH) Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 1400
-- name: (TRaSH) Anime BD Tier 02 (SeaDex Muxers)
-  score: 1300
-- name: (TRaSH) Anime BD Tier 03 (SeaDex Muxers)
-  score: 1200
-- name: (TRaSH) Anime BD Tier 04 (SeaDex Muxers)
-  score: 1100
-- name: (TRaSH) Anime BD Tier 05 (Remuxes)
-  score: 1000
-- name: (TRaSH) Anime BD Tier 06 (FanSubs)
-  score: 900
-- name: (TRaSH) Anime BD Tier 07 (P2P&Scene)
-  score: 800
-- name: (TRaSH) Anime BD Tier 08 (Mini Encodes)
-  score: 700
-- name: (TRaSH) Anime Web Tier 01 (Muxers)
-  score: 600
-- name: (TRaSH) Anime Web Tier 02 (Top FanSubs)
-  score: 500
-- name: (TRaSH) WEB Tier 01
-  score: 350
-- name: (TRaSH) WEB Tier 02
-  score: 250
-- name: (TRaSH) Anime Web Tier 03 (Official Subs)
-  score: 400
-- name: (TRaSH) WEB Tier 03
-  score: 150
-- name: (TRaSH) Remux Tier 01
-  score: 1050
-- name: (TRaSH) Remux Tier 02
-  score: 1000
-- name: (TRaSH) Anime Web Tier 04 (Official Subs)
-  score: 300
-- name: (TRaSH) Anime Web Tier 05 (FanSubs)
-  score: 200
-- name: (TRaSH) Anime Web Tier 06 (FanSubs)
-  score: 100
-- name: (TRaSH) Anime Raws
-  score: -10000
-- name: (TRaSH) Anime LQ Groups
-  score: -10000
-- name: (TRaSH) AV1
-  score: -10000
-- name: (TRaSH) Uncensored
-  score: 0
-- name: (TRaSH) v0
-  score: -51
-- name: (TRaSH) v1
-  score: 1
-- name: (TRaSH) v2
-  score: 2
-- name: (TRaSH) v3
-  score: 3
-- name: (TRaSH) v4
-  score: 4
-- name: (TRaSH) 10bit
-  score: 0
-- name: (TRaSH) Anime Dual Audio
-  score: 0
-- name: (TRaSH) Dubs Only
-  score: -10000
-- name: (TRaSH) VOSTFR
-  score: -10000
+custom_formats: []
 custom_formats_sonarr:
-- name: (TRaSH) CR
-  score: 6
-- name: (TRaSH) DSNP
-  score: 5
-- name: (TRaSH) NF
-  score: 4
-- name: (TRaSH) AMZN
-  score: 3
-- name: (TRaSH) VRV
-  score: 3
-- name: (TRaSH) FUNi
-  score: 2
-- name: (TRaSH) ABEMA
-  score: 1
-- name: (TRaSH) ADN
-  score: 1
-- name: (TRaSH) B-Global
+- name: (TG-S) Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 1400
+- name: (TG-S) Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
+- name: (TG-S) Anime BD Tier 03 (SeaDex Muxers)
+  score: 1200
+- name: (TG-S) Anime BD Tier 04 (SeaDex Muxers)
+  score: 1100
+- name: (TG-S) Anime BD Tier 05 (Remuxes)
+  score: 1000
+- name: (TG-S) Anime BD Tier 06 (FanSubs)
+  score: 900
+- name: (TG-S) Anime BD Tier 07 (P2P&Scene)
+  score: 800
+- name: (TG-S) Anime BD Tier 08 (Mini Encodes)
+  score: 700
+- name: (TG-S) Anime Web Tier 01 (Muxers)
+  score: 600
+- name: (TG-S) Anime Web Tier 02 (Top FanSubs)
+  score: 500
+- name: (TG-S) WEB Tier 01
+  score: 350
+- name: (TG-S) WEB Tier 02
+  score: 250
+- name: (TG-S) Anime Web Tier 03 (Official Subs)
+  score: 400
+- name: (TG-S) WEB Tier 03
+  score: 150
+- name: (TG-S) Remux Tier 01
+  score: 1050
+- name: (TG-S) Remux Tier 02
+  score: 1000
+- name: (TG-S) Anime Web Tier 04 (Official Subs)
+  score: 300
+- name: (TG-S) Anime Web Tier 05 (FanSubs)
+  score: 200
+- name: (TG-S) Anime Web Tier 06 (FanSubs)
+  score: 100
+- name: (TG-S) Anime Raws
+  score: -10000
+- name: (TG-S) Anime LQ Groups
+  score: -10000
+- name: (TG-S) AV1
+  score: -10000
+- name: (TG-S) Uncensored
   score: 0
-- name: (TRaSH) Bilibili
+- name: (TG-S) v0
+  score: -51
+- name: (TG-S) v1
+  score: 1
+- name: (TG-S) v2
+  score: 2
+- name: (TG-S) v3
+  score: 3
+- name: (TG-S) v4
+  score: 4
+- name: (TG-S) 10bit
+  score: 0
+- name: (TG-S) Anime Dual Audio
+  score: 0
+- name: (TG-S) Dubs Only
+  score: -10000
+- name: (TG-S) VOSTFR
+  score: -10000
+- name: (TG-S) CR
+  score: 6
+- name: (TG-S) DSNP
+  score: 5
+- name: (TG-S) NF
+  score: 4
+- name: (TG-S) AMZN
+  score: 3
+- name: (TG-S) VRV
+  score: 3
+- name: (TG-S) FUNi
+  score: 2
+- name: (TG-S) ABEMA
+  score: 1
+- name: (TG-S) ADN
+  score: 1
+- name: (TG-S) B-Global
+  score: 0
+- name: (TG-S) Bilibili
   score: 0
 custom_formats_radarr:
-- name: (TRaSH) Remux Tier 03
+- name: (TG-R) Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 1400
+- name: (TG-R) Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
+- name: (TG-R) Anime BD Tier 03 (SeaDex Muxers)
+  score: 1200
+- name: (TG-R) Anime BD Tier 04 (SeaDex Muxers)
+  score: 1100
+- name: (TG-R) Anime BD Tier 05 (Remuxes)
+  score: 1000
+- name: (TG-R) Anime BD Tier 06 (FanSubs)
+  score: 900
+- name: (TG-R) Anime BD Tier 07 (P2P&Scene)
+  score: 800
+- name: (TG-R) Anime BD Tier 08 (Mini Encodes)
+  score: 700
+- name: (TG-R) Anime Web Tier 01 (Muxers)
+  score: 600
+- name: (TG-R) Anime Web Tier 02 (Top FanSubs)
+  score: 500
+- name: (TG-R) Anime Web Tier 03 (Official Subs)
+  score: 400
+- name: (TG-R) Anime Web Tier 04 (Official Subs)
+  score: 300
+- name: (TG-R) Anime Web Tier 05 (FanSubs)
+  score: 200
+- name: (TG-R) Anime Web Tier 06 (FanSubs)
+  score: 100
+- name: (TG-R) Remux Tier 01
+  score: 1050
+- name: (TG-R) Remux Tier 02
+  score: 1000
+- name: (TG-R) Remux Tier 03
   score: 950
-- name: (TRaSH) VRV
+- name: (TG-R) WEB Tier 01
+  score: 350
+- name: (TG-R) WEB Tier 02
+  score: 250
+- name: (TG-R) WEB Tier 03
+  score: 150
+- name: (TG-R) Anime Raws
+  score: -10000
+- name: (TG-R) Anime LQ Groups
+  score: -10000
+- name: (TG-R) Uncensored
+  score: 0
+- name: (TG-R) v0
+  score: -51
+- name: (TG-R) v1
+  score: 1
+- name: (TG-R) v2
+  score: 2
+- name: (TG-R) v3
+  score: 3
+- name: (TG-R) v4
+  score: 4
+- name: (TG-R) VRV
   score: 10
+- name: (TG-R) 10bit
+  score: 0
+- name: (TG-R) Anime Dual Audio
+  score: 0
+- name: (TG-R) Dubs Only
+  score: -10000
+- name: (TG-R) VOSTFR
+  score: -10000
+- name: (TG-R) AV1
+  score: -10000
 qualities:
 - name: Bluray 1080p
   qualities:

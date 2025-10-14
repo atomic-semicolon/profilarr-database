@@ -1,0 +1,43 @@
+name: (TG-R) Black and White Editions
+description: Some movies get an additional release version in monochrome/black and
+  white. This custom format matches some of the more common occurrences of these.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Blackout/B&W/Black&Chrome
+  type: release_title
+  required: false
+  negate: false
+  pattern: Blackout/B&W/Black&Chrome
+- name: Monochrome
+  type: release_title
+  required: false
+  negate: false
+  pattern: Monochrome
+- name: Noir
+  type: release_title
+  required: false
+  negate: false
+  pattern: Noir
+- name: Shush Cut
+  type: release_title
+  required: false
+  negate: false
+  pattern: Shush Cut
+- name: No/Minus Color
+  type: release_title
+  required: false
+  negate: false
+  pattern: No/Minus Color
+- name: Grayscale
+  type: release_title
+  required: false
+  negate: false
+  pattern: Grayscale
+- name: Darkness and Light
+  type: release_title
+  required: false
+  negate: false
+  pattern: Darkness and Light
+tests: []

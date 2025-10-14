@@ -1,0 +1,6 @@
+name: No FANRES
+pattern: \b(FANRES)\b
+description: ''
+tags:
+- TRaSH
+tests: []

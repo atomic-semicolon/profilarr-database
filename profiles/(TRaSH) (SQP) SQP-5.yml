@@ -13,51 +13,51 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr: []
 custom_formats_radarr:
-- name: (TRaSH) Remux Tier 01
+- name: (TG-R) Remux Tier 01
   score: 1950
-- name: (TRaSH) Remux Tier 02
+- name: (TG-R) Remux Tier 02
   score: 1900
-- name: (TRaSH) Remux Tier 03
+- name: (TG-R) Remux Tier 03
   score: 1850
-- name: (TRaSH) UHD Bluray Tier 01
+- name: (TG-R) UHD Bluray Tier 01
   score: 2300
-- name: (TRaSH) UHD Bluray Tier 02
+- name: (TG-R) UHD Bluray Tier 02
   score: 2200
-- name: (TRaSH) UHD Bluray Tier 03
+- name: (TG-R) UHD Bluray Tier 03
   score: 2100
-- name: (TRaSH) WEB Tier 01
+- name: (TG-R) WEB Tier 01
   score: 1700
-- name: (TRaSH) WEB Tier 02
+- name: (TG-R) WEB Tier 02
   score: 1650
-- name: (TRaSH) WEB Tier 03
+- name: (TG-R) WEB Tier 03
   score: 1600
-- name: (TRaSH) Repack&Proper
+- name: (TG-R) Repack&Proper
   score: 5
-- name: (TRaSH) Repack2
+- name: (TG-R) Repack2
   score: 6
-- name: (TRaSH) Repack3
+- name: (TG-R) Repack3
   score: 7
-- name: (TRaSH) BR-DISK
+- name: (TG-R) BR-DISK
   score: -10000
-- name: (TRaSH) Generated Dynamic HDR
+- name: (TG-R) Generated Dynamic HDR
   score: -10000
-- name: (TRaSH) LQ
+- name: (TG-R) LQ
   score: -10000
-- name: (TRaSH) LQ (Release Title)
+- name: (TG-R) LQ (Release Title)
   score: -10000
-- name: (TRaSH) 3D
+- name: (TG-R) 3D
   score: -10000
-- name: (TRaSH) Upscaled
+- name: (TG-R) Upscaled
   score: -10000
-- name: (TRaSH) Extras
+- name: (TG-R) Extras
   score: -10000
-- name: (TRaSH) Sing-Along Versions
+- name: (TG-R) Sing-Along Versions
   score: -10000
-- name: (TRaSH) AV1
+- name: (TG-R) AV1
   score: -10000
-- name: (TRaSH) 1080p
+- name: (TG-R) 1080p
   score: 50
-- name: (TRaSH) 2160p
+- name: (TG-R) 2160p
   score: 151
 qualities:
 - name: WEBDL|Bluray|2160p

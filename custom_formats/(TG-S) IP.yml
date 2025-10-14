@@ -1,0 +1,25 @@
+name: (TG-S) IP
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/BBC_iPlayer)
+
+  BBC iPlayer is a video on demand service from the BBC. iPlayer services delivered
+  to UK-based viewers feature no commercial advertising.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: BBC iPlayer
+  type: release_title
+  required: true
+  negate: false
+  pattern: BBC iPlayer
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

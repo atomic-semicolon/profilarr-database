@@ -1,0 +1,22 @@
+name: (TG-R) IMAX Enhanced
+description: "[From Wired](https://www.wired.com/story/what-is-imax-enhanced/)\nIMAX\
+  \ Enhanced is a standard for digital releases. It features scenes shot on IMAX cameras\
+  \ and produced in HDR10 DV. IMAX Enhanced releases often have a higher bitrate than\
+  \ other WEB options and are encoded into various formats, including SDR conversions.\n\
+  Due to the higher bitrate and implied picture quality improvement, it is recommended\
+  \ that the IMAX Enhanced custom format be enabled on WEB profiles, especially for\
+  \ those seeking 'The IMAX Experience'\u2014including fewer \"black bars\" or letterboxing.\n\
+  ![!Imax Enhanced Example](/Radarr/images/imax-e/imax-e.1.png)\n![!Imax Enhanced\
+  \ Example](/Radarr/images/imax-e/imax-e.2.png)\n![!Imax Enhanced Example](/Radarr/images/imax-e/imax-e.3.png)\n\
+  ![!Imax Enhanced Example](/Radarr/images/imax-e/imax-e.4.png)\n![!Imax Enhanced\
+  \ Example](/Radarr/images/imax-e/imax-e.5.png)"
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: IMAX Enhanced
+  type: release_title
+  required: true
+  negate: false
+  pattern: IMAX Enhanced
+tests: []

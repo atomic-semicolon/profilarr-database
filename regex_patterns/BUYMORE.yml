@@ -1,0 +1,6 @@
+name: BUYMORE
+pattern: -BUYMORE\b
+description: ''
+tags:
+- TRaSH
+tests: []

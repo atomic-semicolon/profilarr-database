@@ -1,0 +1,6 @@
+name: SHOWTIME
+pattern: \b(sho|showtime)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: ''
+tags:
+- TRaSH
+tests: []

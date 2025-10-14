@@ -1,0 +1,61 @@
+name: (TG-R) German Bluray Tier 03
+description: '- WiP
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: RobertDeNiro
+  type: release_group
+  required: false
+  negate: false
+  pattern: RobertDeNiro
+- name: LeetHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: LeetHD
+- name: RHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: RHD
+- name: HDSource
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDSource
+- name: UNFIrED
+  type: release_group
+  required: false
+  negate: false
+  pattern: UNFIrED
+- name: iNCEPTION
+  type: release_group
+  required: false
+  negate: false
+  pattern: iNCEPTION
+- name: FX
+  type: release_group
+  required: false
+  negate: false
+  pattern: FX
+- name: RDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: RDR
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not Remux
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+tests: []

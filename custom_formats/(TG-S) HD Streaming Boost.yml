@@ -1,0 +1,30 @@
+name: (TG-S) HD Streaming Boost
+description: Some streaming services have HD releases that are generally better than
+  their UHD counterparts. The HD Streaming Boost custom format increases those streaming
+  services' scores appropriately for HD releases. Use this in conjunction with the
+  regular streaming service custom formats.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Disney+
+  type: release_title
+  required: false
+  negate: false
+  pattern: Disney+
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+tests: []

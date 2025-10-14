@@ -1,0 +1,23 @@
+name: (TG-R) Pathe
+description: "[From Wikipedia, the free encyclopedia](https://nl.wikipedia.org/wiki/Path%C3%A9_Thuis)\n\
+  Path\xE9 Thuis is a Dutch streaming service for renting and purchasing films."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: "Path\xE9"
+  type: release_title
+  required: true
+  negate: false
+  pattern: "Path\xE9"
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

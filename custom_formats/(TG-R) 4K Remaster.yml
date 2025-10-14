@@ -1,0 +1,33 @@
+name: (TG-R) 4K Remaster
+description: "A remastered or mastered in 4K should give you usually the best picture\
+  \ and audio currently for the movie. Both are just names to describe the best possible\
+  \ current release of the movie.\nTo be clear, the final digital films on the Mastered\
+  \ in 4K Blu-rays still only have the same 1920 x 1080 pixels of actual resolution\
+  \ as normal Blu-rays. But the argument goes that because these full HD files were\
+  \ derived from higher-resolution masters, their images will be more precise, with\
+  \ better colors, less noise, and enhanced sharpness and detail. Not least because\
+  \ the higher-resolution mastering process will provide more detail from the original\
+  \ print for the Blu-ray masters to draw on when going through their (hopefully\u2026\
+  ) frame-by-frame compression process.\nAnother important element of the Mastered\
+  \ in 4K discs is that they\u2019re all mastered with \u2018x.v.YCC\u2019 color specification.\
+  \ This delivers an expanded color range closer to that contained in source material."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Remaster
+  type: release_title
+  required: true
+  negate: false
+  pattern: Remaster
+- name: 4K
+  type: release_title
+  required: true
+  negate: false
+  pattern: 4K
+- name: Not 4K Resolution
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+tests: []

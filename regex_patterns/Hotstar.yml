@@ -1,5 +1,5 @@
 name: Hotstar
-pattern: \b(HTSR)\b
+pattern: \b(HTSR)\b|\b(HTSR|DSNPHS|HS)\b
 description: Disney+ Hotstar, also known as JioHotstar or simply Hotstar, is an Indian
   subscription video-on-demand over-the-top streaming service owned by Disney Star.
   The brand was introduced as Hotstar for a streaming service carrying content from
@@ -9,4 +9,5 @@ description: Disney+ Hotstar, also known as JioHotstar or simply Hotstar, is an 
 tags:
 - Streaming Service
 - WEB-DL
+- TRaSH
 tests: []

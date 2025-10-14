@@ -1,0 +1,6 @@
+name: Elecman
+pattern: \b(Elecman)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: DC Universe
+pattern: \b(dcu|DC Universe)\b
+description: ''
+tags:
+- TRaSH
+tests: []

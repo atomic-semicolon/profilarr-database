@@ -1,0 +1,34 @@
+name: (TG-R) DV (Disk)
+description: This will boost the score for Dolby Vision Releases using the original
+  full-quality Dolby Vision layer from the disc release to replace the old WEBDL HYBRID
+  release.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: FraMeSToR
+  type: release_group
+  required: true
+  negate: false
+  pattern: FraMeSToR
+- name: DV
+  type: release_title
+  required: true
+  negate: false
+  pattern: DV
+- name: No FANRES
+  type: release_title
+  required: true
+  negate: true
+  pattern: No FANRES
+- name: Not Hybrid
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Hybrid
+- name: Not Hybrid Release Group
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Hybrid Release Group
+tests: []

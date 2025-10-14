@@ -1,0 +1,31 @@
+name: (TG-R) TVING
+description: "[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/TVING)\n\
+  TVING (Korean: \uD2F0\uBE59) is a South Korean subscription video on-demand over-the-top\
+  \ streaming service operated by TVING Corporation, It is a platform that streams\
+  \ dramas, entertainment shows, animations, exclusive television films, specials\
+  \ and documentaries."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: TVING
+  type: release_title
+  required: false
+  negate: false
+  pattern: TVING
+- name: TVING Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: TVING Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

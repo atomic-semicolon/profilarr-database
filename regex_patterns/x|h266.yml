@@ -1,0 +1,6 @@
+name: x|h266
+pattern: '[xh][ ._-]?266|\bVVC(\b|\d)'
+description: ''
+tags:
+- TRaSH
+tests: []

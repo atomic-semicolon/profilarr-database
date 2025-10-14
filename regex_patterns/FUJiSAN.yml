@@ -1,0 +1,6 @@
+name: FUJiSAN
+pattern: \b(FUJiSAN)\b
+description: ''
+tags:
+- TRaSH
+tests: []

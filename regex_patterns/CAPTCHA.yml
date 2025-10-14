@@ -1,0 +1,6 @@
+name: CAPTCHA
+pattern: -CAPTCHA\b
+description: ''
+tags:
+- TRaSH
+tests: []

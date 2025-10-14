@@ -1,0 +1,24 @@
+name: (TG-R) TVer
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/TVer_(streaming_service)>)
+
+  [TVer Website](https://tver.jp)'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: TVer
+  type: release_title
+  required: true
+  negate: false
+  pattern: TVer
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

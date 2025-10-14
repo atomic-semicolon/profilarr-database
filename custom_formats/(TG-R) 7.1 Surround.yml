@@ -1,0 +1,17 @@
+name: (TG-R) 7.1 Surround
+description: 71-surround
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 7.1 Surround
+  type: release_title
+  required: true
+  negate: false
+  pattern: 7.1 Surround
+- name: Not Low Channel Count
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Low Channel Count
+tests: []

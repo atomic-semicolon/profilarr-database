@@ -1,0 +1,6 @@
+name: FanSUB
+pattern: \b(FanSUB)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: CBC
+pattern: \b(CBC)\b
+description: ''
+tags:
+- TRaSH
+tests: []

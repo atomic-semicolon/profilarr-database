@@ -1,0 +1,33 @@
+name: (TG-R) BCORE
+description: '[From Sony](https://electronics.sony.com/bravia-core)
+
+  [From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Sony_Pictures_Core)
+
+  Sony Pictures Core (formerly known as Bravia Core) is a video on demand service
+  from Sony for its televisions and smartphones, launched in April 2021. The service
+  offers the streaming of movies at up to 4K resolution provided by Sony Pictures
+  Entertainment. CORE stands for Centre of Real Entertainment.
+
+  Sony claims that Bravia Core has one of the largest libraries of IMAX Enhanced format
+  film content. Streaming, which is marketed as Pure Stream, is claimed to be at speeds
+  of up to 80 Mbit/s.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Bravia Core
+  type: release_title
+  required: true
+  negate: false
+  pattern: Bravia Core
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

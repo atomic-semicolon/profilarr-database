@@ -1,0 +1,32 @@
+name: (TG-R) 3.0 Sound
+description: 30-sound
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 3.0ch
+  type: release_title
+  required: true
+  negate: false
+  pattern: 3.0ch
+- name: Not Mono
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Mono
+- name: Not Stereo
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Stereo
+- name: Not 4.0ch
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 4.0ch
+- name: Not High Channel Count
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not High Channel Count
+tests: []

@@ -1,0 +1,77 @@
+name: (TG-S) FR WEB Tier 01
+description: '- WiP
+
+  - Groups that get their releases directly from the source.
+
+  - Groups that source and add the French audio track from the source to an English
+  release from Tier 01 or 02.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: BONBON
+  type: release_group
+  required: false
+  negate: false
+  pattern: BONBON
+- name: FCK
+  type: release_group
+  required: false
+  negate: false
+  pattern: FCK
+- name: FW
+  type: release_group
+  required: false
+  negate: false
+  pattern: FW
+- name: FRATERNiTY
+  type: release_group
+  required: false
+  negate: false
+  pattern: FRATERNiTY
+- name: MTDK
+  type: release_group
+  required: false
+  negate: false
+  pattern: MTDK
+- name: NoLo
+  type: release_group
+  required: false
+  negate: false
+  pattern: NoLo
+- name: PATOPESTO
+  type: release_group
+  required: false
+  negate: false
+  pattern: PATOPESTO
+- name: Psaro
+  type: release_group
+  required: false
+  negate: false
+  pattern: Psaro
+- name: SUPPLY
+  type: release_group
+  required: false
+  negate: false
+  pattern: SUPPLY
+- name: TFA
+  type: release_group
+  required: false
+  negate: false
+  pattern: TFA
+- name: TiNA
+  type: release_group
+  required: false
+  negate: false
+  pattern: TiNA
+tests: []

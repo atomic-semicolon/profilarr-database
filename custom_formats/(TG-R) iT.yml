@@ -1,0 +1,33 @@
+name: (TG-R) iT
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/ITunes)
+
+  Apple introduced iTunes 6, enabling support for purchasing and viewing video content
+  purchased from the iTunes Store. At launch, the store offered popular shows from
+  the ABC network along with Disney Channel series. In 2008, Apple and select film
+  studios introduced "iTunes Digital Copy", a feature on select DVDs and Blu-ray discs
+  allowing a digital copy in iTunes and associated media players.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: iTunes
+  type: release_title
+  required: false
+  negate: false
+  pattern: iTunes
+- name: iT Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: iT Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

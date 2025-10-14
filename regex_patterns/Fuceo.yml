@@ -1,0 +1,6 @@
+name: Fuceo
+pattern: \b(Fuceo)\b
+description: ''
+tags:
+- TRaSH
+tests: []

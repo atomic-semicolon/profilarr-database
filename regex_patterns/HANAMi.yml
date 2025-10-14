@@ -1,0 +1,6 @@
+name: HANAMi
+pattern: \b(HANAMi)\b
+description: ''
+tags:
+- TRaSH
+tests: []

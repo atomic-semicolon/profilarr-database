@@ -1,0 +1,14 @@
+name: (TG-S) HFR
+description: HFR stands for High Frame Rate and refers to a video format that uses
+  a higher number of frames per second than traditional video, which could result
+  in smoother and more detailed motion.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: HFR
+  type: release_title
+  required: true
+  negate: false
+  pattern: HFR
+tests: []

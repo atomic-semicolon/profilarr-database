@@ -1,0 +1,27 @@
+name: (TG-S) FUNi
+description: '[From Wikipedia, the free encyclopedia](https://www.wikiwand.com/en/Funimation)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: Funimation
+  type: release_title
+  required: true
+  negate: false
+  pattern: Funimation
+tests: []

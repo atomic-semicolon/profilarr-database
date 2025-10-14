@@ -1,0 +1,44 @@
+name: (TG-R) Remux Tier 02
+description: 'Groups that:
+
+  - Haven''t released much. (yet)
+
+  - Produce remuxes from multiple sources (discs) and combine them to produce the
+  best end result.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Remux
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+- name: NCmt
+  type: release_group
+  required: false
+  negate: false
+  pattern: NCmt
+- name: playBD
+  type: release_group
+  required: false
+  negate: false
+  pattern: playBD
+- name: SiCFoI
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiCFoI
+- name: SURFINBIRD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SURFINBIRD
+- name: TEPES
+  type: release_group
+  required: false
+  negate: false
+  pattern: TEPES
+tests: []

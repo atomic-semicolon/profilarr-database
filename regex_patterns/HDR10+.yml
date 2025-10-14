@@ -1,5 +1,5 @@
 name: HDR10+
-pattern: \bHDR10.?(\+|P(lus)?\b)|\bHDR10(\+|P(lus)?\b)
+pattern: \bHDR10.?(\+|P(lus)?\b)|\bHDR10(\+|P(lus)?\b)|\b(HDR10(?=[+]|P(lus)?))
 description: This regex matches `HDR10` when followed by either a plus sign `+`, `P`,
   or `Plus`
 tags:

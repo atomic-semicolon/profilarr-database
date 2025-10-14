@@ -1,0 +1,53 @@
+name: (TG-S) FR Remux Tier 01
+description: '- WiP
+
+  - Groups that produce remuxes from multiple sources (discs) and combine them to
+  produce the best end result.
+
+  - Groups producing remuxes with a group from Remux Tier 01 or 02 adding the best
+  available French Audio.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Remux
+  type: source
+  required: true
+  negate: false
+  source: raw
+- name: FtLi
+  type: release_group
+  required: false
+  negate: false
+  pattern: FtLi
+- name: Goldenyann
+  type: release_group
+  required: false
+  negate: false
+  pattern: Goldenyann
+- name: HDForever
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDForever
+- name: HeavyWeight
+  type: release_group
+  required: false
+  negate: false
+  pattern: HeavyWeight
+- name: ONLY
+  type: release_group
+  required: false
+  negate: false
+  pattern: ONLY
+- name: Psaro
+  type: release_group
+  required: false
+  negate: false
+  pattern: Psaro
+- name: TyrellCorp
+  type: release_group
+  required: false
+  negate: false
+  pattern: TyrellCorp
+tests: []

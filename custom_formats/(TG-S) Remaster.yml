@@ -1,0 +1,23 @@
+name: (TG-S) Remaster
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Remaster)
+
+  For the software term, see Software remastering.
+
+  Remaster (also digital remastering and digitally remastered) refers to changing
+  the quality of the sound or of the image, or both, of previously created recordings,
+  either audiophonic, cinematic, or videographic.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Remaster
+  type: release_title
+  required: true
+  negate: false
+  pattern: Remaster
+- name: Not 4K Remaster
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 4K Remaster
+tests: []

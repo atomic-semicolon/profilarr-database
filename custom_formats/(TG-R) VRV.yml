@@ -1,0 +1,22 @@
+name: (TG-R) VRV
+description: '[From Wikipedia, the free encyclopedia](<https://www.wikiwand.com/en/VRV_(streaming_service)>)'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: VRV
+  type: release_title
+  required: true
+  negate: false
+  pattern: VRV
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

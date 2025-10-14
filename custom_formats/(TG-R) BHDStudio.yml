@@ -1,0 +1,12 @@
+name: (TG-R) BHDStudio
+description: bhdstudio
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: BHDStudio
+  type: release_group
+  required: true
+  negate: false
+  pattern: BHDStudio
+tests: []

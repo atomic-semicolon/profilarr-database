@@ -1,0 +1,12 @@
+name: (TG-R) Uncensored
+description: This Custom Format covers releases that are uncensored.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Uncensored
+  type: release_title
+  required: true
+  negate: false
+  pattern: Uncensored
+tests: []

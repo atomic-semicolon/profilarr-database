@@ -1,0 +1,6 @@
+name: ITVX Rename
+pattern: \[(ITVX)\b|\b(ITVX)\]
+description: ''
+tags:
+- TRaSH
+tests: []

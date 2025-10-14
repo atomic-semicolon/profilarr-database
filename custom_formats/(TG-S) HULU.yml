@@ -1,0 +1,24 @@
+name: (TG-S) HULU
+description: "[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Hulu)\n\
+  Hulu (/\u02C8hu\u02D0lu\u02D0/) is an American subscription streaming service owned\
+  \ by The Walt Disney Company. It was launched on October 29, 2007."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Hulu
+  type: release_title
+  required: true
+  negate: false
+  pattern: Hulu
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

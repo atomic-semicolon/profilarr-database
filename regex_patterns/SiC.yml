@@ -1,5 +1,5 @@
 name: SiC
-pattern: (?<=^|[\s.-])SiC\b|^(SiC)$
+pattern: (?<=^|[\s.-])SiC\b|^(SiC)$|\bSiC\b
 description: ''
 tags:
 - Release Group

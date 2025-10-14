@@ -1,0 +1,35 @@
+name: (TG-S) HMAX
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/HBO_Max)
+
+  Max, formerly and in some markets still HBO Max, is an American subscription video
+  on-demand over-the-top streaming service. It is a proprietary unit of Warner Bros.
+  Discovery Global Streaming & Interactive Entertainment, which is itself a division
+  of Warner Bros. Discovery (WBD). First launched (as HBO Max) in the United States
+  on May 27, 2020, the service offers content from the libraries of Warner Bros.,
+  Discovery Channel, HBO, CNN, Cartoon Network, Adult Swim, Animal Planet, Eurosport,
+  and their related brands.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: HBO Max
+  type: release_title
+  required: false
+  negate: false
+  pattern: HBO Max
+- name: HMAX Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: HMAX Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

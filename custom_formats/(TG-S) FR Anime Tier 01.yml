@@ -1,0 +1,56 @@
+name: (TG-S) FR Anime Tier 01
+description: '- WIP
+
+  - Groups that are known to be active and only doing Anime
+
+  - Groups whose releases are at least comparable to SeaDex recommended.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Darki
+  type: release_title
+  required: false
+  negate: false
+  pattern: Darki
+- name: Delivroozzi
+  type: release_title
+  required: false
+  negate: false
+  pattern: Delivroozzi
+- name: Fuceo
+  type: release_title
+  required: false
+  negate: false
+  pattern: Fuceo
+- name: Good Job! Alexis
+  type: release_title
+  required: false
+  negate: false
+  pattern: Good Job! Alexis
+- name: Punisher694
+  type: release_title
+  required: false
+  negate: false
+  pattern: Punisher694
+- name: SR-71
+  type: release_title
+  required: false
+  negate: false
+  pattern: SR-71
+- name: T3KASHi
+  type: release_title
+  required: false
+  negate: false
+  pattern: T3KASHi
+- name: TANOSHii
+  type: release_title
+  required: false
+  negate: false
+  pattern: TANOSHii
+- name: Tsundere-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: Tsundere-Raws
+tests: []

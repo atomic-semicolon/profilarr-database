@@ -1,0 +1,6 @@
+name: Not INFLATE&DEFLATE
+pattern: \b(INFLATE|DEFLATE[)\]]?)$|\b(INFLATE|DEFLATE)\b
+description: ''
+tags:
+- TRaSH
+tests: []

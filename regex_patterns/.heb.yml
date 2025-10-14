@@ -1,0 +1,6 @@
+name: .heb
+pattern: '[.]heb\b'
+description: ''
+tags:
+- TRaSH
+tests: []

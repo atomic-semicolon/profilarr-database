@@ -1,0 +1,27 @@
+name: (TG-S) HIDIVE
+description: '[From Wikipedia, the free encyclopedia](https://www.wikiwand.com/en/HIDIVE)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: HIDIVE
+  type: release_title
+  required: true
+  negate: false
+  pattern: HIDIVE
+tests: []

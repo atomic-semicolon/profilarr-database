@@ -1,0 +1,20 @@
+name: (TG-S) Season Pack
+description: "!!! danger \"This CF utilizes functionality only available starting\
+  \ in Sonarr v4.0.2.1262.\"\nThis Custom Format can be used to prefer or exclude\
+  \ season packs\n- Give it a score of `10` if you prefer a season pack.\n- Give it\
+  \ a score of `-10000` if you prefer to not download season packs.\n- Utilizes the\
+  \ \"Release Type\" custom format condition added in v4.0.2.1262, Season Pack source\
+  \ status is now persistently stored alongside episodes.\n!!! info\n    - This Custom\
+  \ Format could previously result in download loops. The new \"Release Type\" custom\
+  \ format condition now prevents this undesired behavior. :bangbang:\n    - This\
+  \ will upgrade your already downloaded single episodes :bangbang:"
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Season Packs
+  type: release_type
+  required: false
+  negate: false
+  releaseType: season_pack
+tests: []

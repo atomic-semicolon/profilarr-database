@@ -1,0 +1,6 @@
+name: FOD
+pattern: \b(fod)\b
+description: ''
+tags:
+- TRaSH
+tests: []

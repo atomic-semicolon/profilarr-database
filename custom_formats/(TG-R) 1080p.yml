@@ -1,0 +1,13 @@
+name: (TG-R) 1080p
+description: This Custom Format can boost 1080p releases. It is only useful if you
+  use [Merge Qualities](/Radarr/Tips/Merge-quality/) in your Quality Profile.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+tests: []

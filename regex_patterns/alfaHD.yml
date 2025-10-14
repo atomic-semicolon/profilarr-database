@@ -1,0 +1,6 @@
+name: alfaHD
+pattern: ^(alfaHD.*)$
+description: ''
+tags:
+- TRaSH
+tests: []

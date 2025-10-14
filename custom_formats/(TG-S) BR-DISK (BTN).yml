@@ -1,0 +1,12 @@
+name: (TG-S) BR-DISK (BTN)
+description: br-disk-btn
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: BR-DISK
+  type: release_title
+  required: true
+  negate: false
+  pattern: BR-DISK
+tests: []

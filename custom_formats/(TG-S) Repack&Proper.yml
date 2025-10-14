@@ -1,0 +1,22 @@
+name: (TG-S) Repack&Proper
+description: repack-proper
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Repack
+  type: release_title
+  required: false
+  negate: false
+  pattern: Repack
+- name: Proper
+  type: release_title
+  required: false
+  negate: false
+  pattern: Proper
+- name: Rerip
+  type: release_title
+  required: false
+  negate: false
+  pattern: Rerip
+tests: []

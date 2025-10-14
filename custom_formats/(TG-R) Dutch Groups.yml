@@ -1,0 +1,12 @@
+name: (TG-R) Dutch Groups
+description: dutch-groups
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Dutch Groups
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dutch Groups
+tests: []

@@ -1,0 +1,25 @@
+name: (TG-S) 4OD
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Channel_4_(VoD_service)>)
+
+  4OD is a previous name for the UK''s Channel4 VOD service. Releases are usually
+  identified with either ''ALL4'' or ''4OD'', not ''Channel4''.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: 4OD
+  type: release_title
+  required: true
+  negate: false
+  pattern: 4OD
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

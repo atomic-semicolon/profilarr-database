@@ -1,0 +1,31 @@
+name: (TG-S) ITVX
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/ITVX)
+
+  ITVX (formerly ITV Hub) is a British ad-supported video-on-demand streaming service
+  operated by ITV. The service offers original content from the broadcaster, as well
+  as some exclusive and licensed programming.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: ITVX
+  type: release_title
+  required: false
+  negate: false
+  pattern: ITVX
+- name: ITVX Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: ITVX Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

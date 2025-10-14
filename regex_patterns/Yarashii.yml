@@ -1,0 +1,6 @@
+name: Yarashii
+pattern: \b(Yarashii)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,27 @@
+name: (TG-R) 1.0 Mono
+description: 10-mono
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Mono
+  type: release_title
+  required: true
+  negate: false
+  pattern: Mono
+- name: Not 3.0ch
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 3.0ch
+- name: Not 4.0ch
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 4.0ch
+- name: Not High Channel Count
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not High Channel Count
+tests: []
