@@ -1,0 +1,12 @@
+name: (TG-S) VOF
+description: Original French Version.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: French Original Version
+  type: release_title
+  required: true
+  negate: false
+  pattern: French Original Version
+tests: []

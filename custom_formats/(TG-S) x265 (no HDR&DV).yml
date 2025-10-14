@@ -1,0 +1,30 @@
+name: (TG-S) x265 (no HDR&DV)
+description: "This blocks most 720/1080p (HD) releases that are encoded in x265, **But\
+  \ it will allow 720/1080p x265 releases if they have HDR and/or DV**\n*Since some\
+  \ NF releases won't be released as 4k, this allows you to still have the DV/HDR\
+  \ releases.*\nIn your quality profile use the following score for this Custom Format:\
+  \ `{{ sonarr['cf']['x265-no-hdrdv']['trash_scores']['default'] }}`\n??? question\
+  \ \"Why block 720/1080p encodes in x265? - [Click to show/hide]\"\n    --8<-- \"\
+  includes/docker/x265.md\"\n!!! Danger \"If you have also added [{{ sonarr['cf']['x265-hd']['name']\
+  \ }}](/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) to your Sonarr,<br>then\
+  \ one of them should be scored as `0` in your quality profile.\""
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: x265/HEVC
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265/HEVC
+- name: Not HDR/DV
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not HDR/DV
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+tests: []

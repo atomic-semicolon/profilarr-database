@@ -1,0 +1,6 @@
+name: ORARBG
+pattern: \b(ORARBG)\b
+description: ''
+tags:
+- TRaSH
+tests: []

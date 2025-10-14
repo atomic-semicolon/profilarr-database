@@ -1,0 +1,12 @@
+name: (TG-R) FraMeSToR
+description: framestor
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: FraMeSToR
+  type: release_group
+  required: true
+  negate: false
+  pattern: FraMeSToR
+tests: []

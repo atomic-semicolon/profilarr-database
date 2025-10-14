@@ -1,0 +1,33 @@
+name: (TG-S) DSCP
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Discovery%2B)
+
+  Discovery+ (pronounced "Discovery Plus"; stylized as discovery+) is an American
+  subscription video on-demand over-the-top streaming service owned by Warner Bros.
+  Discovery (WBD). The service focuses on factual programming drawn from the libraries
+  of Discovery''s main channel brands, as well as original series (including spin-offs
+  of programs from Discovery''s television networks), and other acquired content.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Discovery+
+  type: release_title
+  required: false
+  negate: false
+  pattern: Discovery+
+- name: DSCP Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: DSCP Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

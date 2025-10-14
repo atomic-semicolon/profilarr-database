@@ -1,0 +1,6 @@
+name: DSCP Rename
+pattern: \[(DSCP)\b|\b(DSCP)\]
+description: ''
+tags:
+- TRaSH
+tests: []

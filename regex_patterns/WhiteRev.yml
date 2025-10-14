@@ -1,0 +1,6 @@
+name: WhiteRev
+pattern: -WhiteRev\b
+description: ''
+tags:
+- TRaSH
+tests: []

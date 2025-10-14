@@ -1,0 +1,57 @@
+name: (TG-S) FR Anime Tier 02
+description: '- WIP
+
+  - Groups that are known to be active and only doing Anime, but with few releases
+  per year.
+
+  - Groups that are known to be active and doing Anime AND other types of releases.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Aoi-Project
+  type: release_title
+  required: false
+  negate: false
+  pattern: Aoi-Project
+- name: Elecman
+  type: release_title
+  required: false
+  negate: false
+  pattern: Elecman
+- name: FUJiSAN
+  type: release_title
+  required: false
+  negate: false
+  pattern: FUJiSAN
+- name: GundamGuy
+  type: release_title
+  required: false
+  negate: false
+  pattern: GundamGuy
+- name: IssouCorp
+  type: release_title
+  required: false
+  negate: false
+  pattern: IssouCorp
+- name: KAF
+  type: release_title
+  required: false
+  negate: false
+  pattern: KAF
+- name: Nagutos
+  type: release_title
+  required: false
+  negate: false
+  pattern: Nagutos
+- name: OECUF
+  type: release_title
+  required: false
+  negate: false
+  pattern: OECUF
+- name: XSPITFIRE911
+  type: release_title
+  required: false
+  negate: false
+  pattern: XSPITFIRE911
+tests: []

@@ -1,0 +1,6 @@
+name: CC
+pattern: \b(CC)\b
+description: ''
+tags:
+- TRaSH
+tests: []

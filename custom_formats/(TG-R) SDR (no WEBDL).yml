@@ -1,0 +1,37 @@
+name: (TG-R) SDR (no WEBDL)
+description: 'This will prevent grabbing UHD/4k Remux and Bluray encode releases without
+  HDR Formats. - i.e., SDR WEB releases will still be allowed since 4K SDR WEB releases
+  can often look better than the 1080p version due to the improved bitrate.
+
+  !!! Danger "If you have also added [{{ radarr[''cf''][''sdr''][''name''] }}](/Radarr/Radarr-collection-of-custom-formats/#sdr)
+  to your Radarr,<br>then one of them should be scored as `0` in your quality profile."'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: HDR Formats
+  type: release_title
+  required: false
+  negate: true
+  pattern: HDR Formats
+- name: SDR
+  type: release_title
+  required: false
+  negate: false
+  pattern: SDR
+- name: Not WEBDL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: Not WEBRIP
+  type: source
+  required: true
+  negate: true
+  source: webrip
+tests: []

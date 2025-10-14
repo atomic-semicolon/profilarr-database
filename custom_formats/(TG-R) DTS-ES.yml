@@ -1,0 +1,54 @@
+name: (TG-R) DTS-ES
+description: DTS-ES (DTS Extended Surround) includes two variants, DTS-ES Discrete
+  6.1 and DTS-ES Matrix 5.1, depending on how the sound was originally mastered and
+  stored.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: DTS-ES
+  type: release_title
+  required: true
+  negate: false
+  pattern: DTS-ES
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD/ATMOS
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Dolby Digital Plus
+- name: Not Basic DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Basic DTS
+- name: 'Not Basic Dolby Digital '
+  type: release_title
+  required: true
+  negate: true
+  pattern: 'Not Basic Dolby Digital '
+- name: Not DTS X
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS X
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+tests: []

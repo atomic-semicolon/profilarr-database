@@ -1,0 +1,24 @@
+name: (TG-R) Vinegar Syndrome
+description: Vinegar Syndrome is a US-based company founded in 2012 to preserve and
+  distribute old X-rated films. Over time, they expanded their catalog to include
+  other types of cult and exploitation films, specializing in horror and action genres.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Vinegar Syndrome
+  type: release_title
+  required: false
+  negate: false
+  pattern: Vinegar Syndrome
+- name: VS
+  type: release_title
+  required: false
+  negate: false
+  pattern: VS
+- name: VinSyn
+  type: release_title
+  required: false
+  negate: false
+  pattern: VinSyn
+tests: []

@@ -1,5 +1,5 @@
 name: Not 6.1 Surround
-pattern: '[^0-9]6[ .][0-1]'
+pattern: '[^0-9]6[ .][0-1]|[^0-9]6[ .][0-1]\b'
 description: ''
 tags:
 - TRaSH

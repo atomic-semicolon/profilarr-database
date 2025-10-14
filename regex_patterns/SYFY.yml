@@ -1,0 +1,6 @@
+name: SYFY
+pattern: \b(SYFY)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,12 @@
+name: (TG-R) MULTi
+description: multi
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Multi
+  type: release_title
+  required: true
+  negate: false
+  pattern: Multi
+tests: []

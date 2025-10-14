@@ -1,5 +1,6 @@
 name: IMAX Enhanced
-pattern: ^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=.?web.?(dl|rip)\b)))(?=.*\b((?<!NON.?)IMAX(.?Enhanced)?)\b)
+pattern: ^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=.?web.?(dl|rip)\b)))(?=.*\b((?<!NON.?)IMAX(.?Enhanced)?)\b)|^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=[
+  ._-]web[ ._-]?(dl|rip)\b)))(?=.*\b((?<!NON[ ._-])IMAX)\b)|^(?=.*\b(IMAX[ ._-]Enhanced)\b)
 description: 'Matches IMAX releases from specific digital sources.
 
 
@@ -10,6 +11,7 @@ description: 'Matches IMAX releases from specific digital sources.
 tags:
 - Enhancement
 - Aspect Ratio
+- TRaSH
 tests:
 - expected: false
   id: 1

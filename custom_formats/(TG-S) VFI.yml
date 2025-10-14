@@ -1,0 +1,12 @@
+name: (TG-S) VFI
+description: International French Version.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: French International
+  type: release_title
+  required: true
+  negate: false
+  pattern: French International
+tests: []

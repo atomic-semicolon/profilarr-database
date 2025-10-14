@@ -1,8 +1,9 @@
 name: SDR
-pattern: \b(SDR)\b
+pattern: \b(SDR)\b|\bSDR\b
 description: 'Explicitly matches labelled Standard Dynamic Range, i.e. "SDR" '
 tags:
 - HDR
+- TRaSH
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,15 @@
+name: (TG-S) INTERNAL
+description: '- Those who prefer scene releases may want to boost internals, as they
+  generally have higher settings that may not conform to the ruleset.
+
+  - In some rare cases, P2P use is also INTERNAL.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: INTERNAL
+  type: release_title
+  required: false
+  negate: false
+  pattern: INTERNAL
+tests: []

@@ -1,0 +1,33 @@
+name: (TG-S) VIU
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Viu_(streaming_service)>)
+
+  Viu (pronounced as view) is a Hong Kong-based over-the-top (OTT) video streaming
+  provider, Viu delivers content in different genres from Asia''s top content providers
+  with local language subtitles, as well as original production series under the Viu
+  Original initiative (similar to original programming from other services like Disney+,
+  Amazon Prime Video and Netflix).'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: VIU
+  type: release_title
+  required: false
+  negate: false
+  pattern: VIU
+- name: VIU Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: VIU Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

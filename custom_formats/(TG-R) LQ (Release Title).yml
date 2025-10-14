@@ -1,0 +1,75 @@
+name: (TG-R) LQ (Release Title)
+description: 'A collection of terms seen in the titles of Low-Quality releases that
+  are not captured by using a release group name.
+
+  --8<-- "includes/cf-descriptions/apply-10000.md"'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 1XBET
+  type: release_title
+  required: false
+  negate: false
+  pattern: 1XBET
+- name: BEN THE MEN
+  type: release_title
+  required: false
+  negate: false
+  pattern: BEN THE MEN
+- name: D3US
+  type: release_title
+  required: false
+  negate: false
+  pattern: D3US
+- name: EVO (no WEBDL)
+  type: release_title
+  required: false
+  negate: false
+  pattern: EVO (no WEBDL)
+- name: Feranki1980
+  type: release_title
+  required: false
+  negate: false
+  pattern: Feranki1980
+- name: GalaxyRG
+  type: release_title
+  required: false
+  negate: false
+  pattern: GalaxyRG
+- name: jennaortega
+  type: release_title
+  required: false
+  negate: false
+  pattern: jennaortega
+- name: PiRaTeS (no WEBDL)
+  type: release_title
+  required: false
+  negate: false
+  pattern: PiRaTeS (no WEBDL)
+- name: READ NOTE
+  type: release_title
+  required: false
+  negate: false
+  pattern: READ NOTE
+- name: SWTYBLZ
+  type: release_title
+  required: false
+  negate: false
+  pattern: SWTYBLZ
+- name: TeeWee
+  type: release_title
+  required: false
+  negate: false
+  pattern: TeeWee
+- name: TEKNO3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: TEKNO3D
+- name: Will1869
+  type: release_title
+  required: false
+  negate: false
+  pattern: Will1869
+tests: []

@@ -1,0 +1,17 @@
+name: (TG-S) 6.1 Surround
+description: 61-surround
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: 6.1 Surround
+  type: release_title
+  required: true
+  negate: false
+  pattern: 6.1 Surround
+- name: Not 7.1 Surround
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 7.1 Surround
+tests: []

@@ -1,5 +1,5 @@
 name: Peacock TV
-pattern: \b(?:PCOK|(?:Peacock)(?=\s*.(?:WEB-?DL|WEBRIP)))\b
+pattern: \b(?:PCOK|(?:Peacock)(?=\s*.(?:WEB-?DL|WEBRIP)))\b|\b(pcok|Peacock TV)\b|\b(pcok|peacock)\b
 description: Peacock is an American over-the-top subscription streaming service owned
   and operated by Peacock TV, LLC, a subsidiary of NBCUniversal Media Group. The service
   primarily features series and film content from NBCUniversal studios and other third-party
@@ -7,6 +7,7 @@ description: Peacock is an American over-the-top subscription streaming service 
 tags:
 - Streaming Service
 - WEB-DL
+- TRaSH
 tests:
 - id: 1
   input: The Peacock Accountant 2 2025 2160p PCOK WEB-DL DD+ 5.1 Atmos DV H.265-FLUX

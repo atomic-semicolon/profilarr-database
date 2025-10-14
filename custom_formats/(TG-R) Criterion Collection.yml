@@ -1,0 +1,36 @@
+name: (TG-R) Criterion Collection
+description: The Criterion Collection, Inc. (or simply Criterion) is an American home
+  video distribution company that focuses on licensing "important classic and contemporary
+  films" and selling them to film aficionados. Criterion has helped to standardize
+  characteristics of home video such as film restoration, using the letterbox format
+  for widescreen films, and adding bonus features and commentary tracks
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: Criterion
+  type: release_title
+  required: false
+  negate: false
+  pattern: Criterion
+- name: CC
+  type: release_title
+  required: false
+  negate: false
+  pattern: CC
+- name: Not Criterion RlsGrp
+  type: release_group
+  required: true
+  negate: true
+  pattern: Not Criterion RlsGrp
+tests: []

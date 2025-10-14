@@ -1,0 +1,6 @@
+name: ALL4
+pattern: \b(ALL4)\b
+description: ''
+tags:
+- TRaSH
+tests: []

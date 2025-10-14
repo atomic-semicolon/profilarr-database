@@ -1,0 +1,68 @@
+name: (TG-R) UHD Bluray Tier 03
+description: 'Groups that:
+
+  - Use remuxes as their source without micro-sizing them.
+
+  - HDR/DoVi (Depending on what''s offered and often both).
+
+  - Use Lossless Audio (TrueHD, DTS-X, DTS-HD, etc) or Lossy audio formats (DD, DD+,
+  etc).
+
+  - That are added for a specific reason for other guides quality profiles.
+
+  - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+- name: Not WEBDL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: Not WEBRIP
+  type: source
+  required: true
+  negate: true
+  source: webrip
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
+- name: hallowed
+  type: release_group
+  required: false
+  negate: false
+  pattern: hallowed
+- name: HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HONE
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
+- name: SPHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SPHD
+- name: WEBDV
+  type: release_group
+  required: false
+  negate: false
+  pattern: WEBDV
+tests: []

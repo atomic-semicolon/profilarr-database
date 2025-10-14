@@ -1,0 +1,35 @@
+name: (TG-S) LQ (Release Title)
+description: 'A collection of terms seen in the titles of Low-Quality releases that
+  are not captured by using a release group name.
+
+  --8<-- "includes/cf-descriptions/apply-10000.md"'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: BEN THE MEN
+  type: release_title
+  required: false
+  negate: false
+  pattern: BEN THE MEN
+- name: BiTOR (2160p)
+  type: release_title
+  required: false
+  negate: false
+  pattern: BiTOR (2160p)
+- name: CREATiVE24
+  type: release_title
+  required: false
+  negate: false
+  pattern: CREATiVE24
+- name: Feranki1980
+  type: release_title
+  required: false
+  negate: false
+  pattern: Feranki1980
+- name: TeeWee
+  type: release_title
+  required: false
+  negate: false
+  pattern: TeeWee
+tests: []

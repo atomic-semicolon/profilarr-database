@@ -1,0 +1,22 @@
+name: (TG-R) SDR
+description: This will prevent grabbing UHD/4k releases without HDR Formats.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: HDR Formats
+  type: release_title
+  required: false
+  negate: true
+  pattern: HDR Formats
+- name: SDR
+  type: release_title
+  required: false
+  negate: false
+  pattern: SDR
+tests: []

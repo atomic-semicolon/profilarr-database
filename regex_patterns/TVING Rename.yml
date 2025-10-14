@@ -1,0 +1,6 @@
+name: TVING Rename
+pattern: \[(TVING)\b|\b(TVING)\]
+description: ''
+tags:
+- TRaSH
+tests: []

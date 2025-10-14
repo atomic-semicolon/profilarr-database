@@ -1,0 +1,6 @@
+name: T3KASHi
+pattern: \b(T3KASHi)\b
+description: ''
+tags:
+- TRaSH
+tests: []

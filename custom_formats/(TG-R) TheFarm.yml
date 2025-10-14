@@ -1,0 +1,12 @@
+name: (TG-R) TheFarm
+description: thefarm
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: TheFarm
+  type: release_group
+  required: true
+  negate: false
+  pattern: TheFarm
+tests: []

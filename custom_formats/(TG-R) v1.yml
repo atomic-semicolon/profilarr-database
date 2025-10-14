@@ -1,0 +1,12 @@
+name: (TG-R) v1
+description: Custom Format to cover v1 releases.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: v1
+  type: release_title
+  required: true
+  negate: false
+  pattern: v1
+tests: []

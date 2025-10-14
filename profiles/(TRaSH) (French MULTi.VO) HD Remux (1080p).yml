@@ -15,75 +15,75 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr: []
 custom_formats_radarr:
-- name: (TRaSH) VFF
+- name: (TG-R) VFF
   score: 0
-- name: (TRaSH) VOF
+- name: (TG-R) VOF
   score: 0
-- name: (TRaSH) VFI
+- name: (TG-R) VFI
   score: 0
-- name: (TRaSH) VF2
+- name: (TG-R) VF2
   score: 0
-- name: (TRaSH) VFQ
+- name: (TG-R) VFQ
   score: 0
-- name: (TRaSH) VOQ
+- name: (TG-R) VOQ
   score: 0
-- name: (TRaSH) VQ
+- name: (TG-R) VQ
   score: 0
-- name: (TRaSH) VFB
+- name: (TG-R) VFB
   score: 0
-- name: '(TRaSH) Language: Not Original'
+- name: '(TG-R) Language: Not Original'
   score: -10000
-- name: '(TRaSH) Language: Not French'
+- name: '(TG-R) Language: Not French'
   score: 0
-- name: '(TRaSH) Language: Original + French'
+- name: '(TG-R) Language: Original + French'
   score: 500
-- name: (TRaSH) MULTi
+- name: (TG-R) MULTi
   score: 0
-- name: (TRaSH) FR Remux Tier 01
+- name: (TG-R) FR Remux Tier 01
   score: 1950
-- name: (TRaSH) FR Remux Tier 02
+- name: (TG-R) FR Remux Tier 02
   score: 1900
-- name: (TRaSH) FR WEB Tier 01
+- name: (TG-R) FR WEB Tier 01
   score: 1700
-- name: (TRaSH) FR WEB Tier 02
+- name: (TG-R) FR WEB Tier 02
   score: 1650
-- name: (TRaSH) FR Scene Groups
+- name: (TG-R) FR Scene Groups
   score: 1500
-- name: (TRaSH) FR LQ
+- name: (TG-R) FR LQ
   score: -10000
-- name: (TRaSH) Remux Tier 01
+- name: (TG-R) Remux Tier 01
   score: 1950
-- name: (TRaSH) Remux Tier 02
+- name: (TG-R) Remux Tier 02
   score: 1900
-- name: (TRaSH) Remux Tier 03
+- name: (TG-R) Remux Tier 03
   score: 1850
-- name: (TRaSH) WEB Tier 01
+- name: (TG-R) WEB Tier 01
   score: 1700
-- name: (TRaSH) WEB Tier 02
+- name: (TG-R) WEB Tier 02
   score: 1650
-- name: (TRaSH) WEB Tier 03
+- name: (TG-R) WEB Tier 03
   score: 1600
-- name: (TRaSH) Repack&Proper
+- name: (TG-R) Repack&Proper
   score: 5
-- name: (TRaSH) Repack2
+- name: (TG-R) Repack2
   score: 6
-- name: (TRaSH) Repack3
+- name: (TG-R) Repack3
   score: 7
-- name: (TRaSH) BR-DISK
+- name: (TG-R) BR-DISK
   score: -10000
-- name: (TRaSH) LQ
+- name: (TG-R) LQ
   score: -10000
-- name: (TRaSH) LQ (Release Title)
+- name: (TG-R) LQ (Release Title)
   score: -10000
-- name: (TRaSH) 3D
+- name: (TG-R) 3D
   score: -10000
-- name: (TRaSH) Upscaled
+- name: (TG-R) Upscaled
   score: -10000
-- name: (TRaSH) Extras
+- name: (TG-R) Extras
   score: -10000
-- name: (TRaSH) Sing-Along Versions
+- name: (TG-R) Sing-Along Versions
   score: -10000
-- name: (TRaSH) AV1
+- name: (TG-R) AV1
   score: -10000
 qualities:
 - name: Remux-1080p

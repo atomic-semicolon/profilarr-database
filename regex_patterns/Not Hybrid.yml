@@ -1,0 +1,6 @@
+name: Not Hybrid
+pattern: \bhybrid(\b|\d)
+description: ''
+tags:
+- TRaSH
+tests: []

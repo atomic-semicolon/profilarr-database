@@ -1,0 +1,12 @@
+name: (TG-S) MPEG2
+description: mpeg2
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: MPEG2
+  type: release_title
+  required: true
+  negate: false
+  pattern: MPEG2
+tests: []

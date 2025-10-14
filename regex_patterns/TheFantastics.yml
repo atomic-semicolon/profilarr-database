@@ -1,0 +1,6 @@
+name: TheFantastics
+pattern: \b(TheFantastics)\b
+description: ''
+tags:
+- TRaSH
+tests: []

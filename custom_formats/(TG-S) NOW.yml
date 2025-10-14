@@ -1,0 +1,30 @@
+name: (TG-S) NOW
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Now_(Sky)>)
+
+  Now (formerly Now TV and often stylised as NOW) is a subscription over-the-top streaming
+  television service operated by British satellite television provider Sky Group.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: NOW
+  type: release_title
+  required: false
+  negate: false
+  pattern: NOW
+- name: NOW Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: NOW Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

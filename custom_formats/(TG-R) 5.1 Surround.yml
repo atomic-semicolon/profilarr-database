@@ -1,0 +1,22 @@
+name: (TG-R) 5.1 Surround
+description: 51-surround
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 5.1 Surround
+  type: release_title
+  required: true
+  negate: false
+  pattern: 5.1 Surround
+- name: Not 6.1 Surround
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 6.1 Surround
+- name: Not 7.1 Surround
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 7.1 Surround
+tests: []

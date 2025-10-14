@@ -1,0 +1,6 @@
+name: matheousse
+pattern: \b(matheousse)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,12 @@
+name: (TG-S) MULTi
+description: multi
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Multi
+  type: release_title
+  required: true
+  negate: false
+  pattern: Multi
+tests: []

@@ -1,0 +1,78 @@
+name: (TG-R) Anime BD Tier 01 (Top SeaDex Muxers)
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: Aergia
+  type: release_title
+  required: false
+  negate: false
+  pattern: Aergia
+- name: Arg0
+  type: release_title
+  required: false
+  negate: false
+  pattern: Arg0
+- name: Legion
+  type: release_title
+  required: false
+  negate: false
+  pattern: Legion
+- name: LYS1TH3A
+  type: release_title
+  required: false
+  negate: false
+  pattern: LYS1TH3A
+- name: OZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: OZR
+- name: sam
+  type: release_title
+  required: false
+  negate: false
+  pattern: sam
+- name: SCY
+  type: release_title
+  required: false
+  negate: false
+  pattern: SCY
+- name: smol
+  type: release_title
+  required: false
+  negate: false
+  pattern: smol
+- name: SoM
+  type: release_title
+  required: false
+  negate: false
+  pattern: SoM
+- name: Vanilla
+  type: release_title
+  required: false
+  negate: false
+  pattern: Vanilla
+- name: Vodes
+  type: release_title
+  required: false
+  negate: false
+  pattern: Vodes
+- name: ZeroBuild
+  type: release_title
+  required: false
+  negate: false
+  pattern: ZeroBuild
+tests: []

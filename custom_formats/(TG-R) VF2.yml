@@ -1,0 +1,18 @@
+name: (TG-R) VF2
+description: VF[1-9] or FR[1-9] indicates the number of dubs present (normally VF2
+  being VFF and VFQ).
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: VF2
+  type: release_title
+  required: false
+  negate: false
+  pattern: VF2
+- name: Both VFF and VFQ
+  type: release_title
+  required: false
+  negate: false
+  pattern: Both VFF and VFQ
+tests: []

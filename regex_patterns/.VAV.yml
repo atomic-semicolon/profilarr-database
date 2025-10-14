@@ -1,0 +1,6 @@
+name: .VAV
+pattern: '[.]VAV\b'
+description: ''
+tags:
+- TRaSH
+tests: []

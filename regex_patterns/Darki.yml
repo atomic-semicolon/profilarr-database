@@ -1,0 +1,6 @@
+name: Darki
+pattern: \b(Darki)\b
+description: ''
+tags:
+- TRaSH
+tests: []

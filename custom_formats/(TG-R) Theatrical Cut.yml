@@ -1,0 +1,12 @@
+name: (TG-R) Theatrical Cut
+description: The Theatrical Cut is the film's version shown in the cinemas.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Theatrical
+  type: release_title
+  required: true
+  negate: false
+  pattern: Theatrical
+tests: []

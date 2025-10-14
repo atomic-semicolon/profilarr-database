@@ -1,0 +1,6 @@
+name: 4OD
+pattern: \b(4OD)\b
+description: ''
+tags:
+- TRaSH
+tests: []

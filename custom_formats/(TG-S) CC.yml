@@ -1,0 +1,27 @@
+name: (TG-S) CC
+description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Comedy_Central)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Comedy Central
+  type: release_title
+  required: false
+  negate: false
+  pattern: Comedy Central
+- name: CC Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: CC Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

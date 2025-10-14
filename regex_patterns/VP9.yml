@@ -1,8 +1,9 @@
 name: VP9
-pattern: \b(VP9)\b
+pattern: \b(VP9)\b|\bVP9\b
 description: VP9 is an open and royalty-free video coding format developed by Google
 tags:
 - Codec
+- TRaSH
 tests:
 - expected: true
   id: 1

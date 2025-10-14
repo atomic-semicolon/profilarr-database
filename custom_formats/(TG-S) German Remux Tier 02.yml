@@ -1,0 +1,37 @@
+name: (TG-S) German Remux Tier 02
+description: '- WiP
+
+  - Groups that get their releases directly from the source.
+
+  - Groups that create encodes from a remux without micro-sizing them.
+
+  - Groups that have the best German audio track to an English release.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: MULTiPLEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: MULTiPLEX
+- name: HQC
+  type: release_group
+  required: false
+  negate: false
+  pattern: HQC
+- name: HDSource
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDSource
+- name: Remux
+  type: source
+  required: true
+  negate: false
+  source: raw
+tests: []

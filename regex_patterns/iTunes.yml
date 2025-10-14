@@ -17,6 +17,7 @@ description: 'iTunes began offering video content in October 2005 with the relea
 tags:
 - Streaming Service
 - WEB-DL
+- TRaSH
 tests:
 - expected: false
   id: 1

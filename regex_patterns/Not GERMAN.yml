@@ -1,0 +1,6 @@
+name: Not GERMAN
+pattern: \b(GERMAN)$|\b(GERMAN)\b
+description: ''
+tags:
+- TRaSH
+tests: []

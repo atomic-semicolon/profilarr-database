@@ -1,0 +1,6 @@
+name: ROKU
+pattern: \b(ROKU)\b
+description: ''
+tags:
+- TRaSH
+tests: []

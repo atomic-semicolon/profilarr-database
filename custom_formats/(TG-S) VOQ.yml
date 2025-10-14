@@ -1,0 +1,12 @@
+name: (TG-S) VOQ
+description: Quebec Original Version.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Quebec Original Version
+  type: release_title
+  required: true
+  negate: false
+  pattern: Quebec Original Version
+tests: []

@@ -1,0 +1,37 @@
+name: (TG-R) Upscaled
+description: This custom format is used to prevent grabbing upscaled releases.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: AI Upscales
+  type: release_title
+  required: false
+  negate: false
+  pattern: AI Upscales
+- name: AIUS
+  type: release_title
+  required: false
+  negate: false
+  pattern: AIUS
+- name: Regrade
+  type: release_title
+  required: false
+  negate: false
+  pattern: Regrade
+- name: RW
+  type: release_title
+  required: false
+  negate: false
+  pattern: RW
+- name: TheUpscaler
+  type: release_title
+  required: false
+  negate: false
+  pattern: TheUpscaler
+- name: Upscaled
+  type: release_title
+  required: false
+  negate: false
+  pattern: Upscaled
+tests: []

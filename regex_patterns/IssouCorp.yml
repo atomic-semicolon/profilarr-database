@@ -1,0 +1,6 @@
+name: IssouCorp
+pattern: \b(IssouCorp)\b
+description: ''
+tags:
+- TRaSH
+tests: []

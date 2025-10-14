@@ -1,0 +1,6 @@
+name: BiOMA
+pattern: ^(BiOMA)$
+description: ''
+tags:
+- TRaSH
+tests: []

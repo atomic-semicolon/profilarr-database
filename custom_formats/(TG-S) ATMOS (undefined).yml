@@ -1,0 +1,50 @@
+name: (TG-S) ATMOS (undefined)
+description: "This custom format covers cases where _ONLY_ \"Atmos\" is specified\
+  \ in the release title, without noting DD+ (Lossy) or TrueHD (Lossless).\n!!! note\n\
+  \    Apply the same score as Lossy (DD+) Atmos. On import, it will be updated to\
+  \ reflect either lossy or lossless based on the media's info using ffprobe."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: ATMOS
+  type: release_title
+  required: true
+  negate: false
+  pattern: ATMOS
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not AAC
+- name: 'Not Basic Dolby Digital '
+  type: release_title
+  required: true
+  negate: true
+  pattern: 'Not Basic Dolby Digital '
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Dolby Digital Plus
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not DTS
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not FLAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not PCM
+- name: Not TrueHD
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not TrueHD
+tests: []

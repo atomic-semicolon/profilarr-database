@@ -3,6 +3,7 @@ pattern: \bOPUS(\b|\d)(?!.*[ ._-](\d{3,4}p))
 description: ''
 tags:
 - Audio
+- TRaSH
 tests:
 - expected: true
   id: 1

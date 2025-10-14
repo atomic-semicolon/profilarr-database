@@ -1,0 +1,62 @@
+name: (TG-S) German Web Tier 02
+description: '- WiP
+
+  - Groups that get their releases directly from the source.
+
+  - Groups that create encodes from a remux without micro-sizing them.
+
+  - Groups that have the best German audio track to an English release.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: VECTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: VECTOR
+- name: MULTiPLEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: MULTiPLEX
+- name: SiXTYNiNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiXTYNiNE
+- name: Oergel
+  type: release_group
+  required: false
+  negate: false
+  pattern: Oergel
+- name: 4SF
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4SF
+- name: 4SF Aliases
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4SF Aliases
+- name: ABJ
+  type: release_group
+  required: false
+  negate: false
+  pattern: ABJ
+- name: WebDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WebRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

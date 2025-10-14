@@ -13,79 +13,79 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr: []
 custom_formats_radarr:
-- name: (TRaSH) TrueHD ATMOS
+- name: (TG-R) TrueHD ATMOS
   score: -10000
-- name: (TRaSH) DTS X
+- name: (TG-R) DTS X
   score: -10000
-- name: (TRaSH) ATMOS (undefined)
+- name: (TG-R) ATMOS (undefined)
   score: 3000
-- name: (TRaSH) DD+ ATMOS
+- name: (TG-R) DD+ ATMOS
   score: 135
-- name: (TRaSH) TrueHD
+- name: (TG-R) TrueHD
   score: -10000
-- name: (TRaSH) DTS-HD MA
+- name: (TG-R) DTS-HD MA
   score: -10000
-- name: (TRaSH) FLAC
+- name: (TG-R) FLAC
   score: 2250
-- name: (TRaSH) PCM
+- name: (TG-R) PCM
   score: 2250
-- name: (TRaSH) DTS-HD HRA
+- name: (TG-R) DTS-HD HRA
   score: -10000
-- name: (TRaSH) DD+
+- name: (TG-R) DD+
   score: 125
-- name: (TRaSH) DTS-ES
+- name: (TG-R) DTS-ES
   score: 1500
-- name: (TRaSH) DTS
+- name: (TG-R) DTS
   score: 1250
-- name: (TRaSH) AAC
+- name: (TG-R) AAC
   score: 1000
-- name: (TRaSH) DD
+- name: (TG-R) DD
   score: 115
-- name: (TRaSH) BHDStudio
+- name: (TG-R) BHDStudio
   score: 1000
-- name: (TRaSH) hallowed
+- name: (TG-R) hallowed
   score: 600
-- name: (TRaSH) WEB Tier 01
+- name: (TG-R) WEB Tier 01
   score: 1700
-- name: (TRaSH) WEB Tier 02
+- name: (TG-R) WEB Tier 02
   score: 1650
-- name: (TRaSH) WEB Tier 03
+- name: (TG-R) WEB Tier 03
   score: 1600
-- name: (TRaSH) HD Bluray Tier 01
+- name: (TG-R) HD Bluray Tier 01
   score: 1100
-- name: (TRaSH) HD Bluray Tier 02
+- name: (TG-R) HD Bluray Tier 02
   score: 1050
-- name: (TRaSH) HD Bluray Tier 03
+- name: (TG-R) HD Bluray Tier 03
   score: 1000
-- name: (TRaSH) Repack&Proper
+- name: (TG-R) Repack&Proper
   score: 5
-- name: (TRaSH) Repack2
+- name: (TG-R) Repack2
   score: 6
-- name: (TRaSH) Repack3
+- name: (TG-R) Repack3
   score: 7
-- name: (TRaSH) BR-DISK
+- name: (TG-R) BR-DISK
   score: -10000
-- name: (TRaSH) Generated Dynamic HDR
+- name: (TG-R) Generated Dynamic HDR
   score: -10000
-- name: (TRaSH) LQ
+- name: (TG-R) LQ
   score: -10000
-- name: (TRaSH) LQ (Release Title)
+- name: (TG-R) LQ (Release Title)
   score: -10000
-- name: (TRaSH) x265 (HD)
+- name: (TG-R) x265 (HD)
   score: -10000
-- name: (TRaSH) 3D
+- name: (TG-R) 3D
   score: -10000
-- name: (TRaSH) Extras
+- name: (TG-R) Extras
   score: -10000
-- name: (TRaSH) Sing-Along Versions
+- name: (TG-R) Sing-Along Versions
   score: -10000
-- name: (TRaSH) 10 bit
+- name: (TG-R) 10 bit
   score: -10000
-- name: (TRaSH) AV1
+- name: (TG-R) AV1
   score: -10000
-- name: (TRaSH) 1080p
+- name: (TG-R) 1080p
   score: 50
-- name: (TRaSH) 720p
+- name: (TG-R) 720p
   score: 5
 qualities:
 - name: Bluray|WEB-1080p

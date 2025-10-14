@@ -1,0 +1,32 @@
+name: (TG-R) SiC
+description: sic
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: SiC
+  type: release_title
+  required: true
+  negate: false
+  pattern: SiC
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: WEBDL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
+- name: HDR
+  type: release_title
+  required: true
+  negate: false
+  pattern: HDR
+- name: DV
+  type: release_title
+  required: true
+  negate: false
+  pattern: DV
+tests: []

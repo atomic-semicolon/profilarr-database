@@ -1,0 +1,6 @@
+name: Quibi
+pattern: \b(qibi|quibi)\b
+description: ''
+tags:
+- TRaSH
+tests: []

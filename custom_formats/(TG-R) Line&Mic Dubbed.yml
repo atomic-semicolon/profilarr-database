@@ -1,0 +1,22 @@
+name: (TG-R) Line&Mic Dubbed
+description: '- This seems to be often used with German releases, and this will block
+  the low-quality audio.
+
+  - Line Dubbed = Sound extracted in the cinema by cable.
+
+  - Mic Dubbed = Sound extracted in the cinema by a microphone.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Line Dubbed
+  type: release_title
+  required: false
+  negate: false
+  pattern: Line Dubbed
+- name: Mic Dubbed
+  type: release_title
+  required: false
+  negate: false
+  pattern: Mic Dubbed
+tests: []

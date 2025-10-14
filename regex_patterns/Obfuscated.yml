@@ -1,0 +1,6 @@
+name: Obfuscated
+pattern: -Obfuscated\b
+description: ''
+tags:
+- TRaSH
+tests: []

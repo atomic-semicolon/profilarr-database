@@ -1,0 +1,6 @@
+name: Kaerizaki-Fansub
+pattern: \b(Kaerizaki[ .-]?Fansub)\b
+description: ''
+tags:
+- TRaSH
+tests: []

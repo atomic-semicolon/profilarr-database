@@ -1,11 +1,12 @@
 name: HDR
-pattern: \b(HDR)\b
+pattern: \b(HDR)\b|\bHDR(\b|\d)
 description: 'This regex matches a `HDR` generalisation. This can be HDR10, HDR10+,
   etc. '
 tags:
 - Enhancement
 - Colour Grade
 - HDR
+- TRaSH
 tests:
 - expected: true
   id: 2

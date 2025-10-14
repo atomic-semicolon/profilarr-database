@@ -1,0 +1,6 @@
+name: INTERNAL
+pattern: \b(INTERNAL)\b
+description: ''
+tags:
+- TRaSH
+tests: []

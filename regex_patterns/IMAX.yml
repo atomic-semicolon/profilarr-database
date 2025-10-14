@@ -1,5 +1,5 @@
 name: IMAX
-pattern: \b((?<!NON.?)IMAX)\b
+pattern: \b((?<!NON.?)IMAX)\b|\b((?<!NON[ ._-])IMAX)\b
 description: 'Matches any IMAX release. This includes:
 
   - Any movie shot with IMAX in mind and henceforth tagged as `IMAX`
@@ -8,6 +8,7 @@ description: 'Matches any IMAX release. This includes:
 tags:
 - Enhancement
 - Aspect Ratio
+- TRaSH
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,6 @@
+name: MAX Rename
+pattern: \[(MAX)\b|\b(MAX)\]
+description: ''
+tags:
+- TRaSH
+tests: []

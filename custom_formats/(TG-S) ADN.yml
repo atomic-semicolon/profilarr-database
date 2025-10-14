@@ -1,0 +1,27 @@
+name: (TG-S) ADN
+description: '[From Wikipedia, the free encyclopedia](https://fr.wikipedia.org/wiki/Animation_Digital_Network)'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: ADN
+  type: release_title
+  required: true
+  negate: false
+  pattern: ADN
+tests: []

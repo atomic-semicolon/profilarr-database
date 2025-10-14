@@ -1,0 +1,12 @@
+name: (TG-R) FLUX
+description: flux
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: FLUX
+  type: release_group
+  required: true
+  negate: false
+  pattern: FLUX
+tests: []

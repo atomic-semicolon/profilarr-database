@@ -1,5 +1,5 @@
 name: FraMeSToR
-pattern: (?<=^|[\s.-])FraMeSToR\b|^(FraMeSToR)$
+pattern: (?<=^|[\s.-])FraMeSToR\b|^(FraMeSToR)$|\b(FraMeSToR)\b
 description: ''
 tags:
 - Release Group

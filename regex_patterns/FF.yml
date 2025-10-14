@@ -1,0 +1,6 @@
+name: FF
+pattern: ^(FF)$
+description: ''
+tags:
+- TRaSH
+tests: []

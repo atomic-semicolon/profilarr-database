@@ -1,0 +1,27 @@
+name: (TG-R) MAX
+description: max
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Max
+  type: release_title
+  required: false
+  negate: false
+  pattern: Max
+- name: MAX Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: MAX Rename
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

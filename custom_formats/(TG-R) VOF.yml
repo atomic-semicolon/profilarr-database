@@ -1,0 +1,12 @@
+name: (TG-R) VOF
+description: Original French Version.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: French Original Version
+  type: release_title
+  required: true
+  negate: false
+  pattern: French Original Version
+tests: []

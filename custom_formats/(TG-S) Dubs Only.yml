@@ -1,0 +1,42 @@
+name: (TG-S) Dubs Only
+description: This Custom Format covers releases that only have Dubs.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: Dubbed
+  type: release_title
+  required: false
+  negate: false
+  pattern: Dubbed
+- name: Golumpa
+  type: release_title
+  required: false
+  negate: false
+  pattern: Golumpa
+- name: KaiDubs (Not Dual Audio)
+  type: release_title
+  required: false
+  negate: false
+  pattern: KaiDubs (Not Dual Audio)
+- name: KamiFS
+  type: release_title
+  required: false
+  negate: false
+  pattern: KamiFS
+- name: KS (Not Dual Audio)
+  type: release_title
+  required: false
+  negate: false
+  pattern: KS (Not Dual Audio)
+- name: torenter69
+  type: release_title
+  required: false
+  negate: false
+  pattern: torenter69
+- name: Yameii
+  type: release_title
+  required: false
+  negate: false
+  pattern: Yameii
+tests: []

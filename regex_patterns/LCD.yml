@@ -1,0 +1,6 @@
+name: LCD
+pattern: ^(LCD)$
+description: ''
+tags:
+- TRaSH
+tests: []

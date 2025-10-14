@@ -1,0 +1,24 @@
+name: '(TG-R) Language: Original + French'
+description: Language Specification Original + French
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Original Language
+  type: language
+  required: true
+  negate: false
+  language: original
+  exceptLanguage: 'false'
+- name: French Language
+  type: language
+  required: true
+  negate: false
+  language: french
+  exceptLanguage: 'false'
+- name: MULTi
+  type: release_title
+  required: true
+  negate: false
+  pattern: MULTi
+tests: []

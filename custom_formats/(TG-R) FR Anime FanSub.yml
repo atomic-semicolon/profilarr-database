@@ -1,0 +1,62 @@
+name: (TG-R) FR Anime FanSub
+description: Known good groups that only do FanSub in good quality.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Anime-Heart
+  type: release_title
+  required: false
+  negate: false
+  pattern: Anime-Heart
+- name: Kaerizaki-Fansub
+  type: release_title
+  required: false
+  negate: false
+  pattern: Kaerizaki-Fansub
+- name: Natsumi-no-Sekai
+  type: release_title
+  required: false
+  negate: false
+  pattern: Natsumi-no-Sekai
+- name: NekoYu'
+  type: release_title
+  required: false
+  negate: false
+  pattern: NekoYu'
+- name: Onii-ChanSub
+  type: release_title
+  required: false
+  negate: false
+  pattern: Onii-ChanSub
+- name: Owlolf
+  type: release_title
+  required: false
+  negate: false
+  pattern: Owlolf
+- name: Pikari-Teshima
+  type: release_title
+  required: false
+  negate: false
+  pattern: Pikari-Teshima
+- name: Seimeisen
+  type: release_title
+  required: false
+  negate: false
+  pattern: Seimeisen
+- name: Team Arcedo
+  type: release_title
+  required: false
+  negate: false
+  pattern: Team Arcedo
+- name: Yarashii
+  type: release_title
+  required: false
+  negate: false
+  pattern: Yarashii
+- name: Yangire-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: Yangire-Raws
+tests: []

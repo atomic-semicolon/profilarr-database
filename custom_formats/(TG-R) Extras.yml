@@ -1,0 +1,13 @@
+name: (TG-R) Extras
+description: This Custom Format is used to prevent from grabbing releases containing
+  only extras (bonus footage, outtakes, etc).
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Extras
+  type: release_title
+  required: true
+  negate: false
+  pattern: Extras
+tests: []

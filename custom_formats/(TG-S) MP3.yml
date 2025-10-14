@@ -1,0 +1,13 @@
+name: (TG-S) MP3
+description: MP3 (MPEG-1 and/or MPEG-2 Audio Layer 3) is a lossy data compression
+  format for audio.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: MP3
+  type: release_title
+  required: true
+  negate: false
+  pattern: MP3
+tests: []

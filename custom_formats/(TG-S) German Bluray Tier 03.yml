@@ -1,0 +1,41 @@
+name: (TG-S) German Bluray Tier 03
+description: '- WiP
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: RobertDeNiro
+  type: release_group
+  required: false
+  negate: false
+  pattern: RobertDeNiro
+- name: HQC
+  type: release_group
+  required: false
+  negate: false
+  pattern: HQC
+- name: RDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: RDR
+- name: HDSource
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDSource
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not REMUX
+  type: source
+  required: true
+  negate: true
+  source: raw
+tests: []

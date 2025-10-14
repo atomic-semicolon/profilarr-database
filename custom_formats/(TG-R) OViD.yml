@@ -1,0 +1,22 @@
+name: (TG-R) OViD
+description: '[OViD Website](https://search.ovid.tv/other/about)'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: OViD
+  type: release_title
+  required: true
+  negate: false
+  pattern: OViD
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

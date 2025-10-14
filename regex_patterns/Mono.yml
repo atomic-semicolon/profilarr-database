@@ -1,0 +1,6 @@
+name: Mono
+pattern: '[^0-9]1[ .]0\b|\bMono\b|\[PCM \]'
+description: ''
+tags:
+- TRaSH
+tests: []

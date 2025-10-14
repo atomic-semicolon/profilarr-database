@@ -1,0 +1,26 @@
+name: (TG-S) SYFY
+description: '[From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Syfy>)
+
+  Syfy is an American basic cable television channel. Launched on September 24, 1992,
+  the channel broadcasts programming relating to the science fiction, horror, and
+  fantasy genres.'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: SYFY
+  type: release_title
+  required: true
+  negate: false
+  pattern: SYFY
+tests: []

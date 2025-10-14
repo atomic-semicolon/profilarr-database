@@ -1,0 +1,6 @@
+name: Vinegar Syndrome
+pattern: \b(Vinegar[ ._-]Syndrome)\b
+description: ''
+tags:
+- TRaSH
+tests: []

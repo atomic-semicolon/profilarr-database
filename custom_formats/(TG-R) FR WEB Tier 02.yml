@@ -1,0 +1,74 @@
+name: (TG-R) FR WEB Tier 02
+description: '- WiP
+
+  - Groups that source and add the French audio track from the source to an English
+  release.
+
+  - Groups that haven''t released much or are not well recognized. (yet)
+
+  - Groups that retired and don''t have the best quality by today''s standards.'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: ALLDAYiN
+  type: release_group
+  required: false
+  negate: false
+  pattern: ALLDAYiN
+- name: ARK01
+  type: release_group
+  required: false
+  negate: false
+  pattern: ARK01
+- name: HeavyWeight
+  type: release_group
+  required: false
+  negate: false
+  pattern: HeavyWeight
+- name: NEO
+  type: release_group
+  required: false
+  negate: false
+  pattern: NEO
+- name: NoNe
+  type: release_group
+  required: false
+  negate: false
+  pattern: NoNe
+- name: ONLYMOViE
+  type: release_group
+  required: false
+  negate: false
+  pattern: ONLYMOViE
+- name: POTO
+  type: release_group
+  required: false
+  negate: false
+  pattern: POTO
+- name: Slay3R
+  type: release_group
+  required: false
+  negate: false
+  pattern: Slay3R
+- name: TkHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: TkHD
+- name: WaCkS
+  type: release_group
+  required: false
+  negate: false
+  pattern: WaCkS
+tests: []
