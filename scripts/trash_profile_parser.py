@@ -28,6 +28,13 @@ def initialise_profile_template(trash_quality_profile):
     print(Fore.GREEN + f"Creating {profile_filename} profile...")
     return profile_template
 
+def normalise_quality_name(quality_name):
+    if quality_name == "Bluray-1080p Remux":
+        return "Remux-1080p"
+    if quality_name == "Bluray-2160p Remux":
+        return "Remux-2160p"
+    return quality_name
+
 def process_qualities_from_profile(trash_quality_profile, quality_profile):
     # Setup qualities using mapping IDs
     # Quality groups and unknown qualities have negative indices
@@ -48,7 +55,7 @@ def process_qualities_from_profile(trash_quality_profile, quality_profile):
                     # ID should be set instantly
                     sub_quality_entry = {
                         'id': QUALITIES[sub_quality],
-                        'name': sub_quality
+                        'name': normalise_quality_name(sub_quality)
                     }
 
                     quality_entry['qualities'].append(sub_quality_entry)
@@ -57,7 +64,7 @@ def process_qualities_from_profile(trash_quality_profile, quality_profile):
                 quality_group_index -= 1
             else:
                 # If it's not a quality group, it MUST have an associated ID
-                quality_entry['id'] = QUALITIES[quality['name']]
+                quality_entry['id'] = QUALITIES[normalise_quality_name(quality['name'])]
 
             # Set 'upgrade until' value
             if quality['name'] == trash_quality_profile['cutoff']:
