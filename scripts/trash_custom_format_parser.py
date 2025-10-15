@@ -112,11 +112,11 @@ def process_custom_formats_in_directory(trash_custom_formats_directory, trash_cu
                 case 'resolution':
                     condition['resolution'] = f"{specification['fields']['value']}p"
                 case 'source':
-                    if specification['name'].lower().startswith('not'):
-                        # Handle "not <quality>" cases
-                        condition['source'] = SOURCE_TYPES[specification['name'][4:].lower()]
-                    else:
-                        condition['source'] = SOURCE_TYPES[specification['name'].lower()]
+                    match target_app:
+                        case TargetApp.RADARR:
+                            condition['source'] = SOURCE_TYPES_RADARR[specification['fields']['value']]
+                        case TargetApp.SONARR:
+                            condition['source'] = SOURCE_TYPES_SONARR[specification['fields']['value']]
                 case 'language':
                     match target_app:
                         case TargetApp.RADARR:
