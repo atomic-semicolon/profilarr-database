@@ -29,14 +29,26 @@ CONDITION_TYPES = {
     'IndexerFlagSpecification': 'indexer_flag'
 }
 
-SOURCE_TYPES = {
-    'bluray': 'bluray',
-    'bluray remux': 'bluray_raw',
-    'remux': 'raw',
-    'dvd': 'dvd',
-    'web': 'web_dl',
-    'webdl': 'web_dl',
-    'webrip': 'webrip'
+SOURCE_TYPES_RADARR = {
+    1: "cam",
+    2: "telesync",
+    3: "telecine",
+    4: "workprint",
+    5: "dvd",
+    6: "tv",
+    7: "web_dl",
+    8: "webrip",
+    9: "bluray"
+}
+
+SOURCE_TYPES_SONARR = {
+    1: "television",
+    2: "television_raw",
+    3: "web_dl",
+    4: "webrip",
+    5: "dvd",
+    6: "bluray",
+    7: "bluray_raw"
 }
 
 LANGUAGES_SONARR = {
