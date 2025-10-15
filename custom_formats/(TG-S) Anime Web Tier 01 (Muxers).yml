@@ -19,7 +19,7 @@ conditions:
   type: source
   required: false
   negate: false
-  source: web_dl
+  source: television
 - name: Arg0
   type: release_title
   required: false

@@ -14,7 +14,7 @@ conditions:
   type: source
   required: true
   negate: false
-  source: raw
+  source: bluray_raw
 - name: FtLi
   type: release_group
   required: false

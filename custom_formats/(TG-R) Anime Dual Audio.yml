@@ -19,17 +19,17 @@ conditions:
   required: false
   negate: false
   language: japanese
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: Chinese Language
   type: language
   required: false
   negate: false
   language: chinese
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: Korean Language
   type: language
   required: false
   negate: false
   language: korean
-  exceptLanguage: 'false'
+  exceptLanguage: false
 tests: []

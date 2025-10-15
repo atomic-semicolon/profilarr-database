@@ -22,7 +22,7 @@ conditions:
   type: source
   required: true
   negate: true
-  source: raw
+  source: bluray_raw
 - name: Not 2160p
   type: resolution
   required: true

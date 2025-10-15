@@ -9,13 +9,13 @@ conditions:
   required: true
   negate: false
   language: original
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: French Language
   type: language
   required: true
   negate: false
   language: french
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: MULTi
   type: release_title
   required: true

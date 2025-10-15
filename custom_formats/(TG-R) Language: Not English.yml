@@ -10,5 +10,5 @@ conditions:
   required: false
   negate: true
   language: english
-  exceptLanguage: 'false'
+  exceptLanguage: false
 tests: []
