@@ -18,7 +18,7 @@ conditions:
   type: source
   required: false
   negate: false
-  source: web_dl
+  source: television
 - name: SubsPlease
   type: release_title
   required: false

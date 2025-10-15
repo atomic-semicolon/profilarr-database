@@ -72,5 +72,5 @@ conditions:
   type: source
   required: true
   negate: true
-  source: raw
+  source: bluray_raw
 tests: []

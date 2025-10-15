@@ -14,13 +14,13 @@ conditions:
   required: true
   negate: true
   language: original
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: German
   type: language
   required: true
   negate: false
   language: german
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: DL
   type: release_title
   required: false

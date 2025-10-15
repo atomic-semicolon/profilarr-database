@@ -9,13 +9,13 @@ conditions:
   required: true
   negate: true
   language: english
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: Not German Language
   type: language
   required: true
   negate: true
   language: german
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: Not German in Title
   type: release_title
   required: true

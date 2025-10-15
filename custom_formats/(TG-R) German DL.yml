@@ -16,11 +16,11 @@ conditions:
   required: true
   negate: false
   language: german
-  exceptLanguage: 'false'
+  exceptLanguage: false
 - name: Original Language
   type: language
   required: true
   negate: false
   language: original
-  exceptLanguage: 'false'
+  exceptLanguage: false
 tests: []

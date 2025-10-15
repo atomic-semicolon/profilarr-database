@@ -21,7 +21,7 @@ conditions:
   type: source
   required: false
   negate: false
-  source: raw
+  source: bluray_raw
 - name: Bluray
   type: source
   required: false
