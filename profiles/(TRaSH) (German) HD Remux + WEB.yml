@@ -143,7 +143,7 @@ qualities:
   - id: 11
     name: WEBRip-1080p
   - id: 8
-    name: Bluray-1080p Remux
+    name: Remux-1080p
   id: -1
 upgrade_until:
   id: -1

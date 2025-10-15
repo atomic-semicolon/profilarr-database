@@ -81,7 +81,7 @@ qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 3
-    name: Bluray-2160p Remux
+    name: Remux-2160p
   id: -1
 upgrade_until:
   id: -1

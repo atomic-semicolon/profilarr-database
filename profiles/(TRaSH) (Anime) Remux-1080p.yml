@@ -177,7 +177,7 @@ qualities:
   - id: 10
     name: Bluray-1080p
   - id: 8
-    name: Bluray-1080p Remux
+    name: Remux-1080p
   id: -4
 - name: WEB 1080p
   qualities:
