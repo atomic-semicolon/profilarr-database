@@ -126,7 +126,7 @@ def process_custom_formats_in_directory(trash_custom_formats_directory, trash_cu
                     # exceptLanguage does not have many uses (supposedly)
                     # Mainly seems to denote "every other language except this one"
                     # TRaSH mostly covers this using the 'negate' key, so defaulting this to false
-                    condition['exceptLanguage'] = 'false'
+                    condition['exceptLanguage'] = False
                 case 'release_title' | 'release_group':
                     condition['pattern'] = condition['name']
                     write_regex_pattern_file(specification['name'], specification['fields']['value'])
