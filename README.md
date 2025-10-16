@@ -24,17 +24,18 @@ Some points to note:
 - All changes are to be made strictly in the `scripts` folder, but the full repository should be cloned for ideal development work.
 - Local changes to quality profiles, custom formats, and/or regex patterns should **NOT** be pushed to the repository.
 - Typically there is no need to manually edit/push the `scripts/trash-cf-maapping.json` file.
+### Requirements
+- Python 3.14+
 ### Local Testing
 - Once this repository has been cloned, you can also clone the [TRaSH Guides repository](https://github.com/TRaSH-Guides/Guides) for local testing.
-- Run each of the following commands for a full demonstration of the parsed profiles.
+- Install local requirements using `pip install -r scripts/requirements.txt`
+- Run each of the following commands for a full demonstration of the parsed profiles:
   ```
   python scripts/trash_custom_format_id_mapper.py <TRaSH Guide repository directory>
   python scripts/trash_custom_format_parser.py <TRaSH Guide repository directory>
   python scripts/trash_profile_parser.py <TRaSH Guide repository directory>
   ```
-
+- Most of the time, the `trash_custom_format_id_mapper.py` script does not need to be run on every run.
 ## Suggestions/Requests
 - Since this project was mainly fueled by my desire to have an automated quality profile system, I have set it up to be mostly to my tastes. If you have a special tweak that you apply for your needs, I may be able to incorporate that in as another profile, as long as it can be put into script form.
 - I know that a lot of optimisations can be done, so I'm open to any ideas and ways of improvement.
-- 
-- 
