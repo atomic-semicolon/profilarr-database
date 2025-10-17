@@ -1,9 +1,13 @@
 name: (TG-R) HD Bluray Tier 03
 description: 'Groups that:
 
-  - Use remuxes as their source without micro-sizing them.
+  - Are new, and have released several dozen objectively good quality releases
 
-  - Are added for a specific reason for other guides quality profiles.
+  - Have retired and their releases don''t meet current quality standards
+
+  - Pay good attention to detail and use reliable sources
+
+  - Groups that have been added in conjunction with specific quality profiles
 
   - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
 tags:
@@ -25,11 +29,6 @@ conditions:
   required: true
   negate: true
   resolution: 2160p
-- name: ATELiER
-  type: release_group
-  required: false
-  negate: false
-  pattern: ATELiER
 - name: BHDStudio
   type: release_group
   required: false
