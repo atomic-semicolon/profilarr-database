@@ -1,10 +1,9 @@
 name: (TG-S) Remux Tier 02
 description: 'Groups that:
 
-  - Haven''t released much. (yet)
+  - Have proven themselves by consistently delivering good quality releases
 
-  - Produce remuxes from multiple sources (discs) and combine them to produce the
-  best end result.
+  - Pay very close attention to detail and use multiple high-quality sources
 
   - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
 tags:
@@ -16,6 +15,11 @@ conditions:
   required: true
   negate: false
   source: bluray_raw
+- name: 12GaugeShotgun
+  type: release_group
+  required: false
+  negate: false
+  pattern: 12GaugeShotgun
 - name: decibeL
   type: release_group
   required: false

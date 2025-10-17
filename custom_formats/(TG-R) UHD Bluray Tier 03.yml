@@ -1,14 +1,13 @@
 name: (TG-R) UHD Bluray Tier 03
 description: 'Groups that:
 
-  - Use remuxes as their source without micro-sizing them.
+  - Are new, and have released several dozen objectively good quality releases
 
-  - HDR/DoVi (Depending on what''s offered and often both).
+  - Have retired and their releases don''t meet current quality standards
 
-  - Use Lossless Audio (TrueHD, DTS-X, DTS-HD, etc) or Lossy audio formats (DD, DD+,
-  etc).
+  - Pay good attention to detail and use reliable sources
 
-  - That are added for a specific reason for other guides quality profiles.
+  - Groups that have been added in conjunction with specific quality profiles
 
   - Follow the [Contributing General Guidelines](https://github.com/TRaSH-Guides/Guides/blob/master/CONTRIBUTING.md#general-guidelines).'
 tags:

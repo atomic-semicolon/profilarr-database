@@ -1,0 +1,6 @@
+name: 12GaugeShotgun
+pattern: ^(12GaugeShotgun)$
+description: ''
+tags:
+- TRaSH
+tests: []
