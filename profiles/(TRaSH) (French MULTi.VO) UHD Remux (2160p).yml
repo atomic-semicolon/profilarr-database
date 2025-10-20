@@ -98,7 +98,7 @@ custom_formats_radarr:
 qualities:
 - name: Remux-2160p
   id: 3
-- name: Bluray|WEB 1080p
+- name: Bluray|WEB 2160p
   qualities:
   - id: 5
     name: WEBDL-2160p
