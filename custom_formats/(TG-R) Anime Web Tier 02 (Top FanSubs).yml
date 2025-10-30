@@ -30,6 +30,11 @@ conditions:
   required: false
   negate: false
   pattern: Cyan
+- name: Cytox
+  type: release_title
+  required: false
+  negate: false
+  pattern: Cytox
 - name: Dae
   type: release_title
   required: false
