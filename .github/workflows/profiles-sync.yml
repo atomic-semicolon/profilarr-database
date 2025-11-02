@@ -59,10 +59,6 @@ jobs:
           repository: TRaSH-Guides/Guides
           ref: master
           path: ${{ env.TRASH_GUIDES_DIRECTORY }}
-          
-      - name: Create (or update) sync branch
-        run: |
-          git branch -D sync-latest 2>/dev/null || true
 
       - name: Sync Dictionarry changes
         run: |
@@ -77,16 +73,20 @@ jobs:
           python scripts/trash_custom_format_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_profile_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
 
-      - name: Merge any changes
+      - name: Commit any changes
+        id: commit_changes
         run: |
-          if git diff --exit-code sync-latest ${{ steps.extract_branch.outputs.branch }} -- custom_formats/ media_management/ profiles/ regex_patterns/; then
-            echo "No changes found. Nothing will be merged."
+          git add custom_formats/*.yml media_management/*.yml profiles/*.yml regex_patterns/*.yml
+          if git diff --exit-code --staged; then
+            echo "No changes detected, nothing will be merged."
+            echo "committed=false" >> $GITHUB_OUTPUT
           else
-            git add custom_formats/ media_management/ profiles/ regex_patterns/
             git commit -m "Merge all database changes"
+            echo "committed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Create (or update) pull request
+        if: steps.commit_changes.outputs.committed == 'true'
         id: pr
         uses: peter-evans/create-pull-request@v7
         with:
@@ -109,7 +109,8 @@ jobs:
             sync
 
       - name: Merge PR
-        if: github.ref == 'refs/heads/main' 
+        if: github.ref == 'refs/heads/main'
+          && steps.commit_changes.outputs.committed == 'true'
           && (steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated' || steps.pr.outputs.pull-request-number)
         run: |
           gh pr merge ${{ steps.pr.outputs.pull-request-number }} --auto --squash --delete-branch
