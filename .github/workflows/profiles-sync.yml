@@ -101,10 +101,10 @@ jobs:
           branch: sync-latest
           base: ${{ steps.extract_branch.outputs.branch }}
           add-paths: |
-            custom_formats/
-            media_management/
-            profiles/
-            regex_patterns/
+            custom_formats/*.yml
+            media_management/*.yml
+            profiles/*.yml
+            regex_patterns/*.yml
           labels: |
             sync
 
