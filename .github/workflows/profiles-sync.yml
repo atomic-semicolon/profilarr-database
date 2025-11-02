@@ -20,6 +20,7 @@ on:
   workflow_dispatch:
 env:
   TRASH_GUIDES_DIRECTORY: 'trash-guides'
+  DICTIONARRY_DATABASE_DIRECTORY: 'dictionarry-database'
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -44,12 +45,14 @@ jobs:
           
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
-          
-      - name: Add upstream Dictionarry connection
-        run: |
-          git remote add dictionarry-upstream https://github.com/Dictionarry-Hub/database.git
-          git fetch dictionarry-upstream origin/stable
-          
+
+      - name: Checkout Dictionarry database repository
+        uses: actions/checkout@v5
+        with:
+          repository: Dictionarry-Hub/database
+          ref: stable
+          path: ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}
+
       - name: Checkout TRaSH guides repository
         uses: actions/checkout@v5
         with:
@@ -62,7 +65,7 @@ jobs:
 
       - name: Merge Dictionarry changes
         run: |
-          if git diff --exit-code -- ':!.github/*' ':!.gitignore' ':!CONTRIBUTING.md' ':!README.md' ':!scripts/*' ':!templates/*' origin/sync-latest dictionarry-upstream/stable; then
+          if git diff --exit-code -- ':!.github/*' ':!.gitignore' ':!CONTRIBUTING.md' ':!README.md' ':!scripts/*' ':!templates/*' origin/sync-latest ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}; then
             echo "No Dictionarry changes found. Nothing will be merged from upstream."
           else
             git merge --allow-unrelated-histories --no-commit --squash dictionarry-upstream/stable
