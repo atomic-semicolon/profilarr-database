@@ -80,7 +80,7 @@ jobs:
             echo "No changes found in TRaSH guides. Nothing will be merged."
           else
             git add custom_formats/ media_management/ profiles/ regex_patterns/
-            git commit -m "Merge TRaSH anime guide changes"
+            git commit -m "Merge all TRaSH guide changes"
           fi
 
       - name: Create (or update) pull request
