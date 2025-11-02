@@ -57,29 +57,25 @@ jobs:
         uses: actions/checkout@v5
         with:
           repository: TRaSH-Guides/Guides
+          ref: master
           path: ${{ env.TRASH_GUIDES_DIRECTORY }}
           
       - name: Create (or update) sync branch
         run: |
           git branch -D sync-latest 2>/dev/null || true
 
-      - name: Merge Dictionarry changes
+      - name: Sync Dictionarry changes
         run: |
-          if git diff --exit-code -- ':!.github/*' ':!.gitignore' ':!CONTRIBUTING.md' ':!README.md' ':!scripts/*' ':!templates/*' origin/sync-latest ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}; then
-            echo "No Dictionarry changes found. Nothing will be merged from upstream."
-          else
-            git merge --allow-unrelated-histories --no-commit --squash dictionarry-upstream/stable
-            git add .
-            git restore .github/ .gitignore CONTRIBUTING.md README.md scripts/ templates/
-            git commit -m "Merge upstream Dictionarry database changes"
-          fi
-          
+          rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/custom_formats/ custom_formats
+          rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/profiles/ profiles
+          rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/regex_patterns/ regex_patterns
+
       - name: Process TRaSH guides
         run: |
           python scripts/trash_custom_format_id_mapper.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_custom_format_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_profile_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
-          if git diff --exit-code -- origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
+          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
             echo "No changes found in TRaSH guides. Nothing will be merged."
           else
             git add custom_formats/ media_management/ profiles/ regex_patterns/
