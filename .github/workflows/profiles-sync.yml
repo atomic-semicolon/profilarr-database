@@ -76,7 +76,7 @@ jobs:
       - name: Commit any changes
         id: commit_changes
         run: |
-          git add custom_formats/*.yml media_management/*.yml profiles/*.yml regex_patterns/*.yml
+          git add -A custom_formats/*.yml media_management/*.yml profiles/*.yml regex_patterns/*.yml
           if git diff --exit-code --staged; then
             echo "No changes detected, nothing will be merged."
             echo "committed=false" >> $GITHUB_OUTPUT
