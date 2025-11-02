@@ -48,7 +48,7 @@ jobs:
       - name: Add upstream Dictionarry connection
         run: |
           git remote add dictionarry-upstream https://github.com/Dictionarry-Hub/database.git
-          git fetch dictionarry-upstream stable
+          git fetch dictionarry-upstream origin/stable
           
       - name: Checkout TRaSH guides repository
         uses: actions/checkout@v5
