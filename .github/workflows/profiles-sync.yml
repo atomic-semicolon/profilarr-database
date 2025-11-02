@@ -79,7 +79,7 @@ jobs:
 
       - name: Merge any changes
         run: |
-          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }} -- custom_formats/ media_management/ profiles/ regex_patterns/; then
+          if git diff --exit-code sync-latest ${{ steps.extract_branch.outputs.branch }} -- custom_formats/ media_management/ profiles/ regex_patterns/; then
             echo "No changes found. Nothing will be merged."
           else
             git add custom_formats/ media_management/ profiles/ regex_patterns/
