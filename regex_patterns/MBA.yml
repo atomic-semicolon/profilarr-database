@@ -1,5 +1,5 @@
 name: MBA
-pattern: (MBA)$|^(MBA)$
+pattern: ^(MBA)$
 description: ''
 tags:
 - TRaSH

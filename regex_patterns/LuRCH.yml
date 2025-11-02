@@ -1,5 +1,5 @@
 name: LuRCH
-pattern: (LuRCH)$|^(LuRCH)$
+pattern: ^(LuRCH)$
 description: ''
 tags:
 - TRaSH

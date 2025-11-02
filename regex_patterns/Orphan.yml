@@ -1,6 +1,8 @@
 name: Orphan
-pattern: \[Orphan\]|-Orphan\b
+pattern: (?<=^|[\s.-])Orphan\b|\[Orphan\]|-Orphan\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

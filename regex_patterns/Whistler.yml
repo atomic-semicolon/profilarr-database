@@ -1,5 +1,5 @@
 name: Whistler
-pattern: (Whistler)$|^(Whistler)$
+pattern: ^(Whistler)$
 description: ''
 tags:
 - TRaSH

@@ -1,6 +1,8 @@
 name: EuReKA
-pattern: ^(EuReKA)$
+pattern: (?<=^|[\s.-])EuReKA\b|^(EuReKA)$
 description: ''
 tags:
+- Release Group
+- Bluray
 - TRaSH
 tests: []

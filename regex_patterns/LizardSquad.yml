@@ -1,5 +1,5 @@
 name: LizardSquad
-pattern: (LizardSquad)$|^(LizardSquad)$
+pattern: ^(LizardSquad)$
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: ORCA88
-pattern: (ORCA88)$|^(ORCA88)$
+pattern: ^(ORCA88)$
 description: ''
 tags:
 - TRaSH

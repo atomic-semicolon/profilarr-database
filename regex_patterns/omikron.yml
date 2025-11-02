@@ -1,5 +1,5 @@
 name: omikron
-pattern: (omikron)$|^(omikron)$
+pattern: ^(omikron)$
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: BALENCiAGA
-pattern: (BALENCiAGA)$|^(BALENCiAGA)$
+pattern: ^(BALENCiAGA)$
 description: ''
 tags:
 - TRaSH

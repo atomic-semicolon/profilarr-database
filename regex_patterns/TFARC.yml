@@ -1,5 +1,5 @@
 name: TFARC
-pattern: (TFARC)$|^(TFARC)$
+pattern: ^(TFARC)$
 description: ''
 tags:
 - TRaSH

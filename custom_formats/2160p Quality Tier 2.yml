@@ -15,14 +15,14 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: c0kE
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: CtrlHD
   negate: false
-  pattern: c0kE
-  required: false
-  type: release_group
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
+  pattern: CtrlHD
   required: false
   type: release_group
 - name: MainFrame
@@ -30,9 +30,9 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
-- name: PTer
-  type: release_group
-  required: false
+- name: W4NK3R
   negate: false
-  pattern: PTer
+  pattern: W4NK3R
+  required: false
+  type: release_group
 tests: []

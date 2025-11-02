@@ -1,5 +1,5 @@
 name: N
-pattern: ^(NERDHD|NERO|NrZ|NTK)$|^(N0Z00M|NERDHD|NERO|NrZ|NTK)$
+pattern: ^(N0Z00M|NERDHD|NERO|NrZ|NTK)$|^(NERDHD|NERO|NrZ|NTK)$
 description: ''
 tags:
 - TRaSH

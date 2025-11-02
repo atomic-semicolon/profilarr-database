@@ -1,6 +1,8 @@
 name: Almighty
-pattern: \[Almighty\]|-Almighty\b
+pattern: (?<=^|[\s.-])Almighty\b|\[Almighty\]|-Almighty\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

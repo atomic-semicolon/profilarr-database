@@ -1,5 +1,5 @@
 name: pmHD
-pattern: (pmHD)$|^(pmHD)$
+pattern: ^(pmHD)$
 description: ''
 tags:
 - TRaSH

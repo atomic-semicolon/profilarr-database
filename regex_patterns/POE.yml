@@ -1,5 +1,5 @@
 name: POE
-pattern: (POE)$|^(POE)$
+pattern: ^(POE)$
 description: ''
 tags:
 - TRaSH

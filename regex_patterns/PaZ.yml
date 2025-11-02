@@ -1,5 +1,5 @@
 name: PaZ
-pattern: (PaZ)$|^(PaZ)$
+pattern: ^(PaZ)$
 description: ''
 tags:
 - TRaSH

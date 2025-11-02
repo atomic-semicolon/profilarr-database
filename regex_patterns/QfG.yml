@@ -1,5 +1,5 @@
 name: QfG
-pattern: (QfG)$|^(QfG)$
+pattern: ^(QfG)$
 description: ''
 tags:
 - TRaSH

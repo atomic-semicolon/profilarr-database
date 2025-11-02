@@ -15,24 +15,44 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: BV
+  negate: false
+  pattern: BV
+  required: false
+  type: release_group
+- name: c0kE
+  negate: false
+  pattern: c0kE
+  required: false
+  type: release_group
 - name: Chotab
   negate: false
   pattern: Chotab
   required: false
   type: release_group
-- name: Kitsune
+- name: D-Z0N3
   negate: false
-  pattern: Kitsune
+  pattern: D-Z0N3
   required: false
   type: release_group
-- name: REBORN
+- name: HQMUX
   negate: false
-  pattern: REBORN
+  pattern: HQMUX
   required: false
   type: release_group
-- name: W4NK3R
+- name: PTer
+  type: release_group
+  required: false
   negate: false
-  pattern: W4NK3R
+  pattern: PTer
+- name: TnP
+  negate: false
+  pattern: TnP
   required: false
   type: release_group
 tests: []

@@ -1,5 +1,5 @@
 name: ZaidaNulled
-pattern: (ZaidaNulled)$|^(ZaidaNulled)$
+pattern: ^(ZaidaNulled)$
 description: ''
 tags:
 - TRaSH

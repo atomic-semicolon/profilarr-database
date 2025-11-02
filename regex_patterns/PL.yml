@@ -1,5 +1,5 @@
 name: PL
-pattern: (PL)$|^(PL)$
+pattern: ^(PL)$
 description: ''
 tags:
 - TRaSH

@@ -1,6 +1,8 @@
 name: Headpatter
-pattern: \[Headpatter\]|-Headpatter\b
+pattern: (?<=^|[\s.-])Headpatter\b|\[Headpatter\]|-Headpatter\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

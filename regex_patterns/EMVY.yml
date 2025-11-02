@@ -1,5 +1,5 @@
 name: EMVY
-pattern: (EMVY)$|^(EMVY)$
+pattern: ^(EMVY)$
 description: ''
 tags:
 - TRaSH

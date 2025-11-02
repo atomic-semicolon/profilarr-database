@@ -1,6 +1,6 @@
 name: WiKi
 pattern: (?<=^|[\s.-])WiKi\b|^(WiKi)$
-description: Banned for Upscale
+description: ''
 tags:
 - Release Group
 - Bluray

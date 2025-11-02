@@ -1,5 +1,5 @@
 name: SunDry
-pattern: (SunDry)$|^(SunDry)$
+pattern: ^(SunDry)$
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: MULTiPLEX
-pattern: (MULTiPLEX)$|^(MULTiPLEX)$
+pattern: ^(MULTiPLEX)$
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: N2D2
-pattern: (N2D2)$|^(N2D2)$
+pattern: ^(N2D2)$
 description: ''
 tags:
 - TRaSH

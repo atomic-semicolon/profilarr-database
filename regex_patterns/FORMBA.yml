@@ -1,5 +1,5 @@
 name: FORMBA
-pattern: (FORMBA)$|^(FORMBA)$
+pattern: ^(FORMBA)$
 description: ''
 tags:
 - TRaSH

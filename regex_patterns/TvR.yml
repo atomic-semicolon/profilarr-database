@@ -1,5 +1,5 @@
 name: TvR
-pattern: (?<=^|[\s.-])TvR\b|(TvR)$|^(TvR)$
+pattern: (?<=^|[\s.-])TvR\b|^(TvR)$
 description: Banned for Mislabeling WEB-DL with Remux
 tags:
 - Release Group

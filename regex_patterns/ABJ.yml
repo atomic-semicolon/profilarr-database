@@ -1,5 +1,5 @@
 name: ABJ
-pattern: (ABJ)$|^(ABJ)$
+pattern: ^(ABJ)$
 description: ''
 tags:
 - TRaSH

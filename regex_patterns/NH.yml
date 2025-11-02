@@ -1,6 +1,8 @@
 name: NH
-pattern: \b(NH)\b
+pattern: (?<=^|[\s.-])NH\b|\b(NH)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []
