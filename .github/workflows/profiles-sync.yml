@@ -73,20 +73,7 @@ jobs:
           python scripts/trash_custom_format_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_profile_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
 
-      - name: Commit any changes
-        id: commit_changes
-        run: |
-          git add -A custom_formats/*.yml media_management/*.yml profiles/*.yml regex_patterns/*.yml
-          if git diff --exit-code --staged; then
-            echo "No changes detected, nothing will be merged."
-            echo "committed=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "Merge all database changes"
-            echo "committed=true" >> $GITHUB_OUTPUT
-          fi
-
       - name: Create (or update) pull request
-        if: steps.commit_changes.outputs.committed == 'true'
         id: pr
         uses: peter-evans/create-pull-request@v7
         with:
@@ -110,7 +97,6 @@ jobs:
 
       - name: Merge PR
         if: github.ref == 'refs/heads/main'
-          && steps.commit_changes.outputs.committed == 'true'
           && (steps.pr.outputs.pull-request-operation == 'created' || steps.pr.outputs.pull-request-operation == 'updated' || steps.pr.outputs.pull-request-number)
         run: |
           gh pr merge ${{ steps.pr.outputs.pull-request-number }} --auto --squash --delete-branch
