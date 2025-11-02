@@ -11,11 +11,26 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
-- name: Not WEB-DL
+- name: Not Remux
   negate: true
+  pattern: Remux
   required: true
-  source: web_dl
+  type: release_title
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
   type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: c0kE
+  negate: false
+  pattern: c0kE
+  required: false
+  type: release_group
 - name: CRiSC
   negate: false
   pattern: CRiSC
@@ -41,11 +56,21 @@ conditions:
   pattern: IDE
   required: false
   type: release_group
+- name: REBORN
+  negate: false
+  pattern: REBORN
+  required: false
+  type: release_group
 - name: SbR
   negate: false
   pattern: SbR
   required: false
   type: release_group
+- name: SoLaR
+  type: release_group
+  required: false
+  negate: false
+  pattern: SoLaR
 - name: TayTo
   negate: false
   pattern: TayTo

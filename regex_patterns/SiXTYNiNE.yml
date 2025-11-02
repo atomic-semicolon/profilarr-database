@@ -1,5 +1,5 @@
 name: SiXTYNiNE
-pattern: (SiXTYNiNE)$|^(SiXTYNiNE)$
+pattern: ^(SiXTYNiNE)$
 description: ''
 tags:
 - TRaSH

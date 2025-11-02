@@ -1,5 +1,5 @@
 name: LAW
-pattern: (LAW)$|^(LAW)$
+pattern: ^(LAW)$
 description: ''
 tags:
 - TRaSH

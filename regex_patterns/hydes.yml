@@ -1,6 +1,8 @@
 name: hydes
-pattern: \b(hydes)\b
+pattern: (?<=^|[\s.-])hydes\b|\b(hydes)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

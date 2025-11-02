@@ -1,5 +1,5 @@
 name: OJ
-pattern: (OJ)$|^(OJ)$
+pattern: ^(OJ)$
 description: ''
 tags:
 - TRaSH

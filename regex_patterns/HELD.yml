@@ -1,5 +1,5 @@
 name: HELD
-pattern: (HELD)$|^(HELD)$
+pattern: ^(HELD)$
 description: ''
 tags:
 - TRaSH

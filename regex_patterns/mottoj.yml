@@ -1,6 +1,8 @@
 name: mottoj
-pattern: \b(mottoj)\b
+pattern: (?<=^|[\s.-])mottoj\b|\b(mottoj)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

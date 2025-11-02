@@ -1,5 +1,5 @@
 name: P73
-pattern: (P73)$|^(P73)$
+pattern: ^(P73)$
 description: ''
 tags:
 - TRaSH

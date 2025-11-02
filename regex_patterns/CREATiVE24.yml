@@ -1,5 +1,5 @@
 name: CREATiVE24
-pattern: (?<=^|[\s.-])CREATiVE24\b|^(CREATiVE24)$|\b(CREATiVE24)\b
+pattern: (?<=^|[\s.-])CREATiVE24\b|\b(CREATiVE24)\b|^(CREATiVE24)$
 description: Banned for Bloated Garbage
 tags:
 - Release Group

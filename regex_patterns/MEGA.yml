@@ -1,5 +1,5 @@
 name: MEGA
-pattern: (MEGA)$|^(MEGA)$
+pattern: ^(MEGA)$
 description: ''
 tags:
 - TRaSH

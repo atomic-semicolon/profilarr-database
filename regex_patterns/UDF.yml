@@ -1,6 +1,8 @@
 name: UDF
-pattern: \b(UDF)\b
+pattern: (?<=^|[\s.-])UDF\b|\b(UDF)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

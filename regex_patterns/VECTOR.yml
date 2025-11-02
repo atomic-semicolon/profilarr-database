@@ -1,5 +1,5 @@
 name: VECTOR
-pattern: (?<=^|[\s.-])VECTOR\b|(VECTOR)$|^(VECTOR)$
+pattern: (?<=^|[\s.-])VECTOR\b|^(VECTOR)$
 description: Banned for Fake DV/HDR Layer.
 tags:
 - Release Group

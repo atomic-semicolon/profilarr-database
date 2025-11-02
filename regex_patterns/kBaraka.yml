@@ -1,6 +1,8 @@
 name: kBaraka
-pattern: \b(kBaraka)\b
+pattern: (?<=^|[\s.-])kBaraka\b|\b(kBaraka)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

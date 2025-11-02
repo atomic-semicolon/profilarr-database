@@ -1,5 +1,5 @@
 name: SHOWEHD
-pattern: (SHOWEHD)$|^(SHOWEHD)$
+pattern: ^(SHOWEHD)$
 description: ''
 tags:
 - TRaSH

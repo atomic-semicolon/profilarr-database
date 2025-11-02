@@ -1,6 +1,8 @@
 name: Holomux
-pattern: \b(Holomux)\b
+pattern: (?<=^|[\s.-])Holomux\b|\b(Holomux)\b
 description: ''
 tags:
+- Release Group
+- Anime
 - TRaSH
 tests: []

@@ -1,5 +1,5 @@
 name: 1XBET
-pattern: (1XBET)$|\b(1XBET)\b|^(1XBET)$
+pattern: ^(1XBET)$|\b(1XBET)\b
 description: ''
 tags:
 - TRaSH

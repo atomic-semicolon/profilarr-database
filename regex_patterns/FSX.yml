@@ -1,5 +1,5 @@
 name: FSX
-pattern: (FSX)$|^(FSX)$
+pattern: ^(FSX)$
 description: ''
 tags:
 - TRaSH

@@ -1,5 +1,5 @@
 name: E
-pattern: ^(E)$|^(ENJOi|EUBDS)$
+pattern: ^(ENJOi|EUBDS)$|^(E)$
 description: ''
 tags:
 - TRaSH

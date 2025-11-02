@@ -1,5 +1,5 @@
 name: WOTT
-pattern: (WOTT)$|^(WOTT)$
+pattern: ^(WOTT)$
 description: ''
 tags:
 - TRaSH

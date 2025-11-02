@@ -1,5 +1,5 @@
 name: Kristallprinz
-pattern: (Kristallprinz)$|^(Kristallprinz)$
+pattern: ^(Kristallprinz)$
 description: ''
 tags:
 - TRaSH

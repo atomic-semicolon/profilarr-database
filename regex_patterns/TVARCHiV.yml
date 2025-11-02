@@ -1,5 +1,5 @@
 name: TVARCHiV
-pattern: (TVARCHiV)$|^(TVARCHiV)$
+pattern: ^(TVARCHiV)$
 description: ''
 tags:
 - TRaSH

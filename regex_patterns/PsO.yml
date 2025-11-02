@@ -1,5 +1,5 @@
 name: PsO
-pattern: (PsO)$|^(PsO)$
+pattern: ^(PsO)$
 description: ''
 tags:
 - TRaSH

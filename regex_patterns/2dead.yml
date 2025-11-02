@@ -1,5 +1,5 @@
 name: 2dead
-pattern: (2dead)$|^(2dead)$
+pattern: ^(2dead)$
 description: ''
 tags:
 - TRaSH

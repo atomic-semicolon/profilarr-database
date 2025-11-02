@@ -114,11 +114,11 @@ conditions:
   pattern: SMURF
   required: false
   type: release_group
-- name: TheFarm
-  type: release_group
-  required: false
+- name: TeamSyndicate
   negate: false
-  pattern: TheFarm
+  pattern: TeamSyndicate
+  required: false
+  type: release_group
 - name: TOMMY
   negate: false
   pattern: TOMMY

@@ -1,6 +1,8 @@
 name: ATELiER
-pattern: ^(ATELiER)$
-description: ''
+pattern: (?<=^|[\s.-])ATELiER\b|^(ATELiER)$
+description: Matches "ATELiER" when preceded by whitespace, a hyphen or dot
 tags:
+- Release Group
+- Bluray
 - TRaSH
 tests: []

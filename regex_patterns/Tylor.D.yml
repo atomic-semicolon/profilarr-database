@@ -1,5 +1,5 @@
 name: Tylor.D
-pattern: (Tylor\.D)$|^(Tylor\.D)$
+pattern: ^(Tylor\.D)$
 description: ''
 tags:
 - TRaSH

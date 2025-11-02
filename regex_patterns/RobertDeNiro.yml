@@ -1,5 +1,5 @@
 name: RobertDeNiro
-pattern: (RobertDeNiro)$|^(RobertDeNiro)$
+pattern: ^(RobertDeNiro)$
 description: ''
 tags:
 - TRaSH

@@ -1,6 +1,8 @@
 name: PiRAMiDHEAD
-pattern: ^(PiRAMiDHEAD)$
+pattern: (?<=^|[\s.-])PiRAMiDHEAD\b|^(PiRAMiDHEAD)$
 description: ''
 tags:
+- Release Group
+- Remux
 - TRaSH
 tests: []
