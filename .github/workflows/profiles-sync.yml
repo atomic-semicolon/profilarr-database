@@ -67,6 +67,7 @@ jobs:
       - name: Sync Dictionarry changes
         run: |
           rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/custom_formats/ custom_formats
+          rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/media_management/ media_management
           rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/profiles/ profiles
           rsync -av --delete ${{ env.DICTIONARRY_DATABASE_DIRECTORY }}/regex_patterns/ regex_patterns
 
@@ -75,11 +76,14 @@ jobs:
           python scripts/trash_custom_format_id_mapper.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_custom_format_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
           python scripts/trash_profile_parser.py ${{ env.TRASH_GUIDES_DIRECTORY }}
-          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }}; then
-            echo "No changes found in TRaSH guides. Nothing will be merged."
+
+      - name: Merge any changes
+        run: |
+          if git diff --exit-code origin/sync-latest origin/${{ steps.extract_branch.outputs.branch }} -- custom_formats/ media_management/ profiles/ regex_patterns/; then
+            echo "No changes found. Nothing will be merged."
           else
             git add custom_formats/ media_management/ profiles/ regex_patterns/
-            git commit -m "Merge all TRaSH guide changes"
+            git commit -m "Merge all database changes"
           fi
 
       - name: Create (or update) pull request
