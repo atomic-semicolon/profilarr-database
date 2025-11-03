@@ -53,14 +53,4 @@ conditions:
   required: false
   negate: false
   pattern: DV
-- name: Not WEBDL
-  type: source
-  required: true
-  negate: true
-  source: web_dl
-- name: Not WEBRIP
-  type: source
-  required: true
-  negate: true
-  source: webrip
 tests: []
