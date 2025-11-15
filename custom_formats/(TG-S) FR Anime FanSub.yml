@@ -59,4 +59,9 @@ conditions:
   required: false
   negate: false
   pattern: Yangire-Raws
+- name: Kaoru Hana FR (KHFR)
+  type: release_title
+  required: false
+  negate: false
+  pattern: Kaoru Hana FR (KHFR)
 tests: []
