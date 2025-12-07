@@ -1,0 +1,6 @@
+name: PLAY Rename
+pattern: \[(Play)\b|\b(Play)\]
+description: ''
+tags:
+- TRaSH
+tests: []
