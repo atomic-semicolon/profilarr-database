@@ -163,11 +163,6 @@ conditions:
   required: false
   negate: false
   pattern: PSiG
-- name: RAWR
-  type: release_group
-  required: false
-  negate: false
-  pattern: RAWR
 - name: ROCCaT
   type: release_group
   required: false

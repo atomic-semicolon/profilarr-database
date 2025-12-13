@@ -87,6 +87,11 @@ conditions:
   required: false
   negate: false
   pattern: QOQ
+- name: RAWR
+  type: release_group
+  required: false
+  negate: false
+  pattern: RAWR
 - name: RTN
   type: release_group
   required: false

@@ -58,11 +58,6 @@ conditions:
   required: false
   negate: false
   pattern: playWEB
-- name: RAWR
-  type: release_group
-  required: false
-  negate: false
-  pattern: RAWR
 - name: SbR
   type: release_group
   required: false

@@ -43,6 +43,11 @@ conditions:
   required: false
   negate: false
   pattern: VECTOR
+- name: VisionXpert
+  type: release_group
+  required: false
+  negate: false
+  pattern: VisionXpert
 - name: HDR10+
   type: release_title
   required: false
