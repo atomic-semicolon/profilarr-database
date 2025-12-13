@@ -1,7 +1,8 @@
 name: VisionXpert
-pattern: (?<=^|[\s.-])VisionXpert\b
+pattern: (?<=^|[\s.-])VisionXpert\b|^(VisionXpert)$
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
 - Banned
+- TRaSH
 tests: []
