@@ -1,14 +1,14 @@
 name: 1080p Compact
-description: '1080p Compact seeks to target a balance of size and quality with x265
-  Bluray and WEB encodes
+description: 'Do not Use. Soon I will be turning the Compact profile into the "junk"
+  profile whereby restricting the sizes it takes considerably. Ideally targeting Movies
+  at under 6gb and TV Shows at less then 1gb per ep. Adding in HDTV and SDTV for better
+  compatibility with older movies and TV shows. If you are currently using the Compact
+  profile I highly suggest switching over to the Efficient profile as they are very
+  similar you shouldn''t notice much difference.
 
 
-  - 1080p Bluray and WEB x265
-
-  - Fallbacks in Place for Proper Quality Progression
-
-  - 1080p Bluray HEVC > 1080p WEB HEVC > 1080p WEB-DL > 720p Bluray > 720p WEB-DL
-  > 480p WEB-DL > DVD'
+  Once this profile is ready to use again this message will change and revert back
+  to the profile description.'
 tags:
 - 1080p
 - Compact Focused
@@ -20,10 +20,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 600000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Balanced Tier 1
-  score: 281000
-- name: 1080p Balanced Tier 2
-  score: 280000
 - name: 1080p WEB-DL (h264)
   score: 280000
 - name: 720p WEB-DL
@@ -49,8 +45,6 @@ custom_formats:
 - name: 720p Quality Tier 6
   score: 80000
 - name: 480p WEB-DL
-  score: 60000
-- name: 720p Balanced Tier 1
   score: 60000
 - name: 576p Quality Tier 1
   score: 43000
@@ -140,15 +134,21 @@ custom_formats:
   score: 0
 - name: CRIT
   score: 0
+- name: DRPO
+  score: 0
 - name: HTSR
   score: 0
 - name: HULU
+  score: 0
+- name: iP
   score: 0
 - name: MUBI
   score: 0
 - name: NOW
   score: 0
 - name: PCOK
+  score: 0
+- name: PLAY
   score: 0
 - name: PMTP
   score: 0
@@ -161,8 +161,6 @@ custom_formats:
 - name: AV1
   score: -999999
 - name: Banned Groups (Efficient)
-  score: -999999
-- name: Banned Groups (Title)
   score: -999999
 - name: Banned WEBRip (Efficient)
   score: -999999
@@ -217,6 +215,12 @@ custom_formats_radarr:
   score: 301000
 - name: 1080p Compact Movie WEB Tier 4
   score: 300000
+- name: 1080p Balanced Tier 1
+  score: 281000
+- name: 1080p Balanced Tier 2
+  score: 280000
+- name: 720p Balanced Tier 1
+  score: 60000
 - name: MA
   score: 4000
 - name: AMZN
