@@ -18,11 +18,6 @@ conditions:
   required: false
   negate: false
   source: webrip
-- name: BYNDR
-  type: release_group
-  required: false
-  negate: false
-  pattern: BYNDR
 - name: dB
   type: release_group
   required: false
