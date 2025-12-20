@@ -42,6 +42,11 @@ conditions:
   required: false
   negate: false
   pattern: BLUTONiUM
+- name: BYNDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: BYNDR
 - name: CMRG
   type: release_group
   required: false
