@@ -1,6 +1,8 @@
 name: DARKFLiX
-pattern: \b(DARKFLiX)\b
+pattern: (?<=^|[\s.-])DARKFLiX\b|\b(DARKFLiX)\b
 description: ''
 tags:
+- Release Group
+- HDTV
 - TRaSH
 tests: []
