@@ -1,5 +1,5 @@
 name: Repack2
-pattern: \b(real[\s.]?(re(pack|rip)|proper)|(re(pack|rip)|proper)2)\b|\b(Repack2)\b
+pattern: \b(real[\s.]?(re(pack|rip)|proper)|(re(pack|rip)|proper)2)\b
 description: 'Matches either "real" (with optional space/dot) followed by proper/repack/rerip,
   or proper2/repack2/rerip2
 
@@ -10,7 +10,6 @@ description: 'Matches either "real" (with optional space/dot) followed by proper
 tags:
 - Repack
 - Flag
-- TRaSH
 tests:
 - expected: true
   id: 1

@@ -22,9 +22,9 @@ custom_formats_sonarr:
   score: -10000
 - name: (TG-S) Repack&Proper
   score: 5
-- name: (TG-S) Repack v2
+- name: (TG-S) Repack2
   score: 6
-- name: (TG-S) Repack v3
+- name: (TG-S) Repack3
   score: 7
 - name: (TG-S) HD Streaming Boost
   score: 75

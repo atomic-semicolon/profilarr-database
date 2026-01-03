@@ -62,9 +62,9 @@ custom_formats_sonarr:
   score: -35000
 - name: (TG-S) Repack&Proper
   score: 5
-- name: (TG-S) Repack v2
+- name: (TG-S) Repack2
   score: 6
-- name: (TG-S) Repack v3
+- name: (TG-S) Repack3
   score: 7
 - name: (TG-S) BR-DISK
   score: -35000
