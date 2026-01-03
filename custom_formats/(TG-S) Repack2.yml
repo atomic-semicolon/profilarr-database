@@ -1,8 +1,8 @@
-name: (TG-R) Repack2
+name: (TG-S) Repack2
 description: repack2
 tags:
 - TRaSH
-- Radarr Only
+- Sonarr Only
 conditions:
 - name: Repack/Proper 2 or Real Proper/Repack
   type: release_title

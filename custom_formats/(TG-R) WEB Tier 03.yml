@@ -30,6 +30,11 @@ conditions:
   required: false
   negate: false
   pattern: GNOMiSSiON
+- name: HHWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HHWEB
 - name: NINJACENTRAL
   type: release_group
   required: false

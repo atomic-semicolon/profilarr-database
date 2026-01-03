@@ -10,16 +10,31 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: DRACULA
-  type: release_group
+- name: WEBDL
+  type: source
   required: false
   negate: false
-  pattern: DRACULA
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
 - name: Dooky
   type: release_group
   required: false
   negate: false
   pattern: Dooky
+- name: DRACULA
+  type: release_group
+  required: false
+  negate: false
+  pattern: DRACULA
+- name: HHWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HHWEB
 - name: NINJACENTRAL
   type: release_group
   required: false
@@ -45,14 +60,4 @@ conditions:
   required: false
   negate: false
   pattern: ViSiON
-- name: WEBDL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRIP
-  type: source
-  required: false
-  negate: false
-  source: webrip
 tests: []

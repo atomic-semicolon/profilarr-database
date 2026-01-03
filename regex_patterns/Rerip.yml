@@ -1,6 +1,0 @@
-name: Rerip
-pattern: \b(Rerip)\b
-description: ''
-tags:
-- TRaSH
-tests: []

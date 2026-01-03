@@ -4,19 +4,14 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: Repack
+- name: Repack/Proper/Rerip
   type: release_title
-  required: false
+  required: true
   negate: false
-  pattern: Repack
-- name: Proper
+  pattern: Repack/Proper/Rerip
+- name: Not Higher Version Repack/Proper
   type: release_title
-  required: false
-  negate: false
-  pattern: Proper
-- name: Rerip
-  type: release_title
-  required: false
-  negate: false
-  pattern: Rerip
+  required: true
+  negate: true
+  pattern: Not Higher Version Repack/Proper
 tests: []

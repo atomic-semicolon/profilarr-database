@@ -1,7 +1,8 @@
 name: HHWEB
-pattern: (?<=^|[\s.-])HHWEB\b
+pattern: (?<=^|[\s.-])HHWEB\b|^(HHWEB)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []
