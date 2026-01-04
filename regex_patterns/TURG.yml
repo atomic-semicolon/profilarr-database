@@ -1,0 +1,6 @@
+name: TURG
+pattern: ^(TURG)$
+description: ''
+tags:
+- TRaSH
+tests: []
