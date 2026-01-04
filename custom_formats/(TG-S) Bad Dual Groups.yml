@@ -114,6 +114,11 @@ conditions:
   required: false
   negate: false
   pattern: tokar86a
+- name: TURG
+  type: release_group
+  required: false
+  negate: false
+  pattern: TURG
 - name: vnlls
   type: release_group
   required: false
