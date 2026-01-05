@@ -1,5 +1,5 @@
 name: Not Higher Version Repack&Proper
-pattern: \b((repack|proper)3)\b|\b(REAL\.REAL\.(PROPER|REPACK))\b|\b((Repack|Proper)[2-3])\b
+pattern: \b((repack|proper)3)\b|\b(REAL\.REAL\.(PROPER|REPACK))\b|\b(?:(?:repack|proper)[23])\b|\bREAL\.(?:REAL\.)?(?:PROPER|REPACK)\b
 description: ''
 tags:
 - TRaSH
