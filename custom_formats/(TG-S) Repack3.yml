@@ -4,9 +4,9 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: Repack/Proper 3 or Real Real Proper/Repack
+- name: Repack/Proper 3 or REAL.REAL.PROPER/REPACK
   type: release_title
   required: true
   negate: false
-  pattern: Repack/Proper 3 or Real Real Proper/Repack
+  pattern: Repack/Proper 3 or REAL.REAL.PROPER/REPACK
 tests: []

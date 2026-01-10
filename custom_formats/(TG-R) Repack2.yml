@@ -4,14 +4,14 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: Repack/Proper 2 or Real Proper/Repack
+- name: Repack/Proper 2 or REAL.PROPER/REPACK
   type: release_title
   required: true
   negate: false
-  pattern: Repack/Proper 2 or Real Proper/Repack
-- name: Not Higher Version Repack/Proper
+  pattern: Repack/Proper 2 or REAL.PROPER/REPACK
+- name: Not Repack/Proper 3
   type: release_title
   required: true
   negate: true
-  pattern: Not Higher Version Repack/Proper
+  pattern: Not Repack/Proper 3
 tests: []
