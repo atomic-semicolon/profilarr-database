@@ -1,0 +1,12 @@
+name: (TG-R) 126811
+description: '126811'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: '126811'
+  type: release_group
+  required: true
+  negate: false
+  pattern: '126811'
+tests: []

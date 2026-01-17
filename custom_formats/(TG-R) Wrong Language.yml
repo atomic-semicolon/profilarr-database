@@ -1,0 +1,13 @@
+name: (TG-R) Wrong Language
+description: wrong-language
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Wrong Language
+  type: language
+  required: true
+  negate: true
+  language: original
+  exceptLanguage: false
+tests: []

@@ -1,7 +1,8 @@
 name: '126811'
-pattern: (?<=^|[\s.-])126811\b
+pattern: (?<=^|[\s.-])126811\b|^(126811)$
 description: ''
 tags:
 - Release Group
 - WEB-DL
+- TRaSH
 tests: []
