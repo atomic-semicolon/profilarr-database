@@ -1,0 +1,17 @@
+name: (TG-R) MainFrame
+description: mainframe
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: MainFrame
+  type: release_group
+  required: true
+  negate: false
+  pattern: MainFrame
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+tests: []

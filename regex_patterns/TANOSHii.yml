@@ -1,5 +1,5 @@
 name: TANOSHii
-pattern: \b(TANOSHii)\b
+pattern: \b(-TANOSHii)\b
 description: ''
 tags:
 - TRaSH

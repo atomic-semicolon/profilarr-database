@@ -1,0 +1,17 @@
+name: (TG-R) WEBDL Boost
+description: webdl-boost
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
