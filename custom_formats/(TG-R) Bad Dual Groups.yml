@@ -69,6 +69,11 @@ conditions:
   required: false
   negate: false
   pattern: LCD
+- name: MGE
+  type: release_group
+  required: false
+  negate: false
+  pattern: MGE
 - name: N3G4N
   type: release_group
   required: false
@@ -109,6 +114,11 @@ conditions:
   required: false
   negate: false
   pattern: Tars
+- name: TM
+  type: release_group
+  required: false
+  negate: false
+  pattern: TM
 - name: tokar86a
   type: release_group
   required: false

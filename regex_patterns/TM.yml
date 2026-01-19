@@ -1,5 +1,5 @@
-name: MGE
-pattern: ^(MGE)$|^(MGE\b.*)$
+name: TM
+pattern: ^(TM\b)$
 description: ''
 tags:
 - TRaSH
