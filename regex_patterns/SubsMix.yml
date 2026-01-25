@@ -1,0 +1,6 @@
+name: SubsMix
+pattern: \b(SubsMix)\b
+description: ''
+tags:
+- TRaSH
+tests: []

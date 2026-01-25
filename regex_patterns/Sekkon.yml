@@ -1,0 +1,6 @@
+name: Sekkon
+pattern: \b(Sekkon)\b
+description: ''
+tags:
+- TRaSH
+tests: []

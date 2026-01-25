@@ -1,0 +1,6 @@
+name: GetItTwisted
+pattern: \b(GetItTwisted)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: NTW
+pattern: \b(NTW)\b
+description: ''
+tags:
+- TRaSH
+tests: []

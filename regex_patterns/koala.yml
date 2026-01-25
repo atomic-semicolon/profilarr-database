@@ -1,0 +1,6 @@
+name: koala
+pattern: \[koala\]|-koala\b
+description: ''
+tags:
+- TRaSH
+tests: []

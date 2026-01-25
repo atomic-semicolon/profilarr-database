@@ -1,0 +1,6 @@
+name: ChucksMix
+pattern: \b(ChucksMix)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,5 +1,5 @@
 name: Chotab
-pattern: (?<=^|[\s.-])Chotab\b|\b(Chotab)\b|^(Chotab)$
+pattern: (?<=^|[\s.-])Chotab\b|^(Chotab)$
 description: ''
 tags:
 - Release Group

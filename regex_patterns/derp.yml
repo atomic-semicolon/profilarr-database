@@ -1,0 +1,6 @@
+name: derp
+pattern: \[derp\]|-derp\b
+description: ''
+tags:
+- TRaSH
+tests: []

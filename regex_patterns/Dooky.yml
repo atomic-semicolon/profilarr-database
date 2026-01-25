@@ -1,5 +1,5 @@
 name: Dooky
-pattern: ^(Dooky)$
+pattern: \b(Dooky)\b|^(Dooky)$
 description: ''
 tags:
 - TRaSH

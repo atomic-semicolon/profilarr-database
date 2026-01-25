@@ -18,44 +18,38 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr:
-- name: (TG-S) Anime BD Tier 01 (Top SeaDex Muxers)
+- name: (TG-S) Anime BD Tier 01
   score: 1400
-- name: (TG-S) Anime BD Tier 02 (SeaDex Muxers)
+- name: (TG-S) Anime BD Tier 02
   score: 1300
-- name: (TG-S) Anime BD Tier 03 (SeaDex Muxers)
+- name: (TG-S) Anime BD Tier 03
   score: 1200
-- name: (TG-S) Anime BD Tier 04 (SeaDex Muxers)
+- name: (TG-S) Anime BD Tier 04
   score: 1100
-- name: (TG-S) Anime BD Tier 05 (Remuxes)
+- name: (TG-S) Anime BD Tier 05
   score: 1000
-- name: (TG-S) Anime BD Tier 06 (FanSubs)
+- name: (TG-S) Anime BD Tier 06
   score: 900
-- name: (TG-S) Anime BD Tier 07 (P2P&Scene)
+- name: (TG-S) Anime BD Tier 07
   score: 800
-- name: (TG-S) Anime BD Tier 08 (Mini Encodes)
+- name: (TG-S) Anime BD Tier 08
   score: 700
-- name: (TG-S) Anime Web Tier 01 (Muxers)
+- name: (TG-S) Anime Web Tier 01
   score: 600
-- name: (TG-S) Anime Web Tier 02 (Top FanSubs)
+- name: (TG-S) Anime Web Tier 02
   score: 500
-- name: (TG-S) WEB Tier 01
-  score: 350
-- name: (TG-S) WEB Tier 02
-  score: 250
-- name: (TG-S) Anime Web Tier 03 (Official Subs)
+- name: (TG-S) Anime Web Tier 03
   score: 400
-- name: (TG-S) WEB Tier 03
-  score: 150
-- name: (TG-S) Remux Tier 01
-  score: 1050
-- name: (TG-S) Remux Tier 02
-  score: 1000
-- name: (TG-S) Anime Web Tier 04 (Official Subs)
+- name: (TG-S) Anime Web Tier 04
   score: 300
-- name: (TG-S) Anime Web Tier 05 (FanSubs)
+- name: (TG-S) Anime Web Tier 05
   score: 200
-- name: (TG-S) Anime Web Tier 06 (FanSubs)
+- name: (TG-S) Anime Web Tier 06
   score: 100
+- name: (TG-S) Remux Tier 01
+  score: 975
+- name: (TG-S) Remux Tier 02
+  score: 950
 - name: (TG-S) Anime Raws
   score: -10000
 - name: (TG-S) Anime LQ Groups
@@ -103,46 +97,40 @@ custom_formats_sonarr:
 - name: (TG-S) Bilibili
   score: 0
 custom_formats_radarr:
-- name: (TG-R) Anime BD Tier 01 (Top SeaDex Muxers)
+- name: (TG-R) Anime BD Tier 01
   score: 1400
-- name: (TG-R) Anime BD Tier 02 (SeaDex Muxers)
+- name: (TG-R) Anime BD Tier 02
   score: 1300
-- name: (TG-R) Anime BD Tier 03 (SeaDex Muxers)
+- name: (TG-R) Anime BD Tier 03
   score: 1200
-- name: (TG-R) Anime BD Tier 04 (SeaDex Muxers)
+- name: (TG-R) Anime BD Tier 04
   score: 1100
-- name: (TG-R) Anime BD Tier 05 (Remuxes)
+- name: (TG-R) Anime BD Tier 05
   score: 1000
-- name: (TG-R) Anime BD Tier 06 (FanSubs)
+- name: (TG-R) Anime BD Tier 06
   score: 900
-- name: (TG-R) Anime BD Tier 07 (P2P&Scene)
+- name: (TG-R) Anime BD Tier 07
   score: 800
-- name: (TG-R) Anime BD Tier 08 (Mini Encodes)
+- name: (TG-R) Anime BD Tier 08
   score: 700
-- name: (TG-R) Anime Web Tier 01 (Muxers)
+- name: (TG-R) Anime Web Tier 01
   score: 600
-- name: (TG-R) Anime Web Tier 02 (Top FanSubs)
+- name: (TG-R) Anime Web Tier 02
   score: 500
-- name: (TG-R) Anime Web Tier 03 (Official Subs)
+- name: (TG-R) Anime Web Tier 03
   score: 400
-- name: (TG-R) Anime Web Tier 04 (Official Subs)
+- name: (TG-R) Anime Web Tier 04
   score: 300
-- name: (TG-R) Anime Web Tier 05 (FanSubs)
+- name: (TG-R) Anime Web Tier 05
   score: 200
-- name: (TG-R) Anime Web Tier 06 (FanSubs)
+- name: (TG-R) Anime Web Tier 06
   score: 100
 - name: (TG-R) Remux Tier 01
-  score: 1050
+  score: 975
 - name: (TG-R) Remux Tier 02
-  score: 1000
-- name: (TG-R) Remux Tier 03
   score: 950
-- name: (TG-R) WEB Tier 01
-  score: 350
-- name: (TG-R) WEB Tier 02
-  score: 250
-- name: (TG-R) WEB Tier 03
-  score: 150
+- name: (TG-R) Remux Tier 03
+  score: 925
 - name: (TG-R) Anime Raws
   score: -10000
 - name: (TG-R) Anime LQ Groups

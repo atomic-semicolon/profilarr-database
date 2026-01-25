@@ -1,0 +1,6 @@
+name: FateSucks
+pattern: \b(FateSucks)\b
+description: ''
+tags:
+- TRaSH
+tests: []

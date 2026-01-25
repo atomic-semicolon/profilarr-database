@@ -1,0 +1,6 @@
+name: sgt
+pattern: \[sgt\]|-sgt\b
+description: ''
+tags:
+- TRaSH
+tests: []

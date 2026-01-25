@@ -1,0 +1,6 @@
+name: fig
+pattern: \[fig\]|-fig\b
+description: ''
+tags:
+- TRaSH
+tests: []

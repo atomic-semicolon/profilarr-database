@@ -1,0 +1,6 @@
+name: QM
+pattern: \b(QM)\b
+description: ''
+tags:
+- TRaSH
+tests: []

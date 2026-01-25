@@ -1,0 +1,6 @@
+name: NTRX
+pattern: \b(NTRX)\b
+description: ''
+tags:
+- TRaSH
+tests: []

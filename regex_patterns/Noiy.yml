@@ -1,0 +1,6 @@
+name: Noiy
+pattern: \b(Noiy)\b
+description: ''
+tags:
+- TRaSH
+tests: []

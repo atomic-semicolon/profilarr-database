@@ -1,0 +1,6 @@
+name: npz
+pattern: \b(npz)\b
+description: ''
+tags:
+- TRaSH
+tests: []

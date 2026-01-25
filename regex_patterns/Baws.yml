@@ -1,5 +1,5 @@
 name: Baws
-pattern: \b(Baws)\b
+pattern: \b(Baws)\b|\b(Baws|McBalls)\b
 description: ''
 tags:
 - TRaSH

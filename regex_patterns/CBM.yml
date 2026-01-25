@@ -1,6 +1,0 @@
-name: CBM
-pattern: \b(CBM)\b
-description: ''
-tags:
-- TRaSH
-tests: []

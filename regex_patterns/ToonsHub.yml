@@ -1,0 +1,6 @@
+name: ToonsHub
+pattern: \b(ToonsHub)\b
+description: ''
+tags:
+- TRaSH
+tests: []

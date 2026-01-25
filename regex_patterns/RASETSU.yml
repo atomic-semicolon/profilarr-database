@@ -1,0 +1,6 @@
+name: RASETSU
+pattern: \b(RASETSU)\b
+description: ''
+tags:
+- TRaSH
+tests: []

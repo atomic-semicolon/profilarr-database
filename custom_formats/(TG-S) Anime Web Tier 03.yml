@@ -1,0 +1,42 @@
+name: (TG-S) Anime Web Tier 03
+description: Official sub groups that tend to be more consistent and release fast.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEB
+  type: source
+  required: false
+  negate: false
+  source: television
+- name: AnoZu
+  type: release_title
+  required: false
+  negate: false
+  pattern: AnoZu
+- name: Dooky
+  type: release_title
+  required: false
+  negate: false
+  pattern: Dooky
+- name: Kitsune
+  type: release_title
+  required: false
+  negate: false
+  pattern: Kitsune
+- name: ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: ZR
+tests: []

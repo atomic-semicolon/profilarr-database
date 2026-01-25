@@ -1,0 +1,6 @@
+name: DIY
+pattern: \[DIY\]|-DIY\b
+description: ''
+tags:
+- TRaSH
+tests: []
