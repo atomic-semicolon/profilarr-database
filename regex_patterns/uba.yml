@@ -1,0 +1,6 @@
+name: uba
+pattern: \[uba\]|-uba\b
+description: ''
+tags:
+- TRaSH
+tests: []

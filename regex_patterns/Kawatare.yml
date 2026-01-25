@@ -1,0 +1,6 @@
+name: Kawatare
+pattern: \[Kawatare\]|-Kawatare\b
+description: ''
+tags:
+- TRaSH
+tests: []

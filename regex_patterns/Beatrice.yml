@@ -1,0 +1,6 @@
+name: Beatrice
+pattern: \[Beatrice\]|-Beatrice(?!-raws)\b
+description: ''
+tags:
+- TRaSH
+tests: []

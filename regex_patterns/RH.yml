@@ -1,6 +1,0 @@
-name: RH
-pattern: \b(RH)\b
-description: ''
-tags:
-- TRaSH
-tests: []

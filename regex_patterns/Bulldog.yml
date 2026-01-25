@@ -1,6 +1,0 @@
-name: Bulldog
-pattern: \[Bulldog\]|-Bulldog\b
-description: ''
-tags:
-- TRaSH
-tests: []

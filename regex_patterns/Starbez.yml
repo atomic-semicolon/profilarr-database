@@ -1,0 +1,6 @@
+name: Starbez
+pattern: \b(Starbez)\b
+description: ''
+tags:
+- TRaSH
+tests: []

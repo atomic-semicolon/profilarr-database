@@ -1,0 +1,6 @@
+name: BiRJU
+pattern: \b(BiRJU)\b
+description: ''
+tags:
+- TRaSH
+tests: []

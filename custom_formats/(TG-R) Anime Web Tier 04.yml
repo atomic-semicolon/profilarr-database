@@ -1,0 +1,37 @@
+name: (TG-R) Anime Web Tier 04
+description: FanSub groups that are consistent.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Erai-Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: Erai-Raws
+- name: SubsPlus+
+  type: release_title
+  required: false
+  negate: false
+  pattern: SubsPlus+
+- name: ToonsHub
+  type: release_title
+  required: false
+  negate: false
+  pattern: ToonsHub
+- name: VARYG
+  type: release_title
+  required: false
+  negate: false
+  pattern: VARYG
+tests: []

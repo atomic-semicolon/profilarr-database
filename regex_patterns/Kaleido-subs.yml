@@ -1,0 +1,6 @@
+name: Kaleido-subs
+pattern: \b(Kaleido-subs)\b
+description: ''
+tags:
+- TRaSH
+tests: []

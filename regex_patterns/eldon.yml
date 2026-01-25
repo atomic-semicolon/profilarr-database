@@ -1,0 +1,6 @@
+name: eldon
+pattern: \b(eldon)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -69,9 +69,4 @@ conditions:
   required: false
   negate: false
   pattern: "Shir\u03C3"
-- name: YURASAKA
-  type: release_title
-  required: false
-  negate: false
-  pattern: YURASAKA
 tests: []

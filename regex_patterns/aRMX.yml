@@ -1,0 +1,6 @@
+name: aRMX
+pattern: \b(aRMX)\b
+description: ''
+tags:
+- TRaSH
+tests: []

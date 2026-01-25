@@ -1,0 +1,6 @@
+name: Mehul
+pattern: \[Mehul\]|-Mehul\b
+description: ''
+tags:
+- TRaSH
+tests: []

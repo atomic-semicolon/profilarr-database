@@ -1,0 +1,6 @@
+name: UltraRemux
+pattern: \b(UltraRemux)\b
+description: ''
+tags:
+- TRaSH
+tests: []

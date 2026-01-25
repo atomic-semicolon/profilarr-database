@@ -1,0 +1,67 @@
+name: (TG-R) Anime BD Tier 08
+description: Know groups that do mini encodes.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: AkihitoSubs
+  type: release_title
+  required: false
+  negate: false
+  pattern: AkihitoSubs
+- name: Arukoru
+  type: release_title
+  required: false
+  negate: false
+  pattern: Arukoru
+- name: EDGE
+  type: release_title
+  required: false
+  negate: false
+  pattern: EDGE
+- name: EMBER
+  type: release_title
+  required: false
+  negate: false
+  pattern: EMBER
+- name: GHOST
+  type: release_title
+  required: false
+  negate: false
+  pattern: GHOST
+- name: Judas
+  type: release_title
+  required: false
+  negate: false
+  pattern: Judas
+- name: naiyas
+  type: release_title
+  required: false
+  negate: false
+  pattern: naiyas
+- name: Nep_Blanc
+  type: release_title
+  required: false
+  negate: false
+  pattern: Nep_Blanc
+- name: Prof
+  type: release_title
+  required: false
+  negate: false
+  pattern: Prof
+- name: "Shir\u03C3"
+  type: release_title
+  required: false
+  negate: false
+  pattern: "Shir\u03C3"
+tests: []

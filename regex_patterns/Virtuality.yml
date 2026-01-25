@@ -1,0 +1,6 @@
+name: Virtuality
+pattern: \b(Virtuality)\b
+description: ''
+tags:
+- TRaSH
+tests: []

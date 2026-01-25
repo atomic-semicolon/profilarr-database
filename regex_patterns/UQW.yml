@@ -1,0 +1,6 @@
+name: UQW
+pattern: \b(UQW)\b
+description: ''
+tags:
+- TRaSH
+tests: []

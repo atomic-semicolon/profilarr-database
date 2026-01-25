@@ -1,0 +1,68 @@
+name: (TG-R) Anime BD Tier 01
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: DemiHuman
+  type: release_title
+  required: false
+  negate: false
+  pattern: DemiHuman
+- name: FLE
+  type: release_title
+  required: false
+  negate: false
+  pattern: FLE
+- name: Flugel
+  type: release_title
+  required: false
+  negate: false
+  pattern: Flugel
+- name: LYS1TH3A
+  type: release_title
+  required: false
+  negate: false
+  pattern: LYS1TH3A
+- name: Moxie
+  type: release_title
+  required: false
+  negate: false
+  pattern: Moxie
+- name: NAN0
+  type: release_title
+  required: false
+  negate: false
+  pattern: NAN0
+- name: sam
+  type: release_title
+  required: false
+  negate: false
+  pattern: sam
+- name: smol
+  type: release_title
+  required: false
+  negate: false
+  pattern: smol
+- name: SoM
+  type: release_title
+  required: false
+  negate: false
+  pattern: SoM
+- name: ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: ZR
+tests: []

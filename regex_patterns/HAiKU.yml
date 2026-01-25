@@ -1,6 +1,0 @@
-name: HAiKU
-pattern: \b(HAiKU)\b
-description: ''
-tags:
-- TRaSH
-tests: []

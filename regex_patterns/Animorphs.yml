@@ -1,0 +1,6 @@
+name: Animorphs
+pattern: \b(Animorphs)\b
+description: ''
+tags:
+- TRaSH
+tests: []

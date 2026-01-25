@@ -1,5 +1,5 @@
 name: DemiHuman
-pattern: \[DemiHuman\]|-DemiHuman\b
+pattern: \b(DemiHuman)\b
 description: ''
 tags:
 - TRaSH

@@ -1,0 +1,6 @@
+name: ABdex
+pattern: \b(ABdex)\b
+description: ''
+tags:
+- TRaSH
+tests: []
