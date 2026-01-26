@@ -89,9 +89,9 @@ conditions:
   required: false
   negate: false
   pattern: Yoghurt
-- name: YURASAKA
+- name: YURASUKA
   type: release_title
   required: false
   negate: false
-  pattern: YURASAKA
+  pattern: YURASUKA
 tests: []

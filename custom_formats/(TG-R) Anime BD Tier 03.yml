@@ -30,11 +30,11 @@ conditions:
   required: false
   negate: false
   pattern: cappybara
-- name: ChucksMix
+- name: ChucksMux
   type: release_title
   required: false
   negate: false
-  pattern: ChucksMix
+  pattern: ChucksMux
 - name: CRUCiBLE
   type: release_title
   required: false

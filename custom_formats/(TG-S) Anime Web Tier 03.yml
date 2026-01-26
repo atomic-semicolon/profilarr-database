@@ -34,6 +34,11 @@ conditions:
   required: false
   negate: false
   pattern: Kitsune
+- name: SubsPlus+
+  type: release_title
+  required: false
+  negate: false
+  pattern: SubsPlus+
 - name: ZR
   type: release_title
   required: false

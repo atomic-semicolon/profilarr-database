@@ -59,6 +59,11 @@ conditions:
   required: false
   negate: false
   pattern: NanDesuKa
+- name: PlayWeb
+  type: release_title
+  required: false
+  negate: false
+  pattern: PlayWeb
 - name: SobsPlease
   type: release_title
   required: false

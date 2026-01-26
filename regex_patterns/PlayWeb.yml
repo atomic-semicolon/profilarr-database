@@ -1,0 +1,6 @@
+name: PlayWeb
+pattern: \b(PlayWeb)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -14,11 +14,6 @@ conditions:
   required: false
   negate: false
   source: dvd
-- name: Beatrice
-  type: release_title
-  required: false
-  negate: false
-  pattern: Beatrice
 - name: Animorphs
   type: release_title
   required: false
@@ -39,6 +34,16 @@ conditions:
   required: false
   negate: false
   pattern: Baws
+- name: Beatrice
+  type: release_title
+  required: false
+  negate: false
+  pattern: Beatrice
+- name: B00BA
+  type: release_title
+  required: false
+  negate: false
+  pattern: B00BA
 - name: Cait-Sidhe
   type: release_title
   required: false
@@ -134,6 +139,16 @@ conditions:
   required: false
   negate: false
   pattern: Thighs
+- name: TTGA
+  type: release_title
+  required: false
+  negate: false
+  pattern: TTGA
+- name: UltraRemux
+  type: release_title
+  required: false
+  negate: false
+  pattern: UltraRemux
 - name: WBDP
   type: release_title
   required: false
