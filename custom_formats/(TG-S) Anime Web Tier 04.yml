@@ -24,11 +24,6 @@ conditions:
   required: false
   negate: false
   pattern: Erai-Raws
-- name: SubsPlus+
-  type: release_title
-  required: false
-  negate: false
-  pattern: SubsPlus+
 - name: ToonsHub
   type: release_title
   required: false

@@ -30,11 +30,6 @@ conditions:
   required: false
   negate: false
   pattern: Arid
-- name: B00BA
-  type: release_title
-  required: false
-  negate: false
-  pattern: B00BA
 - name: FateSucks
   type: release_title
   required: false
@@ -95,16 +90,6 @@ conditions:
   required: false
   negate: false
   pattern: PMR
-- name: TTGA
-  type: release_title
-  required: false
-  negate: false
-  pattern: TTGA
-- name: UltraRemux
-  type: release_title
-  required: false
-  negate: false
-  pattern: UltraRemux
 - name: Vodes
   type: release_title
   required: false
