@@ -1,5 +1,5 @@
 name: 'NOT: IMAX Enhanced'
-pattern: ^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=[ ._-]web[ ._-]?(dl|rip)\b)))(?=.*\b((?<!NON[
+pattern: ^(?=.*\b((DSNP|BC|B?CORE)\b|Disney\+)(?=.*\bWEB[ ._-]?(DL|Rip)\b))(?=.*\b((?<!NON[
   ._-])IMAX)\b)|^(?=.*\b(IMAX[ ._-]Enhanced)\b)
 description: ''
 tags:
