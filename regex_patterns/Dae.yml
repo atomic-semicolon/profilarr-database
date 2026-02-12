@@ -1,5 +1,5 @@
 name: Dae
-pattern: \[Dae\]|-Dae\b|\b(Dae)\b
+pattern: \b(Dae)\b|\[Dae\]|-Dae\b
 description: ''
 tags:
 - TRaSH
