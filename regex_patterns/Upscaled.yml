@@ -1,7 +1,7 @@
 name: Upscaled
 pattern: (Up[-\.\s]?scale|Re[-\.\s]?Grade|\bAIUS\b|AI[-\.\s]?enhanced)|(?<=\b\d{3,4}p\b).*\b(AI[
-  ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\b|(?<=\b[12]\d{3}\b).*\b(AI[
-  ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\b
+  ._-]?Enhanced?|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\b|(?<=\b[12]\d{3}\b).*\b(AI[
+  ._-]?Enhanced?|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\b
 description: 'Matches upscales, regrades, AI Enhancements, etc. '
 tags:
 - Enhancement
