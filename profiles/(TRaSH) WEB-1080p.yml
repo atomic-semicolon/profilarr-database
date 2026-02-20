@@ -40,10 +40,10 @@ custom_formats_radarr: []
 qualities:
 - name: WEB 1080p
   qualities:
-  - id: 9
-    name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
   id: -1
 upgrade_until:
   id: -1

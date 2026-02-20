@@ -84,18 +84,18 @@ custom_formats_radarr:
 qualities:
 - name: WEB|Remux|2160p
   qualities:
-  - id: 11
-    name: WEBRip-1080p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 8
-    name: Remux-1080p
-  - id: 6
-    name: WEBRip-2160p
-  - id: 5
-    name: WEBDL-2160p
   - id: 3
     name: Remux-2160p
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 8
+    name: Remux-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
   id: -1
 upgrade_until:
   id: -1

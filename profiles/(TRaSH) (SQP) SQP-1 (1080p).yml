@@ -88,21 +88,21 @@ custom_formats_radarr:
 - name: (TG-R) 720p
   score: 5
 qualities:
-- name: Bluray|WEB-1080p
-  qualities:
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
-  id: -1
 - name: Bluray-720p
   id: 13
+- name: Bluray|WEB-1080p
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 15
+    name: WEBRip-720p
+  - id: 14
+    name: WEBDL-720p
+  id: -1
 upgrade_until:
   id: -1
   name: Bluray|WEB-1080p
