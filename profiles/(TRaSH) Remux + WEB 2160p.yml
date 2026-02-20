@@ -50,15 +50,15 @@ custom_formats_radarr:
 - name: (TG-R) AV1
   score: -10000
 qualities:
-- name: Remux-2160p
-  id: 3
 - name: WEB 2160p
   qualities:
-  - id: 5
-    name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
+  - id: 5
+    name: WEBDL-2160p
   id: -1
+- name: Remux-2160p
+  id: 3
 upgrade_until:
   id: 3
   name: Remux-2160p

@@ -42,10 +42,10 @@ custom_formats_radarr: []
 qualities:
 - name: WEB 2160p
   qualities:
-  - id: 5
-    name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
+  - id: 5
+    name: WEBDL-2160p
   id: -1
 upgrade_until:
   id: -1

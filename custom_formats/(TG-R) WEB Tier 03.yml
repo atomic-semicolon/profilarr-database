@@ -20,6 +20,11 @@ conditions:
   required: false
   negate: false
   source: webrip
+- name: BLOOM
+  type: release_group
+  required: false
+  negate: false
+  pattern: BLOOM
 - name: Dooky
   type: release_group
   required: false

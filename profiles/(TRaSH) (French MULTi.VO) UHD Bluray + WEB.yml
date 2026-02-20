@@ -96,17 +96,17 @@ custom_formats_radarr:
 - name: (TG-R) AV1
   score: -10000
 qualities:
-- name: Bluray|WEB 2160p
-  qualities:
-  - id: 5
-    name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
-  - id: 4
-    name: Bluray-2160p
-  id: -1
 - name: Remux-1080p
   id: 8
+- name: Bluray|WEB 2160p
+  qualities:
+  - id: 4
+    name: Bluray-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 5
+    name: WEBDL-2160p
+  id: -1
 upgrade_until:
   id: -1
   name: Bluray|WEB 2160p

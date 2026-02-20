@@ -162,24 +162,24 @@ custom_formats_radarr:
 qualities:
 - name: Merged QPs
   qualities:
-  - id: 15
-    name: WEBRip-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 13
-    name: Bluray-720p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
-  - id: 6
-    name: WEBRip-2160p
-  - id: 5
-    name: WEBDL-2160p
   - id: 4
     name: Bluray-2160p
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 10
+    name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
   id: -1
 upgrade_until:
   id: -1

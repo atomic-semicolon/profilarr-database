@@ -1,0 +1,6 @@
+name: Audio Description
+pattern: \b((FRENCH|MULTi|WiTH)[ .-]AD)\b
+description: ''
+tags:
+- TRaSH
+tests: []

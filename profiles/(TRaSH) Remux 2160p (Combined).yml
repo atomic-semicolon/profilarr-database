@@ -62,28 +62,28 @@ custom_formats_radarr:
 - name: (TG-R) AV1
   score: -10000
 qualities:
-- name: Remux-2160p
-  id: 3
-- name: Bluray-2160p
-  id: 4
-- name: WEB 2160p
-  qualities:
-  - id: 5
-    name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
-  id: -2
-- name: Remux-1080p
-  id: 8
-- name: Bluray-1080p
-  id: 10
 - name: WEB 1080p
   qualities:
-  - id: 9
-    name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  id: -2
+- name: Bluray-1080p
+  id: 10
+- name: Remux-1080p
+  id: 8
+- name: WEB 2160p
+  qualities:
+  - id: 6
+    name: WEBRip-2160p
+  - id: 5
+    name: WEBDL-2160p
   id: -1
+- name: Bluray-2160p
+  id: 4
+- name: Remux-2160p
+  id: 3
 upgrade_until:
   id: 3
   name: Remux-2160p
