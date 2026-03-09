@@ -1,0 +1,6 @@
+name: SD7
+pattern: ^(SD7)$
+description: ''
+tags:
+- TRaSH
+tests: []

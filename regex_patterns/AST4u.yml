@@ -1,0 +1,6 @@
+name: AST4u
+pattern: ^(AST4u)$
+description: ''
+tags:
+- TRaSH
+tests: []

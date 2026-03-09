@@ -1,7 +1,8 @@
 name: HDC
-pattern: (?<=^|[\s.-])HDC\b
+pattern: (?<=^|[\s.-])HDC\b|^(HDC)$
 description: ''
 tags:
 - Release Group
 - Bluray
+- TRaSH
 tests: []

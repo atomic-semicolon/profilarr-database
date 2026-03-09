@@ -1,0 +1,6 @@
+name: RTemp
+pattern: ^(RTemp)$
+description: ''
+tags:
+- TRaSH
+tests: []

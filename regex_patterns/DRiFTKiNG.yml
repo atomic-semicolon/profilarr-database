@@ -1,0 +1,6 @@
+name: DRiFTKiNG
+pattern: \b(DRiFTKiNG|DK)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+name: 3MINA
+pattern: ^(3MINA)$
+description: ''
+tags:
+- TRaSH
+tests: []

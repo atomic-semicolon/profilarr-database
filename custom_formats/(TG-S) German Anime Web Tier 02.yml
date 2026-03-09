@@ -1,0 +1,66 @@
+name: (TG-S) German Anime Web Tier 02
+description: "- **Source:** WEB-DL or high-quality WEBRip (from reputable sources).\n\
+  - **Video:** Untouched streams or high-quality encodes (preferably H.265/HEVC or\
+  \ H.264). Must be free of obvious artifacts (blocking, heavy noise) and maintain\
+  \ visual integrity.\n- **Audio:** Standard streams (AAC/E-AC3). Dual Audio or OmU\
+  \ accepted.\n- **QC & Features:**\n    - **Subtitles:** ASS or SRT included. Must\
+  \ be readable. If using SRT, correct encoding (UTF-8) is mandatory to avoid broken\
+  \ characters.\n    - **Chapters:** Basic markers are highly encouraged, but not\
+  \ strictly mandatory if the source lacks them.\n    - **Tags:** Proper filenames\
+  \ following scene or p2p \u201Cstandards\u201D. Correct language tags for audio\
+  \ and subtitle tracks are expected for player automation."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: ABJ
+  type: release_group
+  required: false
+  negate: false
+  pattern: ABJ
+- name: DRiFTKiNG
+  type: release_group
+  required: false
+  negate: false
+  pattern: DRiFTKiNG
+- name: VECTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: VECTOR
+- name: ZeroTwo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo
+- name: ZeroTwo Aliases
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo Aliases
+- name: SiXTYNiNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiXTYNiNE
+- name: AO
+  type: release_group
+  required: false
+  negate: false
+  pattern: AO
+- name: MELD
+  type: release_group
+  required: false
+  negate: false
+  pattern: MELD
+- name: WebDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WebRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

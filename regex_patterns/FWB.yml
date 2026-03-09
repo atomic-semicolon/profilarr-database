@@ -1,0 +1,6 @@
+name: FWB
+pattern: ^(FWB)$
+description: ''
+tags:
+- TRaSH
+tests: []

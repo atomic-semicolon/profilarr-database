@@ -1,0 +1,6 @@
+name: snk
+pattern: \b(snk|shw)\b
+description: ''
+tags:
+- TRaSH
+tests: []

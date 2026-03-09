@@ -1,0 +1,6 @@
+name: GSG9
+pattern: ^(GSG9)$
+description: ''
+tags:
+- TRaSH
+tests: []

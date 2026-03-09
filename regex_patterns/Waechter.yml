@@ -1,0 +1,6 @@
+name: Waechter
+pattern: ^(Waechter)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,89 @@
+name: (TG-R) German Anime Web Tier 01
+description: "- **Source:** WEB-DL (Lossless download from top providers like AMZN,\
+  \ CR, NF, ADN).\n- **Video:** Untouched Video Stream preferred. Always aim for the\
+  \ best available stream from the provider; note that the highest bitrate does not\
+  \ always equal the best visual quality. If encoded, it must have a good reason and\
+  \ be visually transparent or better (e.g. rescaling/filtering). There are few good\
+  \ reasons to reencode. Avoid fake 2160p/4K releases (especially from providers like\
+  \ Bilibili or iQIYI).\n- **Audio:** Best available bitrate from the provider. Dual\
+  \ Audio (GER+JPN) or OmU (Original with Subs) if no Dub exists.\n- **QC & Features:**\n\
+  \    - **Subtitles:** Format must be ASS/SSA. If source is VTT/TTML/SRT, it must\
+  \ be converted and properly styled (readable font, shadow/border). No raw text-based\
+  \ subs. If source is ASS, the subs should contain basic fixes like LayoutRes and\
+  \ set \u201CScaledBorderAndShadow: Yes\u201D. If the release contains a dub, forced\
+  \ and full subtitles should be included.\n    - **Chapters:** Mandatory. Named chapters\
+  \ preferred, but accurately generated markers are acceptable.\n    - **Tags:** Clean\
+  \ metadata, correct language codes. Should follow MKV best practices.\n    - **Fonts:**\
+  \ All used fonts must be attached. Attachment names should match the full font name\
+  \ (e.g., Times New Roman Bold.ttf instead of timesbd.ttf) to ensure maximum player\
+  \ compatibility."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Baka
+  type: release_group
+  required: false
+  negate: false
+  pattern: Baka
+- name: Pudding-sama
+  type: release_group
+  required: false
+  negate: false
+  pattern: Pudding-sama
+- name: RTemp
+  type: release_group
+  required: false
+  negate: false
+  pattern: RTemp
+- name: snk
+  type: release_group
+  required: false
+  negate: false
+  pattern: snk
+- name: Ainz
+  type: release_group
+  required: false
+  negate: false
+  pattern: Ainz
+- name: TvR
+  type: release_group
+  required: false
+  negate: false
+  pattern: TvR
+- name: Tanuki
+  type: release_group
+  required: false
+  negate: false
+  pattern: Tanuki
+- name: HiSHiRO
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiSHiRO
+- name: WeebPinn
+  type: release_group
+  required: false
+  negate: false
+  pattern: WeebPinn
+- name: Lynacchi
+  type: release_group
+  required: false
+  negate: false
+  pattern: Lynacchi
+- name: DRiFTKiNG
+  type: release_group
+  required: false
+  negate: false
+  pattern: DRiFTKiNG
+- name: WebDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WebRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
