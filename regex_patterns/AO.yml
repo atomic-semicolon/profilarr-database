@@ -1,0 +1,6 @@
+name: AO
+pattern: ^(AO)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,23 @@
+name: (TG-R) German Subbed
+description: Used to recognize German (and possibly English) subtitles.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: German Subbed
+  type: release_title
+  required: true
+  negate: false
+  pattern: German Subbed
+- name: Not German
+  type: language
+  required: true
+  negate: true
+  language: german
+  exceptLanguage: false
+- name: Not German Dubbed
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not German Dubbed
+tests: []

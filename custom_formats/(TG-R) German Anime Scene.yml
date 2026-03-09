@@ -1,0 +1,62 @@
+name: (TG-R) German Anime Scene
+description: Known German Scene groups (which are not defined as LQ).
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: ONiGiRi
+  type: release_group
+  required: false
+  negate: false
+  pattern: ONiGiRi
+- name: STARS
+  type: release_group
+  required: false
+  negate: false
+  pattern: STARS
+- name: DMPD
+  type: release_group
+  required: false
+  negate: false
+  pattern: DMPD
+- name: OHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: OHD
+- name: SAUERKRAUT
+  type: release_group
+  required: false
+  negate: false
+  pattern: SAUERKRAUT
+- name: 3MINA
+  type: release_group
+  required: false
+  negate: false
+  pattern: 3MINA
+- name: FWB
+  type: release_group
+  required: false
+  negate: false
+  pattern: FWB
+- name: BiGiNT
+  type: release_group
+  required: false
+  negate: false
+  pattern: BiGiNT
+- name: MRW
+  type: release_group
+  required: false
+  negate: false
+  pattern: MRW
+- name: GSG9
+  type: release_group
+  required: false
+  negate: false
+  pattern: GSG9
+- name: SoW
+  type: release_group
+  required: false
+  negate: false
+  pattern: SoW
+tests: []

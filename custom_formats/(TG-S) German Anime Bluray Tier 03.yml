@@ -1,0 +1,61 @@
+name: (TG-S) German Anime Bluray Tier 03
+description: "- **Source:** Direct Bluray Remux/BDMV, no Re-Encodes.\n- **Video:**\
+  \ No filtering/basic encode approach. Can be fine on clean discs, but commonly carries\
+  \ over BD flaws (banding, chroma shift, bad/absent decimation with duplicates, rescale\
+  \ issues). Encoding artifacts are typically only noticeable on closer inspection,\
+  \ but underlying source issues remain.\n- **Audio:** Typically original tracks (often\
+  \ bloated). Lossless-to-FLAC savings are usually not applied. Lossy audio remains\
+  \ untouched.\n- **QC & Features:**\n    - **Subtitles:** Raw BD-PGS common, limited\
+  \ typesetting, timing not optimized. Little/no OCR, little/no styling work.\n  \
+  \  - **Chapters:** May be missing or pass-through only.\n    - **Tags:** Messy or\
+  \ inconsistent naming/metadata more likely."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: SUBARU
+  type: release_group
+  required: false
+  negate: false
+  pattern: SUBARU
+- name: ATAX
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATAX
+- name: HDC
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDC
+- name: Mindus
+  type: release_group
+  required: false
+  negate: false
+  pattern: Mindus
+- name: 4Baka
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4Baka
+- name: W33BSHiT
+  type: release_group
+  required: false
+  negate: false
+  pattern: W33BSHiT
+- name: AST4u
+  type: release_group
+  required: false
+  negate: false
+  pattern: AST4u
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not REMUX
+  type: source
+  required: true
+  negate: true
+  source: bluray_raw
+tests: []

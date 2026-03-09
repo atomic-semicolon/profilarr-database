@@ -1,0 +1,6 @@
+name: MRW
+pattern: ^(MRW)$
+description: ''
+tags:
+- TRaSH
+tests: []

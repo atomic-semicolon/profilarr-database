@@ -1,0 +1,6 @@
+name: SUBARU
+pattern: ^(SUBARU)$
+description: ''
+tags:
+- TRaSH
+tests: []

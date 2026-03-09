@@ -220,4 +220,9 @@ conditions:
   required: false
   negate: false
   pattern: FRAGGERS
+- name: SD7
+  type: release_group
+  required: false
+  negate: false
+  pattern: SD7
 tests: []

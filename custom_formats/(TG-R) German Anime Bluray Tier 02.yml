@@ -1,0 +1,55 @@
+name: (TG-R) German Anime Bluray Tier 02
+description: "- **Source:** Direct Bluray Remux/BDMV, no Re-Encodes.\n- **Video:**\
+  \ Casual filtering (debanding, de-/regraining, anti-aliasing, dehaloing). Improvements\
+  \ are visible, but the release typically does not (consistently) address heavier\
+  \ BD issues like chroma shift, bad decimation/duplicate-frame patterns, or rescale\
+  \ problems.\n- **Audio:** Lossless may be kept as-is or converted losslessly to\
+  \ FLAC. Lossy audio is not re-encoded.\n- **QC & Features:**\n    - **Subtitles:**\
+  \ OCR'd BD subs or Web-subs included, basic readability styling expected. Raw PGS\
+  \ is acceptable. Fonts may or may not be attached.\n    - **Chapters:** Usually\
+  \ present, can be basic.\n    - **Tags:** Mostly correct, occasional inconsistencies."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: ABJ
+  type: release_group
+  required: false
+  negate: false
+  pattern: ABJ
+- name: VECTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: VECTOR
+- name: ZeroTwo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo
+- name: ZeroTwo Aliases
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo Aliases
+- name: SiXTYNiNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiXTYNiNE
+- name: PHM
+  type: release_group
+  required: false
+  negate: false
+  pattern: PHM
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not REMUX
+  type: source
+  required: true
+  negate: true
+  source: dvd
+tests: []

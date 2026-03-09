@@ -1,0 +1,6 @@
+name: SoW
+pattern: ^(SoW)$
+description: ''
+tags:
+- TRaSH
+tests: []

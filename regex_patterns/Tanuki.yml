@@ -1,0 +1,6 @@
+name: Tanuki
+pattern: ^(Tanuki)$
+description: ''
+tags:
+- TRaSH
+tests: []

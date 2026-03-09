@@ -1,0 +1,67 @@
+name: (TG-S) German Anime Web Tier 03
+description: "- **Source:** WEB-DLs or WEBRip from less reliable providers or inconsistent\
+  \ releases from groups lacking commitment.\n- **Video:** Functional, but often lacks\
+  \ consistency across different episodes/seasons. Encoding artifacts are only visible\
+  \ upon close inspection.\n- **QC & Features:**\n    - **Subtitles:** SRT/ASS included.\n\
+  \    - **Chapters:** Missing entirely.\n    - **Tags:** Messy or incomplete tags\
+  \ and filenames."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: SUBARU
+  type: release_group
+  required: false
+  negate: false
+  pattern: SUBARU
+- name: ATAX
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATAX
+- name: HDC
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDC
+- name: Mindus
+  type: release_group
+  required: false
+  negate: false
+  pattern: Mindus
+- name: W33BSHiT
+  type: release_group
+  required: false
+  negate: false
+  pattern: W33BSHiT
+- name: Fuuko
+  type: release_group
+  required: false
+  negate: false
+  pattern: Fuuko
+- name: Waechter
+  type: release_group
+  required: false
+  negate: false
+  pattern: Waechter
+- name: Otaku
+  type: release_group
+  required: false
+  negate: false
+  pattern: Otaku
+- name: 4Baka
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4Baka
+- name: WebDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WebRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

@@ -1,0 +1,31 @@
+name: (TG-R) Not German, Japanese or English
+description: Used to avoid releases which do not contain German, Japanese or English
+  audio.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Not English Language
+  type: language
+  required: true
+  negate: true
+  language: english
+  exceptLanguage: false
+- name: Not Japanese Language
+  type: language
+  required: true
+  negate: true
+  language: japanese
+  exceptLanguage: false
+- name: Not German Language
+  type: language
+  required: true
+  negate: true
+  language: german
+  exceptLanguage: false
+- name: Not German in Title
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not German in Title
+tests: []
