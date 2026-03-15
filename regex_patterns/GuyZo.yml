@@ -1,0 +1,6 @@
+name: GuyZo
+pattern: ^(GuyZo|BR-GuyZo)$|\b(GuyZo|BR-GuyZo)\b
+description: ''
+tags:
+- TRaSH
+tests: []
