@@ -23,6 +23,11 @@ conditions:
   required: false
   negate: false
   pattern: Flights
+- name: GuyZo
+  type: release_group
+  required: false
+  negate: false
+  pattern: GuyZo
 - name: SasukeducK
   type: release_group
   required: false

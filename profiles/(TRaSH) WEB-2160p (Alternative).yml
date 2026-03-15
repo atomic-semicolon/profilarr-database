@@ -46,21 +46,6 @@ custom_formats_sonarr:
   score: 1600
 custom_formats_radarr: []
 qualities:
-- name: SDTV
-  id: 24
-- name: DVD
-  id: 22
-- name: Bluray-480p
-  id: 18
-- name: WEB 480p
-  qualities:
-  - id: 20
-    name: WEBRip-480p
-  - id: 19
-    name: WEBDL-480p
-  id: -4
-- name: Bluray-576p
-  id: 17
 - name: HDTV-720p
   id: 16
 - name: Bluray-720p
@@ -76,6 +61,8 @@ qualities:
   id: 12
 - name: Bluray-1080p
   id: 10
+- name: Bluray-2160p
+  id: 4
 - name: WEB 1080p
   qualities:
   - id: 11
@@ -83,8 +70,6 @@ qualities:
   - id: 9
     name: WEBDL-1080p
   id: -2
-- name: Bluray-2160p
-  id: 4
 - name: WEB 2160p
   qualities:
   - id: 6
