@@ -9,4 +9,9 @@ conditions:
   required: true
   negate: false
   pattern: v2
+- name: Not Higher Versions
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Higher Versions
 tests: []

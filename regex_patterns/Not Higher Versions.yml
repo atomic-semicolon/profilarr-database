@@ -1,0 +1,6 @@
+name: Not Higher Versions
+pattern: (\b|\d)(v[4])\b|\b((repack|proper)3)\b|\bREAL\.(REAL\.)(PROPER|REPACK)\b|(\b|\d)(v[3-4])\b|\b((repack|proper)[23])\b|\bREAL\.(REAL\.)?(PROPER|REPACK)\b
+description: ''
+tags:
+- TRaSH
+tests: []
