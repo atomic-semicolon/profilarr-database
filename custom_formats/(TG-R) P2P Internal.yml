@@ -1,0 +1,17 @@
+name: (TG-R) P2P Internal
+description: 'This Custom Format matches on the Internal Indexer flag that some trackers
+  use to promote their own internal releases. You can use this Custom Format to favor
+  their internal releases, or, when the same release exists on multiple trackers,
+  it will prefer the release from the home tracker.
+
+  For this to work, the tracker must support the Internal Indexer flag!'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Internal
+  type: indexer_flag
+  required: false
+  negate: false
+  indexerFlag: internal
+tests: []
