@@ -86,8 +86,6 @@ custom_formats_radarr:
 - name: (TG-R) Wrong Language
   score: -10000
 qualities:
-- name: Remux-1080p
-  id: 8
 - name: Bluray|WEB-1080p
   qualities:
   - id: 10
