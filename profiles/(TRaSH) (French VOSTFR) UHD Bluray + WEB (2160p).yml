@@ -84,7 +84,7 @@ custom_formats_sonarr:
   score: 75
 - name: (TG-S) AUViO
   score: 0
-- name: (TG-S) MyCanal
+- name: (TG-S) MyCANAL
   score: 0
 - name: (TG-S) SALTO
   score: 0
