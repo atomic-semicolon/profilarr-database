@@ -13,7 +13,7 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr: []
 custom_formats_radarr:
-- name: (TG-R) TrueHD Atmos
+- name: (TG-R) TrueHD ATMOS
   score: 5000
 - name: (TG-R) DTS X
   score: 4500

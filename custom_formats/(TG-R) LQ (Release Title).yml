@@ -37,6 +37,11 @@ conditions:
   required: false
   negate: false
   pattern: GalaxyRG
+- name: HHWEB (No MA)
+  type: release_title
+  required: false
+  negate: false
+  pattern: HHWEB (No MA)
 - name: jennaortega
   type: release_title
   required: false
