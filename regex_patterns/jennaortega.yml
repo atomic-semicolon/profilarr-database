@@ -1,5 +1,5 @@
 name: jennaortega
-pattern: ^(jennaortega(UHD)?)$|(?<!-)\b(jennaortega(UHD)?)\b
+pattern: (?<!-)\b(jennaortega(UHD)?)\b|^(jennaortega(UHD)?)$
 description: ''
 tags:
 - TRaSH
