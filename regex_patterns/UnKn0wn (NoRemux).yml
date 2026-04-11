@@ -1,0 +1,6 @@
+name: UnKn0wn (NoRemux)
+pattern: (?<!\b(remux).*?)\b(unkn0wn)\b
+description: ''
+tags:
+- TRaSH
+tests: []

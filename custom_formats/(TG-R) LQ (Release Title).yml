@@ -72,6 +72,11 @@ conditions:
   required: false
   negate: false
   pattern: TEKNO3D
+- name: UnKn0wn (NoRemux)
+  type: release_title
+  required: false
+  negate: false
+  pattern: UnKn0wn (NoRemux)
 - name: Will1869
   type: release_title
   required: false
