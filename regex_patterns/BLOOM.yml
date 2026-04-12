@@ -1,6 +1,8 @@
 name: BLOOM
-pattern: ^(BLOOM)$
+pattern: (?<=^|[\s.-])BLOOM\b|^(BLOOM)$
 description: ''
 tags:
+- Release Group
+- WEB-DL
 - TRaSH
 tests: []

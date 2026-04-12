@@ -1,6 +1,8 @@
 name: SEV
-pattern: \b(SEV)\b
+pattern: (?<=^|[\s.-])(SEV|D0ct0rLew|Kira)\b|\b(SEV)\b
 description: ''
 tags:
+- Release Group
+- HEVC
 - TRaSH
 tests: []
