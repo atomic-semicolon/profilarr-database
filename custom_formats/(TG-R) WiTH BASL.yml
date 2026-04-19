@@ -1,0 +1,18 @@
+name: (TG-R) WiTH BASL
+description: 'BASL (Black American Sign Language) is a distinct dialect of ASL (American
+  Sign Language) used primarily by Black Deaf Americans, originating from segregated
+  schools in the South. It is characterized by a larger signing space, increased use
+  of two-handed signs, higher placement of signs (near the forehead), and greater
+  emotional expressiveness compared to mainstream ASL.
+
+  [From Wikipedia, the free encyclopedia](<https://en.wikipedia.org/wiki/Black_American_Sign_Language>)'
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: Black American Sign Language
+  type: release_title
+  required: true
+  negate: false
+  pattern: Black American Sign Language
+tests: []
