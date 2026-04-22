@@ -1,0 +1,84 @@
+name: (TRaSH) Base Profile
+description: This is a base profile that we use for testing
+tags:
+- TRaSH
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats: []
+custom_formats_sonarr:
+- name: (TG-S) BR-DISK
+  score: -10000
+- name: (TG-S) LQ
+  score: -10000
+- name: (TG-S) LQ (Release Title)
+  score: -10000
+- name: (TG-S) Extras
+  score: -10000
+- name: (TG-S) BR-DISK (BTN)
+  score: -10000
+custom_formats_radarr:
+- name: (TG-R) BR-DISK
+  score: -10000
+- name: (TG-R) LQ
+  score: -10000
+- name: (TG-R) LQ (Release Title)
+  score: -10000
+- name: (TG-R) Extras
+  score: -10000
+qualities:
+- name: SDTV
+  id: 24
+- name: WEBDL-480p | WEBRip-480p
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  id: -4
+- name: Bluray-480p
+  id: 18
+- name: Bluray-576p
+  id: 17
+- name: HDTV-720p
+  id: 16
+- name: HDTV-1080p
+  id: 12
+- name: WEBDL-720p | WEBRip-720p
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  id: -3
+- name: Bluray-720p
+  id: 13
+- name: WEBDL-1080p | WEBRip-1080p
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  id: -2
+- name: Bluray-1080p
+  id: 10
+- name: Bluray-1080p Remux
+  id: 8
+- name: HDTV-2160p
+  id: 7
+- name: WEBDL-2160p | WEBRip-2160p
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  id: -1
+- name: Bluray-2160p
+  id: 4
+- name: Bluray-2160p Remux
+  id: 3
+upgrade_until:
+  id: 3
+  name: Bluray-2160p Remux
+language: must_original

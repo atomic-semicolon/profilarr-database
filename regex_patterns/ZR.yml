@@ -1,5 +1,5 @@
 name: ZR
-pattern: (?<=^|[\s.-])ZR\b|\b(ZR)\b|-ZR-
+pattern: (?<=^|[\s.-])ZR\b|\b(ZR)\b|\b(ZR)\b|-ZR-
 description: ''
 tags:
 - Release Group
