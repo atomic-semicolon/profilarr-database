@@ -30,10 +30,10 @@ conditions:
   required: false
   type: release_group
 - name: BLASPHEMY
-  type: release_group
-  required: false
   negate: false
   pattern: BLASPHEMY
+  required: false
+  type: release_group
 - name: BOLS
   negate: false
   pattern: BOLS
@@ -127,11 +127,6 @@ conditions:
 - name: OEPlus
   negate: false
   pattern: OEPlus
-  required: false
-  type: release_group
-- name: PiRaTeS
-  negate: false
-  pattern: PiRaTeS
   required: false
   type: release_group
 - name: RARBG

@@ -255,6 +255,8 @@ custom_formats:
 custom_formats_radarr:
 - name: 2160p Balanced Tier 1
   score: 462000
+- name: HONE Blurays
+  score: 462000
 - name: 2160p Balanced Tier 2
   score: 461000
 - name: 2160p Balanced Tier 3
@@ -299,6 +301,8 @@ custom_formats_radarr:
   score: -999999
 custom_formats_sonarr:
 - name: 2160p Balanced Tier 1
+  score: 464000
+- name: HONE Blurays
   score: 464000
 - name: DSNP
   score: 3000

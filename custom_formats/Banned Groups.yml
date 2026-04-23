@@ -149,11 +149,6 @@ conditions:
   pattern: OEPlus
   required: false
   type: release_group
-- name: PiRaTeS
-  negate: false
-  pattern: PiRaTeS
-  required: false
-  type: release_group
 - name: PSA
   negate: false
   pattern: PSA
