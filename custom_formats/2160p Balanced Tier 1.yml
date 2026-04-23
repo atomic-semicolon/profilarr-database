@@ -16,10 +16,10 @@ conditions:
   source: bluray
   type: source
 - name: HONE
+  type: release_group
+  required: false
   negate: false
   pattern: HONE
-  required: false
-  type: release_title
 tests:
 - conditionResults:
   - matches: true
