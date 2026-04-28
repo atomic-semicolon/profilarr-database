@@ -60,18 +60,6 @@ custom_formats_sonarr:
   score: 6
 - name: (TG-S) Repack3
   score: 7
-- name: (TG-S) BR-DISK
-  score: -35000
-- name: (TG-S) LQ
-  score: -35000
-- name: (TG-S) LQ (Release Title)
-  score: -35000
-- name: (TG-S) Extras
-  score: -35000
-- name: (TG-S) AV1
-  score: -35000
-- name: (TG-S) Upscaled
-  score: -35000
 custom_formats_radarr: []
 qualities:
 - name: Merged QPs

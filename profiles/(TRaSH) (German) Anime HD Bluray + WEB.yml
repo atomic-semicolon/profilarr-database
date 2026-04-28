@@ -64,18 +64,6 @@ custom_formats_sonarr:
   score: 6
 - name: (TG-S) Repack3
   score: 7
-- name: (TG-S) BR-DISK
-  score: -35000
-- name: (TG-S) LQ
-  score: -35000
-- name: (TG-S) LQ (Release Title)
-  score: -35000
-- name: (TG-S) Extras
-  score: -35000
-- name: (TG-S) AV1
-  score: -35000
-- name: (TG-S) Upscaled
-  score: -35000
 - name: (TG-S) Anime BD Tier 01
   score: 1400
 - name: (TG-S) Anime BD Tier 02
@@ -213,20 +201,6 @@ custom_formats_radarr:
   score: 6
 - name: (TG-R) Repack3
   score: 7
-- name: (TG-R) BR-DISK
-  score: -35000
-- name: (TG-R) Generated Dynamic HDR
-  score: -10000
-- name: (TG-R) LQ
-  score: -35000
-- name: (TG-R) LQ (Release Title)
-  score: -35000
-- name: (TG-R) 3D
-  score: -35000
-- name: (TG-R) Extras
-  score: -35000
-- name: (TG-R) AV1
-  score: -35000
 - name: (TG-R) Anime BD Tier 01
   score: 1400
 - name: (TG-R) Anime BD Tier 02
