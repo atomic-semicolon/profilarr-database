@@ -8,22 +8,10 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr:
-- name: (TG-S) BR-DISK
-  score: -10000
-- name: (TG-S) LQ
-  score: -10000
-- name: (TG-S) LQ (Release Title)
-  score: -10000
 - name: (TG-S) Extras
-  score: -10000
-- name: (TG-S) BR-DISK (BTN)
   score: -10000
 custom_formats_radarr:
 - name: (TG-R) BR-DISK
-  score: -10000
-- name: (TG-R) LQ
-  score: -10000
-- name: (TG-R) LQ (Release Title)
   score: -10000
 - name: (TG-R) Extras
   score: -10000

@@ -31,22 +31,6 @@ custom_formats_radarr:
   score: 6
 - name: (TG-R) Repack3
   score: 7
-- name: (TG-R) BR-DISK
-  score: -10000
-- name: (TG-R) Generated Dynamic HDR
-  score: -10000
-- name: (TG-R) LQ
-  score: -10000
-- name: (TG-R) LQ (Release Title)
-  score: -10000
-- name: (TG-R) 3D
-  score: -10000
-- name: (TG-R) Extras
-  score: -10000
-- name: (TG-R) Sing-Along Versions
-  score: -10000
-- name: (TG-R) AV1
-  score: -10000
 qualities:
 - name: WEB 1080p
   qualities:

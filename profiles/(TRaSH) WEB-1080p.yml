@@ -10,24 +10,12 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_sonarr:
-- name: (TG-S) BR-DISK
-  score: -10000
-- name: (TG-S) LQ
-  score: -10000
-- name: (TG-S) LQ (Release Title)
-  score: -10000
-- name: (TG-S) Extras
-  score: -10000
-- name: (TG-S) AV1
-  score: -10000
 - name: (TG-S) Repack&Proper
   score: 5
 - name: (TG-S) Repack2
   score: 6
 - name: (TG-S) Repack3
   score: 7
-- name: (TG-S) HD Streaming Boost
-  score: 75
 - name: (TG-S) WEB Tier 01
   score: 1700
 - name: (TG-S) WEB Tier 02

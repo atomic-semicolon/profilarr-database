@@ -65,8 +65,6 @@ custom_formats_radarr:
   score: 7
 - name: (TG-R) BR-DISK
   score: -10000
-- name: (TG-R) Generated Dynamic HDR
-  score: -10000
 - name: (TG-R) LQ
   score: -10000
 - name: (TG-R) LQ (Release Title)

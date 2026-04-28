@@ -69,22 +69,6 @@ custom_formats_radarr:
   score: 6
 - name: (TG-R) Repack3
   score: 7
-- name: (TG-R) BR-DISK
-  score: -35000
-- name: (TG-R) Generated Dynamic HDR
-  score: -10000
-- name: (TG-R) LQ
-  score: -35000
-- name: (TG-R) LQ (Release Title)
-  score: -35000
-- name: (TG-R) 3D
-  score: -35000
-- name: (TG-R) Upscaled
-  score: -35000
-- name: (TG-R) Extras
-  score: -35000
-- name: (TG-R) AV1
-  score: -35000
 qualities:
 - name: Merged QPs
   qualities:
