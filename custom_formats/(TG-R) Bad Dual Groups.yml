@@ -39,6 +39,11 @@ conditions:
   required: false
   negate: false
   pattern: Cory
+- name: EniaHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: EniaHD
 - name: EXTREME
   type: release_group
   required: false
