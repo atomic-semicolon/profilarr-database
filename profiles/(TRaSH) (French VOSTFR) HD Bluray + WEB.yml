@@ -29,6 +29,8 @@ custom_formats_radarr:
   score: 0
 - name: (TG-R) VFB
   score: 0
+- name: (TG-R) VOSTFR
+  score: 1000
 - name: '(TG-R) Language: Not Original'
   score: -10000
 - name: '(TG-R) Language: Not French'

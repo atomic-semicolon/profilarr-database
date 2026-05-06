@@ -28,6 +28,8 @@ custom_formats_sonarr:
   score: 0
 - name: (TG-S) VFB
   score: 0
+- name: (TG-S) VOSTFR
+  score: 1000
 - name: '(TG-S) Language: Not Original'
   score: -10000
 - name: '(TG-S) Language: Not French'
