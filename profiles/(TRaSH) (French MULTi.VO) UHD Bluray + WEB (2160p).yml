@@ -36,8 +36,6 @@ custom_formats_sonarr:
   score: 500
 - name: (TG-S) MULTi
   score: 0
-- name: (TG-S) FR LQ
-  score: -10000
 - name: (TG-S) FastSUB
   score: -10000
 - name: (TG-S) FR HD Bluray Tier 01
@@ -62,16 +60,6 @@ custom_formats_sonarr:
   score: 1600
 - name: (TG-S) WEB Scene
   score: 1600
-- name: (TG-S) BR-DISK
-  score: -10000
-- name: (TG-S) LQ
-  score: -10000
-- name: (TG-S) LQ (Release Title)
-  score: -10000
-- name: (TG-S) Extras
-  score: -10000
-- name: (TG-S) AV1
-  score: -10000
 - name: (TG-S) Repack&Proper
   score: 5
 - name: (TG-S) Repack2
