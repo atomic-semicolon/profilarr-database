@@ -1,5 +1,6 @@
 name: (TG-S) BR-DISK (BTN)
-description: br-disk-btn
+description: This Custom Format works the same as the BR-DISK Custom Format, but is
+  specific to a tracker called BTN.
 tags:
 - TRaSH
 - Sonarr Only
