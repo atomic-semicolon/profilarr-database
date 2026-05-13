@@ -1,6 +1,5 @@
 name: (TG-S) Not German, Japanese, Korean, Chinese or English
-description: Used to avoid releases which do not contain German, Japanese, Korean,
-  Chinese or English audio.
+description: not-german-japanese-korean-chinese-or-english
 tags:
 - TRaSH
 - Sonarr Only

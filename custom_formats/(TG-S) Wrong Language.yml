@@ -1,4 +1,4 @@
-name: (TG-R) Wrong Language
+name: (TG-S) Wrong Language
 description: 'This Custom Format checks if the release is in the original language.
   If it is not, it gets tagged as Wrong Language.
 
@@ -6,7 +6,7 @@ description: 'This Custom Format checks if the release is in the original langua
   data.'
 tags:
 - TRaSH
-- Radarr Only
+- Sonarr Only
 conditions:
 - name: Wrong Language
   type: language

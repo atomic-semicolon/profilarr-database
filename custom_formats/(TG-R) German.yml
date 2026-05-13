@@ -1,7 +1,5 @@
 name: (TG-R) German
-description: This custom format helps Radarr/Sonarr recognize German audio releases
-  that contain only a German language track and no others. It will add `German` to
-  your filename.
+description: german
 tags:
 - TRaSH
 - Radarr Only
