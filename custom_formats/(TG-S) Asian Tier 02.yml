@@ -1,0 +1,22 @@
+name: (TG-S) Asian Tier 02
+description: asian-tier-02
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: PandaMoon
+  type: release_group
+  required: false
+  negate: false
+  pattern: PandaMoon
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

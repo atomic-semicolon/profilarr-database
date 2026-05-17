@@ -10,11 +10,7 @@ custom_formats: []
 custom_formats_sonarr:
 - name: (TG-S) Extras
   score: -10000
-custom_formats_radarr:
-- name: (TG-R) BR-DISK
-  score: -10000
-- name: (TG-R) Extras
-  score: -10000
+custom_formats_radarr: []
 qualities:
 - name: SDTV
   id: 24

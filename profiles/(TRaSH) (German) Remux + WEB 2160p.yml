@@ -43,14 +43,6 @@ custom_formats_radarr:
   score: 1800
 - name: (TG-R) German Scene
   score: 1700
-- name: (TG-R) German LQ
-  score: -35000
-- name: (TG-R) German LQ (release title)
-  score: -35000
-- name: (TG-R) German Microsized
-  score: -35000
-- name: (TG-R) Line&Mic Dubbed
-  score: -35000
 - name: (TG-R) Remux Tier 01
   score: 1950
 - name: (TG-R) Remux Tier 02

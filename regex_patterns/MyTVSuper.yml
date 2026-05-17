@@ -1,0 +1,6 @@
+name: MyTVSuper
+pattern: \b(MyTVSuper)\b
+description: ''
+tags:
+- TRaSH
+tests: []

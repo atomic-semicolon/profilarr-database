@@ -1,0 +1,27 @@
+name: (TG-R) WAVVE
+description: "Wavve is a South Korean subscription streaming service operated by SK\
+  \ Telecom, offering TV dramas, variety shows, films, documentaries, animations,\
+  \ and sports. It was launched in September 2019 as a joint venture between SK Telecom\
+  \ and South Korea's three major broadcasters \u2014 KBS, MBC, and SBS. Wavve has\
+  \ received approval to merge with fellow Korean streaming service TVING.\nFor more\
+  \ information, visit the [Wavve Wikipedia page](https://en.wikipedia.org/wiki/Wavve)."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: WAVVE
+  type: release_title
+  required: true
+  negate: false
+  pattern: WAVVE
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

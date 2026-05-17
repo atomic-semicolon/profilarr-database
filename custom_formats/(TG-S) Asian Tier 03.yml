@@ -1,0 +1,47 @@
+name: (TG-S) Asian Tier 03
+description: asian-tier-03
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: ADWeb
+  type: release_group
+  required: false
+  negate: false
+  pattern: ADWeb
+- name: CHDWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: CHDWEB
+- name: HDCTV
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDCTV
+- name: HHWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HHWEB
+- name: OurTV
+  type: release_group
+  required: false
+  negate: false
+  pattern: OurTV
+- name: SHiNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SHiNE
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

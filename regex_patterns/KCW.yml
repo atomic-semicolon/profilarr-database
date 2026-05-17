@@ -1,5 +1,5 @@
 name: KCW
-pattern: \b(KCW|Kocowa)\b
+pattern: \b(KCW|Kocowa)\b|\b(KCW|KOCOWA)\b
 description: Kocowa is an American over-the-top streaming service headquartered in
   Los Angeles as a joint venture between the top three Korean broadcast networks to
   provide Korean entertainment including K-dramas, K-reality, K-variety, and K-pop
@@ -7,4 +7,5 @@ description: Kocowa is an American over-the-top streaming service headquartered 
 tags:
 - Streaming Service
 - WEB-DL
+- TRaSH
 tests: []

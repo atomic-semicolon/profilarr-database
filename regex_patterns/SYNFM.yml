@@ -1,0 +1,6 @@
+name: SYNFM
+pattern: ^(SYNFM)$
+description: ''
+tags:
+- TRaSH
+tests: []

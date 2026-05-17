@@ -1,0 +1,6 @@
+name: WAVVE
+pattern: \b(WAVVE)\b
+description: ''
+tags:
+- TRaSH
+tests: []

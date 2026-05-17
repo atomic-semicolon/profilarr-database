@@ -39,10 +39,6 @@ custom_formats_radarr:
   score: -10000
 - name: (TG-R) 3D
   score: -10000
-- name: (TG-R) Extras
-  score: -10000
-- name: (TG-R) Sing-Along Versions
-  score: -10000
 - name: (TG-R) AV1
   score: -10000
 - name: (TG-R) 1080p

@@ -1,0 +1,6 @@
+name: NEXT
+pattern: ^(NEXT)$
+description: ''
+tags:
+- TRaSH
+tests: []

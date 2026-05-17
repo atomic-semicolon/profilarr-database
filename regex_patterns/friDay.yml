@@ -1,0 +1,6 @@
+name: friDay
+pattern: \b(friDay)\b
+description: ''
+tags:
+- TRaSH
+tests: []

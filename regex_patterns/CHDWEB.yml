@@ -1,0 +1,6 @@
+name: CHDWEB
+pattern: ^(CHDWEB)$
+description: ''
+tags:
+- TRaSH
+tests: []

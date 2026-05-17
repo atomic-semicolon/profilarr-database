@@ -1,0 +1,6 @@
+name: LINETV
+pattern: \b(LINETV)\b
+description: ''
+tags:
+- TRaSH
+tests: []

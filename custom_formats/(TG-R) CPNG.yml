@@ -1,0 +1,25 @@
+name: (TG-R) CPNG
+description: "Coupang Play is a South Korean streaming service launched by Coupang\
+  \ in December 2020. It offers movies, dramas, variety shows, and live sports \u2014\
+  \ including the Premier League, NBA, and more. It is included with Coupang's Rocket\
+  \ Wow membership.\nFor more information, visit the [Coupang Play Wikipedia page](https://en.wikipedia.org/wiki/Coupang_Play)."
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: CPNG
+  type: release_title
+  required: true
+  negate: false
+  pattern: CPNG
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

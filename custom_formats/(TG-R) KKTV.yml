@@ -1,0 +1,26 @@
+name: (TG-R) KKTV
+description: KKTV is a Taiwanese streaming service offering dramas, films, and anime
+  from Taiwan, Japan, South Korea, Thailand, and Hong Kong, as well as original series.
+  It was founded in 2016 and is based in Taipei, Taiwan. It is especially known for
+  offering the latest Japanese dramas, with some released within hours or days of
+  their premiere in Japan. In November 2025, KKTV merged with LINE TV.
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: KKTV
+  type: release_title
+  required: true
+  negate: false
+  pattern: KKTV
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

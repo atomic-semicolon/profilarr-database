@@ -1,0 +1,6 @@
+name: ADWeb
+pattern: ^(ADWeb)$
+description: ''
+tags:
+- TRaSH
+tests: []

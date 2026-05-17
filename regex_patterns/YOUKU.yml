@@ -1,0 +1,6 @@
+name: YOUKU
+pattern: \b(YOUKU)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,43 @@
+name: (TG-S) Asian LQ
+description: A collection of Asian release groups that either do not provide subtitles
+  or are groups that cause issues during importing.
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: AppleTor
+  type: release_group
+  required: false
+  negate: false
+  pattern: AppleTor
+- name: Luvmichelle
+  type: release_group
+  required: false
+  negate: false
+  pattern: Luvmichelle
+- name: MagicStar
+  type: release_group
+  required: false
+  negate: false
+  pattern: MagicStar
+- name: NEXT
+  type: release_group
+  required: false
+  negate: false
+  pattern: NEXT
+- name: Taengoo
+  type: release_group
+  required: false
+  negate: false
+  pattern: Taengoo
+- name: unco
+  type: release_group
+  required: false
+  negate: false
+  pattern: unco
+- name: unco@AvistaZ
+  type: release_group
+  required: false
+  negate: false
+  pattern: unco@AvistaZ
+tests: []

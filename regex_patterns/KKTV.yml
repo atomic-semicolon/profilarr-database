@@ -1,0 +1,6 @@
+name: KKTV
+pattern: \b(KKTV)\b
+description: ''
+tags:
+- TRaSH
+tests: []
