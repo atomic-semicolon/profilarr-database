@@ -1,0 +1,6 @@
+name: HDCTV
+pattern: ^(HDCTV)$
+description: ''
+tags:
+- TRaSH
+tests: []

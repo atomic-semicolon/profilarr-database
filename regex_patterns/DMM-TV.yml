@@ -1,0 +1,6 @@
+name: DMM-TV
+pattern: \b(DMM-TV)\b
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -1,0 +1,27 @@
+name: (TG-S) iQIY
+description: 'iQIYI is a Chinese streaming service offering a wide range of Asian
+  content, including Chinese dramas, anime, variety shows, and original movies. Initially
+  available only in China, it has since expanded to international viewers. It is owned
+  by Baidu and is one of the largest online video platforms in the world.
+
+  For more information, visit the [iQIYI Wikipedia page](https://en.wikipedia.org/wiki/IQIYI).'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: iQIY
+  type: release_title
+  required: true
+  negate: false
+  pattern: iQIY
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

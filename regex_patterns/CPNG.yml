@@ -1,0 +1,6 @@
+name: CPNG
+pattern: \b(CPNG)\b
+description: ''
+tags:
+- TRaSH
+tests: []

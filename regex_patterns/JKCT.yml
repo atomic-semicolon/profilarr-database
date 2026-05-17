@@ -1,0 +1,6 @@
+name: JKCT
+pattern: ^(JKCT)$
+description: ''
+tags:
+- TRaSH
+tests: []

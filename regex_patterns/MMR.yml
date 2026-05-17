@@ -1,0 +1,6 @@
+name: MMR
+pattern: ^(MMR)$
+description: ''
+tags:
+- TRaSH
+tests: []

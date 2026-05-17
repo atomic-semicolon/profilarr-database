@@ -1,0 +1,29 @@
+name: (TG-S) WETV
+description: 'WeTV is the international version of Tencent Video, a Chinese streaming
+  service owned by Tencent. It was launched in 2018 and offers Chinese, Korean, Thai,
+  and Japanese dramas, movies, anime, and original productions. It serves content
+  from various Asian countries, including Indonesia, Korea, Thailand, Malaysia, the
+  Philippines, and Japan, and also produces local original content in the regions
+  where it operates.
+
+  For more information, visit the [Tencent Video Wikipedia page](https://en.wikipedia.org/wiki/Tencent_Video).'
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: WETV
+  type: release_title
+  required: true
+  negate: false
+  pattern: WETV
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

@@ -31,8 +31,6 @@ custom_formats_radarr:
   score: 6
 - name: (TG-R) Repack3
   score: 7
-- name: (TG-R) BR-DISK
-  score: -10000
 qualities:
 - name: WEB 2160p
   qualities:

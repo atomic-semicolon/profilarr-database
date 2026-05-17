@@ -1,5 +1,5 @@
 name: HBO
-pattern: \b(hbo)(?![ ._-]max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+pattern: \b(hbo)(?![ ._-]max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)|^(HBO)$
 description: ''
 tags:
 - TRaSH

@@ -1,0 +1,6 @@
+name: ECLiPSE
+pattern: ^(ECLiPSE)$
+description: ''
+tags:
+- TRaSH
+tests: []

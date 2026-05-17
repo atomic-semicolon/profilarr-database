@@ -1,0 +1,6 @@
+name: MagicStar
+pattern: ^(MagicStar)$
+description: ''
+tags:
+- TRaSH
+tests: []

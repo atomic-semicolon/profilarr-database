@@ -42,12 +42,6 @@ custom_formats_sonarr:
   score: 1800
 - name: (TG-S) German Anime Scene
   score: 1700
-- name: (TG-S) German LQ
-  score: -35000
-- name: (TG-S) German LQ (release title)
-  score: -35000
-- name: (TG-S) German Microsized
-  score: -35000
 - name: (TG-S) HD Bluray Tier 01
   score: 1050
 - name: (TG-S) HD Bluray Tier 02
@@ -175,14 +169,6 @@ custom_formats_radarr:
   score: 1800
 - name: (TG-R) German Anime Scene
   score: 1700
-- name: (TG-R) German LQ
-  score: -35000
-- name: (TG-R) German LQ (release title)
-  score: -35000
-- name: (TG-R) German Microsized
-  score: -35000
-- name: (TG-R) Line&Mic Dubbed
-  score: -35000
 - name: (TG-R) HD Bluray Tier 01
   score: 1050
 - name: (TG-R) HD Bluray Tier 02
