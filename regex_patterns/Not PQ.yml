@@ -1,0 +1,6 @@
+name: Not PQ
+pattern: \b(PQ)\b
+description: ''
+tags:
+- TRaSH
+tests: []
