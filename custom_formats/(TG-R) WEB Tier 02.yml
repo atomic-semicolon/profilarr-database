@@ -8,16 +8,6 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: WEBDL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRIP
-  type: source
-  required: false
-  negate: false
-  source: webrip
 - name: dB
   type: release_group
   required: false
@@ -73,4 +63,14 @@ conditions:
   required: false
   negate: false
   pattern: XEBEC
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests: []

@@ -12,16 +12,6 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: WEBDL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRIP
-  type: source
-  required: false
-  negate: false
-  source: webrip
 - name: ABBIE
   type: release_group
   required: false
@@ -87,6 +77,11 @@ conditions:
   required: false
   negate: false
   pattern: Kitsune
+- name: MADSKY
+  type: release_group
+  required: false
+  negate: false
+  pattern: MADSKY
 - name: NOSiViD
   type: release_group
   required: false
@@ -127,4 +122,14 @@ conditions:
   required: false
   negate: false
   pattern: ZoroSenpai
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests: []
