@@ -1,0 +1,6 @@
+name: MADSKY
+pattern: ^(MADSKY)$
+description: ''
+tags:
+- TRaSH
+tests: []

@@ -10,16 +10,6 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: WEBDL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRIP
-  type: source
-  required: false
-  negate: false
-  source: webrip
 - name: BLOOM
   type: release_group
   required: false
@@ -65,4 +55,14 @@ conditions:
   required: false
   negate: false
   pattern: ViSiON
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests: []
