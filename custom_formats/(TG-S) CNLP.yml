@@ -1,0 +1,27 @@
+name: (TG-S) CNLP
+description: "Canal+ is a French subscription streaming service and pay TV provider,\
+  \ launched as a satellite service in 1992 and relaunched as a streaming platform\
+  \ in 2013. It is a subsidiary of Canal+ S.A. It offers movies, dramas, original\
+  \ series, and live sports \u2014 including top football leagues. The service is\
+  \ available across Europe, Africa, Oceania, Myanmar, and Vietnam, with over 26.8\
+  \ million subscribers.\nFor more information, visit the [Canal+ Wikipedia page](https://en.wikipedia.org/wiki/Canal%2B_(streaming_service))."
+tags:
+- TRaSH
+- Sonarr Only
+conditions:
+- name: CNLP
+  type: release_title
+  required: true
+  negate: false
+  pattern: CNLP
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
