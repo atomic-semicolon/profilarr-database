@@ -5,9 +5,7 @@ description: '- A collection of known low-quality groups (often banned from the 
   not regarded as high quality.
 
   - Release groups that disrupt the Starr apps automation because their poor naming
-  could potentially create download loops, even if their overall quality is excellent.
-
-  --8<-- "includes/cf-descriptions/apply-10000.md"'
+  could potentially create download loops, even if their overall quality is excellent.'
 tags:
 - TRaSH
 - Radarr Only

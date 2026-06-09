@@ -1,8 +1,6 @@
 name: (TG-R) LQ (Release Title)
-description: 'A collection of terms seen in the titles of Low-Quality releases that
+description: A collection of terms seen in the titles of Low-Quality releases that
   are not captured by using a release group name.
-
-  --8<-- "includes/cf-descriptions/apply-10000.md"'
 tags:
 - TRaSH
 - Radarr Only

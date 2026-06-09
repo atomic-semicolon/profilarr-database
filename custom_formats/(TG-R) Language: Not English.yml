@@ -1,6 +1,8 @@
 name: '(TG-R) Language: Not English'
-description: Because it uses reverse scoring, and if you use the default scores, it
-  will assign all releases without the English audio a score of `-10000`.
+description: This custom format is used to identify and avoid releases that do not
+  contain an English audio track. When applied, it will flag any release where English
+  is not included as an available audio language, helping ensure that only releases
+  with English audio are downloaded.
 tags:
 - TRaSH
 - Radarr Only

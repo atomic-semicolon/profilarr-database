@@ -1,9 +1,11 @@
 name: (TG-R) Generated Dynamic HDR
-description: "- A collection of groups known for generating their own dynamic HDR\
-  \ metadata\u2014Dolby Vision and/or HDR10+.\n- This generated dynamic HDR metadata\
-  \ does not come from official retail sources (discs or streaming services), so it\
-  \ is usually undesirable. Because of the substantial effort needed and the almost\
-  \ impossible task of reliably ensuring quality without reviewing each movie manually."
+description: 'A collection of groups known for generating their own dynamic HDR metadata,
+  including Dolby Vision and/or HDR10+.
+
+  This generated dynamic HDR metadata does not come from official retail sources,
+  such as discs or streaming services, so it is generally undesirable because of the
+  substantial effort required and the near-impossible task of reliably ensuring quality
+  without manually reviewing each movie.'
 tags:
 - TRaSH
 - Radarr Only
