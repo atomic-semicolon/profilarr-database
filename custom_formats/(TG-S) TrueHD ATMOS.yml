@@ -1,9 +1,14 @@
 name: (TG-S) TrueHD ATMOS
-description: '[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Dolby_Atmos)
+description: 'Dolby TrueHD Atmos is the lossless version of Dolby Atmos, found primarily
+  on Blu-ray and 4K UHD discs. Dolby Atmos soundtracks consist of up to 128 individual
+  audio objects mixed in a 3D soundfield, rendered during playback to the available
+  speakers, including overhead ceiling speakers. On Blu-ray, the Atmos data is embedded
+  as an extension within the TrueHD track to maintain backward compatibility. If a
+  receiver does not support Atmos, it simply plays the audio as standard Dolby TrueHD
+  instead. Unlike most audio formats, Dolby TrueHD is 100% lossless, meaning what
+  you hear is bit-for-bit identical to the master recording.
 
-  Dolby Atmos is a surround sound technology developed by Dolby Laboratories. It expands
-  on existing surround sound systems by adding height channels, allowing sounds to
-  be interpreted as three-dimensional objects.'
+  For more information, visit the [Dolby TrueHD Wikipedia page](https://en.wikipedia.org/wiki/Dolby_TrueHD).'
 tags:
 - TRaSH
 - Sonarr Only

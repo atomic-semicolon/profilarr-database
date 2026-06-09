@@ -1,5 +1,5 @@
 name: (TG-S) Not German or English
-description: not-german-or-english
+description: Used to avoid releases which do not contain German or English audio.
 tags:
 - TRaSH
 - Sonarr Only

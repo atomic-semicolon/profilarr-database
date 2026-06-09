@@ -1,5 +1,10 @@
 name: (TG-S) German DL (undefined)
-description: german-dl-undefined
+description: "This Custom Format is mainly used to fix files that are wrongly named\
+  \ after import.\n- For example, suppose the filename suggests it is only German\
+  \ but actually contains German and English audio.\n- It is also useful for users\
+  \ who use a non-optimal file naming that does not follow suggested naming schemes\n\
+  \    - example: `John Wick Kapitel 2 (2017) [2160p] [HDR] [7.1, 7.1] [ger, eng]\
+  \ [Vio]`"
 tags:
 - TRaSH
 - Sonarr Only

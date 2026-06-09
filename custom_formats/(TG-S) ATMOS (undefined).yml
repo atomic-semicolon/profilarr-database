@@ -1,8 +1,9 @@
 name: (TG-S) ATMOS (undefined)
-description: "This custom format covers cases where _ONLY_ \"Atmos\" is specified\
-  \ in the release title, without noting DD+ (Lossy) or TrueHD (Lossless).\n!!! note\n\
-  \    Apply the same score as Lossy (DD+) Atmos. On import, it will be updated to\
-  \ reflect either lossy or lossless based on the media's info using ffprobe."
+description: "When a release is labeled simply as \"Atmos\" without specifying TrueHD\
+  \ or DD+, the audio quality, TrueHD (Lossless) or DD+ (Lossy), cannot be confirmed\
+  \ from the title alone.\n!!! note\n    Apply the same score as Lossy (DD+) Atmos.\
+  \ On import, it will be updated to reflect either lossy or lossless based on the\
+  \ media's info using ffprobe."
 tags:
 - TRaSH
 - Sonarr Only

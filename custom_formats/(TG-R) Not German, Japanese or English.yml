@@ -1,5 +1,6 @@
 name: (TG-R) Not German, Japanese or English
-description: not-german-japanese-or-english
+description: Used to avoid releases which do not contain German, Japanese or English
+  audio.
 tags:
 - TRaSH
 - Radarr Only

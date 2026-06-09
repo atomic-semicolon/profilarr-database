@@ -1,10 +1,13 @@
 name: (TG-R) WiTH AD
-description: "Audio Description (AD) is an extra narration track that describes key\
-  \ visual details \u2014 such as scenery, costumes, and actions \u2014 for blind\
-  \ or visually impaired viewers. It makes TV and film content more accessible by\
-  \ explaining what cannot be heard in the main audio.\nSome releases include Audio\
-  \ Description, marked as `WITH AD` or `AD`. Note: this is not the same as advertisements.\n\
-  For more information, visit the [Audio Description Wikipedia page](https://en.wikipedia.org/wiki/Audio_description)."
+description: 'Audio Description (AD) is an extra narration track that describes key
+  visual details such as scenery, costumes, and actions for blind or visually impaired
+  viewers. It makes TV and film content more accessible by explaining what cannot
+  be heard in the main audio.
+
+  Some releases include Audio Description, marked as `WITH AD` or `AD`. Note: this
+  is not the same as advertisements.
+
+  For more information, visit the [Audio Description Wikipedia page](https://en.wikipedia.org/wiki/Audio_description).'
 tags:
 - TRaSH
 - Radarr Only
