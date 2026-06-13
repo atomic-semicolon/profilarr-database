@@ -1,5 +1,5 @@
 name: R&H
-pattern: ^(R&H)$
+pattern: \b(R&H)\b
 description: ''
 tags:
 - TRaSH

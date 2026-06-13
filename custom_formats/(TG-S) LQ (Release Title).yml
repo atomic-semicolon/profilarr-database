@@ -25,6 +25,11 @@ conditions:
   required: false
   negate: false
   pattern: Feranki1980
+- name: R&H
+  type: release_title
+  required: false
+  negate: false
+  pattern: R&H
 - name: TeeWee
   type: release_title
   required: false

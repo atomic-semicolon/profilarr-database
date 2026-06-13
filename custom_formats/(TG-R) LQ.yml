@@ -385,11 +385,6 @@ conditions:
   required: false
   negate: false
   pattern: PTNK
-- name: R&H
-  type: release_group
-  required: false
-  negate: false
-  pattern: R&H
 - name: RARBG
   type: release_group
   required: false

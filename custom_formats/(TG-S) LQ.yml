@@ -115,11 +115,6 @@ conditions:
   required: false
   negate: false
   pattern: PSA
-- name: R&H
-  type: release_group
-  required: false
-  negate: false
-  pattern: R&H
 - name: SasukeducK
   type: release_group
   required: false

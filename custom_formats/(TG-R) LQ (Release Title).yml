@@ -50,6 +50,11 @@ conditions:
   required: false
   negate: false
   pattern: PiRaTeS (no WEBDL)
+- name: R&H
+  type: release_title
+  required: false
+  negate: false
+  pattern: R&H
 - name: READ NOTE
   type: release_title
   required: false
