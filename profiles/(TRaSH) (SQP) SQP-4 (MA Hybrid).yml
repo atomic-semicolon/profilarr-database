@@ -47,8 +47,8 @@ custom_formats_radarr:
   score: 157
 - name: (TG-R) 5.1 Surround
   score: 190
-- name: (TG-R) 6.1 Surround
-  score: 0
+- name: (TG-R) 7.1 Surround
+  score: 195
 - name: (TG-R) WEBDL Boost
   score: 2370
 - name: (TG-R) WEB Tier 01
