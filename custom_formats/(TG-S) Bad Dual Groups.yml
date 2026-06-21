@@ -19,21 +19,6 @@ conditions:
   required: false
   negate: false
   pattern: BAT
-- name: CYPHER
-  type: release_group
-  required: false
-  negate: false
-  pattern: CYPHER
-- name: MLH
-  type: release_group
-  required: false
-  negate: false
-  pattern: MLH
-- name: XiQUEXiQUE
-  type: release_group
-  required: false
-  negate: false
-  pattern: XiQUEXiQUE
 - name: BiOMA
   type: release_group
   required: false
@@ -54,11 +39,21 @@ conditions:
   required: false
   negate: false
   pattern: C.A.A
+- name: C76
+  type: release_group
+  required: false
+  negate: false
+  pattern: C76
 - name: Cory
   type: release_group
   required: false
   negate: false
   pattern: Cory
+- name: CYPHER
+  type: release_group
+  required: false
+  negate: false
+  pattern: CYPHER
 - name: EniaHD
   type: release_group
   required: false
@@ -94,6 +89,11 @@ conditions:
   required: false
   negate: false
   pattern: LCD
+- name: MLH
+  type: release_group
+  required: false
+  negate: false
+  pattern: MLH
 - name: N3G4N
   type: release_group
   required: false
@@ -149,6 +149,11 @@ conditions:
   required: false
   negate: false
   pattern: WTV
+- name: XiQUEXiQUE
+  type: release_group
+  required: false
+  negate: false
+  pattern: XiQUEXiQUE
 - name: Yatogam1
   type: release_group
   required: false

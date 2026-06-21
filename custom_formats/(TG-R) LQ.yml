@@ -390,6 +390,11 @@ conditions:
   required: false
   negate: false
   pattern: RARBG
+- name: RBB
+  type: release_group
+  required: false
+  negate: false
+  pattern: RBB
 - name: RDN
   type: release_group
   required: false

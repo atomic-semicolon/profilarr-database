@@ -34,6 +34,11 @@ conditions:
   required: false
   negate: false
   pattern: C.A.A
+- name: C76
+  type: release_group
+  required: false
+  negate: false
+  pattern: C76
 - name: Cory
   type: release_group
   required: false
