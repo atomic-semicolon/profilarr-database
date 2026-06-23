@@ -13,41 +13,36 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: ZeroTwo
+- name: CNY
   type: release_group
   required: false
   negate: false
-  pattern: ZeroTwo
-- name: ZeroTwo Aliases
-  type: release_group
-  required: false
-  negate: false
-  pattern: ZeroTwo Aliases
-- name: TSCC
-  type: release_group
-  required: false
-  negate: false
-  pattern: TSCC
-- name: TvR
-  type: release_group
-  required: false
-  negate: false
-  pattern: TvR
-- name: NIMA4K
-  type: release_group
-  required: false
-  negate: false
-  pattern: NIMA4K
-- name: TVS
-  type: release_group
-  required: false
-  negate: false
-  pattern: TVS
+  pattern: CNY
 - name: D02KU
   type: release_group
   required: false
   negate: false
   pattern: D02KU
+- name: KOMET
+  type: release_group
+  required: false
+  negate: false
+  pattern: KOMET
+- name: MEDiATHEK
+  type: release_group
+  required: false
+  negate: false
+  pattern: MEDiATHEK
+- name: NIMA4K
+  type: release_group
+  required: false
+  negate: false
+  pattern: NIMA4K
+- name: pmHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: pmHD
 - name: PXL
   type: release_group
   required: false
@@ -58,21 +53,6 @@ conditions:
   required: false
   negate: false
   pattern: QfG
-- name: CNY
-  type: release_group
-  required: false
-  negate: false
-  pattern: CNY
-- name: WeebPinn
-  type: release_group
-  required: false
-  negate: false
-  pattern: WeebPinn
-- name: MEDiATHEK
-  type: release_group
-  required: false
-  negate: false
-  pattern: MEDiATHEK
 - name: RiiR
   type: release_group
   required: false
@@ -83,16 +63,46 @@ conditions:
   required: false
   negate: false
   pattern: RiiR Aliases
+- name: SLiDE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SLiDE
+- name: TSCC
+  type: release_group
+  required: false
+  negate: false
+  pattern: TSCC
+- name: TvR
+  type: release_group
+  required: false
+  negate: false
+  pattern: TvR
+- name: TVS
+  type: release_group
+  required: false
+  negate: false
+  pattern: TVS
 - name: WalterBishop
   type: release_group
   required: false
   negate: false
   pattern: WalterBishop
-- name: pmHD
+- name: WeebPinn
   type: release_group
   required: false
   negate: false
-  pattern: pmHD
+  pattern: WeebPinn
+- name: ZeroTwo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo
+- name: ZeroTwo Aliases
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZeroTwo Aliases
 - name: WebDL
   type: source
   required: false
