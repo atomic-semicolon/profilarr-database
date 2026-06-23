@@ -35,6 +35,11 @@ conditions:
   required: false
   negate: false
   pattern: Arid
+- name: BlackRose
+  type: release_title
+  required: false
+  negate: false
+  pattern: BlackRose
 - name: FateSucks
   type: release_title
   required: false
@@ -90,11 +95,6 @@ conditions:
   required: false
   negate: false
   pattern: Orphan
-- name: PMR
-  type: release_title
-  required: false
-  negate: false
-  pattern: PMR
 - name: Vodes
   type: release_title
   required: false

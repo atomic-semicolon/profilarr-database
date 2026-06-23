@@ -10,21 +10,6 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: PsO
-  type: release_group
-  required: false
-  negate: false
-  pattern: PsO
-- name: Cancer58
-  type: release_group
-  required: false
-  negate: false
-  pattern: Cancer58
-- name: Tylor.D
-  type: release_group
-  required: false
-  negate: false
-  pattern: Tylor.D
 - name: 1XBET
   type: release_group
   required: false
@@ -35,56 +20,66 @@ conditions:
   required: false
   negate: false
   pattern: 2dead
-- name: HELD
+- name: AIDA
   type: release_group
   required: false
   negate: false
-  pattern: HELD
-- name: kala
+  pattern: AIDA
+- name: AVTOMAT
   type: release_group
   required: false
   negate: false
-  pattern: kala
-- name: POE
+  pattern: AVTOMAT
+- name: Cancer58
   type: release_group
   required: false
   negate: false
-  pattern: POE
-- name: SHOWE
+  pattern: Cancer58
+- name: CTFOH
   type: release_group
   required: false
   negate: false
-  pattern: SHOWE
-- name: SHOWEHD
+  pattern: CTFOH
+- name: EMVY
   type: release_group
   required: false
   negate: false
-  pattern: SHOWEHD
-- name: ORCA88
+  pattern: EMVY
+- name: FORMBA
   type: release_group
   required: false
   negate: false
-  pattern: ORCA88
-- name: LuRCH
+  pattern: FORMBA
+- name: FRAGGERS
   type: release_group
   required: false
   negate: false
-  pattern: LuRCH
-- name: N2D2
+  pattern: FRAGGERS
+- name: FSX
   type: release_group
   required: false
   negate: false
-  pattern: N2D2
+  pattern: FSX
 - name: GETB8
   type: release_group
   required: false
   negate: false
   pattern: GETB8
-- name: TFARC
+- name: HELD
   type: release_group
   required: false
   negate: false
-  pattern: TFARC
+  pattern: HELD
+- name: iSSEYMiYAKE
+  type: release_group
+  required: false
+  negate: false
+  pattern: iSSEYMiYAKE
+- name: kala
+  type: release_group
+  required: false
+  negate: false
+  pattern: kala
 - name: Kristallprinz
   type: release_group
   required: false
@@ -95,144 +90,154 @@ conditions:
   required: false
   negate: false
   pattern: LAW
-- name: CTFOH
-  type: release_group
-  required: false
-  negate: false
-  pattern: CTFOH
-- name: Pendeti
-  type: release_group
-  required: false
-  negate: false
-  pattern: Pendeti
-- name: OJ
-  type: release_group
-  required: false
-  negate: false
-  pattern: OJ
-- name: PS
-  type: release_group
-  required: false
-  negate: false
-  pattern: PS
-- name: FSX
-  type: release_group
-  required: false
-  negate: false
-  pattern: FSX
-- name: EMVY
-  type: release_group
-  required: false
-  negate: false
-  pattern: EMVY
-- name: ZaidaNulled
-  type: release_group
-  required: false
-  negate: false
-  pattern: ZaidaNulled
-- name: MEGA
-  type: release_group
-  required: false
-  negate: false
-  pattern: MEGA
-- name: MBA
-  type: release_group
-  required: false
-  negate: false
-  pattern: MBA
-- name: FORMBA
-  type: release_group
-  required: false
-  negate: false
-  pattern: FORMBA
-- name: PaZ
-  type: release_group
-  required: false
-  negate: false
-  pattern: PaZ
-- name: Whistler
-  type: release_group
-  required: false
-  negate: false
-  pattern: Whistler
-- name: omikron
-  type: release_group
-  required: false
-  negate: false
-  pattern: omikron
-- name: WOTT
-  type: release_group
-  required: false
-  negate: false
-  pattern: WOTT
-- name: SunDry
-  type: release_group
-  required: false
-  negate: false
-  pattern: SunDry
-- name: PL
-  type: release_group
-  required: false
-  negate: false
-  pattern: PL
-- name: TVARCHiV
-  type: release_group
-  required: false
-  negate: false
-  pattern: TVARCHiV
-- name: P73
-  type: release_group
-  required: false
-  negate: false
-  pattern: P73
 - name: LizardSquad
   type: release_group
   required: false
   negate: false
   pattern: LizardSquad
-- name: AVTOMAT
+- name: LuRCH
   type: release_group
   required: false
   negate: false
-  pattern: AVTOMAT
-- name: iSSEYMiYAKE
+  pattern: LuRCH
+- name: MBA
   type: release_group
   required: false
   negate: false
-  pattern: iSSEYMiYAKE
-- name: TVP
+  pattern: MBA
+- name: MEGA
   type: release_group
   required: false
   negate: false
-  pattern: TVP
-- name: AIDA
+  pattern: MEGA
+- name: N2D2
   type: release_group
   required: false
   negate: false
-  pattern: AIDA
-- name: UTOPiA
+  pattern: N2D2
+- name: OJ
   type: release_group
   required: false
   negate: false
-  pattern: UTOPiA
-- name: FRAGGERS
+  pattern: OJ
+- name: omikron
   type: release_group
   required: false
   negate: false
-  pattern: FRAGGERS
+  pattern: omikron
+- name: ORCA88
+  type: release_group
+  required: false
+  negate: false
+  pattern: ORCA88
+- name: P73
+  type: release_group
+  required: false
+  negate: false
+  pattern: P73
+- name: PaZ
+  type: release_group
+  required: false
+  negate: false
+  pattern: PaZ
+- name: Pendeti
+  type: release_group
+  required: false
+  negate: false
+  pattern: Pendeti
+- name: PiKACHU
+  type: release_group
+  required: false
+  negate: false
+  pattern: PiKACHU
+- name: PL
+  type: release_group
+  required: false
+  negate: false
+  pattern: PL
+- name: POE
+  type: release_group
+  required: false
+  negate: false
+  pattern: POE
+- name: PS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PS
+- name: PsO
+  type: release_group
+  required: false
+  negate: false
+  pattern: PsO
 - name: REEL
   type: release_group
   required: false
   negate: false
   pattern: REEL
-- name: VideoStar
-  type: release_group
-  required: false
-  negate: false
-  pattern: VideoStar
 - name: SD7
   type: release_group
   required: false
   negate: false
   pattern: SD7
+- name: SHOWE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SHOWE
+- name: SHOWEHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SHOWEHD
+- name: SunDry
+  type: release_group
+  required: false
+  negate: false
+  pattern: SunDry
+- name: TFARC
+  type: release_group
+  required: false
+  negate: false
+  pattern: TFARC
+- name: TVARCHiV
+  type: release_group
+  required: false
+  negate: false
+  pattern: TVARCHiV
+- name: TVP
+  type: release_group
+  required: false
+  negate: false
+  pattern: TVP
+- name: Tylor.D
+  type: release_group
+  required: false
+  negate: false
+  pattern: Tylor.D
+- name: UTOPiA
+  type: release_group
+  required: false
+  negate: false
+  pattern: UTOPiA
+- name: VideoStar
+  type: release_group
+  required: false
+  negate: false
+  pattern: VideoStar
+- name: Whistler
+  type: release_group
+  required: false
+  negate: false
+  pattern: Whistler
+- name: WOTT
+  type: release_group
+  required: false
+  negate: false
+  pattern: WOTT
+- name: ZaidaNulled
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZaidaNulled
 tests: []

@@ -1,0 +1,6 @@
+name: SLiDE
+pattern: ^(SLiDE)$
+description: ''
+tags:
+- TRaSH
+tests: []

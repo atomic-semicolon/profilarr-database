@@ -14,26 +14,6 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: VECTOR
-  type: release_group
-  required: false
-  negate: false
-  pattern: VECTOR
-- name: MULTiPLEX
-  type: release_group
-  required: false
-  negate: false
-  pattern: MULTiPLEX
-- name: SiXTYNiNE
-  type: release_group
-  required: false
-  negate: false
-  pattern: SiXTYNiNE
-- name: Oergel
-  type: release_group
-  required: false
-  negate: false
-  pattern: Oergel
 - name: 4SF
   type: release_group
   required: false
@@ -49,6 +29,31 @@ conditions:
   required: false
   negate: false
   pattern: ABJ
+- name: FLORiX
+  type: release_group
+  required: false
+  negate: false
+  pattern: FLORiX
+- name: MULTiPLEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: MULTiPLEX
+- name: Oergel
+  type: release_group
+  required: false
+  negate: false
+  pattern: Oergel
+- name: SiXTYNiNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiXTYNiNE
+- name: VECTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: VECTOR
 - name: WebDL
   type: source
   required: false

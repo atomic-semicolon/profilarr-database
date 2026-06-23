@@ -40,11 +40,6 @@ conditions:
   required: false
   negate: false
   pattern: Moxie
-- name: NAN0
-  type: release_title
-  required: false
-  negate: false
-  pattern: NAN0
 - name: sam
   type: release_title
   required: false
@@ -60,9 +55,4 @@ conditions:
   required: false
   negate: false
   pattern: SoM
-- name: ZR
-  type: release_title
-  required: false
-  negate: false
-  pattern: ZR
 tests: []

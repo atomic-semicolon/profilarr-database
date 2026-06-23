@@ -1,0 +1,6 @@
+name: Sylvar
+pattern: \b(Sylvar)\b
+description: ''
+tags:
+- TRaSH
+tests: []

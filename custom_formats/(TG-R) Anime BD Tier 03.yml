@@ -95,6 +95,11 @@ conditions:
   required: false
   negate: false
   pattern: Mysteria
+- name: NAN0
+  type: release_title
+  required: false
+  negate: false
+  pattern: NAN0
 - name: Netaro
   type: release_title
   required: false
@@ -125,6 +130,11 @@ conditions:
   required: false
   negate: false
   pattern: P9
+- name: PMR
+  type: release_title
+  required: false
+  negate: false
+  pattern: PMR
 - name: RUDY
   type: release_title
   required: false
@@ -160,9 +170,19 @@ conditions:
   required: false
   negate: false
   pattern: SubsMix
+- name: Sylvar
+  type: release_title
+  required: false
+  negate: false
+  pattern: Sylvar
 - name: uba
   type: release_title
   required: false
   negate: false
   pattern: uba
+- name: ZR
+  type: release_title
+  required: false
+  negate: false
+  pattern: ZR
 tests: []

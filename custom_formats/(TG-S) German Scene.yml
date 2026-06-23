@@ -4,56 +4,96 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
-- name: DETAiLS
-  type: release_group
-  required: false
-  negate: false
-  pattern: DETAiLS
-- name: WAYNE
-  type: release_group
-  required: false
-  negate: false
-  pattern: WAYNE
-- name: WOMBAT
-  type: release_group
-  required: false
-  negate: false
-  pattern: WOMBAT
-- name: SAUERKRAUT
-  type: release_group
-  required: false
-  negate: false
-  pattern: SAUERKRAUT
-- name: WvF
-  type: release_group
-  required: false
-  negate: false
-  pattern: WvF
 - name: 4KCONNECTiON
   type: release_group
   required: false
   negate: false
   pattern: 4KCONNECTiON
-- name: STARS
+- name: ACED
   type: release_group
   required: false
   negate: false
-  pattern: STARS
+  pattern: ACED
 - name: AWARDS
   type: release_group
   required: false
   negate: false
   pattern: AWARDS
+- name: bi0hazard
+  type: release_group
+  required: false
+  negate: false
+  pattern: bi0hazard
+- name: CDD
+  type: release_group
+  required: false
+  negate: false
+  pattern: CDD
+- name: CDP
+  type: release_group
+  required: false
+  negate: false
+  pattern: CDP
+- name: CONTRiBUTiON
+  type: release_group
+  required: false
+  negate: false
+  pattern: CONTRiBUTiON
+- name: DETAiLS
+  type: release_group
+  required: false
+  negate: false
+  pattern: DETAiLS
 - name: DMPD
   type: release_group
   required: false
   negate: false
   pattern: DMPD
+- name: ENCOUNTERS
+  type: release_group
+  required: false
+  negate: false
+  pattern: ENCOUNTERS
+- name: ENDSTATiON
+  type: release_group
+  required: false
+  negate: false
+  pattern: ENDSTATiON
+- name: euHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: euHD
 - name: EXCiTED
   type: release_group
   required: false
   negate: false
   pattern: EXCiTED
+- name: FENDT
+  type: release_group
+  required: false
+  negate: false
+  pattern: FENDT
+- name: FKKTV
+  type: release_group
+  required: false
+  negate: false
+  pattern: FKKTV
+- name: GTVG
+  type: release_group
+  required: false
+  negate: false
+  pattern: GTVG
+- name: HAXE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HAXE
+- name: HDARCHiV
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDARCHiV
 - name: iNTENTiON
   type: release_group
   required: false
@@ -74,6 +114,41 @@ conditions:
   required: false
   negate: false
   pattern: MisFiTS
+- name: muhHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: muhHD
+- name: OCA
+  type: release_group
+  required: false
+  negate: false
+  pattern: OCA
+- name: OHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: OHD
+- name: PL3X
+  type: release_group
+  required: false
+  negate: false
+  pattern: PL3X
+- name: RiLE
+  type: release_group
+  required: false
+  negate: false
+  pattern: RiLE
+- name: RIPLEY
+  type: release_group
+  required: false
+  negate: false
+  pattern: RIPLEY
+- name: RSG
+  type: release_group
+  required: false
+  negate: false
+  pattern: RSG
 - name: RUBBiSH
   type: release_group
   required: false
@@ -84,6 +159,16 @@ conditions:
   required: false
   negate: false
   pattern: RWP
+- name: SAUERKRAUT
+  type: release_group
+  required: false
+  negate: false
+  pattern: SAUERKRAUT
+- name: STARS
+  type: release_group
+  required: false
+  negate: false
+  pattern: STARS
 - name: TMSF
   type: release_group
   required: false
@@ -94,114 +179,34 @@ conditions:
   required: false
   negate: false
   pattern: TV4A
-- name: HAXE
-  type: release_group
-  required: false
-  negate: false
-  pattern: HAXE
-- name: muhHD
-  type: release_group
-  required: false
-  negate: false
-  pattern: muhHD
-- name: ENDSTATiON
-  type: release_group
-  required: false
-  negate: false
-  pattern: ENDSTATiON
-- name: HDARCHiV
-  type: release_group
-  required: false
-  negate: false
-  pattern: HDARCHiV
-- name: PL3X
-  type: release_group
-  required: false
-  negate: false
-  pattern: PL3X
-- name: WATCHABLE
-  type: release_group
-  required: false
-  negate: false
-  pattern: WATCHABLE
-- name: OHD
-  type: release_group
-  required: false
-  negate: false
-  pattern: OHD
-- name: ENCOUNTERS
-  type: release_group
-  required: false
-  negate: false
-  pattern: ENCOUNTERS
-- name: RSG
-  type: release_group
-  required: false
-  negate: false
-  pattern: RSG
 - name: TVNATiON
   type: release_group
   required: false
   negate: false
   pattern: TVNATiON
-- name: FENDT
+- name: W4K
   type: release_group
   required: false
   negate: false
-  pattern: FENDT
-- name: ACED
+  pattern: W4K
+- name: WATCHABLE
   type: release_group
   required: false
   negate: false
-  pattern: ACED
-- name: FKKTV
+  pattern: WATCHABLE
+- name: WAYNE
   type: release_group
   required: false
   negate: false
-  pattern: FKKTV
-- name: euHD
+  pattern: WAYNE
+- name: WOMBAT
   type: release_group
   required: false
   negate: false
-  pattern: euHD
-- name: OCA
+  pattern: WOMBAT
+- name: WvF
   type: release_group
   required: false
   negate: false
-  pattern: OCA
-- name: RIPLEY
-  type: release_group
-  required: false
-  negate: false
-  pattern: RIPLEY
-- name: GTVG
-  type: release_group
-  required: false
-  negate: false
-  pattern: GTVG
-- name: CDP
-  type: release_group
-  required: false
-  negate: false
-  pattern: CDP
-- name: CDD
-  type: release_group
-  required: false
-  negate: false
-  pattern: CDD
-- name: RiLE
-  type: release_group
-  required: false
-  negate: false
-  pattern: RiLE
-- name: CONTRiBUTiON
-  type: release_group
-  required: false
-  negate: false
-  pattern: CONTRiBUTiON
-- name: bi0hazard
-  type: release_group
-  required: false
-  negate: false
-  pattern: bi0hazard
+  pattern: WvF
 tests: []
