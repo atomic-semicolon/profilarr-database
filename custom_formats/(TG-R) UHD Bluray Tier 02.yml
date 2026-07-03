@@ -32,6 +32,11 @@ conditions:
   required: true
   negate: false
   resolution: 2160p
+- name: HiDt
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiDt
 - name: HQMUX
   type: release_group
   required: false

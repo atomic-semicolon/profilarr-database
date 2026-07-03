@@ -1,0 +1,6 @@
+name: SyncUP
+pattern: ^(SyncUP)$
+description: ''
+tags:
+- TRaSH
+tests: []

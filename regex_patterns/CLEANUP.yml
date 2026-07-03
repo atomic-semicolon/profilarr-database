@@ -1,0 +1,6 @@
+name: CLEANUP
+pattern: ^(CLEANUP)$
+description: ''
+tags:
+- TRaSH
+tests: []

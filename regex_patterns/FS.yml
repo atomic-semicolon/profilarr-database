@@ -1,0 +1,6 @@
+name: FS
+pattern: ^(FS)$
+description: ''
+tags:
+- TRaSH
+tests: []
