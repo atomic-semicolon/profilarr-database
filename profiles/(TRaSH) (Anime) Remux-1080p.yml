@@ -96,6 +96,10 @@ custom_formats_sonarr:
   score: 0
 - name: (TG-S) Bilibili
   score: 0
+- name: (TG-S) HIDIVE
+  score: 0
+- name: (TG-S) WKN
+  score: 0
 custom_formats_radarr:
 - name: (TG-R) Anime BD Tier 01
   score: 1400
