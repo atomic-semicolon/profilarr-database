@@ -1,5 +1,5 @@
 name: Ari
-pattern: \[Ari\]|-Ari\b
+pattern: ^\[Ari\]|-Ari$|\[Ari\]|-Ari\b
 description: ''
 tags:
 - TRaSH
