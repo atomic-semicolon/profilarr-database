@@ -30,6 +30,11 @@ conditions:
   required: false
   negate: false
   pattern: Asakura
+- name: BlackRose
+  type: release_title
+  required: false
+  negate: false
+  pattern: BlackRose
 - name: Cyan
   type: release_title
   required: false
