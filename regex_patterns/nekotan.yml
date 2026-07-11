@@ -1,0 +1,6 @@
+name: nekotan
+pattern: \b(nekotan)\b
+description: ''
+tags:
+- TRaSH
+tests: []

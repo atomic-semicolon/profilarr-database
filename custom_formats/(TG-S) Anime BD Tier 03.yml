@@ -105,6 +105,11 @@ conditions:
   required: false
   negate: false
   pattern: NAN0
+- name: nekotan
+  type: release_title
+  required: false
+  negate: false
+  pattern: nekotan
 - name: Netaro
   type: release_title
   required: false
