@@ -7,7 +7,7 @@ description: 'This Special Quality Profile is an advanced Quality Profile design
 tags:
 - TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 3070
+minCustomFormatScore: 3030
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
@@ -18,37 +18,37 @@ custom_formats_radarr:
 - name: (TG-R) DTS X
   score: 1860
 - name: (TG-R) ATMOS (undefined)
-  score: 720
+  score: 730
 - name: (TG-R) DD+ ATMOS
-  score: 720
+  score: 730
 - name: (TG-R) TrueHD
   score: 1850
 - name: (TG-R) DTS-HD MA
   score: 1850
 - name: (TG-R) FLAC
-  score: 420
+  score: 550
 - name: (TG-R) PCM
-  score: 420
+  score: 550
 - name: (TG-R) DTS-HD HRA
-  score: 320
+  score: 500
 - name: (TG-R) DD+
-  score: 715
+  score: 680
 - name: (TG-R) DTS-ES
-  score: 170
+  score: 450
 - name: (TG-R) DTS
-  score: 120
+  score: 400
 - name: (TG-R) AAC
-  score: 20
+  score: 630
 - name: (TG-R) DD
-  score: 655
+  score: 630
 - name: (TG-R) 2.0 Stereo
-  score: 190
+  score: 175
 - name: (TG-R) 5.1 Surround
   score: 370
 - name: (TG-R) 7.1 Surround
   score: 380
 - name: (TG-R) WEBDL Boost
-  score: 3070
+  score: 3030
 - name: (TG-R) WEB Tier 01
   score: 30
 - name: (TG-R) WEB Tier 02
@@ -56,9 +56,9 @@ custom_formats_radarr:
 - name: (TG-R) WEB Tier 03
   score: 10
 - name: (TG-R) BHDStudio
-  score: 2945
+  score: 3010
 - name: (TG-R) hallowed
-  score: 2955
+  score: 3020
 - name: (TG-R) TheFarm
   score: 10
 - name: (TG-R) Repack&Proper
