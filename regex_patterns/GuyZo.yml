@@ -1,5 +1,5 @@
 name: GuyZo
-pattern: ^(GuyZo|BR-GuyZo)$|\b(GuyZo|BR-GuyZo)\b
+pattern: \b(GuyZo|BR-GuyZo)\b|^(GuyZo|BR-GuyZo)$
 description: ''
 tags:
 - TRaSH

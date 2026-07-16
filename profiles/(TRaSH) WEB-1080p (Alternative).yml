@@ -1,13 +1,11 @@
 name: (TRaSH) WEB-1080p (Alternative)
 description: 'Quality Profile that covers:
 
-  - SDTV, DVD
+  - HDTV: 720p, 1080p
 
-  - HDTV 720p, 1080p
+  - WEBDL: 720, 1080p
 
-  - WEBDL: 480p, 720, 1080p
-
-  - Bluray 480p, 576p, 720p, 1080p'
+  - Bluray: 720p, 1080p'
 tags:
 - TRaSH
 upgradesAllowed: true
