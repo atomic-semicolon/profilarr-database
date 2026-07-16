@@ -1,5 +1,5 @@
 name: Not Hybrid Release Group
-pattern: -HYBRID|\b(HYBRID)\b
+pattern: \b(HYBRID)\b|-HYBRID
 description: ''
 tags:
 - TRaSH

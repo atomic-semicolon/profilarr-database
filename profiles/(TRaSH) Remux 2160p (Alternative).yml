@@ -1,13 +1,11 @@
 name: (TRaSH) Remux 2160p (Alternative)
 description: 'Quality Profile that covers:
 
-  - SDTV, DVD
-
   - HDTV: 720p, 1080p
 
-  - WEBDL: 480p, 720, 1080p, 2160p
+  - WEBDL: 720, 1080p, 2160p
 
-  - Bluray: 480p, 576p, 720p, 1080p, 2160p
+  - Bluray: 720p, 1080p, 2160p
 
   - Remux: 1080p, 2160p'
 tags:
@@ -17,7 +15,25 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
-custom_formats_sonarr: []
+custom_formats_sonarr:
+- name: (TG-S) Remux Tier 01
+  score: 1900
+- name: (TG-S) Remux Tier 02
+  score: 1850
+- name: (TG-S) WEB Tier 01
+  score: 1700
+- name: (TG-S) WEB Tier 02
+  score: 1650
+- name: (TG-S) WEB Scene
+  score: 1600
+- name: (TG-S) WEB Tier 03
+  score: 1600
+- name: (TG-S) Repack3
+  score: 7
+- name: (TG-S) Repack2
+  score: 6
+- name: (TG-S) Repack&Proper
+  score: 5
 custom_formats_radarr:
 - name: (TG-R) Remux Tier 01
   score: 1950
@@ -50,23 +66,10 @@ custom_formats_radarr:
 - name: (TG-R) Repack3
   score: 7
 qualities:
-- name: SDTV
-  id: 24
-- name: DVD
-  id: 22
-- name: WEB 480p
-  qualities:
-  - id: 20
-    name: WEBRip-480p
-  - id: 19
-    name: WEBDL-480p
-  id: -4
-- name: Bluray-480p
-  id: 18
-- name: Bluray-576p
-  id: 17
 - name: HDTV-720p
   id: 16
+- name: Bluray-720p
+  id: 13
 - name: WEB 720p
   qualities:
   - id: 15
@@ -74,10 +77,10 @@ qualities:
   - id: 14
     name: WEBDL-720p
   id: -3
-- name: Bluray-720p
-  id: 13
 - name: HDTV-1080p
   id: 12
+- name: Bluray-1080p
+  id: 10
 - name: WEB 1080p
   qualities:
   - id: 11
@@ -85,10 +88,10 @@ qualities:
   - id: 9
     name: WEBDL-1080p
   id: -2
-- name: Bluray-1080p
-  id: 10
-- name: Remux-1080p
+- name: Bluray-1080p Remux
   id: 8
+- name: Bluray-2160p
+  id: 4
 - name: WEB 2160p
   qualities:
   - id: 6
@@ -96,11 +99,9 @@ qualities:
   - id: 5
     name: WEBDL-2160p
   id: -1
-- name: Bluray-2160p
-  id: 4
-- name: Remux-2160p
+- name: Bluray-2160p Remux
   id: 3
 upgrade_until:
   id: 3
-  name: Remux-2160p
+  name: Bluray-2160p Remux
 language: must_original
