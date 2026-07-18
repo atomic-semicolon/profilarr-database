@@ -1,0 +1,6 @@
+name: RandomBytes
+pattern: ^(RandomBytes)$
+description: ''
+tags:
+- TRaSH
+tests: []

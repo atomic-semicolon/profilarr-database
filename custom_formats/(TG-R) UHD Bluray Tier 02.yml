@@ -42,4 +42,9 @@ conditions:
   required: false
   negate: false
   pattern: HQMUX
+- name: RandomBytes
+  type: release_group
+  required: false
+  negate: false
+  pattern: RandomBytes
 tests: []
