@@ -7,7 +7,7 @@ description: 'This Special Quality Profile is an advanced Quality Profile design
 tags:
 - TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 3035
+minCustomFormatScore: 3040
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
@@ -40,15 +40,15 @@ custom_formats_radarr:
 - name: (TG-R) AAC
   score: 630
 - name: (TG-R) DD
-  score: 630
+  score: 635
 - name: (TG-R) 2.0 Stereo
   score: 175
 - name: (TG-R) 5.1 Surround
-  score: 370
+  score: 365
 - name: (TG-R) 7.1 Surround
-  score: 375
+  score: 370
 - name: (TG-R) WEBDL Boost
-  score: 3035
+  score: 3040
 - name: (TG-R) WEB Tier 01
   score: 30
 - name: (TG-R) WEB Tier 02
@@ -58,7 +58,7 @@ custom_formats_radarr:
 - name: (TG-R) BHDStudio
   score: 3020
 - name: (TG-R) hallowed
-  score: 3025
+  score: 3030
 - name: (TG-R) TheFarm
   score: 10
 - name: (TG-R) Repack&Proper
