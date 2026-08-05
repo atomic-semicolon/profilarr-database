@@ -15,11 +15,6 @@ conditions:
   required: true
   negate: false
   qualityModifier: remux
-- name: ATELiER
-  type: release_group
-  required: false
-  negate: false
-  pattern: ATELiER
 - name: NCmt
   type: release_group
   required: false
