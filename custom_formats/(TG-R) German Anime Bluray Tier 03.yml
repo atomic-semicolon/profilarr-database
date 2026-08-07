@@ -48,6 +48,11 @@ conditions:
   required: false
   negate: false
   pattern: AST4u
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 - name: Not Remux
   type: quality_modifier
   required: true
