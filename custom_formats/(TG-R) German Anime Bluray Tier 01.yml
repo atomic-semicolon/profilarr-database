@@ -88,9 +88,9 @@ conditions:
   required: true
   negate: false
   source: bluray
-- name: Not REMUX
-  type: source
+- name: Not Remux
+  type: quality_modifier
   required: true
   negate: true
-  source: dvd
+  qualityModifier: remux
 tests: []
