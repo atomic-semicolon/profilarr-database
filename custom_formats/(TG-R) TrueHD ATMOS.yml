@@ -28,11 +28,11 @@ conditions:
   required: true
   negate: true
   pattern: Not Basic Dolby Digital
-- name: 'Not Dolby Digital Plus '
+- name: Not Dolby Digital Plus
   type: release_title
   required: true
   negate: true
-  pattern: 'Not Dolby Digital Plus '
+  pattern: Not Dolby Digital Plus
 - name: Not DTS
   type: release_title
   required: true
@@ -48,4 +48,9 @@ conditions:
   required: true
   negate: true
   pattern: Not FLAC
+- name: Not 5.1 Surround
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not 5.1 Surround
 tests: []

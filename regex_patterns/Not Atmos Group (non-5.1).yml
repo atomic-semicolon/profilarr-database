@@ -1,0 +1,6 @@
+name: Not Atmos Group (non-5.1)
+pattern: ^(?!.*[^0-9]5[ .][0-1]\b).*\b(HQMUX|W4NK3R|DON|CtrlHD)\b
+description: ''
+tags:
+- TRaSH
+tests: []
