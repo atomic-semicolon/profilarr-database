@@ -20,6 +20,11 @@ conditions:
   required: true
   negate: true
   pattern: ATMOS
+- name: Not Atmos Group (non-5.1)
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not Atmos Group (non-5.1)
 - name: Not Dolby Digital Plus
   type: release_title
   required: true
