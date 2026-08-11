@@ -1,0 +1,62 @@
+name: (TG-R) UHD Bluray RlsGrp (SQP-4 MA)
+description: uhd-bluray-rlsgrp-sqp-4-ma
+tags:
+- TRaSH
+- Radarr Only
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+- name: Not WEBDL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: Not WEBRIP
+  type: source
+  required: true
+  negate: true
+  source: webrip
+- name: CtrlHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: CtrlHD
+- name: DON
+  type: release_group
+  required: false
+  negate: false
+  pattern: DON
+- name: HiDt
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiDt
+- name: MainFrame
+  type: release_group
+  required: false
+  negate: false
+  pattern: MainFrame
+- name: RandomBytes
+  type: release_group
+  required: false
+  negate: false
+  pattern: RandomBytes
+- name: Softboat
+  type: release_group
+  required: false
+  negate: false
+  pattern: Softboat
+- name: W4NK3R
+  type: release_group
+  required: false
+  negate: false
+  pattern: W4NK3R
+tests: []

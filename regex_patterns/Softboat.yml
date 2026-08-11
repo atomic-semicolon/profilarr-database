@@ -1,0 +1,6 @@
+name: Softboat
+pattern: ^(Softboat)$
+description: ''
+tags:
+- TRaSH
+tests: []
