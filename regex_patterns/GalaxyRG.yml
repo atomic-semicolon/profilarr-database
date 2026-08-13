@@ -1,5 +1,5 @@
 name: GalaxyRG
-pattern: ^(GalaxyRG)$|\b(GalaxyRG)\b
+pattern: \b(GalaxyRG)\b|^(GalaxyRG)$
 description: ''
 tags:
 - TRaSH
