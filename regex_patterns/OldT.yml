@@ -1,0 +1,6 @@
+name: OldT
+pattern: ^(OldT)$
+description: ''
+tags:
+- TRaSH
+tests: []

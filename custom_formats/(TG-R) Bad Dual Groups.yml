@@ -99,6 +99,11 @@ conditions:
   required: false
   negate: false
   pattern: N3G4N
+- name: OldT
+  type: release_group
+  required: false
+  negate: false
+  pattern: OldT
 - name: ONLYMOViE
   type: release_group
   required: false
