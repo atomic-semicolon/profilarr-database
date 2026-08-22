@@ -1,0 +1,6 @@
+name: FAND
+pattern: \b(FAND)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+description: ''
+tags:
+- TRaSH
+tests: []
