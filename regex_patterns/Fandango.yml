@@ -1,0 +1,6 @@
+name: Fandango
+pattern: \b(fand)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+description: ''
+tags:
+- TRaSH
+tests: []
