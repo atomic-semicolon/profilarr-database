@@ -25,11 +25,6 @@ conditions:
   required: true
   negate: true
   resolution: 2160p
-- name: ATELiER
-  type: release_group
-  required: false
-  negate: false
-  pattern: ATELiER
 - name: EA
   type: release_group
   required: false
