@@ -54,6 +54,11 @@ conditions:
   required: false
   negate: false
   pattern: VECTOR
+- name: toto
+  type: release_group
+  required: false
+  negate: false
+  pattern: toto
 - name: WebDL
   type: source
   required: false

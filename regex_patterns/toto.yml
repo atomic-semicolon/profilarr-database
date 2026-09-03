@@ -1,0 +1,6 @@
+name: toto
+pattern: ^(toto)$
+description: ''
+tags:
+- TRaSH
+tests: []

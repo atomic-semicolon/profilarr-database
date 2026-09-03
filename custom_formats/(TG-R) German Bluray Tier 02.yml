@@ -49,6 +49,11 @@ conditions:
   required: false
   negate: false
   pattern: RocketHD
+- name: toto
+  type: release_group
+  required: false
+  negate: false
+  pattern: toto
 - name: Bluray
   type: source
   required: true
