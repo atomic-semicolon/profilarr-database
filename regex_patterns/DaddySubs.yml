@@ -1,5 +1,5 @@
 name: DaddySubs
-pattern: \[Daddy(Subs)?\]|-Daddy(Subs)?\b
+pattern: \[Daddy(Subs)?\]|-Daddy(Subs)?$|\[Daddy(Subs)?\]|-Daddy(Subs)?\b
 description: ''
 tags:
 - TRaSH
