@@ -1,5 +1,5 @@
 name: Mites
-pattern: \b(Mites)\b
+pattern: \[Mites\]|-Mites$|\b(Mites)\b
 description: ''
 tags:
 - TRaSH
