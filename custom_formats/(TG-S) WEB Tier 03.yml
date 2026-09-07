@@ -25,11 +25,6 @@ conditions:
   required: false
   negate: false
   pattern: DRACULA
-- name: HHWEB
-  type: release_group
-  required: false
-  negate: false
-  pattern: HHWEB
 - name: NINJACENTRAL
   type: release_group
   required: false
