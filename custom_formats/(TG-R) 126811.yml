@@ -9,4 +9,14 @@ conditions:
   required: true
   negate: false
   pattern: '126811'
+- name: Internal
+  type: indexer_flag
+  required: true
+  negate: false
+  indexerFlag: internal
+- name: Not ATMO5/ATM05 Collab
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not ATMO5/ATM05 Collab
 tests: []
