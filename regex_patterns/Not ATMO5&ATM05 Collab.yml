@@ -1,0 +1,6 @@
+name: Not ATMO5&ATM05 Collab
+pattern: 126811.{0,20}ATM[O0]5
+description: ''
+tags:
+- TRaSH
+tests: []
