@@ -1,4 +1,4 @@
-name: (TG-R) FAND
+name: (TG-R) FAH
 description: 'Fandango is an American video-on-demand streaming service, originally
   founded as Vudu in 2004. It was acquired by Walmart in 2010, then sold to Fandango
   Media in 2020, and has since been rebranded from Vudu to Fandango at Home, and finally
@@ -11,11 +11,11 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
-- name: FAND
+- name: Fandango
   type: release_title
   required: false
   negate: false
-  pattern: FAND
+  pattern: Fandango
 - name: WEBDL
   type: source
   required: false

@@ -1,5 +1,5 @@
 name: Fandango
-pattern: \b(fand)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+pattern: \b(FAH|FAND|FDNG)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
 description: ''
 tags:
 - TRaSH
