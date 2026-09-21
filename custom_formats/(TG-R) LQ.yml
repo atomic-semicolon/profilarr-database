@@ -10,6 +10,11 @@ tags:
 - TRaSH
 - Radarr Only
 conditions:
+- name: '126811'
+  type: release_group
+  required: false
+  negate: false
+  pattern: '126811'
 - name: 24xHD
   type: release_group
   required: false

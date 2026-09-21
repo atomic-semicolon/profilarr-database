@@ -10,6 +10,11 @@ tags:
 - TRaSH
 - Sonarr Only
 conditions:
+- name: '126811'
+  type: release_group
+  required: false
+  negate: false
+  pattern: '126811'
 - name: BRiNK
   type: release_group
   required: false
