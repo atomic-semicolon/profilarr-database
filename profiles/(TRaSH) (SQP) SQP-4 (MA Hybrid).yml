@@ -79,8 +79,6 @@ custom_formats_radarr:
   score: -10000
 - name: (TG-R) AV1
   score: -10000
-- name: (TG-R) Wrong Language
-  score: -10000
 qualities:
 - name: Bluray|WEB-1080p
   qualities:
