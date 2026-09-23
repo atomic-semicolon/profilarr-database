@@ -1,5 +1,5 @@
 name: ATMOS
-pattern: \b(ATMOS|DDPA)(\b|\d)|\bATMOS(\b|\d)|\b(ATMOS|CtrlHD|W4NK3R|HQMUX|DON|3L)(\b|\d)
+pattern: \b(ATMOS|CtrlHD|W4NK3R|HQMUX|DON|3L)(\b|\d)|\b(ATMOS|DDPA)(\b|\d)|\bATMOS(\b|\d)
 description: ''
 tags:
 - TRaSH
