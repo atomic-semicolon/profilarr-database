@@ -1,0 +1,6 @@
+name: SiCFoI + CM4v
+pattern: ^(?=.*\b(CMv4)\b).*\b(SiCFoI)\b
+description: ''
+tags:
+- TRaSH
+tests: []
