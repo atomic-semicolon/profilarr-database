@@ -60,6 +60,11 @@ conditions:
   required: false
   negate: false
   pattern: READ NOTE
+- name: SiCFoI + CM4v
+  type: release_title
+  required: false
+  negate: false
+  pattern: SiCFoI + CM4v
 - name: SWTYBLZ
   type: release_title
   required: false

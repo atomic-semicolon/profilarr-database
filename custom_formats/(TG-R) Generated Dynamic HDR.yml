@@ -35,6 +35,11 @@ conditions:
   required: false
   negate: false
   pattern: SasukeducK
+- name: SumVision
+  type: release_group
+  required: false
+  negate: false
+  pattern: SumVision
 - name: tarunk9c
   type: release_group
   required: false
@@ -55,14 +60,14 @@ conditions:
   required: false
   negate: false
   pattern: VisionXpert
-- name: HDR10+
-  type: release_title
-  required: false
-  negate: false
-  pattern: HDR10+
 - name: DV
   type: release_title
   required: false
   negate: false
   pattern: DV
+- name: HDR10+
+  type: release_title
+  required: false
+  negate: false
+  pattern: HDR10+
 tests: []
