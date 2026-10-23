@@ -1,5 +1,5 @@
 name: HDS
-pattern: (?<=^|[\s.-])HDS\b|^(HDS)$
+pattern: (?<=^|[\s.-])HDS\b|^(10bit-)?HDS$
 description: ''
 tags:
 - Release Group
